@@ -1,6 +1,9 @@
 import {Quality, Costs, Crafting, Techniques} from './DSACraftingData';
 
-export const DefaultMaterial = {quality: Quality[2], materials: undefined, complex: false, magic: false};
+export const DefaultMaterial = {
+  quality: Quality[2],
+  complex: false,
+  magic: false};
 
 export const DefaultCost = Costs[0];
 

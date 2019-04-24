@@ -364,13 +364,13 @@ export const MagicMetals = {
           "structure": 0,
           "effect": "+1 RS gegen magische Angriffe, Rüstung magisch",
           "modifier": -3,
-          "purity": 10
+          "purity": "10"
         },
         {
           "structure": 0,
           "effect": "+2 RS gegen magische Angriffe, Rüstung magisch",
           "modifier": -6,
-          "purity": 25
+          "purity": "25"
         }
       ]
     },
@@ -382,19 +382,19 @@ export const MagicMetals = {
           "structure": 1,
           "effect": "+1 RS, Rüstung magisch",
           "modifier": -2,
-          "purity": 10
+          "purity": "10"
         },
         {
           "structure": 2,
           "effect": "+2 RS, Rüstung magisch",
           "modifier": -3,
-          "purity": 25
+          "purity": "25"
         },
         {
           "structure": 8,
           "effect": "+3 RS, Rüstung magisch",
           "modifier": -4,
-          "purity": 100
+          "purity": "100"
         }
       ],
       "tries": 5
@@ -408,13 +408,13 @@ export const MagicMetals = {
           "structure": 0,
           "effect": "+1 RS gegen Geister, Rüstung magisch",
           "modifier": -2,
-          "purity": 10
+          "purity": "10"
         },
         {
           "structure": 0,
           "effect": "+2 RS gegen Geister, Rüstung magisch",
           "modifier": -4,
-          "purity": 25
+          "purity": "25"
         }
       ]
     },
@@ -426,19 +426,19 @@ export const MagicMetals = {
           "structure": 5,
           "effect": "+2 RS, Abzüge auf GS und INI durch BE können ignoriert werden, Rüstung magisch",
           "modifier": -5,
-          "purity": 10
+          "purity": "10"
         },
         {
           "structure": 10,
           "effect": "+3 RS, Abzüge auf GS und INI durch BE können ignoriert werden, Rüstung magisch",
           "modifier": -6,
-          "purity": 25
+          "purity": "25"
         },
         {
           "structure": 15,
           "effect": "+4 RS, Abzüge auf GS und INI durch BE können ignoriert werden, Rüstung magisch",
           "modifier": -7,
-          "purity": 100
+          "purity": "100"
         }
       ],
       "tries": 5
@@ -454,19 +454,19 @@ export const MagicMetals = {
           "bf": "-1",
           "effect": "+2 TP gegen magische Wesen, Waffe magisch",
           "modifier": 0,
-          "purity": 50
+          "purity": "50"
         },
         {
           "bf": 0,
           "effect": "+3 TP gegen magische Wesen, Waffe magisch",
           "modifier": -1,
-          "purity": 75
+          "purity": "75"
         },
         {
           "bf": "+1",
           "effect": "+4 TP gegen magische Wesen, Waffe magisch",
           "modifier": -2,
-          "purity": 100
+          "purity": "100"
         }
       ]
     },
@@ -478,19 +478,19 @@ export const MagicMetals = {
           "bf": "1",
           "effect": "+1 TP, Waffe magisch",
           "modifier": -3,
-          "purity": 25
+          "purity": "25"
         },
         {
           "bf": "2",
           "effect": "+1 TP, +1 AT-Mod, Waffe magisch",
           "modifier": -3,
-          "purity": 50
+          "purity": "50"
         },
         {
           "bf": "4",
           "effect": "+2 TP, +1 AT-Mod, Waffe magisch",
           "modifier": -3,
-          "purity": 100
+          "purity": "100"
         }
       ],
       "tries": 5
@@ -504,19 +504,19 @@ export const MagicMetals = {
           "bf": "-1",
           "effect": "+1 TP gegen magische Wesen, Waffe magisch",
           "modifier": 0,
-          "purity": 50
+          "purity": "50"
         },
         {
           "bf": "-1",
           "effect": "+1 TP gegen magische Wesen, doppelter Schaden gegen Geister (dafür kein Bonus-TP von +1) , Waffe magisch",
           "modifier": -1,
-          "purity": 75
+          "purity": "75"
         },
         {
           "bf": "-1",
           "effect": "+2 TP gegen magische Wesen, doppelter Schaden gegen Geister (dafür keine Bonus-TP von +2) , Waffe magisch",
           "modifier": -2,
-          "purity": 100
+          "purity": "100"
         }
       ]
     },
@@ -528,19 +528,19 @@ export const MagicMetals = {
           "bf": "5",
           "effect": "+3 TP, Waffe magisch",
           "modifier": -5,
-          "purity": 25
+          "purity": "25"
         },
         {
           "bf": "10",
           "effect": "+3 TP, +1 AT-Mod, unzerbrechlich, Waffe magisch",
           "modifier": -5,
-          "purity": 50
+          "purity": "50"
         },
         {
           "bf": "15",
           "effect": "+4 TP, +1 AT-Mod, unzerbrechlich, Waffe magisch",
           "modifier": -5,
-          "purity": 100
+          "purity": "100"
         }
       ],
       "tries": 5

@@ -59,7 +59,7 @@ export const DSARandomAttack = {
           "Der Treffer richtet +3 TP an und der Gegner erhält für 3 KR 2 Stufen Betäubung.",
           "Der Treffer richtet +3 TP an und der Gegner erhält für 1 KR 2 Stufen Betäubung."
           ],
-          "Schwerer Schwmerzhafter Treffer": [
+          "Schwerer Schmerzhafter Treffer": [
           "Die Trefferpunkte samt Modifikatoren werden verdoppelt und der Gegner erhält für 5 KR 1 Stufe Schmerz sowie 1 Stufe Betäubung.",
           "Die Trefferpunkte samt Modifikatoren werden verdoppelt und der Gegner erhält für 5 KR 1 Stufe Schmerz sowie den Status Blutend.",
           "Die Trefferpunkte samt Modifikatoren werden verdoppelt und der Gegner erhält für 5 KR 1 Stufe Schmerz.",
@@ -142,7 +142,7 @@ export const DSARandomAttack = {
           "Der Treffer richtet +3 TP an und der Gegner erhält für 3 KR 2 Stufen Betäubung.",
           "Der Treffer richtet +3 TP an und der Gegner erhält für 1 KR 2 Stufen Betäubung."
           ],
-          "Schwerer Schwmerzhafter Treffer": [
+          "Schwerer Schmerzhafter Treffer": [
           "Die Trefferpunkte samt Modifikatoren werden verdoppelt und der Gegner erhält für 5 KR 1 Stufe Schmerz sowie 1 Stufe Betäubung.",
           "Die Trefferpunkte samt Modifikatoren werden verdoppelt und der Gegner erhält für 5 KR 1 Stufe Schmerz sowie den Status Blutend.",
           "Die Trefferpunkte samt Modifikatoren werden verdoppelt und der Gegner erhält für 5 KR 1 Stufe Schmerz.",

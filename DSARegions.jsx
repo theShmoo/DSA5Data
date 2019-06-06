@@ -1,4 +1,4 @@
-export const DSARegionen = {
+export const Regions = {
   "Hoher Norden": [
     "Ehernes Schwert",
     "Grüne Ebene",

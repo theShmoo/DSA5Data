@@ -1,15 +1,16 @@
 export const DSASpellClasses = {
   "Merkmal": [
-    "Elementar",
     "Antimagie",
-    "Heilung",
-    "Illusion",
-    "Sphären",
-    "Objekt",
-    "Einfluss",
-    "Telekinese",
     "Dämonisch",
+    "Einfluss",
+    "Elementar",
+    "Heilung",
     "Hellsicht",
+    "Illusion",
+    "Objekt",
+    "Sphären",
+    "Telekinese",
+    "Temporal",
     "Verwandlung",
     "Zeit",
     "Keines"
@@ -66,12 +67,17 @@ export const DSASpellClasses = {
   },
   "Verbreitung": [
     "Allgemein",
+    "Blutkrieger",
     "Druiden",
     "Elfen",
+    "Geoden",
     "Gildenmagier",
+    "Goblinzauberinnen",
     "Hexen",
     "Kristallomanten",
+    "Nachtablen",
     "Scharlatane",
+    "Zibilja",
     "Nostria"
   ],
   "link": "http://www.ulisses-regelwiki.de/index.php/index.php/"

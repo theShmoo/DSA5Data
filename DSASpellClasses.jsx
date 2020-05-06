@@ -80,5 +80,5 @@ export const DSASpellClasses = {
     "Zibilja",
     "Nostria"
   ],
-  "link": "http://www.ulisses-regelwiki.de/index.php/index.php/"
+  "link": "http://www.ulisses-regelwiki.de/index.php/"
 };

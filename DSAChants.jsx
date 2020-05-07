@@ -1082,7 +1082,8 @@ export const DSAChants = [
       "Steigerungsfaktor": "B",
       "Wirkung": "Der Geweihte wählt vor dem Wirken der Liturgie ein Ziel aus (inklusive sich selbst), das bis zum Ende der Wirkungsdauer +1 AT, +2 TP und die Sonderfertigkeit Mächtiger Schlag (siehe Aventurischer Almanach Seite 149) erhält.",
       "Wirkungsdauer": "QS x 2 KR",
-      "Zielkategorie": "Kulturschaffende"
+      "Zielkategorie": "Kulturschaffende",
+      "Verbreitung": "Brazoragh"
     }
   },
   {
@@ -3888,7 +3889,8 @@ export const DSAChants = [
       "Steigerungsfaktor": "C",
       "Wirkung": "Diese Liturgie ruft Nebelkrähen herbei. Die Tiere stehen unter vollständigem Einfluss des Geweihten und gehorchen seinen Befehlen. Es erscheinen QS+1 Nebelkrähen aus dem Nichts.",
       "Wirkungsdauer": "QS Tage",
-      "Zielkategorie": "Tiere (Nebelkrähen)"
+      "Zielkategorie": "Tiere (Nebelkrähen)",
+      "Verbreitung": "Tairach (Zauberei)"
     }
   },
   {
@@ -6009,7 +6011,8 @@ export const DSAChants = [
       "Steigerungsfaktor": "C",
       "Wirkung": "Durch diese Liturgie kann der Schamane einen Oger herbeirufen, der während der Wirkungsdauer einfache Befehle ausführt, wie Wache zu halten oder für ihn zu kämpfen. Der Ruf geht unhörbar für alle anderen Wesen bis zu sieben Meilen in alle Richtungen vom Schamanen aus, wird aber nur von dem Oger gehört, der dem Schamanen am nächsten ist. Befindet sich kein Oger innerhalb eines Radius von sieben Meilen um den Schamanen herum, passiert nichts. Sollte der Oger nicht weit entfernt vom Schamanen sein, entscheidet der Meister, wie lange der Oger braucht, bis er den Schamanen erreicht. Sollte der Oger außerhalb der Sichtreichweite sein, kann der Meister mit 1W6 bestimmen, wie weit der Oger entfernt ist bzw. wie lange er braucht, um zu diesem zu gelangen (1: 2W6+8 KR, 2-6: Würfelergebnis x 5 Minuten).",
       "Wirkungsdauer": "QS Stunden",
-      "Zielkategorie": "Kulturschaffende"
+      "Zielkategorie": "Kulturschaffende",
+      "Verbreitung": "Tairach (Zauberei)"
     }
   },
   {

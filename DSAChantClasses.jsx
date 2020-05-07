@@ -17,6 +17,7 @@ export const DSAChantClasses = {
     "Angrosch",
     "Aves",
     "Boron",
+    "Brazoragh",
     "Efferd",
     "Ferkinaschamanen",
     "Firun",

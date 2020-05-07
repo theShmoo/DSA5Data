@@ -1,23 +1,23 @@
-export const DSAChants = [[
+export const DSAChants = [
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Größerer Acker",
+        "value": "(FW 8, 2 AP): Die gesegnete Fläche kann bis zu QS x 2.000 Quadratschritt groß sein."
+      },
+      {
+        "name": "Noch größerer Acker",
+        "value": "(FW 12, 4 AP): Die gesegnete Fläche kann bis zu QS x 5.000 Quadratschritt groß sein. Voraussetzung: Liturgieerweiterung Größerer Acker."
+      },
+      {
+        "name": "Mehrere Wachstumszyklen",
+        "value": "(FW 16, 6 AP): Pro 8 KaP zusätzlich wirkt die Zeremonie einen weiteren Wachstumszyklus"
+      }
+    ],
     "name": "Ackersegen",
     "properties": {
       "KaP-Kosten": "16 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Größerer Acker",
-          "value": "(FW 8, 2 AP): Die gesegnete Fläche kann bis zu QS x 2.000 Quadratschritt groß sein."
-        },
-        {
-          "name": "Noch größerer Acker",
-          "value": "(FW 12, 4 AP): Die gesegnete Fläche kann bis zu QS x 5.000 Quadratschritt groß sein. Voraussetzung: Liturgieerweiterung Größerer Acker."
-        },
-        {
-          "name": "Mehrere Wachstumszyklen",
-          "value": "(FW 16, 6 AP): Pro 8 KaP zusätzlich wirkt die Zeremonie einen weiteren Wachstumszyklus"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Regelwerk, Seite 331<br>Aventurisches Götterwirken, Seite 168",
       "Reichweite": "Sicht",
@@ -31,24 +31,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Größere Reichweite",
+        "value": "(FW 8, 2 AP): Die Reichweite beträgt16 Schritt."
+      },
+      {
+        "name": " Längere Wirkungsdauer",
+        "value": "(FW 12, 4 AP): Die Wirkungsdauer beträgt 10 KR."
+      },
+      {
+        "name": " Mehrere Ziele",
+        "value": "(FW 16, 6 AP): Der Geweihte kann QS Ziele auswählen"
+      }
+    ],
     "name": "Angriffslust",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten sind nicht modifizierbar)",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Größere Reichweite",
-          "value": "(FW 8, 2 AP): Die Reichweite beträgt16 Schritt."
-        },
-        {
-          "name": " Längere Wirkungsdauer",
-          "value": "(FW 12, 4 AP): Die Wirkungsdauer beträgt 10 KR."
-        },
-        {
-          "name": " Mehrere Ziele",
-          "value": "(FW 16, 6 AP): Der Geweihte kann QS Ziele auswählen"
-        }
-      ],
       "Probe": "MU/MU/IN",
       "Publikationen": "Aventurisches Götterwirken, Seite 111",
       "Reichweite": "8 Schritt",
@@ -61,24 +61,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Harte Welle",
+        "value": "(FW 8, 3 AP): Die Erschwernis der Probe auf Körperbeherrschung beträgt QS."
+      },
+      {
+        "name": "Tosende Welle",
+        "value": "(FW 12, 6 AP): Die Welle verursacht zusätzlich 1W3+1 SP."
+      },
+      {
+        "name": "Mehrere Ziele ",
+        "value": "(FW 16, 9 AP): Maximal können 12 Ziele von der Wirkung der Welle betroffen sein"
+      }
+    ],
     "name": "Angriffswelle",
     "properties": {
       "KaP-Kosten": "16 KaP",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Harte Welle",
-          "value": "(FW 8, 3 AP): Die Erschwernis der Probe auf Körperbeherrschung beträgt QS."
-        },
-        {
-          "name": "Tosende Welle",
-          "value": "(FW 12, 6 AP): Die Welle verursacht zusätzlich 1W3+1 SP."
-        },
-        {
-          "name": "Mehrere Ziele ",
-          "value": "(FW 16, 9 AP): Maximal können 12 Ziele von der Wirkung der Welle betroffen sein"
-        }
-      ],
       "Probe": "MU/IN/KO",
       "Publikationen": "Aventurisches Götterwirken, Seite 111<br>Havena - Versunkene Geheimnisse, Seite 84",
       "Reichweite": "32 Schritt",
@@ -91,23 +91,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": " Größere Stadt",
+        "value": "(FW 8, 4 AP): Die Stadt darf bis zu 10.000 Einwohner beherbegen. Zeremoniedauer und KaP-Kosten verdoppeln sich."
+      },
+      {
+        "name": " Noch größere Stadt",
+        "value": "(FW 12, 8 AP): Die Stadt darf bis zu 50.000 Einwohner beherbegen. Zeremoniedauer und KaP-Kosten vervierfachen sich. Voraussetzung: Liturgieerweiterung Größere Stadt."
+      },
+      {
+        "name": " Permanente Wirkung",
+        "value": "(FW 16, 12 AP): Das Magieverbot wirkt permanent und kann nur durch einen direkten Eingriff einer Gottheit aufgehoben werden"
+      }
+    ],
     "name": "Arcanum Interdictum",
     "properties": {
       "KaP-Kosten": "128 KaP (32 davon permanent)",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Größere Stadt",
-          "value": "(FW 8, 4 AP): Die Stadt darf bis zu 10.000 Einwohner beherbegen. Zeremoniedauer und KaP-Kosten verdoppeln sich."
-        },
-        {
-          "name": " Noch größere Stadt",
-          "value": "(FW 12, 8 AP): Die Stadt darf bis zu 50.000 Einwohner beherbegen. Zeremoniedauer und KaP-Kosten vervierfachen sich. Voraussetzung: Liturgieerweiterung Größere Stadt."
-        },
-        {
-          "name": " Permanente Wirkung",
-          "value": "(FW 16, 12 AP): Das Magieverbot wirkt permanent und kann nur durch einen direkten Eingriff einer Gottheit aufgehoben werden"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken II, Seite 91 ff.",
       "Reichweite": "selbst",
@@ -121,23 +121,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Zwei Ziele",
+        "value": "(FW 8, 1 AP): Der Geweihte kann bis zu 2 Ziele gleichzeitig initiieren. Das zweite Ziel kostet 2 KaP extra."
+      },
+      {
+        "name": "Vier Ziele",
+        "value": "(FW 12, 2 AP): Der Geweihte kann bis zu 4 Ziele gleichzeitig initiieren. Jedes weitere Ziel kostet 2 KaP extra. Voraussetzung: Liturgieerweiterung Zwei Ziele."
+      },
+      {
+        "name": "Acht Ziele",
+        "value": "(FW 16, 3 AP): Der Geweihte kann bis zu 8 Ziele gleichzeitig initiieren. Jedes weitere Ziel kostet 2 KaP extra. Voraussetzung: Liturgieerweiterung Vier Ziele"
+      }
+    ],
     "name": "Aufnahme (Initiation)",
     "properties": {
       "KaP-Kosten": "8 KaP, davon 1 KaP permanent",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Zwei Ziele",
-          "value": "(FW 8, 1 AP): Der Geweihte kann bis zu 2 Ziele gleichzeitig initiieren. Das zweite Ziel kostet 2 KaP extra."
-        },
-        {
-          "name": "Vier Ziele",
-          "value": "(FW 12, 2 AP): Der Geweihte kann bis zu 4 Ziele gleichzeitig initiieren. Jedes weitere Ziel kostet 2 KaP extra. Voraussetzung: Liturgieerweiterung Zwei Ziele."
-        },
-        {
-          "name": "Acht Ziele",
-          "value": "(FW 16, 3 AP): Der Geweihte kann bis zu 8 Ziele gleichzeitig initiieren. Jedes weitere Ziel kostet 2 KaP extra. Voraussetzung: Liturgieerweiterung Vier Ziele"
-        }
-      ],
       "Probe": "KL/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 141",
       "Reichweite": "Berührung",
@@ -151,24 +151,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Spezielles Lebewesen",
+        "value": "(FW 8, 2 AP): Der Geweihte kann eine spezielle Art von Lebewesen benennen und mittels der Liturgie suchen (z. B. Hunde, Menschen, Pferde)."
+      },
+      {
+        "name": "Durch Feuer und Erz",
+        "value": "(FW 12, 4 AP): Die Liturgie wirkt auch durch Feuer und Erz bis zu einer maximalen Dicke von 1 Schritt hindurch."
+      },
+      {
+        "name": "Klare Sicht",
+        "value": "(FW 16, 6 AP): Sichtbehinderung aufgrund von fallendem Schnee, Regen oder Nebel wird um 1 Stufe gesenkt"
+      }
+    ],
     "name": "Auge des Jägers",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Spezielles Lebewesen",
-          "value": "(FW 8, 2 AP): Der Geweihte kann eine spezielle Art von Lebewesen benennen und mittels der Liturgie suchen (z. B. Hunde, Menschen, Pferde)."
-        },
-        {
-          "name": "Durch Feuer und Erz",
-          "value": "(FW 12, 4 AP): Die Liturgie wirkt auch durch Feuer und Erz bis zu einer maximalen Dicke von 1 Schritt hindurch."
-        },
-        {
-          "name": "Klare Sicht",
-          "value": "(FW 16, 6 AP): Sichtbehinderung aufgrund von fallendem Schnee, Regen oder Nebel wird um 1 Stufe gesenkt"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 112",
       "Reichweite": "selbst",
@@ -181,23 +181,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Größere Reichweite",
+        "value": "(FW 8, 4 AP): Die Reichweite beträgt 4 Schritt."
+      },
+      {
+        "name": "Zwei Ziele",
+        "value": "(FW 12, 8 AP): Der Geweihte kann bis zu 2 Ziele gleichzeitig der Zeremonie unterziehen. Das zweite Ziel kostet 16 KaP und es müssen insgesamt 8 permanente KaP ausgegeben werden."
+      },
+      {
+        "name": "Kosten modifizierbar",
+        "value": "(FW 16, 12 AP): Die Kosten sind doch modifizierbar, die permanenten Kosten bleiben gleich"
+      }
+    ],
     "name": "Ausbrennen (Purgation)",
     "properties": {
       "KaP-Kosten": "32 KaP, davon 4 KaP permanent (Kosten sind nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Größere Reichweite",
-          "value": "(FW 8, 4 AP): Die Reichweite beträgt 4 Schritt."
-        },
-        {
-          "name": "Zwei Ziele",
-          "value": "(FW 12, 8 AP): Der Geweihte kann bis zu 2 Ziele gleichzeitig der Zeremonie unterziehen. Das zweite Ziel kostet 16 KaP und es müssen insgesamt 8 permanente KaP ausgegeben werden."
-        },
-        {
-          "name": "Kosten modifizierbar",
-          "value": "(FW 16, 12 AP): Die Kosten sind doch modifizierbar, die permanenten Kosten bleiben gleich"
-        }
-      ],
       "Probe": "MU/KL/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 141",
       "Reichweite": "Berührung",
@@ -211,24 +211,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Lichtregulation",
+        "value": "(FW 8, 1 AP): Der Geweihte kann das Licht innerhalb der Wirkungsdauer nach Belieben heller oder dunkler werden lassen (bis zu einem Maximum der erzielten QS)."
+      },
+      {
+        "name": "Keine Aufrechterhaltung",
+        "value": "(FW 12, 2 AP): Die Liturgie gilt nicht als aufrechterhaltend. Die Wirkungsdauer und damit die KaP-Kosten müssen beim Wirken der Liturgie festgelegt werden."
+      },
+      {
+        "name": "Lichtkegel",
+        "value": "(FW 16, 3 AP): Das Licht strömt in Form eines Kegels von 45 Grad vom Geweihten aus. In diesem Kegel wirkt die QS um 1 höher (bis zu einem Maximum von 6). Die restliche Umgebung wird mit einer um 1 niedrigeren als der erzielten QS beleuchtet (bis zu einem Minimum von 1)"
+      }
+    ],
     "name": "Bann der Dunkelheit",
     "properties": {
       "KaP-Kosten": "4 KaP (Aktivierung der Liturgie) + 2 KaP pro Minute",
       "Liturgiedauer": "1 Aktion",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Lichtregulation",
-          "value": "(FW 8, 1 AP): Der Geweihte kann das Licht innerhalb der Wirkungsdauer nach Belieben heller oder dunkler werden lassen (bis zu einem Maximum der erzielten QS)."
-        },
-        {
-          "name": "Keine Aufrechterhaltung",
-          "value": "(FW 12, 2 AP): Die Liturgie gilt nicht als aufrechterhaltend. Die Wirkungsdauer und damit die KaP-Kosten müssen beim Wirken der Liturgie festgelegt werden."
-        },
-        {
-          "name": "Lichtkegel",
-          "value": "(FW 16, 3 AP): Das Licht strömt in Form eines Kegels von 45 Grad vom Geweihten aus. In diesem Kegel wirkt die QS um 1 höher (bis zu einem Maximum von 6). Die restliche Umgebung wird mit einer um 1 niedrigeren als der erzielten QS beleuchtet (bis zu einem Minimum von 1)"
-        }
-      ],
       "Probe": "MU/KL/CH",
       "Publikationen": "Regelwerk, Seite 324<br>Aventurisches Götterwirken I, Seite 164",
       "Reichweite": "selbst",
@@ -241,24 +241,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Zielkategorie Lebewesen",
+        "value": "(FW 8, 2 AP): Die Liturgie umfasst auch die Zielkategorie Lebewesen."
+      },
+      {
+        "name": "Größere Reichweite",
+        "value": "(FW 12, 4 AP): Die Reichweite beträgt 4 Schritt."
+      },
+      {
+        "name": "Vier Ziele",
+        "value": "(FW 16, 6 AP): Die Liturgie wirkt gegen bis zu 4 Ziele gleichzeitig. Jedes Ziel nach dem ersten kostet zusätzlich 4 KaP"
+      }
+    ],
     "name": "Bann der Furcht",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Zielkategorie Lebewesen",
-          "value": "(FW 8, 2 AP): Die Liturgie umfasst auch die Zielkategorie Lebewesen."
-        },
-        {
-          "name": "Größere Reichweite",
-          "value": "(FW 12, 4 AP): Die Reichweite beträgt 4 Schritt."
-        },
-        {
-          "name": "Vier Ziele",
-          "value": "(FW 16, 6 AP): Die Liturgie wirkt gegen bis zu 4 Ziele gleichzeitig. Jedes Ziel nach dem ersten kostet zusätzlich 4 KaP"
-        }
-      ],
       "Probe": "IN/CH/CH",
       "Publikationen": "Regelwerk, Seite 324<br>Aventurisches Götterwirken, Seite 164",
       "Reichweite": "Berührung",
@@ -271,24 +271,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Liturgiedauer modifizierbar",
+        "value": "(FW 8, 1 AP): Die Liturgiedauer ist doch modifizierbar."
+      },
+      {
+        "name": "Größere Reichweite",
+        "value": "(FW 12, 2 AP): Die Reichweite beträgt 4 Schritt."
+      },
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 16, 3 AP): Die Wirkungsdauer beträgt QS x 30 Minuten"
+      }
+    ],
     "name": "Bann der göttlichen Gaben",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "2 Aktionen (Liturgiedauer ist nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Liturgiedauer modifizierbar",
-          "value": "(FW 8, 1 AP): Die Liturgiedauer ist doch modifizierbar."
-        },
-        {
-          "name": "Größere Reichweite",
-          "value": "(FW 12, 2 AP): Die Reichweite beträgt 4 Schritt."
-        },
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 16, 3 AP): Die Wirkungsdauer beträgt QS x 30 Minuten"
-        }
-      ],
       "Probe": "KL/IN/CH (modifiziert um SK)",
       "Publikationen": "Aventurisches Götterwirken, Seite 112",
       "Reichweite": "Berührung",
@@ -301,24 +301,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Längeres Intervall",
+        "value": "(FW 8, 2 AP): Das Intervall beträgt 15 Minuten."
+      },
+      {
+        "name": "Größerer Radius",
+        "value": "(FW 12, 4 AP): Der Radius beträgt QS x 5 Schritt."
+      },
+      {
+        "name": "Keine Aufrechterhaltung",
+        "value": "(FW 16, 6 AP): Die Liturgie gilt nicht als aufrechterhaltend. Die Wirkungsdauer und damit die KaP-Kosten müssen beim Wirken der Liturgie festgelegt werden"
+      }
+    ],
     "name": "Bann des Lichts",
     "properties": {
       "KaP-Kosten": "16 KaP (Aktivierung) + 8 KaP pro 5 Minuten",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Längeres Intervall",
-          "value": "(FW 8, 2 AP): Das Intervall beträgt 15 Minuten."
-        },
-        {
-          "name": "Größerer Radius",
-          "value": "(FW 12, 4 AP): Der Radius beträgt QS x 5 Schritt."
-        },
-        {
-          "name": "Keine Aufrechterhaltung",
-          "value": "(FW 16, 6 AP): Die Liturgie gilt nicht als aufrechterhaltend. Die Wirkungsdauer und damit die KaP-Kosten müssen beim Wirken der Liturgie festgelegt werden"
-        }
-      ],
       "Probe": "MU/KL/CH",
       "Publikationen": "Regelwerk Seite 324<br>Aventurisches Götterwirken, Seite 164",
       "Reichweite": "selbst",
@@ -331,24 +331,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Verteilter Schaden 1",
+        "value": "(FW 8, 3 AP): Der Geweihte wählt 2 Ziele in Reichweite aus. Der Schaden kann beliebig auf beide Ziele verteilt werden."
+      },
+      {
+        "name": "Verteilter Schaden 2",
+        "value": "(FW 12, 6 AP): Der Geweihte wählt 3 Ziele in Reichweite aus. Der Schaden kann beliebig zwischen den Zielen verteilt werden. Voraussetzung: Liturgieerweiterung Verteilter Schaden 1."
+      },
+      {
+        "name": "Zwei Ziele",
+        "value": "(FW 16, 9 AP): Der Geweihte kann bis zu 2 Ziele gleichzeitig treffen. Die KaP-Kosten der Liturgie verdoppeln sich"
+      }
+    ],
     "name": "Bann wider Untote",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten sind nicht modifizierbar)",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Verteilter Schaden 1",
-          "value": "(FW 8, 3 AP): Der Geweihte wählt 2 Ziele in Reichweite aus. Der Schaden kann beliebig auf beide Ziele verteilt werden."
-        },
-        {
-          "name": "Verteilter Schaden 2",
-          "value": "(FW 12, 6 AP): Der Geweihte wählt 3 Ziele in Reichweite aus. Der Schaden kann beliebig zwischen den Zielen verteilt werden. Voraussetzung: Liturgieerweiterung Verteilter Schaden 1."
-        },
-        {
-          "name": "Zwei Ziele",
-          "value": "(FW 16, 9 AP): Der Geweihte kann bis zu 2 Ziele gleichzeitig treffen. Die KaP-Kosten der Liturgie verdoppeln sich"
-        }
-      ],
       "Probe": "MU/KL/CH (modifiziert um ZK)",
       "Publikationen": "Aventurisches Götterwirken, Seite 112",
       "Reichweite": "8 Schritt",
@@ -361,23 +361,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Geweihten-Anathema",
+        "value": "(FW 8, 4 AP): Geweihte sind von der Zeremonie betroffen und verlieren ihren Vorteil Geweihter, die Sonderfertigkeit der Tradition, karmale Sonderfertigkeiten, karmale Vor- und Nachteile sowie ihre Liturgien. Sie erhalten aber alle dafür ausgegebenen AP zurück. Das Anathema ist permanent und kostet den Geweihten 18 permanente KaP."
+      },
+      {
+        "name": "Größere Reichweite",
+        "value": "(FW 12, 8 AP): Die Reichweite ist unbegrenzt."
+      },
+      {
+        "name": "Nicht-Initiaten",
+        "value": "(FW 16, 12 AP): Der Geweihte kann den Bannfluch auch über Kulturschaffende sprechen, die keine Initiaten des gleichen Pantheons wie der Geweihte sind"
+      }
+    ],
     "name": "Bannfluch (Anathema)",
     "properties": {
       "KaP-Kosten": "128 KaP, davon 12 KaP permanent",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Geweihten-Anathema",
-          "value": "(FW 8, 4 AP): Geweihte sind von der Zeremonie betroffen und verlieren ihren Vorteil Geweihter, die Sonderfertigkeit der Tradition, karmale Sonderfertigkeiten, karmale Vor- und Nachteile sowie ihre Liturgien. Sie erhalten aber alle dafür ausgegebenen AP zurück. Das Anathema ist permanent und kostet den Geweihten 18 permanente KaP."
-        },
-        {
-          "name": "Größere Reichweite",
-          "value": "(FW 12, 8 AP): Die Reichweite ist unbegrenzt."
-        },
-        {
-          "name": "Nicht-Initiaten",
-          "value": "(FW 16, 12 AP): Der Geweihte kann den Bannfluch auch über Kulturschaffende sprechen, die keine Initiaten des gleichen Pantheons wie der Geweihte sind"
-        }
-      ],
       "Probe": "MU/IN/CH (modifiziert um SK)",
       "Publikationen": "Aventurisches Götterwirken, Seite 142",
       "Reichweite": "Berührung",
@@ -391,24 +391,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Verteilter Schaden 1",
+        "value": "(FW 8, 3 AP): Der Geweihte wählt 2 Ziele in Reichweite aus. Der Schaden kann beliebig auf beide Ziele verteilt werden."
+      },
+      {
+        "name": "Verteilter Schaden 2",
+        "value": "(FW 12, 6 AP): Der Geweihte wählt 3 Ziele in Reichweite aus. Der Schaden kann beliebig zwischen den Zielen verteilt werden. Voraussetzung: Liturgieerweiterung Verteilter Schaden 1"
+      },
+      {
+        "name": "Zwei Ziele",
+        "value": "(FW 16, 9 AP): Der Geweihte kann bis zu 2 Ziele gleichzeitig treffen. Die KaP-Kosten der Liturgie verdoppeln sich"
+      }
+    ],
     "name": "Bannstrahl",
     "properties": {
       "KaP-Kosten": "16 KaP (Kosten sind nicht modifizierbar)",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Verteilter Schaden 1",
-          "value": "(FW 8, 3 AP): Der Geweihte wählt 2 Ziele in Reichweite aus. Der Schaden kann beliebig auf beide Ziele verteilt werden."
-        },
-        {
-          "name": "Verteilter Schaden 2",
-          "value": "(FW 12, 6 AP): Der Geweihte wählt 3 Ziele in Reichweite aus. Der Schaden kann beliebig zwischen den Zielen verteilt werden. Voraussetzung: Liturgieerweiterung Verteilter Schaden 1"
-        },
-        {
-          "name": "Zwei Ziele",
-          "value": "(FW 16, 9 AP): Der Geweihte kann bis zu 2 Ziele gleichzeitig treffen. Die KaP-Kosten der Liturgie verdoppeln sich"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 113",
       "Reichweite": "16 Schritt",
@@ -421,24 +421,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Wider Daimonide",
+        "value": "(FW 8, 2 AP): Auch Daimonide jeglicher Art können gewählt werden."
+      },
+      {
+        "name": " Liturgiedauer modifizierbar",
+        "value": "(FW 12, 4 AP): Die Liturgiedauer ist doch modifizierbar."
+      },
+      {
+        "name": " Änderung des Intervalls",
+        "value": "(FW 16, 6 AP): Das Intervall beträgt 10 KR"
+      }
+    ],
     "name": "Bannzone",
     "properties": {
       "KaP-Kosten": "4 KaP (Aktivierung der Liturgie) + 2 KaP pro 5 KR",
       "Liturgiedauer": "4 Aktionen (Liturgiedauer nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Wider Daimonide",
-          "value": "(FW 8, 2 AP): Auch Daimonide jeglicher Art können gewählt werden."
-        },
-        {
-          "name": " Liturgiedauer modifizierbar",
-          "value": "(FW 12, 4 AP): Die Liturgiedauer ist doch modifizierbar."
-        },
-        {
-          "name": " Änderung des Intervalls",
-          "value": "(FW 16, 6 AP): Das Intervall beträgt 10 KR"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken II, Seite 75 ff.",
       "Reichweite": "4 Schritt",
@@ -451,24 +451,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Größere Reichweite",
+        "value": "(FW 8, 3 AP): Die Reichweite beträgt 8 Schritt."
+      },
+      {
+        "name": " Längere Wirkungsdauer",
+        "value": "(FW 12, 6 AP): Die Wirkungsdauer beträgt QS x 2 KR."
+      },
+      {
+        "name": " Mehrere Ziele",
+        "value": "(FW 16, 9 AP): Der Schamane kann beliebig vielen Zielen gleichzeitig befehlen. Jedes Ziel nach dem ersten kostet zusätzlich 8 KaP"
+      }
+    ],
     "name": "Befehl des Schamanen",
     "properties": {
       "KaP-Kosten": "16 KaP",
       "Liturgiedauer": "2 Aktionen (nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Größere Reichweite",
-          "value": "(FW 8, 3 AP): Die Reichweite beträgt 8 Schritt."
-        },
-        {
-          "name": " Längere Wirkungsdauer",
-          "value": "(FW 12, 6 AP): Die Wirkungsdauer beträgt QS x 2 KR."
-        },
-        {
-          "name": " Mehrere Ziele",
-          "value": "(FW 16, 9 AP): Der Schamane kann beliebig vielen Zielen gleichzeitig befehlen. Jedes Ziel nach dem ersten kostet zusätzlich 8 KaP"
-        }
-      ],
       "Probe": "MU/KL/CH (modifiziert um SK)",
       "Publikationen": "Aventurisches Götterwirken II, Seite 76",
       "Reichweite": "4 Schritt",
@@ -481,24 +481,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Größere Reichweite",
+        "value": "(FW 8, 2 AP): Die Reichweite beträgt 4 Schritt."
+      },
+      {
+        "name": "Zielkategorie Lebewesen",
+        "value": "(FW 12, 4 AP): Die Liturgie umfasst auch die Zielkategorie Lebewesen."
+      },
+      {
+        "name": "Kosten modifizierbar",
+        "value": "(FW 16, 6 AP): Die Kosten sind doch modifizierbar"
+      }
+    ],
     "name": "Befreiung des Geistes",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten sind nicht modifizierbar)",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Größere Reichweite",
-          "value": "(FW 8, 2 AP): Die Reichweite beträgt 4 Schritt."
-        },
-        {
-          "name": "Zielkategorie Lebewesen",
-          "value": "(FW 12, 4 AP): Die Liturgie umfasst auch die Zielkategorie Lebewesen."
-        },
-        {
-          "name": "Kosten modifizierbar",
-          "value": "(FW 16, 6 AP): Die Kosten sind doch modifizierbar"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 113",
       "Reichweite": "Berührung",
@@ -511,24 +511,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Längere Wirkungsdauer 1",
+        "value": "(FW 8, 1 AP): Die Wirkungsdauer beträgt 4 Stunden."
+      },
+      {
+        "name": "Reichweite Berührung",
+        "value": "(FW 12, 2 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden."
+      },
+      {
+        "name": "Längere Wirkungsdauer 2",
+        "value": "(FW 16, 3 AP): Die Wirkungsdauer beträgt 8 Stunden. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1"
+      }
+    ],
     "name": "Begnadeter Reiter",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Längere Wirkungsdauer 1",
-          "value": "(FW 8, 1 AP): Die Wirkungsdauer beträgt 4 Stunden."
-        },
-        {
-          "name": "Reichweite Berührung",
-          "value": "(FW 12, 2 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden."
-        },
-        {
-          "name": "Längere Wirkungsdauer 2",
-          "value": "(FW 16, 3 AP): Die Wirkungsdauer beträgt 8 Stunden. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 114",
       "Reichweite": "selbst",
@@ -541,24 +541,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer 1",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt 30 Minuten."
+      },
+      {
+        "name": " Längere Wirkungsdauer 2",
+        "value": "(FW 12, 4 AP): Die Wirkungsdauer beträgt 1 Stunde. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1."
+      },
+      {
+        "name": " Großer Rausch",
+        "value": "(FW 16, 6 AP): Die Liturgie verursacht QS/2+1 Stufen Betäubung"
+      }
+    ],
     "name": "Berauschen",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "16 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer 1",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt 30 Minuten."
-        },
-        {
-          "name": " Längere Wirkungsdauer 2",
-          "value": "(FW 12, 4 AP): Die Wirkungsdauer beträgt 1 Stunde. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1."
-        },
-        {
-          "name": " Großer Rausch",
-          "value": "(FW 16, 6 AP): Die Liturgie verursacht QS/2+1 Stufen Betäubung"
-        }
-      ],
       "Probe": "MU/CH/KO (modifiziert um SK)",
       "Publikationen": "Aventurisches Götterwirken II, Seite 76 ff.",
       "Reichweite": "4 Schritt",
@@ -571,23 +571,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Andere Alkoholika",
+        "value": "(FW 8, 1 AP): Wasser kann auch in andere Alkoholsorten verwandelt werden, allerdings keine hochprozentigen Alkoholika, sondern vor allem Bier und Met."
+      },
+      {
+        "name": "Mehr Wein!",
+        "value": "(FW 12, 2 AP): Es können bis zu QS x 2 Liter Wasser in Alkohol verwandelt werden."
+      },
+      {
+        "name": "Noch meeehr Wein!",
+        "value": "(FW 16, 3 AP): Es können bis zu QS x 4 Liter Wasser in Alkohol verwandelt werden. Voraussetzung: Liturgieerweiterung Mehr Wein!"
+      }
+    ],
     "name": "Berauschender Wein",
     "properties": {
       "KaP-Kosten": "4 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Andere Alkoholika",
-          "value": "(FW 8, 1 AP): Wasser kann auch in andere Alkoholsorten verwandelt werden, allerdings keine hochprozentigen Alkoholika, sondern vor allem Bier und Met."
-        },
-        {
-          "name": "Mehr Wein!",
-          "value": "(FW 12, 2 AP): Es können bis zu QS x 2 Liter Wasser in Alkohol verwandelt werden."
-        },
-        {
-          "name": "Noch meeehr Wein!",
-          "value": "(FW 16, 3 AP): Es können bis zu QS x 4 Liter Wasser in Alkohol verwandelt werden. Voraussetzung: Liturgieerweiterung Mehr Wein!"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 142",
       "Reichweite": "Berührung",
@@ -601,24 +601,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 8, 1 AP): Die Wirkungsdauer beträgt QS Tage."
+      },
+      {
+        "name": "Starke Prinzipientreue 1",
+        "value": "(FW 12, 2 AP): Das Ziel erhält Prinzipientreue II (Traviakirche)."
+      },
+      {
+        "name": "Starke Prinzipientreue 2",
+        "value": "(FW 16, 3 AP): Das Ziel erhält Prinzipientreue III (Traviakirche). Voraussetzung: Liturgieerweiterung Starke Prinzipientreue I"
+      }
+    ],
     "name": "Bescheidenheit",
     "properties": {
       "KaP-Kosten": "4 KaP",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 8, 1 AP): Die Wirkungsdauer beträgt QS Tage."
-        },
-        {
-          "name": "Starke Prinzipientreue 1",
-          "value": "(FW 12, 2 AP): Das Ziel erhält Prinzipientreue II (Traviakirche)."
-        },
-        {
-          "name": "Starke Prinzipientreue 2",
-          "value": "(FW 16, 3 AP): Das Ziel erhält Prinzipientreue III (Traviakirche). Voraussetzung: Liturgieerweiterung Starke Prinzipientreue I"
-        }
-      ],
       "Probe": "MU/KL/CH (modifiziert um SK)",
       "Publikationen": "Aventurisches Götterwirken, Seite 114",
       "Reichweite": "8 Schritt",
@@ -631,24 +631,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Mehr Dienste",
+        "value": "(FW 8, 2 AP): Der Geweihte kann QS +2 Dienste von dem Wesen verlangen."
+      },
+      {
+        "name": "Längerer Dienst",
+        "value": "(FW 12, 4 AP): Das Wesen verliert erst am Ende einer Woche (statt am Ende eines Tages) automatisch einen Dienst."
+      },
+      {
+        "name": "Mächtiges Wesen",
+        "value": "(FW 16, 6 AP): Dem Wesen können zweimal die gleichen Verbesserungen beim Beschwören gegeben werden"
+      }
+    ],
     "name": "Beschwörung der gemeinen Diener des Rattenkindes",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten sind nicht modifizierbar)",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Mehr Dienste",
-          "value": "(FW 8, 2 AP): Der Geweihte kann QS +2 Dienste von dem Wesen verlangen."
-        },
-        {
-          "name": "Längerer Dienst",
-          "value": "(FW 12, 4 AP): Das Wesen verliert erst am Ende einer Woche (statt am Ende eines Tages) automatisch einen Dienst."
-        },
-        {
-          "name": "Mächtiges Wesen",
-          "value": "(FW 16, 6 AP): Dem Wesen können zweimal die gleichen Verbesserungen beim Beschwören gegeben werden"
-        }
-      ],
       "Probe": "MU/CH/KO",
       "Publikationen": "Aventurisches Götterwirken, Seite 115",
       "Reichweite": "8 Schritt",
@@ -661,23 +661,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Mehr Dienste",
+        "value": "(FW 8, 3 AP): Der Geweihte kann QS +2 Dienste von dem Wesen verlangen."
+      },
+      {
+        "name": "Längerer Dienst",
+        "value": "(FW 12, 6 AP): Das Wesen verliert erst am Ende einer Woche (statt am Ende eines Tages) automatisch einen Dienst."
+      },
+      {
+        "name": "Mächtiges Wesen",
+        "value": "(FW 16, 9 AP): Dem Wesen können zweimal die gleichen Verbesserungen beim Beschwören gegeben werden"
+      }
+    ],
     "name": "Beschwörung der hohen Diener des Rattenkindes",
     "properties": {
       "KaP-Kosten": "16 KaP (Kosten sind nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Mehr Dienste",
-          "value": "(FW 8, 3 AP): Der Geweihte kann QS +2 Dienste von dem Wesen verlangen."
-        },
-        {
-          "name": "Längerer Dienst",
-          "value": "(FW 12, 6 AP): Das Wesen verliert erst am Ende einer Woche (statt am Ende eines Tages) automatisch einen Dienst."
-        },
-        {
-          "name": "Mächtiges Wesen",
-          "value": "(FW 16, 9 AP): Dem Wesen können zweimal die gleichen Verbesserungen beim Beschwören gegeben werden"
-        }
-      ],
       "Probe": "MU/CH/KO",
       "Publikationen": "Aventurisches Götterwirken, Seite 142",
       "Reichweite": "8 Schritt",
@@ -691,23 +691,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Mehr Dienste",
+        "value": "(FW 8, 3 AP): Der Geweihte kann QS +2 Dienste von dem Wesen verlangen."
+      },
+      {
+        "name": "Längerer Dienst",
+        "value": "(FW 12, 6 AP): Das Wesen verliert erst am Ende einer Woche (statt am Ende eines Tages) automatisch einen Dienst."
+      },
+      {
+        "name": "Mächtiges Wesen",
+        "value": "(FW 16, 9 AP): Dem Wesen können zweimal die gleichen Verbesserungen beim Beschwören gegeben werden"
+      }
+    ],
     "name": "Beschwörung der machtvollen Diener des Rattenkindes",
     "properties": {
       "KaP-Kosten": "32 KaP (Kosten sind nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Mehr Dienste",
-          "value": "(FW 8, 3 AP): Der Geweihte kann QS +2 Dienste von dem Wesen verlangen."
-        },
-        {
-          "name": "Längerer Dienst",
-          "value": "(FW 12, 6 AP): Das Wesen verliert erst am Ende einer Woche (statt am Ende eines Tages) automatisch einen Dienst."
-        },
-        {
-          "name": "Mächtiges Wesen",
-          "value": "(FW 16, 9 AP): Dem Wesen können zweimal die gleichen Verbesserungen beim Beschwören gegeben werden"
-        }
-      ],
       "Probe": "MU/CH/KO",
       "Publikationen": "Aventurisches Götterwirken, Seite 142f",
       "Reichweite": "8 Schritt",
@@ -721,24 +721,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Größere Reichweite",
+        "value": "(FW 8, 1 AP): Die Reichweite beträgt 16 Schritt."
+      },
+      {
+        "name": "Zwei Ziele",
+        "value": "(FW 12, 2 AP): Der Geweihte kann bis zu 2 Ziele gleichzeitig beruhigen. Das zweite Ziel kostet zusätzlich 2 KaP."
+      },
+      {
+        "name": "Zielkategorie Lebewesen",
+        "value": "(FW 16, 3 AP): Die Liturgie umfasst auch die Zielkategorie Lebewesen"
+      }
+    ],
     "name": "Besänftigung",
     "properties": {
       "KaP-Kosten": "2 KaP (Kosten sind nicht modifizierbar)",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Größere Reichweite",
-          "value": "(FW 8, 1 AP): Die Reichweite beträgt 16 Schritt."
-        },
-        {
-          "name": "Zwei Ziele",
-          "value": "(FW 12, 2 AP): Der Geweihte kann bis zu 2 Ziele gleichzeitig beruhigen. Das zweite Ziel kostet zusätzlich 2 KaP."
-        },
-        {
-          "name": "Zielkategorie Lebewesen",
-          "value": "(FW 16, 3 AP): Die Liturgie umfasst auch die Zielkategorie Lebewesen"
-        }
-      ],
       "Probe": "MU/KL/CH (modifiziert um SK)",
       "Publikationen": "Aventurisches Götterwirken, Seite 114",
       "Reichweite": "8 Schritt",
@@ -751,23 +751,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 3 Minuten."
+      },
+      {
+        "name": "Zeremoniedauer modifizierbar",
+        "value": "(FW 12, 4 AP): Die Zeremoniedauer ist doch modifizierbar."
+      },
+      {
+        "name": "Alle Sinneseindrücke",
+        "value": "(FW 16, 6 AP): Mit der Zeremonie lassen sich alle Sinneseindrücke in das Gedächtnis brennen"
+      }
+    ],
     "name": "Bild für die Ewigkeit",
     "properties": {
       "KaP-Kosten": "4 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 3 Minuten."
-        },
-        {
-          "name": "Zeremoniedauer modifizierbar",
-          "value": "(FW 12, 4 AP): Die Zeremoniedauer ist doch modifizierbar."
-        },
-        {
-          "name": "Alle Sinneseindrücke",
-          "value": "(FW 16, 6 AP): Mit der Zeremonie lassen sich alle Sinneseindrücke in das Gedächtnis brennen"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Aventurisches Götterwirken, Seite 143",
       "Reichweite": "selbst",
@@ -781,24 +781,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 8, 1 AP): Die Wirkungsdauer beträgt QS x 2 KR."
+      },
+      {
+        "name": "Größere Reichweite",
+        "value": "(FW 12, 2 AP): Die Reichweite beträgt 16 Schritt."
+      },
+      {
+        "name": "Vier Ziele",
+        "value": "(FW 16, 3 AP): Der Geweihte kann bis zu 4 Ziele gleichzeitig treffen. Jedes Ziel nach dem ersten kostet zusätzlich 4 KaP"
+      }
+    ],
     "name": "Blendstrahl",
     "properties": {
       "KaP-Kosten": "4 KaP",
       "Liturgiedauer": "1 Aktion",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 8, 1 AP): Die Wirkungsdauer beträgt QS x 2 KR."
-        },
-        {
-          "name": "Größere Reichweite",
-          "value": "(FW 12, 2 AP): Die Reichweite beträgt 16 Schritt."
-        },
-        {
-          "name": "Vier Ziele",
-          "value": "(FW 16, 3 AP): Der Geweihte kann bis zu 4 Ziele gleichzeitig treffen. Jedes Ziel nach dem ersten kostet zusätzlich 4 KaP"
-        }
-      ],
       "Probe": "MU/KL/IN (modifiziert um SK)",
       "Publikationen": "Regelwerk, Seite 324<br>Aventurisches Götterwirken, Seite 164",
       "Reichweite": "8 Schritt",
@@ -811,24 +811,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 8, 3 AP): Die Wirkungsdauer beträgt QS x 30 Minuten."
+      },
+      {
+        "name": "Größere Reichweite",
+        "value": "(FW 12, 6 AP): Die Reichweite beträgt 8 Schritt."
+      },
+      {
+        "name": "Liturgiedauer modifizierbar",
+        "value": "(FW 16, 9 AP): Die Liturgiedauer darf doch modifiziert werden"
+      }
+    ],
     "name": "Blendung",
     "properties": {
       "KaP-Kosten": "16 KaP",
       "Liturgiedauer": "8 Aktionen (Liturgiedauer ist nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 8, 3 AP): Die Wirkungsdauer beträgt QS x 30 Minuten."
-        },
-        {
-          "name": "Größere Reichweite",
-          "value": "(FW 12, 6 AP): Die Reichweite beträgt 8 Schritt."
-        },
-        {
-          "name": "Liturgiedauer modifizierbar",
-          "value": "(FW 16, 9 AP): Die Liturgiedauer darf doch modifiziert werden"
-        }
-      ],
       "Probe": "MU/KL/CH (modifiziert um SK)",
       "Publikationen": "Aventurisches Götterwirken, Seite 115",
       "Reichweite": "4 Schritt",
@@ -841,6 +841,7 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [],
     "name": "Blick auf den Meeresgrund",
     "properties": {
       "KaP-Kosten": "4 KaP",
@@ -857,24 +858,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Zielkategorie Lebewesen",
+        "value": "(FW 8, 1 AP): Die Liturgie umfasst auch die Zielkategorie Lebewesen."
+      },
+      {
+        "name": "Aufrechterhaltend",
+        "value": "(FW 12, 2 AP): Die Liturgie ist aufrechterhaltend, die Aktivierung kostet 4 KaP und 2 KaP pro Minuten."
+      },
+      {
+        "name": "Genaue Erkenntnis",
+        "value": "(FW 16, 3 AP): Der Geweihte erhält eine genauere Erkenntnis der Art der Verletzung, z. B. des LeP-Standes, der Gift- oder Krankheitsstufe usw"
+      }
+    ],
     "name": "Blick des Heilers",
     "properties": {
       "KaP-Kosten": "4 KaP",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Zielkategorie Lebewesen",
-          "value": "(FW 8, 1 AP): Die Liturgie umfasst auch die Zielkategorie Lebewesen."
-        },
-        {
-          "name": "Aufrechterhaltend",
-          "value": "(FW 12, 2 AP): Die Liturgie ist aufrechterhaltend, die Aktivierung kostet 4 KaP und 2 KaP pro Minuten."
-        },
-        {
-          "name": "Genaue Erkenntnis",
-          "value": "(FW 16, 3 AP): Der Geweihte erhält eine genauere Erkenntnis der Art der Verletzung, z. B. des LeP-Standes, der Gift- oder Krankheitsstufe usw"
-        }
-      ],
       "Probe": "KL/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 115",
       "Reichweite": "selbst",
@@ -887,23 +888,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Visionen",
+        "value": "(FW 8, 1 AP): Der Geweihte sieht in den Flammen unzusammenhängende Visionen, was rund um das Entzünden und Löschen der Flammen geschehen ist. Diese sind allerdings undeutlich."
+      },
+      {
+        "name": "Erkenntnis",
+        "value": "(FW 12, 2 AP): Der Geweihte erkennt die genaue Ursache des Feuers, beispielsweise Brandstiftung, Ingerimms Wirken oder einen Unfall. Voraussetzung: Liturgieerweiterung Visionen."
+      },
+      {
+        "name": "Klarheit",
+        "value": "(FW 16, 3 AP): Der Geweihte kann zusätzliche Aussagen über die Hitze des Feuers treffen, wie schnell es sich ausgebreitet hat und ob Brandmittel eingesetzt wurden. Voraussetzung: Liturgieerweiterung Erkenntnis"
+      }
+    ],
     "name": "Blick in die Flammen",
     "properties": {
       "KaP-Kosten": "2 KaP (Kosten sind nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Visionen",
-          "value": "(FW 8, 1 AP): Der Geweihte sieht in den Flammen unzusammenhängende Visionen, was rund um das Entzünden und Löschen der Flammen geschehen ist. Diese sind allerdings undeutlich."
-        },
-        {
-          "name": "Erkenntnis",
-          "value": "(FW 12, 2 AP): Der Geweihte erkennt die genaue Ursache des Feuers, beispielsweise Brandstiftung, Ingerimms Wirken oder einen Unfall. Voraussetzung: Liturgieerweiterung Visionen."
-        },
-        {
-          "name": "Klarheit",
-          "value": "(FW 16, 3 AP): Der Geweihte kann zusätzliche Aussagen über die Hitze des Feuers treffen, wie schnell es sich ausgebreitet hat und ob Brandmittel eingesetzt wurden. Voraussetzung: Liturgieerweiterung Erkenntnis"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Aventurisches Götterwirken, Seite 143",
       "Reichweite": "4 Schritt",
@@ -917,24 +918,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Verwirrender Blitz",
+        "value": "(FW 8, 4 AP): Das Ziel des Blitzschlags erhält automatisch 1 Stufe Verwirrung."
+      },
+      {
+        "name": "Betäubender Blitz",
+        "value": "(FW 12, 8 AP): Das Ziel des Blitzschlags erhält automatisch 1 Stufe Betäubung."
+      },
+      {
+        "name": "Brandblitz",
+        "value": "(FW 16, 12 AP): Das Ziel erhält den Status Brennend auf großer Fläche"
+      }
+    ],
     "name": "Blitzschlag",
     "properties": {
       "KaP-Kosten": "16 KaP",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Verwirrender Blitz",
-          "value": "(FW 8, 4 AP): Das Ziel des Blitzschlags erhält automatisch 1 Stufe Verwirrung."
-        },
-        {
-          "name": "Betäubender Blitz",
-          "value": "(FW 12, 8 AP): Das Ziel des Blitzschlags erhält automatisch 1 Stufe Betäubung."
-        },
-        {
-          "name": "Brandblitz",
-          "value": "(FW 16, 12 AP): Das Ziel erhält den Status Brennend auf großer Fläche"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 116",
       "Reichweite": "16 Schritt",
@@ -947,24 +948,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Wählbare Ziele",
+        "value": "(FW 8, 3 AP): Der Geweihte kann die Ziele auswählen, die vom Ziel der Liturgie angegriffen werden sollen, und jene, die verschont werden."
+      },
+      {
+        "name": "Wildes Wüten",
+        "value": "(FW 12, 6 AP): Das Ziel erhält +1 AT."
+      },
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 16, 9 AP): Die Wirkungsdauer beträgt 2 KR"
+      }
+    ],
     "name": "Blutiger Zorn",
     "properties": {
       "KaP-Kosten": "16 KaP",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Wählbare Ziele",
-          "value": "(FW 8, 3 AP): Der Geweihte kann die Ziele auswählen, die vom Ziel der Liturgie angegriffen werden sollen, und jene, die verschont werden."
-        },
-        {
-          "name": "Wildes Wüten",
-          "value": "(FW 12, 6 AP): Das Ziel erhält +1 AT."
-        },
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 16, 9 AP): Die Wirkungsdauer beträgt 2 KR"
-        }
-      ],
       "Probe": "MU/IN/CH (modifiziert um SK)",
       "Publikationen": "Aventurisches Götterwirken, Seite 116",
       "Reichweite": "8 Schritt",
@@ -977,6 +978,7 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [],
     "name": "Blutiges Siegel",
     "properties": {
       "KaP-Kosten": "16 KaP",
@@ -993,24 +995,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 3 KR."
+      },
+      {
+        "name": "Kosten modifizierbar",
+        "value": "(FW 12, 4 AP): Die Kosten dürfen doch modifiziert werden."
+      },
+      {
+        "name": "Reichweite Berührung",
+        "value": "(FW 16, 6 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden"
+      }
+    ],
     "name": "Blutzoll",
     "properties": {
       "KaP-Kosten": "16 KaP (Kosten sind nicht modifizierbar)",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 3 KR."
-        },
-        {
-          "name": "Kosten modifizierbar",
-          "value": "(FW 12, 4 AP): Die Kosten dürfen doch modifiziert werden."
-        },
-        {
-          "name": "Reichweite Berührung",
-          "value": "(FW 16, 6 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 117",
       "Reichweite": "selbst",
@@ -1023,24 +1025,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Längere Wirkungsdauer 1",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 30 Minuten."
+      },
+      {
+        "name": "Größerer Radius",
+        "value": "(FW 12, 4 AP): Der Radius beträgt 8 Schritt."
+      },
+      {
+        "name": "Längere Wirkungsdauer 2",
+        "value": "(FW 16, 6 AP): Die Wirkungsdauer beträgt QS Stunden. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1"
+      }
+    ],
     "name": "Bodenweihe",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten sind nicht modifizierbar)",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Längere Wirkungsdauer 1",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 30 Minuten."
-        },
-        {
-          "name": "Größerer Radius",
-          "value": "(FW 12, 4 AP): Der Radius beträgt 8 Schritt."
-        },
-        {
-          "name": "Längere Wirkungsdauer 2",
-          "value": "(FW 16, 6 AP): Die Wirkungsdauer beträgt QS Stunden. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 117",
       "Reichweite": "8 Schritt",
@@ -1053,6 +1055,7 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [],
     "name": "Botschaft aus der Tiefe",
     "properties": {
       "KaP-Kosten": "16 KaP",
@@ -1084,24 +1087,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer 1",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 5 KR."
+      },
+      {
+        "name": " Dickes Fell",
+        "value": "(FW 12, 4 AP): Der RS beträgt 3. Die KaP-Kosten erhöhen sich um 4 KaP."
+      },
+      {
+        "name": " Längere Wirkungsdauer 2",
+        "value": "(FW 16, 6 AP): Die Wirkungsdauer beträgt QS x 10 KR. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer "
+      }
+    ],
     "name": "Bärenhaut",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten nicht modifizierbar)",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer 1",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 5 KR."
-        },
-        {
-          "name": " Dickes Fell",
-          "value": "(FW 12, 4 AP): Der RS beträgt 3. Die KaP-Kosten erhöhen sich um 4 KaP."
-        },
-        {
-          "name": " Längere Wirkungsdauer 2",
-          "value": "(FW 16, 6 AP): Die Wirkungsdauer beträgt QS x 10 KR. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer "
-        }
-      ],
       "Probe": "IN/CH/KO",
       "Publikationen": "Aventurisches Götterwirken II, Seite 76",
       "Reichweite": "selbst",
@@ -1114,24 +1117,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Größere Entfernung 1",
+        "value": "(FW 8, 2 AP): Die Entfernung zu dem gesuchten Buch darf maximal QS x 3 Schritt betragen."
+      },
+      {
+        "name": " Größere Entfernung 2",
+        "value": "(FW 12, 4 AP): Die Entfernung zu dem gesuchten Buch darf maximal QS x 5 Schritt betragen. Voraussetzung: Liturgieerweiterung Größere Entfernung 1."
+      },
+      {
+        "name": " Mehrere Bücher",
+        "value": "(FW 16, 6 AP): Die Geweihte kann durch die Liturgie bis zu 6 Bücher gleichzeitig in der Bibliothek finden. Jedes zusätzliche Buch erhöht die Kosten um 2 KaP"
+      }
+    ],
     "name": "Büchersuche",
     "properties": {
       "KaP-Kosten": "4 KaP",
       "Liturgiedauer": "16 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Größere Entfernung 1",
-          "value": "(FW 8, 2 AP): Die Entfernung zu dem gesuchten Buch darf maximal QS x 3 Schritt betragen."
-        },
-        {
-          "name": " Größere Entfernung 2",
-          "value": "(FW 12, 4 AP): Die Entfernung zu dem gesuchten Buch darf maximal QS x 5 Schritt betragen. Voraussetzung: Liturgieerweiterung Größere Entfernung 1."
-        },
-        {
-          "name": " Mehrere Bücher",
-          "value": "(FW 16, 6 AP): Die Geweihte kann durch die Liturgie bis zu 6 Bücher gleichzeitig in der Bibliothek finden. Jedes zusätzliche Buch erhöht die Kosten um 2 KaP"
-        }
-      ],
       "Probe": "KL/KL/IN",
       "Publikationen": "Aventurisches Götterwirken II, Seite 77",
       "Reichweite": "selbst",
@@ -1144,6 +1147,7 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [],
     "name": "Das Löschen des Lichts",
     "properties": {
       "KaP-Kosten": "32 KaP (Kosten sind nicht modifizierbar)",
@@ -1160,23 +1164,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Aufrechterhaltend",
+        "value": "(FW 8, 2 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 8 KaP und 4 KaP pro 3 Stunden."
+      },
+      {
+        "name": "Sprachfähigkeit",
+        "value": "(FW 12, 4 AP): Der Geweihte kann in Tiergestalt sprechen."
+      },
+      {
+        "name": "Klerikales Tier",
+        "value": "(FW 16, 6 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung Sprachfähigkeit"
+      }
+    ],
     "name": "Delphingestalt",
     "properties": {
       "KaP-Kosten": "16 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Aufrechterhaltend",
-          "value": "(FW 8, 2 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 8 KaP und 4 KaP pro 3 Stunden."
-        },
-        {
-          "name": "Sprachfähigkeit",
-          "value": "(FW 12, 4 AP): Der Geweihte kann in Tiergestalt sprechen."
-        },
-        {
-          "name": "Klerikales Tier",
-          "value": "(FW 16, 6 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung Sprachfähigkeit"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Aventurisches Götterwirken, Seite 144<br>Havena - Versunkene Geheimnisse, Seite 86",
       "Reichweite": "selbst",
@@ -1190,24 +1194,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Größere Reichweite",
+        "value": "(FW 8, 1 AP): Die Reichweite beträgt 32 Schritt."
+      },
+      {
+        "name": "Zwei Delphine",
+        "value": "(FW 12, 2 AP): Es erscheinen zwei Delphine, von denen jeder eine Person retten kann."
+      },
+      {
+        "name": "Vier Delphine",
+        "value": "(FW 16, 3 AP): Es erscheinen vier Delphine, von denen jeder eine Person retten kann. Voraussetzung: Liturgieerweiterung Zwei Delphine"
+      }
+    ],
     "name": "Delphinruf",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Größere Reichweite",
-          "value": "(FW 8, 1 AP): Die Reichweite beträgt 32 Schritt."
-        },
-        {
-          "name": "Zwei Delphine",
-          "value": "(FW 12, 2 AP): Es erscheinen zwei Delphine, von denen jeder eine Person retten kann."
-        },
-        {
-          "name": "Vier Delphine",
-          "value": "(FW 16, 3 AP): Es erscheinen vier Delphine, von denen jeder eine Person retten kann. Voraussetzung: Liturgieerweiterung Zwei Delphine"
-        }
-      ],
       "Probe": "KL/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 117<br>Havena - Versunkene Geheimnisse, Seite 84",
       "Reichweite": "16 Schritt (maximale Entfernung des zu Rettenden vom Geweihten; der Delphin kann aus einer größeren Distanz kommen)",
@@ -1220,24 +1224,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 8, 3 AP): Die Wirkungsdauer beträgt QS x 10 Minuten."
+      },
+      {
+        "name": "Geringer Widerstand",
+        "value": "(FW 12, 6 AP): Die Willenskraft-Probe darf nur noch alle 10 Minuten abgelegt werden."
+      },
+      {
+        "name": "Lange und starke Hörigkeit",
+        "value": "(FW 16, 9 AP): Die Wirkungsdauer beträgt QS Stunden und pro Stunde ist nur eine Willenskraft-Probe erlaubt. Voraussetzung: Liturgieerweiterungen Längere Wirkungsdauer und Geringer Widerstand"
+      }
+    ],
     "name": "Des Einen bezaubernder Sphärenklang",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "1 Aktion",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 8, 3 AP): Die Wirkungsdauer beträgt QS x 10 Minuten."
-        },
-        {
-          "name": "Geringer Widerstand",
-          "value": "(FW 12, 6 AP): Die Willenskraft-Probe darf nur noch alle 10 Minuten abgelegt werden."
-        },
-        {
-          "name": "Lange und starke Hörigkeit",
-          "value": "(FW 16, 9 AP): Die Wirkungsdauer beträgt QS Stunden und pro Stunde ist nur eine Willenskraft-Probe erlaubt. Voraussetzung: Liturgieerweiterungen Längere Wirkungsdauer und Geringer Widerstand"
-        }
-      ],
       "Probe": "IN/CH/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 118<br>Niobaras Vermächtnis, Seite 100<br>Offenbarung des Himmels, Seite 61",
       "Reichweite": "8 Schritt",
@@ -1250,23 +1254,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": " Zusätzlicher Dienst",
+        "value": "(FW 8, 3 AP): Das Wesen erfüllt einen zusätzlichen Dienst."
+      },
+      {
+        "name": " Höherer Elementar",
+        "value": "(FW 12, 6 AP): Es kann auch ein Dschinn des Humus gerufen werden. Die Zeremoniedauer beträgt 2 Stunden, die Kosten steigen auf 16 KaP."
+      },
+      {
+        "name": " Mächtiger Elementar",
+        "value": "(FW 16, 9 AP): Es kann auch ein Elementarer Meister des Humus gerufen werden. Die Zeremoniedauer beträgt 8 Stunden, die Kosten steigen auf 32 KaP. Voraussetzung: Liturgieerweiterung Höherer Elementa"
+      }
+    ],
     "name": "Diener der Erde",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Zusätzlicher Dienst",
-          "value": "(FW 8, 3 AP): Das Wesen erfüllt einen zusätzlichen Dienst."
-        },
-        {
-          "name": " Höherer Elementar",
-          "value": "(FW 12, 6 AP): Es kann auch ein Dschinn des Humus gerufen werden. Die Zeremoniedauer beträgt 2 Stunden, die Kosten steigen auf 16 KaP."
-        },
-        {
-          "name": " Mächtiger Elementar",
-          "value": "(FW 16, 9 AP): Es kann auch ein Elementarer Meister des Humus gerufen werden. Die Zeremoniedauer beträgt 8 Stunden, die Kosten steigen auf 32 KaP. Voraussetzung: Liturgieerweiterung Höherer Elementa"
-        }
-      ],
       "Probe": "MU/IN/CH (erschwert um Anrufungsschwierigkeit)",
       "Publikationen": "Aventurisches Götterwirken II, Seite 92",
       "Reichweite": "selbst",
@@ -1280,23 +1284,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": " Zusätzlicher Dienst",
+        "value": "(FW 8, 3 AP): Das Wesen erfüllt einen zusätzlichen Dienst."
+      },
+      {
+        "name": " Höherer Elementar",
+        "value": "(FW 12, 6 AP): Es kann auch ein Dschinn des Feuers gerufen werden. Die Zeremoniedauer beträgt 2 Stunden, die Kosten steigen auf 16 KaP."
+      },
+      {
+        "name": " Mächtiger Elementar",
+        "value": "(FW 16, 9 AP): Es kann auch ein Elementarer Meister des Feuers gerufen werden. Die Zeremoniedauer beträgt 8 Stunden, die Kosten steigen auf 32 KaP. Voraussetzung: Liturgieerweiterung Höherer Elementar"
+      }
+    ],
     "name": "Diener der Flammen",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Zusätzlicher Dienst",
-          "value": "(FW 8, 3 AP): Das Wesen erfüllt einen zusätzlichen Dienst."
-        },
-        {
-          "name": " Höherer Elementar",
-          "value": "(FW 12, 6 AP): Es kann auch ein Dschinn des Feuers gerufen werden. Die Zeremoniedauer beträgt 2 Stunden, die Kosten steigen auf 16 KaP."
-        },
-        {
-          "name": " Mächtiger Elementar",
-          "value": "(FW 16, 9 AP): Es kann auch ein Elementarer Meister des Feuers gerufen werden. Die Zeremoniedauer beträgt 8 Stunden, die Kosten steigen auf 32 KaP. Voraussetzung: Liturgieerweiterung Höherer Elementar"
-        }
-      ],
       "Probe": "MU/IN/CH (erschwert um Anrufungsschwierigkeit)",
       "Publikationen": "Aventurisches Götterwirken II, Seite 92",
       "Reichweite": "selbst",
@@ -1310,23 +1314,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": " Zusätzlicher Dienst",
+        "value": "(FW 8, 3 AP): Das Wesen erfüllt einen zusätzlichen Dienst."
+      },
+      {
+        "name": " Höherer Elementar",
+        "value": "(FW 12, 6 AP): Es kann auch ein Dschinn des Eises gerufen werden. Die Zeremoniedauer beträgt 2 Stunden, die Kosten steigen auf 16 KaP."
+      },
+      {
+        "name": " Mächtiger Elementar",
+        "value": "(FW 16, 9 AP): Es kann auch ein Elementarer Meister des Eises gerufen werden. Die Zeremoniedauer beträgt 8 Stunden, die Kosten steigen auf 32 KaP. Voraussetzung: Liturgieerweiterung Höherer Elementar"
+      }
+    ],
     "name": "Diener der Kälte",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Zusätzlicher Dienst",
-          "value": "(FW 8, 3 AP): Das Wesen erfüllt einen zusätzlichen Dienst."
-        },
-        {
-          "name": " Höherer Elementar",
-          "value": "(FW 12, 6 AP): Es kann auch ein Dschinn des Eises gerufen werden. Die Zeremoniedauer beträgt 2 Stunden, die Kosten steigen auf 16 KaP."
-        },
-        {
-          "name": " Mächtiger Elementar",
-          "value": "(FW 16, 9 AP): Es kann auch ein Elementarer Meister des Eises gerufen werden. Die Zeremoniedauer beträgt 8 Stunden, die Kosten steigen auf 32 KaP. Voraussetzung: Liturgieerweiterung Höherer Elementar"
-        }
-      ],
       "Probe": "MU/IN/CH (erschwert um Anrufungsschwierigkeit)",
       "Publikationen": "Aventurisches Götterwirken II, Seite 92 ff.",
       "Reichweite": "selbst",
@@ -1340,23 +1344,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": " Zusätzlicher Dienst",
+        "value": "(FW 8, 3 AP): Das Wesen erfüllt einen zusätzlichen Dienst."
+      },
+      {
+        "name": " Höherer Elementar",
+        "value": "(FW 12, 6 AP): Es kann auch ein Dschinn des Wassers gerufen werden. Die Zeremoniedauer beträgt 2 Stunden, die Kosten steigen auf 16 KaP."
+      },
+      {
+        "name": " Mächtiger Elementar",
+        "value": "(FW 16, 9 AP): Es kann auch ein Elementarer Meister des Wassers gerufen werden. Die Zeremoniedauer beträgt 8 Stunden, die Kosten steigen auf 32 KaP. Voraussetzung: Liturgieerweiterung Höherer Elementar"
+      }
+    ],
     "name": "Diener der Wellen",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Zusätzlicher Dienst",
-          "value": "(FW 8, 3 AP): Das Wesen erfüllt einen zusätzlichen Dienst."
-        },
-        {
-          "name": " Höherer Elementar",
-          "value": "(FW 12, 6 AP): Es kann auch ein Dschinn des Wassers gerufen werden. Die Zeremoniedauer beträgt 2 Stunden, die Kosten steigen auf 16 KaP."
-        },
-        {
-          "name": " Mächtiger Elementar",
-          "value": "(FW 16, 9 AP): Es kann auch ein Elementarer Meister des Wassers gerufen werden. Die Zeremoniedauer beträgt 8 Stunden, die Kosten steigen auf 32 KaP. Voraussetzung: Liturgieerweiterung Höherer Elementar"
-        }
-      ],
       "Probe": "MU/IN/CH (erschwert um Anrufungsschwierigkeit)",
       "Publikationen": "Aventurisches Götterwirken II, Seite 93",
       "Reichweite": "selbst",
@@ -1370,23 +1374,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": " Zusätzlicher Dienst",
+        "value": "(FW 8, 3 AP): Das Wesen erfüllt einen zusätzlichen Dienst."
+      },
+      {
+        "name": " Höherer Elementar",
+        "value": "(FW 12, 6 AP): Es kann auch ein Dschinn der Luft gerufen werden. Die Zeremoniedauer beträgt 2 Stunden, die Kosten steigen auf 16 KaP."
+      },
+      {
+        "name": " Mächtiger Elementar",
+        "value": "(FW 16, 9 AP): Es kann auch ein Elementarer Meister der Luft gerufen werden. Die Zeremoniedauer beträgt 8 Stunden, die Kosten steigen auf 32 KaP. Voraussetzung: Liturgieerweiterung Höherer Elementar"
+      }
+    ],
     "name": "Diener der Wolken",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Zusätzlicher Dienst",
-          "value": "(FW 8, 3 AP): Das Wesen erfüllt einen zusätzlichen Dienst."
-        },
-        {
-          "name": " Höherer Elementar",
-          "value": "(FW 12, 6 AP): Es kann auch ein Dschinn der Luft gerufen werden. Die Zeremoniedauer beträgt 2 Stunden, die Kosten steigen auf 16 KaP."
-        },
-        {
-          "name": " Mächtiger Elementar",
-          "value": "(FW 16, 9 AP): Es kann auch ein Elementarer Meister der Luft gerufen werden. Die Zeremoniedauer beträgt 8 Stunden, die Kosten steigen auf 32 KaP. Voraussetzung: Liturgieerweiterung Höherer Elementar"
-        }
-      ],
       "Probe": "MU/IN/CH (erschwert um Anrufungsschwierigkeit)",
       "Publikationen": "Aventurisches Götterwirken II, Seite 93",
       "Reichweite": "selbst",
@@ -1400,23 +1404,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": " Zusätzlicher Dienst",
+        "value": "(FW 8, 3 AP): Das Wesen erfüllt einen zusätzlichen Dienst."
+      },
+      {
+        "name": " Höherer Elementar",
+        "value": "(FW 12, 6 AP): Es kann auch ein Dschinn des Erzes gerufen werden. Die Zeremoniedauer beträgt 2 Stunden, die Kosten steigen auf 16 KaP."
+      },
+      {
+        "name": " Mächtiger Elementar",
+        "value": "(FW 16, 9 AP): Es kann auch ein Elementarer Meister des Erzes gerufen werden. Die Zeremoniedauer beträgt 8 Stunden, die Kosten steigen auf 32 KaP. Voraussetzung: Liturgieerweiterung Höherer Elementar"
+      }
+    ],
     "name": "Diener des Erzes",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Zusätzlicher Dienst",
-          "value": "(FW 8, 3 AP): Das Wesen erfüllt einen zusätzlichen Dienst."
-        },
-        {
-          "name": " Höherer Elementar",
-          "value": "(FW 12, 6 AP): Es kann auch ein Dschinn des Erzes gerufen werden. Die Zeremoniedauer beträgt 2 Stunden, die Kosten steigen auf 16 KaP."
-        },
-        {
-          "name": " Mächtiger Elementar",
-          "value": "(FW 16, 9 AP): Es kann auch ein Elementarer Meister des Erzes gerufen werden. Die Zeremoniedauer beträgt 8 Stunden, die Kosten steigen auf 32 KaP. Voraussetzung: Liturgieerweiterung Höherer Elementar"
-        }
-      ],
       "Probe": "MU/IN/CH (erschwert um Anrufungsschwierigkeit)",
       "Publikationen": "Aventurisches Götterwirken II, Seite 94",
       "Reichweite": "selbst",
@@ -1430,24 +1434,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer 1",
+        "value": "(FW 8, 4 AP): Die Wirkungsdauer beträgt QS x 10 Minuten."
+      },
+      {
+        "name": " Längere Wirkungsdauer 2",
+        "value": "(FW 12, 8 AP): Die Wirkungsdauer beträgt QS x 30 Minuten. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1."
+      },
+      {
+        "name": " Reichweite Berührung",
+        "value": "(FW 16, 12 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden"
+      }
+    ],
     "name": "Doppelgänger",
     "properties": {
       "KaP-Kosten": "16 KaP",
       "Liturgiedauer": "8 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer 1",
-          "value": "(FW 8, 4 AP): Die Wirkungsdauer beträgt QS x 10 Minuten."
-        },
-        {
-          "name": " Längere Wirkungsdauer 2",
-          "value": "(FW 12, 8 AP): Die Wirkungsdauer beträgt QS x 30 Minuten. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1."
-        },
-        {
-          "name": " Reichweite Berührung",
-          "value": "(FW 16, 12 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden"
-        }
-      ],
       "Probe": "MU/KL/IN (modifiziert um ZK)",
       "Publikationen": "Aventurisches Götterwirken II, Seite 77",
       "Reichweite": "selbst",
@@ -1460,23 +1464,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": " Größere Reichweite",
+        "value": "(FW 8, 3 AP): Die Reichweite beträgt 4 Schritt."
+      },
+      {
+        "name": " Große Reue",
+        "value": "(FW 12, 6 AP): War der Paktierer ein Minderpaktierer und unterzog er sich dem Ritual freiwillig, verschwindet das Mal des Frevlers."
+      },
+      {
+        "name": " Verkürzte Zeremoniedauer",
+        "value": "(FW 16, 9 AP): Die Zeremonie weist eine Zeremoniedauer von 30 Minuten auf, allerdings ist die Probe zusätzlich um 5 erschwert"
+      }
+    ],
     "name": "Dämonenpakt brechen",
     "properties": {
       "KaP-Kosten": "32 KaP, 8 davon permanent",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Größere Reichweite",
-          "value": "(FW 8, 3 AP): Die Reichweite beträgt 4 Schritt."
-        },
-        {
-          "name": " Große Reue",
-          "value": "(FW 12, 6 AP): War der Paktierer ein Minderpaktierer und unterzog er sich dem Ritual freiwillig, verschwindet das Mal des Frevlers."
-        },
-        {
-          "name": " Verkürzte Zeremoniedauer",
-          "value": "(FW 16, 9 AP): Die Zeremonie weist eine Zeremoniedauer von 30 Minuten auf, allerdings ist die Probe zusätzlich um 5 erschwert"
-        }
-      ],
       "Probe": "MU/IN/CH (SK modifiziert die Probe nur bei einem unfreiwilligen Ziel)",
       "Publikationen": "Aventurische Magie III, Seite 79",
       "Reichweite": "Berührung",
@@ -1490,24 +1494,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Schutzhaut",
+        "value": "(FW 8, 2 AP): Die Schildstärke beträgt KaP + (QS x 4), aber nur der Geweihte selbst ist von der Schutzwirkung betroffen."
+      },
+      {
+        "name": "Großer Radius",
+        "value": "(FW 12, 4 AP): Der Radius beträgt 5 Schritt. Es entstehen zusätzliche Kosten in Höhe von 4 KaP, die jedoch nicht die Schildstärke erhöhen."
+      },
+      {
+        "name": "Reichweite Berührung",
+        "value": "(FW 16, 6 AP): Als Reichweite gilt Berührung. Die Schildstärke beträgt nur QS x 2. Die Liturgie kann nur auf Kulturschaffende übertragen werden"
+      }
+    ],
     "name": "Dämonenwall",
     "properties": {
       "KaP-Kosten": "mindestens 4 KaP (Kosten sind nicht modifizierbar)",
       "Liturgiedauer": "1 Aktion",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Schutzhaut",
-          "value": "(FW 8, 2 AP): Die Schildstärke beträgt KaP + (QS x 4), aber nur der Geweihte selbst ist von der Schutzwirkung betroffen."
-        },
-        {
-          "name": "Großer Radius",
-          "value": "(FW 12, 4 AP): Der Radius beträgt 5 Schritt. Es entstehen zusätzliche Kosten in Höhe von 4 KaP, die jedoch nicht die Schildstärke erhöhen."
-        },
-        {
-          "name": "Reichweite Berührung",
-          "value": "(FW 16, 6 AP): Als Reichweite gilt Berührung. Die Schildstärke beträgt nur QS x 2. Die Liturgie kann nur auf Kulturschaffende übertragen werden"
-        }
-      ],
       "Probe": "MU/KL/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 117",
       "Reichweite": "selbst",
@@ -1520,24 +1524,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Größere Reichweite",
+        "value": "(FW 8, 2 AP): Die Reichweite beträgt 16 Schritt."
+      },
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 12, 4 AP): Die Wirkungsdauer beträgt QS x 10 Minuten."
+      },
+      {
+        "name": "Vier Ziele",
+        "value": "(FW 16, 6 AP): Der Geweihte kann die Liturgie auf bis zu 4 Ziele gleichzeitig wirken. Jedes Ziel nach dem ersten kostet zusätzlich 4 KaP"
+      }
+    ],
     "name": "Ehrenhaftigkeit",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Größere Reichweite",
-          "value": "(FW 8, 2 AP): Die Reichweite beträgt 16 Schritt."
-        },
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 12, 4 AP): Die Wirkungsdauer beträgt QS x 10 Minuten."
-        },
-        {
-          "name": "Vier Ziele",
-          "value": "(FW 16, 6 AP): Der Geweihte kann die Liturgie auf bis zu 4 Ziele gleichzeitig wirken. Jedes Ziel nach dem ersten kostet zusätzlich 4 KaP"
-        }
-      ],
       "Probe": "MU/IN/CH (modifiziert um SK)",
       "Publikationen": "Regelwerk, Seite 325<br>Aventurisches Götterwirken, Seite 164",
       "Reichweite": "8 Schritt",
@@ -1550,24 +1554,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 8, 1 AP): Die Wirkungsdauer beträgt 1 Tag."
+      },
+      {
+        "name": "Guter Handel",
+        "value": "(FW 12, 2 AP): Die Erleichterung von QS/2 umfasst auch das Talent Handel, solange es um die aktuellen Vertragsverhandlungen geht."
+      },
+      {
+        "name": "Reichweite Berührung",
+        "value": "(FW 16, 3 AP): Als Reichweite gilt Berührung. Die Liturgiewirkung kann nur auf Kulturschaffende übertragen werden"
+      }
+    ],
     "name": "Ehrlicher Vertrag",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 8, 1 AP): Die Wirkungsdauer beträgt 1 Tag."
-        },
-        {
-          "name": "Guter Handel",
-          "value": "(FW 12, 2 AP): Die Erleichterung von QS/2 umfasst auch das Talent Handel, solange es um die aktuellen Vertragsverhandlungen geht."
-        },
-        {
-          "name": "Reichweite Berührung",
-          "value": "(FW 16, 3 AP): Als Reichweite gilt Berührung. Die Liturgiewirkung kann nur auf Kulturschaffende übertragen werden"
-        }
-      ],
       "Probe": "KL/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 118",
       "Reichweite": "selbst",
@@ -1580,23 +1584,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Aufrechterhaltend",
+        "value": "(FW 8, 1 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 8 KaP und 4 KaP pro 3 Stunden."
+      },
+      {
+        "name": "Sprachfähigkeit",
+        "value": "(FW 12, 2 AP): Die Geweihte kann in Tiergestalt sprechen."
+      },
+      {
+        "name": "Klerikales Tier",
+        "value": "(FW 16, 3 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung Sprachfähigkeit"
+      }
+    ],
     "name": "Eidechsengestalt",
     "properties": {
       "KaP-Kosten": "8 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Aufrechterhaltend",
-          "value": "(FW 8, 1 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 8 KaP und 4 KaP pro 3 Stunden."
-        },
-        {
-          "name": "Sprachfähigkeit",
-          "value": "(FW 12, 2 AP): Die Geweihte kann in Tiergestalt sprechen."
-        },
-        {
-          "name": "Klerikales Tier",
-          "value": "(FW 16, 3 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung Sprachfähigkeit"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Aventurisches Götterwirken, Seite 144 ff.",
       "Reichweite": "selbst",
@@ -1610,23 +1614,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": " Schnelle Regeneration",
+        "value": "(FW 8, 3 AP): Die Zeremoniedauer beträgt 5 Minuten."
+      },
+      {
+        "name": " Starke Regeneration",
+        "value": "(FW 12, 6 AP): Die Regeneration beträgt QS W6 LeP."
+      },
+      {
+        "name": " Reichweite Berührung",
+        "value": "(FW 16, 9 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden"
+      }
+    ],
     "name": "Eidechsenregeneration",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Schnelle Regeneration",
-          "value": "(FW 8, 3 AP): Die Zeremoniedauer beträgt 5 Minuten."
-        },
-        {
-          "name": " Starke Regeneration",
-          "value": "(FW 12, 6 AP): Die Regeneration beträgt QS W6 LeP."
-        },
-        {
-          "name": " Reichweite Berührung",
-          "value": "(FW 16, 9 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden"
-        }
-      ],
       "Probe": "IN/CH/KO",
       "Publikationen": "Aventurisches Götterwirken II, Seite 94",
       "Reichweite": "selbst",
@@ -1640,23 +1644,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Überzeugungsarbeit I",
+        "value": "(FW 8, 1 AP): Die Erleichterung von QS/2 gilt auch für Proben auf Bekehren &amp; Überzeugen (Einzelgespräch oder öffentlich Rede), sofern sie dazu dienen, sich von Bedenken loszusagen und den eigenen Trieben nachzugehen."
+      },
+      {
+        "name": "Überzeugungsarbeit II",
+        "value": "(FW 12, 2 AP): Die Erleichterung von QS/2 gilt auch für Proben auf Betören (Anbändeln oder Liebeskünste), sofern sie dazu dienen, sich von Bedenken loszusagen und den eigenen Trieben nachzugehen. Voraussetzung: Liturgieerweiterung; Überzeugungsarbeit I."
+      },
+      {
+        "name": "Reichweite Berührung",
+        "value": "(FW 16, 3 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden"
+      }
+    ],
     "name": "Einflüsterung",
     "properties": {
       "KaP-Kosten": "8 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Überzeugungsarbeit I",
-          "value": "(FW 8, 1 AP): Die Erleichterung von QS/2 gilt auch für Proben auf Bekehren &amp; Überzeugen (Einzelgespräch oder öffentlich Rede), sofern sie dazu dienen, sich von Bedenken loszusagen und den eigenen Trieben nachzugehen."
-        },
-        {
-          "name": "Überzeugungsarbeit II",
-          "value": "(FW 12, 2 AP): Die Erleichterung von QS/2 gilt auch für Proben auf Betören (Anbändeln oder Liebeskünste), sofern sie dazu dienen, sich von Bedenken loszusagen und den eigenen Trieben nachzugehen. Voraussetzung: Liturgieerweiterung; Überzeugungsarbeit I."
-        },
-        {
-          "name": "Reichweite Berührung",
-          "value": "(FW 16, 3 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden"
-        }
-      ],
       "Probe": "KL/IN/CH",
       "Publikationen": "Wege der Vereinigungen, Seite 192<br>Aventurisches Götterwirken II, Seite 94 ff.",
       "Reichweite": "selbst",
@@ -1670,23 +1674,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Aufrechterhaltend",
+        "value": "(FW 8, 3 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 8 KaP und 4 KaP pro 3 Stunden."
+      },
+      {
+        "name": "Sprachfähigkeit",
+        "value": "(FW 12, 6 AP): Der Geweihte kann in Tiergestalt sprechen."
+      },
+      {
+        "name": "Klerikales Tier",
+        "value": "(FW 16, 9 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung Sprachfähigkeit"
+      }
+    ],
     "name": "Eisbärgestalt",
     "properties": {
       "KaP-Kosten": "16 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Aufrechterhaltend",
-          "value": "(FW 8, 3 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 8 KaP und 4 KaP pro 3 Stunden."
-        },
-        {
-          "name": "Sprachfähigkeit",
-          "value": "(FW 12, 6 AP): Der Geweihte kann in Tiergestalt sprechen."
-        },
-        {
-          "name": "Klerikales Tier",
-          "value": "(FW 16, 9 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung Sprachfähigkeit"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Aventurisches Götterwirken, Seite 145",
       "Reichweite": "selbst",
@@ -1700,23 +1704,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": " Aufrechterhaltend",
+        "value": "(FW 8, 2 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 4 KaP und 2 KaP pro 3 Stunden."
+      },
+      {
+        "name": " Sprachfähigkeit",
+        "value": "(FW 12, 4 AP): Der Geweihte kann in Tiergestalt sprechen."
+      },
+      {
+        "name": " Klerikales Tier",
+        "value": "(FW 16, 6 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihte. Voraussetzung: Liturgieerweiterung Sprachfähigkeit"
+      }
+    ],
     "name": "Elsterngestalt",
     "properties": {
       "KaP-Kosten": "8 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Aufrechterhaltend",
-          "value": "(FW 8, 2 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 4 KaP und 2 KaP pro 3 Stunden."
-        },
-        {
-          "name": " Sprachfähigkeit",
-          "value": "(FW 12, 4 AP): Der Geweihte kann in Tiergestalt sprechen."
-        },
-        {
-          "name": " Klerikales Tier",
-          "value": "(FW 16, 6 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihte. Voraussetzung: Liturgieerweiterung Sprachfähigkeit"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Aventurisches Götterwirken II, Seite 95",
       "Reichweite": "selbst",
@@ -1730,6 +1734,7 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [],
     "name": "Empfängnis des Korsmals",
     "properties": {
       "KaP-Kosten": "32 KaP (Kosten nicht modifizierbar)",
@@ -1747,24 +1752,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Zielkategorie Lebewesen",
+        "value": "(FW 8, 2 AP): Die Liturgie umfasst auch die Zielkategorie Lebewesen."
+      },
+      {
+        "name": "Kosten modifizierbar",
+        "value": "(FW 12, 4 AP): Die Kosten sind doch modifizierbar."
+      },
+      {
+        "name": "Versteinerung aufheben",
+        "value": "(FW 16, 6 AP): Auch der Status Versteinert (siehe Seite 235) kann aufgehoben werden"
+      }
+    ],
     "name": "Entfesselung",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten sind nicht modifizierbar)",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Zielkategorie Lebewesen",
-          "value": "(FW 8, 2 AP): Die Liturgie umfasst auch die Zielkategorie Lebewesen."
-        },
-        {
-          "name": "Kosten modifizierbar",
-          "value": "(FW 12, 4 AP): Die Kosten sind doch modifizierbar."
-        },
-        {
-          "name": "Versteinerung aufheben",
-          "value": "(FW 16, 6 AP): Auch der Status Versteinert (siehe Seite 235) kann aufgehoben werden"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Aventurisches Götterwirken, Seite 118",
       "Reichweite": "4 Schritt",
@@ -1777,24 +1782,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Selbstzweifel",
+        "value": "(FW 8, 1 AP): Das Ziel bekommt die Persönlichkeitsschwäche Selbstzweifel, die immer dann eine Erschwernis von 1 einbringt, wenn es davon ausgeht, dass das eigene Aussehen Nachteile mit sich bringt."
+      },
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 12, 2 AP): Die Wirkungsdauer beträgt 6 Stunden."
+      },
+      {
+        "name": "Zwei Ziele",
+        "value": "(FW 16, 3 AP): Der Geweihte kann bis zu 2 Ziele gleichzeitig verunstalten. Das zweite Ziel kostet zusätzlich 4 KaP"
+      }
+    ],
     "name": "Entstelltes Antlitz",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Selbstzweifel",
-          "value": "(FW 8, 1 AP): Das Ziel bekommt die Persönlichkeitsschwäche Selbstzweifel, die immer dann eine Erschwernis von 1 einbringt, wenn es davon ausgeht, dass das eigene Aussehen Nachteile mit sich bringt."
-        },
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 12, 2 AP): Die Wirkungsdauer beträgt 6 Stunden."
-        },
-        {
-          "name": "Zwei Ziele",
-          "value": "(FW 16, 3 AP): Der Geweihte kann bis zu 2 Ziele gleichzeitig verunstalten. Das zweite Ziel kostet zusätzlich 4 KaP"
-        }
-      ],
       "Probe": "MU/IN/CH (modifiziert um ZK)",
       "Publikationen": "Wege der Vereinigungen, Seite 188<br>Aventurisches Götterwirken II, Seite 77 ff.",
       "Reichweite": "8 Schritt",
@@ -1807,24 +1812,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Reichweite Berührung",
+        "value": "(FW 8, 1 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden."
+      },
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 12, 2 AP): Die Wirkungsdauer beträgt QS x 15 Minuten, sodass der Held 25 Foliantenseiten pro QS entziffern kann."
+      },
+      {
+        "name": "Vier Ziele",
+        "value": "(FW 16, 3 AP): Der Geweihte kann bis zu 4 Ziele gleichzeitig unterstützen. Jedes Ziel nach dem ersten kostet zusätzlich 2 KaP"
+      }
+    ],
     "name": "Entzifferung",
     "properties": {
       "KaP-Kosten": "4 KaP",
       "Liturgiedauer": "8 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Reichweite Berührung",
-          "value": "(FW 8, 1 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden."
-        },
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 12, 2 AP): Die Wirkungsdauer beträgt QS x 15 Minuten, sodass der Held 25 Foliantenseiten pro QS entziffern kann."
-        },
-        {
-          "name": "Vier Ziele",
-          "value": "(FW 16, 3 AP): Der Geweihte kann bis zu 4 Ziele gleichzeitig unterstützen. Jedes Ziel nach dem ersten kostet zusätzlich 2 KaP"
-        }
-      ],
       "Probe": "KL/KL/IN",
       "Publikationen": "Regelwerk, Seite 325<br>Aventurisches Götterwirken, Seite 164",
       "Reichweite": "selbst",
@@ -1837,24 +1842,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 8, 3 AP): Die Wirkungsdauer beträgt 10 KR."
+      },
+      {
+        "name": "Reichweitenausdehnung",
+        "value": "(FW 12, 6 AP): Die Liturgiemodifikation Reichweite erhöhen ist nicht erschwert."
+      },
+      {
+        "name": "Größerer Schaden",
+        "value": "(FW 16, 9 AP): Feste Konstruktionen erleiden QS x 10 Strukturpunkte Schaden"
+      }
+    ],
     "name": "Erdbeben",
     "properties": {
       "KaP-Kosten": "16 KaP (Kosten sind nicht modifizierbar)",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 8, 3 AP): Die Wirkungsdauer beträgt 10 KR."
-        },
-        {
-          "name": "Reichweitenausdehnung",
-          "value": "(FW 12, 6 AP): Die Liturgiemodifikation Reichweite erhöhen ist nicht erschwert."
-        },
-        {
-          "name": "Größerer Schaden",
-          "value": "(FW 16, 9 AP): Feste Konstruktionen erleiden QS x 10 Strukturpunkte Schaden"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Aventurisches Götterwirken, Seite 119",
       "Reichweite": "16 Schritt",
@@ -1867,23 +1872,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": " Auch Giftpflanzen",
+        "value": "(FW 8, 2 AP): Die Wirkung kann auch für Giftpflanzen eingesetzt werden."
+      },
+      {
+        "name": " Längere Wirkungsdauer",
+        "value": "(FW 12, 4 AP): Die Wirkungsdauer beträgt QS x 4 Stunden."
+      },
+      {
+        "name": " Große Menge",
+        "value": "(FW 16, 6 AP): Der Geweihte findet 2 Anwendungen mehr (statt 1)"
+      }
+    ],
     "name": "Erfolgreiche Pflanzensuche",
     "properties": {
       "KaP-Kosten": "4 KaP (Kosten nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Auch Giftpflanzen",
-          "value": "(FW 8, 2 AP): Die Wirkung kann auch für Giftpflanzen eingesetzt werden."
-        },
-        {
-          "name": " Längere Wirkungsdauer",
-          "value": "(FW 12, 4 AP): Die Wirkungsdauer beträgt QS x 4 Stunden."
-        },
-        {
-          "name": " Große Menge",
-          "value": "(FW 16, 6 AP): Der Geweihte findet 2 Anwendungen mehr (statt 1)"
-        }
-      ],
       "Probe": "KL/IN/KO",
       "Publikationen": "Aventurisches Götterwirken II, Seite 95",
       "Reichweite": "selbst",
@@ -1897,23 +1902,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Reichweite Berührung",
+        "value": "(FW 8, 2 AP): Als Reichweite gilt Berührung. Die Zeremonie kann nur auf Kulturschaffende übertragen werden."
+      },
+      {
+        "name": "Weit zurückliegende Erinnerung",
+        "value": "(FW 12, 4 AP): Die Erinnerung darf bis zu QS Wochen zurückliegen."
+      },
+      {
+        "name": "Gelöschte Erinnerungen reaktivieren",
+        "value": "(FW 16, 6 AP): Auch gelöschte Erinnerungen können wieder ins Gedächtnis gerufen werden, aber nur, wenn die QS der Zeremonie die QS der Unterdrückungsursache übersteigen"
+      }
+    ],
     "name": "Erinnern",
     "properties": {
       "KaP-Kosten": "8 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Reichweite Berührung",
-          "value": "(FW 8, 2 AP): Als Reichweite gilt Berührung. Die Zeremonie kann nur auf Kulturschaffende übertragen werden."
-        },
-        {
-          "name": "Weit zurückliegende Erinnerung",
-          "value": "(FW 12, 4 AP): Die Erinnerung darf bis zu QS Wochen zurückliegen."
-        },
-        {
-          "name": "Gelöschte Erinnerungen reaktivieren",
-          "value": "(FW 16, 6 AP): Auch gelöschte Erinnerungen können wieder ins Gedächtnis gerufen werden, aber nur, wenn die QS der Zeremonie die QS der Unterdrückungsursache übersteigen"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Aventurisches Götterwirken, Seite 145",
       "Reichweite": "selbst",
@@ -1927,24 +1932,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Größere Reichweite",
+        "value": "(FW 8, 2 AP): Die Reichweite beträgt 4 Schritt."
+      },
+      {
+        "name": "Schnellsteigerung",
+        "value": "(FW 12, 4 AP): Die Liturgiedauer beträgt 1 Aktion, die Wirkungsdauer wird dafür auf QS KR reduziert."
+      },
+      {
+        "name": "Vier Ziele",
+        "value": "(FW 16, 6 AP): Der Geweihte kann bis zu 4 Ziele gleichzeitig ermutigen. Jedes Ziel nach dem ersten kostet zusätzlich 4 KaP"
+      }
+    ],
     "name": "Ermutigung",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Größere Reichweite",
-          "value": "(FW 8, 2 AP): Die Reichweite beträgt 4 Schritt."
-        },
-        {
-          "name": "Schnellsteigerung",
-          "value": "(FW 12, 4 AP): Die Liturgiedauer beträgt 1 Aktion, die Wirkungsdauer wird dafür auf QS KR reduziert."
-        },
-        {
-          "name": "Vier Ziele",
-          "value": "(FW 16, 6 AP): Der Geweihte kann bis zu 4 Ziele gleichzeitig ermutigen. Jedes Ziel nach dem ersten kostet zusätzlich 4 KaP"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Regelwerk, Seite 325<br>Aventurisches Götterwirken, Seite 165",
       "Reichweite": "Berührung",
@@ -1957,24 +1962,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Reichweite Berührung",
+        "value": "(FW 8, 1 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden."
+      },
+      {
+        "name": "Beseitigung von Verwirrung",
+        "value": "(FW 12, 2 AP): Neben Betäubung kann auch Verwirrung, die durch Rauschmittel verursacht wurde, abgebaut werden. Die QS/2 Stufen müssen hierbei zwischen den Zuständen aufgeteilt werden."
+      },
+      {
+        "name": "Beseitigung von Schmerz",
+        "value": "(FW 16, 3 AP): Neben Betäubung kann auch Schmerz, der durch Rauschmittel verursacht wurde, abgebaut werden. Die QS/2 Stufen müssen hierbei zwischen den Zuständen aufgeteilt werden"
+      }
+    ],
     "name": "Ernüchterung",
     "properties": {
       "KaP-Kosten": "4 KaP (Kosten sind nicht modifizierbar)",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Reichweite Berührung",
-          "value": "(FW 8, 1 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden."
-        },
-        {
-          "name": "Beseitigung von Verwirrung",
-          "value": "(FW 12, 2 AP): Neben Betäubung kann auch Verwirrung, die durch Rauschmittel verursacht wurde, abgebaut werden. Die QS/2 Stufen müssen hierbei zwischen den Zuständen aufgeteilt werden."
-        },
-        {
-          "name": "Beseitigung von Schmerz",
-          "value": "(FW 16, 3 AP): Neben Betäubung kann auch Schmerz, der durch Rauschmittel verursacht wurde, abgebaut werden. Die QS/2 Stufen müssen hierbei zwischen den Zuständen aufgeteilt werden"
-        }
-      ],
       "Probe": "MU/KL/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 119",
       "Reichweite": "selbst",
@@ -1987,24 +1992,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt 30 Minuten."
+      },
+      {
+        "name": "Reichweite Berührung",
+        "value": "(FW 12, 4 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf freiwillige Ziele übertragen werden."
+      },
+      {
+        "name": "Betörender Rausch",
+        "value": "(FW 16, 6 AP): Proben auf Betören (Anbändeln) sind für den Anwender um QS/2 erleichtert"
+      }
+    ],
     "name": "Erregender Rausch",
     "properties": {
       "KaP-Kosten": "4 KaP (Kosten sind nicht modifizierbar)",
       "Liturgiedauer": "8 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt 30 Minuten."
-        },
-        {
-          "name": "Reichweite Berührung",
-          "value": "(FW 12, 4 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf freiwillige Ziele übertragen werden."
-        },
-        {
-          "name": "Betörender Rausch",
-          "value": "(FW 16, 6 AP): Proben auf Betören (Anbändeln) sind für den Anwender um QS/2 erleichtert"
-        }
-      ],
       "Probe": "MU/IN/KO",
       "Publikationen": "Wege der Vereinigungen, Seite 188<br>Aventurisches Götterwirken II, Seite 78",
       "Reichweite": "selbst",
@@ -2017,23 +2022,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": " Weniger Schaden 1",
+        "value": "(FW 8, 4 AP): Der Schaden beträgt 2W20 SP."
+      },
+      {
+        "name": " Weniger Schaden 2",
+        "value": "(FW 12, 8 AP): Der Schaden beträgt 1W20 SP. Voraussetzung: Liturgieerweiterung Weniger Schaden 1."
+      },
+      {
+        "name": " Vampirleben",
+        "value": "(FW 16, 12 AP): Die Geweihte kann die Liturgie auf sich selbst anwenden"
+      }
+    ],
     "name": "Erschaffung von Nachtkindern",
     "properties": {
       "KaP-Kosten": "32 KaP (davon 8 permanent) (Kosten nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Weniger Schaden 1",
-          "value": "(FW 8, 4 AP): Der Schaden beträgt 2W20 SP."
-        },
-        {
-          "name": " Weniger Schaden 2",
-          "value": "(FW 12, 8 AP): Der Schaden beträgt 1W20 SP. Voraussetzung: Liturgieerweiterung Weniger Schaden 1."
-        },
-        {
-          "name": " Vampirleben",
-          "value": "(FW 16, 12 AP): Die Geweihte kann die Liturgie auf sich selbst anwenden"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken II, Seite 95 ff.",
       "Reichweite": "Berührung",
@@ -2047,6 +2052,7 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [],
     "name": "Ertrinken",
     "properties": {
       "KaP-Kosten": "4 KaP",
@@ -2063,24 +2069,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Zwei Ziele",
+        "value": "(FW 8, 1 AP): Der Geweihte kann bis zu 2 Ziele gleichzeitig wecken. Das zweite Ziel kostet 2 KaP extra."
+      },
+      {
+        "name": " Vier Ziele",
+        "value": "(FW 12, 2 AP): Der Geweihte kann bis zu 4 Ziele gleichzeitig wecken. Jedes Ziel nach dem ersten kostet 2 KaP extra. Voraussetzung: Liturgieerweiterung Zwei Ziele."
+      },
+      {
+        "name": " Massenerwachen",
+        "value": "(FW 16, 3 AP): Beliebig viele Ziele erwachen durch die Liturgie. Jedes Ziel nach dem ersten kostet 2 KaP extra. Voraussetzung: Liturgieerweiterung Vier Ziele"
+      }
+    ],
     "name": "Erwachen",
     "properties": {
       "KaP-Kosten": "4 KaP",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Zwei Ziele",
-          "value": "(FW 8, 1 AP): Der Geweihte kann bis zu 2 Ziele gleichzeitig wecken. Das zweite Ziel kostet 2 KaP extra."
-        },
-        {
-          "name": " Vier Ziele",
-          "value": "(FW 12, 2 AP): Der Geweihte kann bis zu 4 Ziele gleichzeitig wecken. Jedes Ziel nach dem ersten kostet 2 KaP extra. Voraussetzung: Liturgieerweiterung Zwei Ziele."
-        },
-        {
-          "name": " Massenerwachen",
-          "value": "(FW 16, 3 AP): Beliebig viele Ziele erwachen durch die Liturgie. Jedes Ziel nach dem ersten kostet 2 KaP extra. Voraussetzung: Liturgieerweiterung Vier Ziele"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken II, Seite 78",
       "Reichweite": "16 Schritt",
@@ -2093,24 +2099,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Stein und Metall",
+        "value": "(FW 8, 2 AP): Auch Gegenstände, die gleichzeitig aus Stein und Metall bestehen (beispielsweise Schmuck), können zurückgegeben werden."
+      },
+      {
+        "name": "Größeres Gewicht",
+        "value": "(FW 12, 4 AP): Der Geweihte kann bis zu QS Stein an Material zurückgeben."
+      },
+      {
+        "name": "Rückruf",
+        "value": "(FW 16, 6 AP): Das Material kann, nachdem es dem Fels zurückgegeben wurde, jederzeit wieder aus dem Fels geholt werden, solange Ingerimm keine Einwände hat. Dabei wird der Gegenstand nicht beschädigt, der Geweihte muss aber die Stelle berühren, an der er die Opfergabe dem Fels übergeben hat"
+      }
+    ],
     "name": "Erzene Opfergabe",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "8 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Stein und Metall",
-          "value": "(FW 8, 2 AP): Auch Gegenstände, die gleichzeitig aus Stein und Metall bestehen (beispielsweise Schmuck), können zurückgegeben werden."
-        },
-        {
-          "name": "Größeres Gewicht",
-          "value": "(FW 12, 4 AP): Der Geweihte kann bis zu QS Stein an Material zurückgeben."
-        },
-        {
-          "name": "Rückruf",
-          "value": "(FW 16, 6 AP): Das Material kann, nachdem es dem Fels zurückgegeben wurde, jederzeit wieder aus dem Fels geholt werden, solange Ingerimm keine Einwände hat. Dabei wird der Gegenstand nicht beschädigt, der Geweihte muss aber die Stelle berühren, an der er die Opfergabe dem Fels übergeben hat"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 119",
       "Reichweite": "Berührung",
@@ -2123,23 +2129,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Spezialisierter Exorzismus",
+        "value": "(FW 8, 2 AP): Eine Untergruppe von Wesen der Gegengottheit, die beim Aktivieren dieser Liturgieerweiterung ausgewählt werden muss, weist eine um 1 schlechtere SK gegen den Exorzismus auf. Dies können beispielsweise Zantim bei Rondrageweihten oder Gotongis bei Praiosgeweihten sein."
+      },
+      {
+        "name": "Geister-Exorzismus",
+        "value": "(FW 12, 4 AP): Geister weisen eine um 1 schlechtere SK gegen den Exorzismus auf."
+      },
+      {
+        "name": "Dämonen-Exorzismus",
+        "value": "(FW 16, 6 AP): Alle Dämonen mit bis zu 5 Hörnern weisen eine um 1 schlechtere SK gegen den Exorzismus auf. Voraussetzung: Liturgieerweiterung Spezialisierter Exorzismus"
+      }
+    ],
     "name": "Exorzismus",
     "properties": {
       "KaP-Kosten": "32 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Spezialisierter Exorzismus",
-          "value": "(FW 8, 2 AP): Eine Untergruppe von Wesen der Gegengottheit, die beim Aktivieren dieser Liturgieerweiterung ausgewählt werden muss, weist eine um 1 schlechtere SK gegen den Exorzismus auf. Dies können beispielsweise Zantim bei Rondrageweihten oder Gotongis bei Praiosgeweihten sein."
-        },
-        {
-          "name": "Geister-Exorzismus",
-          "value": "(FW 12, 4 AP): Geister weisen eine um 1 schlechtere SK gegen den Exorzismus auf."
-        },
-        {
-          "name": "Dämonen-Exorzismus",
-          "value": "(FW 16, 6 AP): Alle Dämonen mit bis zu 5 Hörnern weisen eine um 1 schlechtere SK gegen den Exorzismus auf. Voraussetzung: Liturgieerweiterung Spezialisierter Exorzismus"
-        }
-      ],
       "Probe": "MU/IN/CH (modifiziert um SK des Wesens)",
       "Publikationen": "Regelwerk, Seite 331<br>Aventurisches Götterwirken, Seite 168ff.",
       "Reichweite": "4 Schritt",
@@ -2153,23 +2159,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": " Aufrechterhaltend",
+        "value": "(FW 8, 3 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 4 KaP und 2 KaP pro 3 Stunden."
+      },
+      {
+        "name": " Sprachfähigkeit",
+        "value": "(FW 12, 6 AP): Der Geweihte kann in Tiergestalt sprechen."
+      },
+      {
+        "name": " Klerikales Tier",
+        "value": "(FW 16, 9 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei"
+      }
+    ],
     "name": "Falkengestalt",
     "properties": {
       "KaP-Kosten": "8 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Aufrechterhaltend",
-          "value": "(FW 8, 3 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 4 KaP und 2 KaP pro 3 Stunden."
-        },
-        {
-          "name": " Sprachfähigkeit",
-          "value": "(FW 12, 6 AP): Der Geweihte kann in Tiergestalt sprechen."
-        },
-        {
-          "name": " Klerikales Tier",
-          "value": "(FW 16, 9 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Aventurisches Götterwirken II, Seite 96",
       "Reichweite": "selbst",
@@ -2183,24 +2189,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 8, 1 AP): Die Wirkungsdauer beträgt QS Minuten."
+      },
+      {
+        "name": "Reichweite Berührung",
+        "value": "(FW 12, 2 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden."
+      },
+      {
+        "name": "Klippensturz",
+        "value": "(FW 16, 3 AP): Für jede QS kann der Geweihte 5 Schritt Fallschaden ignorieren"
+      }
+    ],
     "name": "Fall ins Nichts",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "1 Aktion",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 8, 1 AP): Die Wirkungsdauer beträgt QS Minuten."
-        },
-        {
-          "name": "Reichweite Berührung",
-          "value": "(FW 12, 2 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden."
-        },
-        {
-          "name": "Klippensturz",
-          "value": "(FW 16, 3 AP): Für jede QS kann der Geweihte 5 Schritt Fallschaden ignorieren"
-        }
-      ],
       "Probe": "MU/IN/GE",
       "Publikationen": "Regelwerk, Seite 325<br>Aventurisches Götterwirken, Seite 165",
       "Reichweite": "selbst",
@@ -2213,24 +2219,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Einengendes Band",
+        "value": "(FW 8, 2 AP): Statt dem Status Fixiert kann sich der Priester dazu entscheiden, dass das Ziel den Status Eingeengt erhält."
+      },
+      {
+        "name": "Kosten modifizierbar",
+        "value": "(FW 12, 4 AP): Die Kosten sind doch modifizierbar."
+      },
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 16, 6 AP): Die Wirkungsdauer beträgt QS x 2 K"
+      }
+    ],
     "name": "Fesselndes Band",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten nicht modifizierbar)",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Einengendes Band",
-          "value": "(FW 8, 2 AP): Statt dem Status Fixiert kann sich der Priester dazu entscheiden, dass das Ziel den Status Eingeengt erhält."
-        },
-        {
-          "name": "Kosten modifizierbar",
-          "value": "(FW 12, 4 AP): Die Kosten sind doch modifizierbar."
-        },
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 16, 6 AP): Die Wirkungsdauer beträgt QS x 2 K"
-        }
-      ],
       "Probe": "MU/IN/CH (modifiziert um ZK)",
       "Publikationen": "Wege der Vereinigungen, Seite 189<br>Aventurisches Götterwirken II, Seite 78 ff.",
       "Reichweite": "8 Schritt",
@@ -2243,23 +2249,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Größerer Radius",
+        "value": "(FW 8, 2 AP): Der Radius beträgt QS x 10 Schritt."
+      },
+      {
+        "name": "Später Beginn",
+        "value": "(FW 12, 4 AP): Die Zeremonie kann auch während des Festes gewirkt werden."
+      },
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 16, 6 AP): Die Wirkungsdauer beträgt 24 Stunden"
+      }
+    ],
     "name": "Fest der Freude",
     "properties": {
       "KaP-Kosten": "8 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Größerer Radius",
-          "value": "(FW 8, 2 AP): Der Radius beträgt QS x 10 Schritt."
-        },
-        {
-          "name": "Später Beginn",
-          "value": "(FW 12, 4 AP): Die Zeremonie kann auch während des Festes gewirkt werden."
-        },
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 16, 6 AP): Die Wirkungsdauer beträgt 24 Stunden"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 145ff.",
       "Reichweite": "selbst",
@@ -2273,24 +2279,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt 10 Minuten."
+      },
+      {
+        "name": "Größerer Radius",
+        "value": "(FW 12, 4 AP): Der Radius beträgt QS Schritt."
+      },
+      {
+        "name": "Intensive Flammen",
+        "value": "(FW 16, 6 AP): Es muss nicht gewürfelt werden, ob Opfer der Flammenwand den Status Brennend erleidet, sondern sie erleiden diesen beim Durchquerungsversuch automatisch. Es entstehen zusätzliche Kosten in Höhe von 2 KaP"
+      }
+    ],
     "name": "Feuerwall",
     "properties": {
       "KaP-Kosten": "16 KaP",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt 10 Minuten."
-        },
-        {
-          "name": "Größerer Radius",
-          "value": "(FW 12, 4 AP): Der Radius beträgt QS Schritt."
-        },
-        {
-          "name": "Intensive Flammen",
-          "value": "(FW 16, 6 AP): Es muss nicht gewürfelt werden, ob Opfer der Flammenwand den Status Brennend erleidet, sondern sie erleiden diesen beim Durchquerungsversuch automatisch. Es entstehen zusätzliche Kosten in Höhe von 2 KaP"
-        }
-      ],
       "Probe": "MU/KL/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 119",
       "Reichweite": "selbst",
@@ -2303,24 +2309,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer 1",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt 20 Minuten"
+      },
+      {
+        "name": " Längere Wirkungsdauer 2",
+        "value": "(FW 12, 4 AP): Die Wirkungsdauer beträgt 30 Minuten. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1."
+      },
+      {
+        "name": " Unglaublich freundlich",
+        "value": "(FW 16, 6 AP): Die Proben sind um QS erleichtert"
+      }
+    ],
     "name": "Freundschaftliches Auftreten",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer 1",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt 20 Minuten"
-        },
-        {
-          "name": " Längere Wirkungsdauer 2",
-          "value": "(FW 12, 4 AP): Die Wirkungsdauer beträgt 30 Minuten. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1."
-        },
-        {
-          "name": " Unglaublich freundlich",
-          "value": "(FW 16, 6 AP): Die Proben sind um QS erleichtert"
-        }
-      ],
       "Probe": "IN/CH/CH",
       "Publikationen": "Aventurisches Götterwirken II, Seite 79",
       "Reichweite": "selbst",
@@ -2333,24 +2339,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Größerer Radius",
+        "value": "(FW 8, 2 AP): Der Radius beträgt 8 Schritt."
+      },
+      {
+        "name": "Anderes Intervall",
+        "value": "(FW 12, 4 AP): Das Intervall bei der Aufrechterhaltung beträgt 4 KR (statt 2 KR)."
+      },
+      {
+        "name": "Keine Aufrechterhaltung",
+        "value": "(FW 16, 6 AP): Die Liturgie gilt nicht als aufrechterhaltend. Die Wirkungsdauer und damit die KaP-Kosten müssen beim Wirken der Liturgie festgelegt werden"
+      }
+    ],
     "name": "Friedfertigkeit",
     "properties": {
       "KaP-Kosten": "4 KaP (Aktivierung der Liturgie) + 2 KaP pro 2 KR",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Größerer Radius",
-          "value": "(FW 8, 2 AP): Der Radius beträgt 8 Schritt."
-        },
-        {
-          "name": "Anderes Intervall",
-          "value": "(FW 12, 4 AP): Das Intervall bei der Aufrechterhaltung beträgt 4 KR (statt 2 KR)."
-        },
-        {
-          "name": "Keine Aufrechterhaltung",
-          "value": "(FW 16, 6 AP): Die Liturgie gilt nicht als aufrechterhaltend. Die Wirkungsdauer und damit die KaP-Kosten müssen beim Wirken der Liturgie festgelegt werden"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 120",
       "Reichweite": "selbst",
@@ -2363,24 +2369,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 5 KR."
+      },
+      {
+        "name": "Aufrechterhaltend",
+        "value": "(FW 12, 4 AP): Die Liturgie kann aufrechterhalten werden mit Aktivierungskosten von 16 KaP und 8 KaP pro 5 Minuten."
+      },
+      {
+        "name": "Reichweite Berührung",
+        "value": "(FW 16, 6 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden. Bei diesen ist die AT des Gegners jedoch nur um QS/2 erschwert und auch nur, wenn die Ziele der Liturgie sich ebenfalls friedfertig verhalten, solange die Liturgie wirkt"
+      }
+    ],
     "name": "Friedvolle Aura",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "1 Aktion",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 5 KR."
-        },
-        {
-          "name": "Aufrechterhaltend",
-          "value": "(FW 12, 4 AP): Die Liturgie kann aufrechterhalten werden mit Aktivierungskosten von 16 KaP und 8 KaP pro 5 Minuten."
-        },
-        {
-          "name": "Reichweite Berührung",
-          "value": "(FW 16, 6 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden. Bei diesen ist die AT des Gegners jedoch nur um QS/2 erschwert und auch nur, wenn die Ziele der Liturgie sich ebenfalls friedfertig verhalten, solange die Liturgie wirkt"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Regelwerk, Seite 325<br>Aventurisches Götterwirken, Seite 165",
       "Reichweite": "selbst",
@@ -2393,24 +2399,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Verteilte Wirkung",
+        "value": "(FW 8, 2 AP): Die Zustandsstufen können auf mehrere Ziele verteilt werden, die vor dem Wirken der Liturgie benannt werden müssen. Werden z. B. insgesamt 3 Stufen Betäubung verursacht, darf die Geweihte drei Zielen je 1 Stufe zuweisen oder sie entscheidet sich, einem Ziel 2 Stufen und einem anderen 1 Stufe aufzubürden."
+      },
+      {
+        "name": "Zielkategorie Lebewesen",
+        "value": "(FW 12, 4 AP): Die Liturgie umfasst auch die Zielkategorie Lebewesen."
+      },
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 16, 6 AP): Die Wirkungsdauer beträgt 10 KR"
+      }
+    ],
     "name": "Friedvoller Rausch",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "2 Aktionen (Liturgiedauer ist nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Verteilte Wirkung",
-          "value": "(FW 8, 2 AP): Die Zustandsstufen können auf mehrere Ziele verteilt werden, die vor dem Wirken der Liturgie benannt werden müssen. Werden z. B. insgesamt 3 Stufen Betäubung verursacht, darf die Geweihte drei Zielen je 1 Stufe zuweisen oder sie entscheidet sich, einem Ziel 2 Stufen und einem anderen 1 Stufe aufzubürden."
-        },
-        {
-          "name": "Zielkategorie Lebewesen",
-          "value": "(FW 12, 4 AP): Die Liturgie umfasst auch die Zielkategorie Lebewesen."
-        },
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 16, 6 AP): Die Wirkungsdauer beträgt 10 KR"
-        }
-      ],
       "Probe": "MU/IN/CH (modifiziert um SK)",
       "Publikationen": "Aventurisches Götterwirken, Seite 120",
       "Reichweite": "16 Schritt",
@@ -2423,23 +2429,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Keine Aufrechterhaltung",
+        "value": "(FW 8, 2 AP): Die Zeremonie gilt nicht als aufrechterhaltend. Die Wirkungsdauer und damit die KaP-Kosten müssen beim Wirken der Zeremonie festgelegt werden."
+      },
+      {
+        "name": "Reichweite Berührung",
+        "value": "(FW 12, 4 AP): Als Reichweite gilt Berührung. Die Zeremonie kann nur auf Kulturschaffende übertragen werden."
+      },
+      {
+        "name": "Zielkategorie Lebewesen",
+        "value": "(FW 16, 6 AP): Die Zeremonie umfasst auch die Zielkategorie Lebewesen"
+      }
+    ],
     "name": "Frostschutz",
     "properties": {
       "KaP-Kosten": "4 KaP (Aktivierung der Zeremonie) + 2 KaP pro 30 Minuten (Kosten sind nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Keine Aufrechterhaltung",
-          "value": "(FW 8, 2 AP): Die Zeremonie gilt nicht als aufrechterhaltend. Die Wirkungsdauer und damit die KaP-Kosten müssen beim Wirken der Zeremonie festgelegt werden."
-        },
-        {
-          "name": "Reichweite Berührung",
-          "value": "(FW 12, 4 AP): Als Reichweite gilt Berührung. Die Zeremonie kann nur auf Kulturschaffende übertragen werden."
-        },
-        {
-          "name": "Zielkategorie Lebewesen",
-          "value": "(FW 16, 6 AP): Die Zeremonie umfasst auch die Zielkategorie Lebewesen"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Aventurisches Götterwirken, Seite 146",
       "Reichweite": "selbst",
@@ -2453,24 +2459,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Größerer Radius",
+        "value": "(FW 8, 3 AP): Der Radius beträgt 20 Schritt."
+      },
+      {
+        "name": "Extreme Kälte",
+        "value": "(FW 12, 6 AP): Der Froststurm verursacht QS/2+1 Kältestufen."
+      },
+      {
+        "name": "Größere Reichweite",
+        "value": "(FW 16, 9 AP): Die Reichweite beträgt 32 Schritt"
+      }
+    ],
     "name": "Froststurm",
     "properties": {
       "KaP-Kosten": "8 KaP (Aktivierung der Liturgie) + 4 KaP pro 5 Minuten (Kosten sind nicht modifizierbar)",
       "Liturgiedauer": "8 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Größerer Radius",
-          "value": "(FW 8, 3 AP): Der Radius beträgt 20 Schritt."
-        },
-        {
-          "name": "Extreme Kälte",
-          "value": "(FW 12, 6 AP): Der Froststurm verursacht QS/2+1 Kältestufen."
-        },
-        {
-          "name": "Größere Reichweite",
-          "value": "(FW 16, 9 AP): Die Reichweite beträgt 32 Schritt"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 120",
       "Reichweite": "selbst",
@@ -2483,23 +2489,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Hohe Wahrscheinlichkeit",
+        "value": "(FW 8, 1 AP): Die Wahrscheinlichkeit steigt statt um 30 % nun um 60 %."
+      },
+      {
+        "name": "Einzelne Person",
+        "value": "(FW 12, 2 AP): Die Zeremonie kann auch nur auf eine Person angewendet werden, die dann besonders fruchtbar ist."
+      },
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 16, 3 AP): Die Wirkungsdauer beträgt QS Tage"
+      }
+    ],
     "name": "Fruchtbarkeit",
     "properties": {
       "KaP-Kosten": "4 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Hohe Wahrscheinlichkeit",
-          "value": "(FW 8, 1 AP): Die Wahrscheinlichkeit steigt statt um 30 % nun um 60 %."
-        },
-        {
-          "name": "Einzelne Person",
-          "value": "(FW 12, 2 AP): Die Zeremonie kann auch nur auf eine Person angewendet werden, die dann besonders fruchtbar ist."
-        },
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 16, 3 AP): Die Wirkungsdauer beträgt QS Tage"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 146",
       "Reichweite": "Berührung",
@@ -2513,23 +2519,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Aufrechterhaltend",
+        "value": "(FW 8, 1 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 8 KaP und 4 KaP pro 3 Stunden."
+      },
+      {
+        "name": "Sprachfähigkeit",
+        "value": "(FW 12, 2 AP): Die Geweihte kann in Tiergestalt sprechen."
+      },
+      {
+        "name": "Klerikales Tier",
+        "value": "(FW 16, 3 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung Sprachfähigkeit"
+      }
+    ],
     "name": "Fuchsgestalt",
     "properties": {
       "KaP-Kosten": "8 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Aufrechterhaltend",
-          "value": "(FW 8, 1 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 8 KaP und 4 KaP pro 3 Stunden."
-        },
-        {
-          "name": "Sprachfähigkeit",
-          "value": "(FW 12, 2 AP): Die Geweihte kann in Tiergestalt sprechen."
-        },
-        {
-          "name": "Klerikales Tier",
-          "value": "(FW 16, 3 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung Sprachfähigkeit"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Aventurisches Götterwirken, Seite 146 ff.",
       "Reichweite": "selbst",
@@ -2543,6 +2549,7 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [],
     "name": "Furchtresistenz",
     "properties": {
       "KaP-Kosten": "8 KaP",
@@ -2559,24 +2566,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Keine Aufrechterhaltung",
+        "value": "(FW 8, 2 AP): Die Liturgie gilt nicht als aufrechterhaltend. Die Wirkungsdauer und damit die KaP-Kosten müssen beim Wirken der Liturgie festgelegt werden."
+      },
+      {
+        "name": "Größere Reichweite",
+        "value": "(FW 12, 4 AP): Die Reichweite beträgt 16 Schritt. Der Geweihte kann innerhalb dieser Reichweite das Zentrum des Radius der Liturgie auswählen."
+      },
+      {
+        "name": "Große Brandherde",
+        "value": "(FW 16, 6 AP): Die Liturgie wirkt auch auf Brandherde, die so groß sind wie ein durchschnittliches, zweistöckiges Haus. Das Löschen dauert nach Meisterentscheid zwischen 2 und 20 KR"
+      }
+    ],
     "name": "Gebieter der Flammen",
     "properties": {
       "KaP-Kosten": "4 KaP (Aktivierung der Liturgie) + 2 KaP pro Minute",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Keine Aufrechterhaltung",
-          "value": "(FW 8, 2 AP): Die Liturgie gilt nicht als aufrechterhaltend. Die Wirkungsdauer und damit die KaP-Kosten müssen beim Wirken der Liturgie festgelegt werden."
-        },
-        {
-          "name": "Größere Reichweite",
-          "value": "(FW 12, 4 AP): Die Reichweite beträgt 16 Schritt. Der Geweihte kann innerhalb dieser Reichweite das Zentrum des Radius der Liturgie auswählen."
-        },
-        {
-          "name": "Große Brandherde",
-          "value": "(FW 16, 6 AP): Die Liturgie wirkt auch auf Brandherde, die so groß sind wie ein durchschnittliches, zweistöckiges Haus. Das Löschen dauert nach Meisterentscheid zwischen 2 und 20 KR"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Aventurisches Götterwirken, Seite 121",
       "Reichweite": "selbst",
@@ -2589,24 +2596,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Stärkere Gefühlskälte 1",
+        "value": "(FW 8, 2 AP): Die Boni betragen 2 Punkte."
+      },
+      {
+        "name": " Längere Wirkungsdauer",
+        "value": "(FW 12, 4 AP): Die Wirkungsdauer beträgt QS x 2 Minuten."
+      },
+      {
+        "name": " Stärkere Gefühlskälte 2",
+        "value": "(FW 16, 6 AP): Die Boni betragen 3 Punkte. Voraussetzung: Liturgieerweiterung Stärkere Gefühlskälte 1"
+      }
+    ],
     "name": "Gefühlskälte",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten nicht modifizierbar)",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Stärkere Gefühlskälte 1",
-          "value": "(FW 8, 2 AP): Die Boni betragen 2 Punkte."
-        },
-        {
-          "name": " Längere Wirkungsdauer",
-          "value": "(FW 12, 4 AP): Die Wirkungsdauer beträgt QS x 2 Minuten."
-        },
-        {
-          "name": " Stärkere Gefühlskälte 2",
-          "value": "(FW 16, 6 AP): Die Boni betragen 3 Punkte. Voraussetzung: Liturgieerweiterung Stärkere Gefühlskälte 1"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken II, Seite 79",
       "Reichweite": "selbst",
@@ -2619,24 +2626,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Größerer Radius",
+        "value": "(FW 8, 1 AP): Der Radius beträgt QS x 5 Schritt."
+      },
+      {
+        "name": " Keine Aufrechterhaltung",
+        "value": "(FW 12, 2 AP): Die Liturgie gilt nicht als aufrechterhaltend. Die Wirkungsdauer und damit die KaP-Kosten müssen beim Wirken der Liturgie festgelegt werden."
+      },
+      {
+        "name": "Auch du siehst tote Menschen!",
+        "value": "(FW 16, 3 AP): Solange der Geweihte einen anderen Kulturschaffenden berührt, können beide anwesende Geister sehen"
+      }
+    ],
     "name": "Geisterblick",
     "properties": {
       "KaP-Kosten": "4 KaP (Aktivierung der Liturgie) + 2 KaP pro Minute",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Größerer Radius",
-          "value": "(FW 8, 1 AP): Der Radius beträgt QS x 5 Schritt."
-        },
-        {
-          "name": " Keine Aufrechterhaltung",
-          "value": "(FW 12, 2 AP): Die Liturgie gilt nicht als aufrechterhaltend. Die Wirkungsdauer und damit die KaP-Kosten müssen beim Wirken der Liturgie festgelegt werden."
-        },
-        {
-          "name": "Auch du siehst tote Menschen!",
-          "value": "(FW 16, 3 AP): Solange der Geweihte einen anderen Kulturschaffenden berührt, können beide anwesende Geister sehen"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 121",
       "Reichweite": "selbst",
@@ -2649,23 +2656,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Größere Reichweite",
+        "value": "(FW 8, 2 AP): Die Reichweite beträgt 16 Schritt."
+      },
+      {
+        "name": " Untotenfalle (FW 12,4 AP): Die Liturgie wirkt auch gegen einen Untoten (Hirnlose)"
+      },
+      {
+        "name": " Kürzere Liturgiedauer",
+        "value": "(FW 16, 6 AP): Die Liturgiedauer beträgt 4 Aktionen"
+      }
+    ],
     "name": "Geisterfalle",
     "properties": {
       "KaP-Kosten": "16 KaP (Kosten nicht modifizierbar)",
       "Liturgiedauer": "8 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Größere Reichweite",
-          "value": "(FW 8, 2 AP): Die Reichweite beträgt 16 Schritt."
-        },
-        {
-          "name": " Untotenfalle (FW 12,4 AP): Die Liturgie wirkt auch gegen einen Untoten (Hirnlose)"
-        },
-        {
-          "name": " Kürzere Liturgiedauer",
-          "value": "(FW 16, 6 AP): Die Liturgiedauer beträgt 4 Aktionen"
-        }
-      ],
       "Probe": "MU/IN/CH (modifiziert um Anrufungsschwierigkeit)",
       "Publikationen": "Aventurisches Götterwirken II, Seite 79 ff.",
       "Reichweite": "8 Schritt",
@@ -2678,23 +2685,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": " Körpergefühl",
+        "value": "(FW 8, 3 AP): Der Schamane nimmt wahr, was mit seinem Körper geschieht, z. B. ob dieser Schaden erleidet."
+      },
+      {
+        "name": " Mitnahme",
+        "value": "(FW 12, 6 AP): Ein anderer Kulturschaffender kann zusammen mit dem Schamanen in das Totenreich reisen. Der Schamane muss dabei den anderen Kulturschaffenden während der Wirkungsdauer berühren."
+      },
+      {
+        "name": " Wechsel des Totenreichs",
+        "value": "(FW 16, 9 AP): Ein Wechsel in ein anderes Totenreich ist innerhalb von 5 Minuten möglich"
+      }
+    ],
     "name": "Geistersprache",
     "properties": {
       "KaP-Kosten": "16 KaP (Kosten sind nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Körpergefühl",
-          "value": "(FW 8, 3 AP): Der Schamane nimmt wahr, was mit seinem Körper geschieht, z. B. ob dieser Schaden erleidet."
-        },
-        {
-          "name": " Mitnahme",
-          "value": "(FW 12, 6 AP): Ein anderer Kulturschaffender kann zusammen mit dem Schamanen in das Totenreich reisen. Der Schamane muss dabei den anderen Kulturschaffenden während der Wirkungsdauer berühren."
-        },
-        {
-          "name": " Wechsel des Totenreichs",
-          "value": "(FW 16, 9 AP): Ein Wechsel in ein anderes Totenreich ist innerhalb von 5 Minuten möglich"
-        }
-      ],
       "Probe": "MU/KL/CH",
       "Publikationen": "Aventurisches Götterwirken II, Seite 96",
       "Reichweite": "selbst",
@@ -2708,23 +2715,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": " Kosten modifizierbar",
+        "value": "(FW 8, 2 AP): Die Kosten sind modifizierbar."
+      },
+      {
+        "name": " Kurze Regenerationsphase",
+        "value": "(FW 12, 4 AP): Unter der Wirkung der Zeremonie dauert eine Regenerationsphase nur 4 Stunden statt der üblichen 6."
+      },
+      {
+        "name": " Längerfristige Wirkung",
+        "value": "(FW 16, 6 AP): Bei der übernächsten Regenerationsphase nach der Zeremonie bekommt das Ziel weitere QS LeP dazu, sofern sie innerhalb von 48 Stunden begonnen wird. Die ursprüngliche Wirkung kommt ebenfalls zum Tragen"
+      }
+    ],
     "name": "Geistheilung",
     "properties": {
       "KaP-Kosten": "4 KaP (Kosten sind nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Kosten modifizierbar",
-          "value": "(FW 8, 2 AP): Die Kosten sind modifizierbar."
-        },
-        {
-          "name": " Kurze Regenerationsphase",
-          "value": "(FW 12, 4 AP): Unter der Wirkung der Zeremonie dauert eine Regenerationsphase nur 4 Stunden statt der üblichen 6."
-        },
-        {
-          "name": " Längerfristige Wirkung",
-          "value": "(FW 16, 6 AP): Bei der übernächsten Regenerationsphase nach der Zeremonie bekommt das Ziel weitere QS LeP dazu, sofern sie innerhalb von 48 Stunden begonnen wird. Die ursprüngliche Wirkung kommt ebenfalls zum Tragen"
-        }
-      ],
       "Probe": "KL/CH/KO",
       "Publikationen": "Aventurisches Götterwirken II, Seite 97",
       "Reichweite": "Berührung",
@@ -2738,24 +2745,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Mehr Münzen",
+        "value": "(FW 8, 1 AP): Die Liturgie gilt für QS x 5 Münzen."
+      },
+      {
+        "name": " Noch mehr Münzen",
+        "value": "(FW 12, 2 AP): Liturgie gilt für QS x 10 Münzen. Voraussetzung: Liturgieerweiterung Mehr Münzen."
+      },
+      {
+        "name": " Edelsteine zu Münzen",
+        "value": "(FW 16, 3 AP): Die Liturgie lässt sich auf Edelsteine anwenden, die sich dann in Münzen verwandeln. Der Wert der Münzen entspricht dem Wer der verwandelten Edelsteine"
+      }
+    ],
     "name": "Geldwechsel",
     "properties": {
       "KaP-Kosten": "1 KaP",
       "Liturgiedauer": "1 Aktion",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Mehr Münzen",
-          "value": "(FW 8, 1 AP): Die Liturgie gilt für QS x 5 Münzen."
-        },
-        {
-          "name": " Noch mehr Münzen",
-          "value": "(FW 12, 2 AP): Liturgie gilt für QS x 10 Münzen. Voraussetzung: Liturgieerweiterung Mehr Münzen."
-        },
-        {
-          "name": " Edelsteine zu Münzen",
-          "value": "(FW 16, 3 AP): Die Liturgie lässt sich auf Edelsteine anwenden, die sich dann in Münzen verwandeln. Der Wert der Münzen entspricht dem Wer der verwandelten Edelsteine"
-        }
-      ],
       "Probe": "KL/IN/FF",
       "Publikationen": "Aventurisches Götterwirken II, Seite 80",
       "Reichweite": "Berührung",
@@ -2768,23 +2775,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 8, 3 AP): Die Wirkungsdauer beträgt QS x 3 Stunden."
+      },
+      {
+        "name": "Einsichten ins andere Geschlecht",
+        "value": "(FW 12, 6 AP): Proben auf Betören (Liebeskünste) beim Liebesspiel gegenüber Personen des Geschlechts, in welches der Held durch die Zeremonie verwandelt wurde, sind um 1 erleichtert, solange die Wirkungsdauer anhält."
+      },
+      {
+        "name": "Wechselndes Geschlecht",
+        "value": "(FW 16, 9 AP): Während der Wirkungsdauer kann der Held beliebig zwischen den Geschlechtern wechseln. Dies erfordert jeweils 8 Aktionen und ist jeweils ein anstrengender Vorgang. Der Geschlechtswechselnde erleidet dadurch 1 Stufe Verwirrung"
+      }
+    ],
     "name": "Geschlechterwechsel",
     "properties": {
       "KaP-Kosten": "16 KaP (Kosten sind nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 8, 3 AP): Die Wirkungsdauer beträgt QS x 3 Stunden."
-        },
-        {
-          "name": "Einsichten ins andere Geschlecht",
-          "value": "(FW 12, 6 AP): Proben auf Betören (Liebeskünste) beim Liebesspiel gegenüber Personen des Geschlechts, in welches der Held durch die Zeremonie verwandelt wurde, sind um 1 erleichtert, solange die Wirkungsdauer anhält."
-        },
-        {
-          "name": "Wechselndes Geschlecht",
-          "value": "(FW 16, 9 AP): Während der Wirkungsdauer kann der Held beliebig zwischen den Geschlechtern wechseln. Dies erfordert jeweils 8 Aktionen und ist jeweils ein anstrengender Vorgang. Der Geschlechtswechselnde erleidet dadurch 1 Stufe Verwirrung"
-        }
-      ],
       "Probe": "MU/IN/KO",
       "Publikationen": "Wege der Vereinigungen, Seite 192<br>Aventurisches Götterwirken II, Seite 97",
       "Reichweite": "Berührung",
@@ -2798,23 +2805,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Reichweite Berührung",
+        "value": "(FW 8, 1 AP): Als Reichweite gilt Berührung. Die Zeremonie kann nur auf Kulturschaffende übertragen werden."
+      },
+      {
+        "name": "Geänderte Zielkategorie 1",
+        "value": "(FW 12, 2 AP): Als Ziel der Zeremonie dürfen auch Lebewesen der Größenkategorie winzig, klein und mittel gewählt werden. Voraussetzung: Liturgieerweiterung Reichweite Berührung."
+      },
+      {
+        "name": "Geänderte Zielkategorie 2",
+        "value": "(FW 16, 3 AP): Als Ziel der Zeremonie dürfen auch Lebewesen der Größenkategorie groß gewählt werden. Voraussetzung: Liturgieerweiterung Geänderte Zielkategorie 1"
+      }
+    ],
     "name": "Geschwinder Schritt",
     "properties": {
       "KaP-Kosten": "2 KaP (Kosten sind nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Reichweite Berührung",
-          "value": "(FW 8, 1 AP): Als Reichweite gilt Berührung. Die Zeremonie kann nur auf Kulturschaffende übertragen werden."
-        },
-        {
-          "name": "Geänderte Zielkategorie 1",
-          "value": "(FW 12, 2 AP): Als Ziel der Zeremonie dürfen auch Lebewesen der Größenkategorie winzig, klein und mittel gewählt werden. Voraussetzung: Liturgieerweiterung Reichweite Berührung."
-        },
-        {
-          "name": "Geänderte Zielkategorie 2",
-          "value": "(FW 16, 3 AP): Als Ziel der Zeremonie dürfen auch Lebewesen der Größenkategorie groß gewählt werden. Voraussetzung: Liturgieerweiterung Geänderte Zielkategorie 1"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 147",
       "Reichweite": "selbst",
@@ -2828,24 +2835,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Größere Menge 1",
+        "value": "(FW 8, 1 AP): QS Grundeinheiten eines Rauschmittels sind von der Wirkung betroffen."
+      },
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 12, 2 AP): Die Wirkungsdauer beträgt QS x 2 Stunden."
+      },
+      {
+        "name": "Größere Menge 2",
+        "value": "(FW 16, 3 AP): QS x 2 Grundeinheiten eines Rauschmittels sind von der Wirkung betroffen. Voraussetzung: Liturgieerweiterung Größere Menge 1"
+      }
+    ],
     "name": "Gesegneter Rausch",
     "properties": {
       "KaP-Kosten": "4 KaP",
       "Liturgiedauer": "8 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Größere Menge 1",
-          "value": "(FW 8, 1 AP): QS Grundeinheiten eines Rauschmittels sind von der Wirkung betroffen."
-        },
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 12, 2 AP): Die Wirkungsdauer beträgt QS x 2 Stunden."
-        },
-        {
-          "name": "Größere Menge 2",
-          "value": "(FW 16, 3 AP): QS x 2 Grundeinheiten eines Rauschmittels sind von der Wirkung betroffen. Voraussetzung: Liturgieerweiterung Größere Menge 1"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 122",
       "Reichweite": "Berührung",
@@ -2858,23 +2865,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer",
+        "value": "(FW 8, 3 AP): Die Wirkungsdauer beträgt QS x 2 Minuten."
+      },
+      {
+        "name": " Kontakt ins Paradies",
+        "value": "(FW 12, 6 AP): Die Zeremonie wirkt auch bei Seelen, die sich in einem der Paradiese der Zwölfe befinden."
+      },
+      {
+        "name": " Andere Totenreiche",
+        "value": "(FW 16, 9 AP): Die Zeremonie wirkt auch bei Seelen, die sich in anderen Totenreichen befinden"
+      }
+    ],
     "name": "Gespräch mit den Toten",
     "properties": {
       "KaP-Kosten": "16 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer",
-          "value": "(FW 8, 3 AP): Die Wirkungsdauer beträgt QS x 2 Minuten."
-        },
-        {
-          "name": " Kontakt ins Paradies",
-          "value": "(FW 12, 6 AP): Die Zeremonie wirkt auch bei Seelen, die sich in einem der Paradiese der Zwölfe befinden."
-        },
-        {
-          "name": " Andere Totenreiche",
-          "value": "(FW 16, 9 AP): Die Zeremonie wirkt auch bei Seelen, die sich in anderen Totenreichen befinden"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Aventurisches Götterwirken II, Seite 98",
       "Reichweite": "selbst",
@@ -2888,24 +2895,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Widerstandsfähig gegen Schädlinge",
+        "value": "(FW 8, 1 AP): Das Getreide wird resistent gegen Schädlinge."
+      },
+      {
+        "name": "Wachstum auf kargem Boden",
+        "value": "(FW 12, 2 AP): Das Getreide kann auf kargem Boden wachsen."
+      },
+      {
+        "name": "Hoher Ertrag",
+        "value": "(FW 16, 3 AP): Der Ertrag erhöht sich um QS x 10 %"
+      }
+    ],
     "name": "Getreidewachstum",
     "properties": {
       "KaP-Kosten": "4 KaP",
       "Liturgiedauer": "16 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Widerstandsfähig gegen Schädlinge",
-          "value": "(FW 8, 1 AP): Das Getreide wird resistent gegen Schädlinge."
-        },
-        {
-          "name": "Wachstum auf kargem Boden",
-          "value": "(FW 12, 2 AP): Das Getreide kann auf kargem Boden wachsen."
-        },
-        {
-          "name": "Hoher Ertrag",
-          "value": "(FW 16, 3 AP): Der Ertrag erhöht sich um QS x 10 %"
-        }
-      ],
       "Probe": "KL/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 122",
       "Reichweite": "Berührung",
@@ -2918,23 +2925,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 30 Minuten."
+      },
+      {
+        "name": "Starke Weihe",
+        "value": "(FW 12, 4 AP): Dämonen erleiden 1W3+1 SP bei der Berührung des geweihten Panzers."
+      },
+      {
+        "name": "Reichweite Berührung",
+        "value": "(FW 16, 6 AP): Als Reichweite gilt Berührung. Die Zeremonie kann nur auf Kulturschaffende übertragen werden"
+      }
+    ],
     "name": "Geweihter Panzer",
     "properties": {
       "KaP-Kosten": "16 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 30 Minuten."
-        },
-        {
-          "name": "Starke Weihe",
-          "value": "(FW 12, 4 AP): Dämonen erleiden 1W3+1 SP bei der Berührung des geweihten Panzers."
-        },
-        {
-          "name": "Reichweite Berührung",
-          "value": "(FW 16, 6 AP): Als Reichweite gilt Berührung. Die Zeremonie kann nur auf Kulturschaffende übertragen werden"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Regelwerk, Seite 331<br> Aventurisches Götterwirken, Seite 169",
       "Reichweite": "selbst",
@@ -2948,24 +2955,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Größere Reichweite",
+        "value": "(FW 8, 2 AP): Die Reichweite beträgt 4 Schritt."
+      },
+      {
+        "name": "Tadelloser Entgifter",
+        "value": "(FW 12, 4 AP): Für jeweils 4 zusätzliche KaP kann die QS bei einer gelungenen Probe um 1 erhöht werden (bis zu einem Maximum von 6)."
+      },
+      {
+        "name": "Vier Ziele",
+        "value": "(FW 16, 6 AP): Der Geweihte kann bis zu 4 Ziele gleichzeitig entgiften. Jedes Ziel nach dem ersten kostet zusätzlich Giftstufe x 2 KaP"
+      }
+    ],
     "name": "Giftbann",
     "properties": {
       "KaP-Kosten": "2 KaP pro Giftstufe (Kosten nicht modifizierbar)",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Größere Reichweite",
-          "value": "(FW 8, 2 AP): Die Reichweite beträgt 4 Schritt."
-        },
-        {
-          "name": "Tadelloser Entgifter",
-          "value": "(FW 12, 4 AP): Für jeweils 4 zusätzliche KaP kann die QS bei einer gelungenen Probe um 1 erhöht werden (bis zu einem Maximum von 6)."
-        },
-        {
-          "name": "Vier Ziele",
-          "value": "(FW 16, 6 AP): Der Geweihte kann bis zu 4 Ziele gleichzeitig entgiften. Jedes Ziel nach dem ersten kostet zusätzlich Giftstufe x 2 KaP"
-        }
-      ],
       "Probe": "KL/IN/CH",
       "Publikationen": "Regelwerk, Seite 325<br>Aventurisches Götterwirken, Seite 165",
       "Reichweite": "Berührung",
@@ -2978,6 +2985,7 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [],
     "name": "Gnade des Vergessens",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten sind nicht modifizierbar)",
@@ -2994,24 +3002,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt 10 KR."
+      },
+      {
+        "name": " Anderer Dolch",
+        "value": "(FW 12, 4 AP): Die Wirkung kann auch auf einen anderen Dolch als den Marbodolch gewirkt werden."
+      },
+      {
+        "name": " Schneller Tod",
+        "value": "(FW 16, 6 AP): Der Schaden wird verdreifacht statt verdoppelt"
+      }
+    ],
     "name": "Gnadenstoß",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten nicht modifizierbar)",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt 10 KR."
-        },
-        {
-          "name": " Anderer Dolch",
-          "value": "(FW 12, 4 AP): Die Wirkung kann auch auf einen anderen Dolch als den Marbodolch gewirkt werden."
-        },
-        {
-          "name": " Schneller Tod",
-          "value": "(FW 16, 6 AP): Der Schaden wird verdreifacht statt verdoppelt"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken II, Seite 81",
       "Reichweite": "Berührung",
@@ -3024,24 +3032,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Höherer Wert 1",
+        "value": "(FW 8, 3 AP): Der Wert des Gegenstandes entspricht 100 Dukaten."
+      },
+      {
+        "name": "Höherer Wert 2",
+        "value": "(FW 12, 6 AP): Der Wert des Gegenstandes entspricht 250 Dukaten. Voraussetzung: Liturgieerweiterung Höherer Wert 1."
+      },
+      {
+        "name": "Höherer Wert 3",
+        "value": "(FW 16, 9 AP): Der Wert des Gegenstandes entspricht 1.000 Dukaten. Voraussetzung: Liturgieerweiterung Höherer Wert 2"
+      }
+    ],
     "name": "Goldene Hand",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Höherer Wert 1",
-          "value": "(FW 8, 3 AP): Der Wert des Gegenstandes entspricht 100 Dukaten."
-        },
-        {
-          "name": "Höherer Wert 2",
-          "value": "(FW 12, 6 AP): Der Wert des Gegenstandes entspricht 250 Dukaten. Voraussetzung: Liturgieerweiterung Höherer Wert 1."
-        },
-        {
-          "name": "Höherer Wert 3",
-          "value": "(FW 16, 9 AP): Der Wert des Gegenstandes entspricht 1.000 Dukaten. Voraussetzung: Liturgieerweiterung Höherer Wert 2"
-        }
-      ],
       "Probe": "KL/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 122",
       "Reichweite": "Berührung",
@@ -3054,24 +3062,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Liturgiedauer modifizierbar",
+        "value": "(FW 8, 3 AP): Die Liturgiedauer darf doch modifiziert werden."
+      },
+      {
+        "name": "Harte Schale",
+        "value": "(FW 12, 6 AP): Der Geweihte kann sich auch einen RS von 4 verleihen. Die Kosten dafür betragen 32 KaP (nicht modifizierbar, selbst wenn Liturgieerweiterung Liturgiedauer modifizierbar vorhanden ist)."
+      },
+      {
+        "name": "Reichweite Berührung",
+        "value": "(FW 16, 9 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden. Die Kosten steigen dabei um eine Kategorie (von 4 auf 8, von 8 auf 16 usw.)"
+      }
+    ],
     "name": "Goldene Rüstung",
     "properties": {
       "KaP-Kosten": "4 KaP für RS 1, 8 KaP für RS 2, 16 KaP für RS 3",
       "Liturgiedauer": "2 Aktionen (Liturgiedauer ist nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Liturgiedauer modifizierbar",
-          "value": "(FW 8, 3 AP): Die Liturgiedauer darf doch modifiziert werden."
-        },
-        {
-          "name": "Harte Schale",
-          "value": "(FW 12, 6 AP): Der Geweihte kann sich auch einen RS von 4 verleihen. Die Kosten dafür betragen 32 KaP (nicht modifizierbar, selbst wenn Liturgieerweiterung Liturgiedauer modifizierbar vorhanden ist)."
-        },
-        {
-          "name": "Reichweite Berührung",
-          "value": "(FW 16, 9 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden. Die Kosten steigen dabei um eine Kategorie (von 4 auf 8, von 8 auf 16 usw.)"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Aventurisches Götterwirken, Seite 123",
       "Reichweite": "selbst",
@@ -3084,23 +3092,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Zeremoniedauer modifizierbar",
+        "value": "(FW 8, 4 AP): Die Zeremoniedauer ist doch modifizierbar."
+      },
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 12, 8 AP): Die Wirkungsdauer beträgt QS Stunden."
+      },
+      {
+        "name": "Karmaspende",
+        "value": "(FW 16, 12 AP): Der Greif nutzt auch sein eigenes Karma, um den Geweihten zu unterstützen"
+      }
+    ],
     "name": "Greifenruf",
     "properties": {
       "KaP-Kosten": "32 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Zeremoniedauer modifizierbar",
-          "value": "(FW 8, 4 AP): Die Zeremoniedauer ist doch modifizierbar."
-        },
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 12, 8 AP): Die Wirkungsdauer beträgt QS Stunden."
-        },
-        {
-          "name": "Karmaspende",
-          "value": "(FW 16, 12 AP): Der Greif nutzt auch sein eigenes Karma, um den Geweihten zu unterstützen"
-        }
-      ],
       "Probe": "KL/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 148ff.",
       "Reichweite": "selbst",
@@ -3114,23 +3122,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": " Mehr Waffen 1",
+        "value": "(FW 8, 4 AP): Die Weihe kann auf QS x 3 Waffen ausgedehnt werden."
+      },
+      {
+        "name": " Längere Wirkungsdauer",
+        "value": "(FW 12, 8 AP): Die Wirkungsdauer beträgt 1 Woche."
+      },
+      {
+        "name": " Mehr Waffen 2",
+        "value": "(FW 16, 12 AP): Die Weihe kann auf QS x 5 Waffen ausgedehnt werden. Voraussetzung: Liturgieerweiterung Mehr Waffen 1"
+      }
+    ],
     "name": "Große Wafenweihe",
     "properties": {
       "KaP-Kosten": "64 KaP (davon 4 permanent)",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Mehr Waffen 1",
-          "value": "(FW 8, 4 AP): Die Weihe kann auf QS x 3 Waffen ausgedehnt werden."
-        },
-        {
-          "name": " Längere Wirkungsdauer",
-          "value": "(FW 12, 8 AP): Die Wirkungsdauer beträgt 1 Woche."
-        },
-        {
-          "name": " Mehr Waffen 2",
-          "value": "(FW 16, 12 AP): Die Weihe kann auf QS x 5 Waffen ausgedehnt werden. Voraussetzung: Liturgieerweiterung Mehr Waffen 1"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken II, Seite 98 ff.",
       "Reichweite": "16 Schritt",
@@ -3144,23 +3152,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Leichteres Fischen",
+        "value": "(FW 8, 2 AP): Die Erleichterung bei der Fischen &amp; Angeln-Probe beträgt (QS/2)+1."
+      },
+      {
+        "name": "Mehr Rationen 1",
+        "value": "(FW 12, 4 AP): Die ermittelten Tagesrationen werden verdoppelt."
+      },
+      {
+        "name": "Mehr Rationen 2",
+        "value": "(FW 16, 6 AP): Die ermittelten Tagesrationen werden verdreifacht. Voraussetzung: Liturgieerweiterung Mehr Rationen 1"
+      }
+    ],
     "name": "Guter Fang",
     "properties": {
       "KaP-Kosten": "4 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Leichteres Fischen",
-          "value": "(FW 8, 2 AP): Die Erleichterung bei der Fischen &amp; Angeln-Probe beträgt (QS/2)+1."
-        },
-        {
-          "name": "Mehr Rationen 1",
-          "value": "(FW 12, 4 AP): Die ermittelten Tagesrationen werden verdoppelt."
-        },
-        {
-          "name": "Mehr Rationen 2",
-          "value": "(FW 16, 6 AP): Die ermittelten Tagesrationen werden verdreifacht. Voraussetzung: Liturgieerweiterung Mehr Rationen 1"
-        }
-      ],
       "Probe": "IN/CH/KO",
       "Publikationen": "Aventurisches Götterwirken, Seite 149<br>Havena - Versunkene Geheimnisse, Seite 86",
       "Reichweite": "Berührung",
@@ -3174,23 +3182,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Aufrechterhaltend",
+        "value": "(FW 8, 2 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 8 KaP und 4 KaP pro 3 Stunden."
+      },
+      {
+        "name": "Sprachfähigkeit",
+        "value": "(FW 12, 4 AP): Der Geweihte kann in Tiergestalt sprechen."
+      },
+      {
+        "name": "Klerikales Tier",
+        "value": "(FW 16, 6 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung Sprachfähigkeit"
+      }
+    ],
     "name": "Gänsegestalt",
     "properties": {
       "KaP-Kosten": "8 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Aufrechterhaltend",
-          "value": "(FW 8, 2 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 8 KaP und 4 KaP pro 3 Stunden."
-        },
-        {
-          "name": "Sprachfähigkeit",
-          "value": "(FW 12, 4 AP): Der Geweihte kann in Tiergestalt sprechen."
-        },
-        {
-          "name": "Klerikales Tier",
-          "value": "(FW 16, 6 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung Sprachfähigkeit"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Aventurisches Götterwirken, Seite 147",
       "Reichweite": "selbst",
@@ -3204,23 +3212,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Mehr Proben 1",
+        "value": "(FW 8, 2 AP): Der Geweihte bekommt eine Begabung für die nächsten zwei Proben auf ein Wissenstalent innerhalb der Wirkungsdauer."
+      },
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 12, 4 AP): Die Wirkungsdauer beträgt QS x 30 Minuten."
+      },
+      {
+        "name": "Mehr Proben 2",
+        "value": "(FW 16, 6 AP): Der Geweihte bekommt eine Begabung für die nächsten drei Proben auf ein Wissenstalent innerhalb der Wirkungsdauer. Voraussetzung: Liturgieerweiterung Mehr Proben 1"
+      }
+    ],
     "name": "Göttliche Erkenntnis",
     "properties": {
       "KaP-Kosten": "4 KaP (Kosten sind nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Mehr Proben 1",
-          "value": "(FW 8, 2 AP): Der Geweihte bekommt eine Begabung für die nächsten zwei Proben auf ein Wissenstalent innerhalb der Wirkungsdauer."
-        },
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 12, 4 AP): Die Wirkungsdauer beträgt QS x 30 Minuten."
-        },
-        {
-          "name": "Mehr Proben 2",
-          "value": "(FW 16, 6 AP): Der Geweihte bekommt eine Begabung für die nächsten drei Proben auf ein Wissenstalent innerhalb der Wirkungsdauer. Voraussetzung: Liturgieerweiterung Mehr Proben 1"
-        }
-      ],
       "Probe": "KL/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 147ff.",
       "Reichweite": "selbst",
@@ -3234,24 +3242,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 5 KR."
+      },
+      {
+        "name": "Höhere Reichweite",
+        "value": "(FW 12, 4 AP): Die Reichweite beträgt 4 Schritt."
+      },
+      {
+        "name": "Mehrere Ziele",
+        "value": "(FW 16, 6 AP): Der Geweihte kann beliebig viele Ziele gleichzeitig weihen. Jedes Ziel nach dem ersten kostet zusätzlich 8 KaP"
+      }
+    ],
     "name": "Göttliche Klinge",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten sind nicht modifizierbar)",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 5 KR."
-        },
-        {
-          "name": "Höhere Reichweite",
-          "value": "(FW 12, 4 AP): Die Reichweite beträgt 4 Schritt."
-        },
-        {
-          "name": "Mehrere Ziele",
-          "value": "(FW 16, 6 AP): Der Geweihte kann beliebig viele Ziele gleichzeitig weihen. Jedes Ziel nach dem ersten kostet zusätzlich 8 KaP"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Aventurisches Götterwirken, Seite 123",
       "Reichweite": "Berührung",
@@ -3264,23 +3272,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer 1",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS Stunden."
+      },
+      {
+        "name": " Längere Wirkungsdauer 2",
+        "value": "(FW 12, 4 AP): Die Wirkungsdauer beträgt QS x 2 Stunden. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer I."
+      },
+      {
+        "name": " Andere Schützen",
+        "value": "(FW 16, 6 AP): Auch andere Personen können von den Vorteilen der liturgisch gestärkten Fernkampfwaffe profitieren"
+      }
+    ],
     "name": "Göttliche Präzision",
     "properties": {
       "KaP-Kosten": "16 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer 1",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS Stunden."
-        },
-        {
-          "name": " Längere Wirkungsdauer 2",
-          "value": "(FW 12, 4 AP): Die Wirkungsdauer beträgt QS x 2 Stunden. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer I."
-        },
-        {
-          "name": " Andere Schützen",
-          "value": "(FW 16, 6 AP): Auch andere Personen können von den Vorteilen der liturgisch gestärkten Fernkampfwaffe profitieren"
-        }
-      ],
       "Probe": "MU/IN/KO",
       "Publikationen": "Aventurisches Götterwirken II, Seite 98",
       "Reichweite": "Berührung",
@@ -3294,24 +3302,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Heimattempel",
+        "value": "(FW 8, 3 AP): Die Botschaft wird an den heimatlichen Tempelvorsteher (oder in Abwesenheit: an dessen Stellvertreter) gesendet. Die Reichweite wird dabei automatisch auf unbegrenzt erhöht, solange sich der Geweihte noch auf demselben Kontinent befindet."
+      },
+      {
+        "name": "Größere Reichweite",
+        "value": "(FW 12, 6 AP): Die Reichweite beträgt QS x 10 Meilen."
+      },
+      {
+        "name": "Persönlicher Bekannter",
+        "value": "(FW 16, 9 AP): Die Botschaft kann an einen, dem Geweihten persönlich bekannten, anderen Geweihten der eigenen Tradition gesendet werden. Die Reichweite wird dabei automatisch auf unbegrenzt erhöht, solange sich der Geweihte noch auf demselben Kontinent befindet. Voraussetzung: Liturgieerweiterung Heimattempel"
+      }
+    ],
     "name": "Göttliche Verständigung",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Heimattempel",
-          "value": "(FW 8, 3 AP): Die Botschaft wird an den heimatlichen Tempelvorsteher (oder in Abwesenheit: an dessen Stellvertreter) gesendet. Die Reichweite wird dabei automatisch auf unbegrenzt erhöht, solange sich der Geweihte noch auf demselben Kontinent befindet."
-        },
-        {
-          "name": "Größere Reichweite",
-          "value": "(FW 12, 6 AP): Die Reichweite beträgt QS x 10 Meilen."
-        },
-        {
-          "name": "Persönlicher Bekannter",
-          "value": "(FW 16, 9 AP): Die Botschaft kann an einen, dem Geweihten persönlich bekannten, anderen Geweihten der eigenen Tradition gesendet werden. Die Reichweite wird dabei automatisch auf unbegrenzt erhöht, solange sich der Geweihte noch auf demselben Kontinent befindet. Voraussetzung: Liturgieerweiterung Heimattempel"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 123",
       "Reichweite": "selbst",
@@ -3324,24 +3332,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Weiter entfernter Gegenstand",
+        "value": "(FW 8, 1 AP): Der Gegenstand darf bis zu QS x 2 Schritt vom Geweihten entfernt sein."
+      },
+      {
+        "name": "Magischer Fingerzeig",
+        "value": "(FW 12, 2 AP): Der Gegenstand darf auch durch magisches Wirken verborgen sein, aber die QS von Göttlicher Fingerzeig muss die QS der Magie übersteigen."
+      },
+      {
+        "name": "Karmaler Fingerzeig",
+        "value": "(FW 16, 3 AP): Der Gegenstand darf auch durch karmales Wirken verborgen sein, aber die QS von Göttlicher Fingerzeig muss die QS der Liturgie übersteigen"
+      }
+    ],
     "name": "Göttlicher Fingerzeig",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Weiter entfernter Gegenstand",
-          "value": "(FW 8, 1 AP): Der Gegenstand darf bis zu QS x 2 Schritt vom Geweihten entfernt sein."
-        },
-        {
-          "name": "Magischer Fingerzeig",
-          "value": "(FW 12, 2 AP): Der Gegenstand darf auch durch magisches Wirken verborgen sein, aber die QS von Göttlicher Fingerzeig muss die QS der Magie übersteigen."
-        },
-        {
-          "name": "Karmaler Fingerzeig",
-          "value": "(FW 16, 3 AP): Der Gegenstand darf auch durch karmales Wirken verborgen sein, aber die QS von Göttlicher Fingerzeig muss die QS der Liturgie übersteigen"
-        }
-      ],
       "Probe": "KL/IN/IN",
       "Publikationen": "Regelwerk Seite 326<br>Aventurisches Götterwirken, Seite 165",
       "Reichweite": "selbst",
@@ -3354,24 +3362,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer 1",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 2 Minuten.<br>"
+      },
+      {
+        "name": " Mächtiger Rausch",
+        "value": "(FW 12, 4 AP): Die Liturgie gewährt einen Bonus von +2 FW.<br>"
+      },
+      {
+        "name": " Längere Wirkungsdauer 2",
+        "value": "(FW 16, 6 AP): Die Wirkungsdauer beträgt QS x 5 Minuten. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1"
+      }
+    ],
     "name": "Göttlicher Rausch",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "8 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer 1",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 2 Minuten.<br>"
-        },
-        {
-          "name": " Mächtiger Rausch",
-          "value": "(FW 12, 4 AP): Die Liturgie gewährt einen Bonus von +2 FW.<br>"
-        },
-        {
-          "name": " Längere Wirkungsdauer 2",
-          "value": "(FW 16, 6 AP): Die Wirkungsdauer beträgt QS x 5 Minuten. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken II, Seite 81",
       "Reichweite": "selbst",
@@ -3384,24 +3392,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Größere Reichweite",
+        "value": "(FW 8, 1 AP): Die Reichweite beträgt 16 Schritt."
+      },
+      {
+        "name": "Größerer Radius",
+        "value": "(FW 12, 2 AP): Der Radius beträgt QS x 25 Schritt."
+      },
+      {
+        "name": "Mächtiges Zeichen",
+        "value": "(FW 16, 3 AP): Die Erleichterung beträgt 2"
+      }
+    ],
     "name": "Göttliches Zeichen",
     "properties": {
       "KaP-Kosten": "4 KaP",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Größere Reichweite",
-          "value": "(FW 8, 1 AP): Die Reichweite beträgt 16 Schritt."
-        },
-        {
-          "name": "Größerer Radius",
-          "value": "(FW 12, 2 AP): Der Radius beträgt QS x 25 Schritt."
-        },
-        {
-          "name": "Mächtiges Zeichen",
-          "value": "(FW 16, 3 AP): Die Erleichterung beträgt 2"
-        }
-      ],
       "Probe": "IN/IN/CH",
       "Publikationen": "Regelwerk, Seite 326<br>Aventurisches Götterwirken, Seite 165ff.",
       "Reichweite": "4 Schritt",
@@ -3414,24 +3422,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt 30 Minuten."
+      },
+      {
+        "name": " Mehr Befehle",
+        "value": "(FW 12, 4 AP): Der Schamane kann während der Wirkungsdauer bis zu 3 Befehle aussprechen, welche die Wesen befolgen."
+      },
+      {
+        "name": " Mehr Wesen",
+        "value": "(FW 16, 6 AP): Es erscheint ein zusätzliches Wesen"
+      }
+    ],
     "name": "Hairuf",
     "properties": {
       "KaP-Kosten": "16 KaP (Kosten nicht modifizierbar)",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt 30 Minuten."
-        },
-        {
-          "name": " Mehr Befehle",
-          "value": "(FW 12, 4 AP): Der Schamane kann während der Wirkungsdauer bis zu 3 Befehle aussprechen, welche die Wesen befolgen."
-        },
-        {
-          "name": " Mehr Wesen",
-          "value": "(FW 16, 6 AP): Es erscheint ein zusätzliches Wesen"
-        }
-      ],
       "Probe": "MU/IN/CH (modifiziert um SK)",
       "Publikationen": "Aventurisches Götterwirken II, Seite 80 ff.",
       "Reichweite": "selbst",
@@ -3444,24 +3452,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Schweres Ausweichen",
+        "value": "(FW 8, 2 AP): Die Probe auf Ausweichen ist zusätzlich um –2 erschwert.<br>"
+      },
+      {
+        "name": " Harter Aufprall",
+        "value": "(FW 12, 4 AP): Der Schaden erhöht sich auf 1W6+6 TP.<br>"
+      },
+      {
+        "name": " Zwei Ziele",
+        "value": "(FW 16, 6 AP): Der Schamane kann bis zu 2 Ziele gleichzeitig treffen. Die AsP-Kosten des Zaubers verdoppeln sich"
+      }
+    ],
     "name": "Hauch des Elements",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten sind nicht modifizierbar)",
       "Liturgiedauer": "1 Aktion",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Schweres Ausweichen",
-          "value": "(FW 8, 2 AP): Die Probe auf Ausweichen ist zusätzlich um –2 erschwert.<br>"
-        },
-        {
-          "name": " Harter Aufprall",
-          "value": "(FW 12, 4 AP): Der Schaden erhöht sich auf 1W6+6 TP.<br>"
-        },
-        {
-          "name": " Zwei Ziele",
-          "value": "(FW 16, 6 AP): Der Schamane kann bis zu 2 Ziele gleichzeitig treffen. Die AsP-Kosten des Zaubers verdoppeln sich"
-        }
-      ],
       "Probe": "MU/KL/CH",
       "Publikationen": "Aventurisches Götterwirken II, Seite 81",
       "Reichweite": "8 Schritt",
@@ -3474,24 +3482,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Größere Reichweite",
+        "value": "(FW 8, 3 AP): Die Reichweite beträgt 8 Schritt."
+      },
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 12, 6 AP): Die Wirkungsdauer beträgt QS x 3 Minuten."
+      },
+      {
+        "name": "Mehrere Ziele",
+        "value": "(FW 16, 9 AP): Der Geweihte kann beliebig vielen Zielen gleichzeitig befehlen. Jedes Ziel nach dem ersten kostet zusätzlich 8 KaP"
+      }
+    ],
     "name": "Heiliger Befehl",
     "properties": {
       "KaP-Kosten": "16 KaP",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Größere Reichweite",
-          "value": "(FW 8, 3 AP): Die Reichweite beträgt 8 Schritt."
-        },
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 12, 6 AP): Die Wirkungsdauer beträgt QS x 3 Minuten."
-        },
-        {
-          "name": "Mehrere Ziele",
-          "value": "(FW 16, 9 AP): Der Geweihte kann beliebig vielen Zielen gleichzeitig befehlen. Jedes Ziel nach dem ersten kostet zusätzlich 8 KaP"
-        }
-      ],
       "Probe": "MU/KL/CH (modifiziert um SK)",
       "Publikationen": "Aventurisches Götterwirken, Seite 123ff.",
       "Reichweite": "4 Schritt",
@@ -3504,23 +3512,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Starker Schwur 1",
+        "value": "(FW 8, 2 AP): Die Willenskraft-Probe ist um (QS/2)+1 erschwert."
+      },
+      {
+        "name": "Starker Schwur 2",
+        "value": "(FW 12, 4 AP): Die Willenskraft-Probe ist um (QS/2)+2 erschwert. Voraussetzung: Liturgieerweiterung Starker Schwur 1."
+      },
+      {
+        "name": "Starker Schwur 3",
+        "value": "(FW 16, 6 AP): Die Willenskraft-Probe ist um (QS/2)+3 erschwert. Voraussetzung: Liturgieerweiterung Starker Schwur 2"
+      }
+    ],
     "name": "Heiliger Schwur",
     "properties": {
       "KaP-Kosten": "8 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Starker Schwur 1",
-          "value": "(FW 8, 2 AP): Die Willenskraft-Probe ist um (QS/2)+1 erschwert."
-        },
-        {
-          "name": "Starker Schwur 2",
-          "value": "(FW 12, 4 AP): Die Willenskraft-Probe ist um (QS/2)+2 erschwert. Voraussetzung: Liturgieerweiterung Starker Schwur 1."
-        },
-        {
-          "name": "Starker Schwur 3",
-          "value": "(FW 16, 6 AP): Die Willenskraft-Probe ist um (QS/2)+3 erschwert. Voraussetzung: Liturgieerweiterung Starker Schwur 2"
-        }
-      ],
       "Probe": "MU/KL/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 149",
       "Reichweite": "Berührung",
@@ -3534,24 +3542,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Größere Reichweite",
+        "value": "(FW 8, 1 AP): Die Reichweite beträgt 4 Schritt."
+      },
+      {
+        "name": "Längere Wirkungsdauer 1",
+        "value": "(FW 12, 2 AP): Die Wirkungsdauer beträgt QS Stunden."
+      },
+      {
+        "name": "Längere Wirkungsdauer 2",
+        "value": "(FW 16, 3 AP): Die Wirkungsdauer beträgt QS x 2 Stunden. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1"
+      }
+    ],
     "name": "Heiliges Liebesspiel",
     "properties": {
       "KaP-Kosten": "4 KaP",
       "Liturgiedauer": "8 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Größere Reichweite",
-          "value": "(FW 8, 1 AP): Die Reichweite beträgt 4 Schritt."
-        },
-        {
-          "name": "Längere Wirkungsdauer 1",
-          "value": "(FW 12, 2 AP): Die Wirkungsdauer beträgt QS Stunden."
-        },
-        {
-          "name": "Längere Wirkungsdauer 2",
-          "value": "(FW 16, 3 AP): Die Wirkungsdauer beträgt QS x 2 Stunden. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 123<br>Wege der Vereinigungen, Seite 190",
       "Reichweite": "Berührung",
@@ -3564,24 +3572,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Mächtige Heilsame Quelle",
+        "value": "(FW 8, 1 AP): Der Trinkende erhält QS+3 LeP zurück."
+      },
+      {
+        "name": "Erfrischende Heilquelle",
+        "value": "(FW 12, 2 AP): Pro volle 3 zurückerhaltene LeP baut der Trinkende auch eine Stufe Betäubung ab."
+      },
+      {
+        "name": "Zwei Trinkende",
+        "value": "(FW 16, 3 AP): Zwei Personen können von der Quelle profitieren"
+      }
+    ],
     "name": "Heilsame Quelle",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "8 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Mächtige Heilsame Quelle",
-          "value": "(FW 8, 1 AP): Der Trinkende erhält QS+3 LeP zurück."
-        },
-        {
-          "name": "Erfrischende Heilquelle",
-          "value": "(FW 12, 2 AP): Pro volle 3 zurückerhaltene LeP baut der Trinkende auch eine Stufe Betäubung ab."
-        },
-        {
-          "name": "Zwei Trinkende",
-          "value": "(FW 16, 3 AP): Zwei Personen können von der Quelle profitieren"
-        }
-      ],
       "Probe": "KL/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 124<br>Havena - Versunkene Geheimnisse, Seite 85",
       "Reichweite": "1 Schritt",
@@ -3594,23 +3602,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": " Starke Heilung",
+        "value": "(FW 8, 2 AP): Das Ziel erhält QS x 2 LeP."
+      },
+      {
+        "name": " Mehrere Ziele",
+        "value": "(FW 12, 4 AP): Die Zeremonie kann auf mehrere Ziele gewirkt werden. Die Kosten erhöhen sich um 4 KaP pro zusätzlichem Ziel."
+      },
+      {
+        "name": " Karmale Heilung",
+        "value": "(FW 16, 6 AP): Statt LeP werden KaP regeneriert. Der Geweihte kann diese Erweiterung nicht auf sich selbst anwenden"
+      }
+    ],
     "name": "Heilschlaf",
     "properties": {
       "KaP-Kosten": "4 KaP (Kosten sind nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Starke Heilung",
-          "value": "(FW 8, 2 AP): Das Ziel erhält QS x 2 LeP."
-        },
-        {
-          "name": " Mehrere Ziele",
-          "value": "(FW 12, 4 AP): Die Zeremonie kann auf mehrere Ziele gewirkt werden. Die Kosten erhöhen sich um 4 KaP pro zusätzlichem Ziel."
-        },
-        {
-          "name": " Karmale Heilung",
-          "value": "(FW 16, 6 AP): Statt LeP werden KaP regeneriert. Der Geweihte kann diese Erweiterung nicht auf sich selbst anwenden"
-        }
-      ],
       "Probe": "MU/CH/KO",
       "Publikationen": "Aventurisches Götterwirken II, Seite 99",
       "Reichweite": "Berührung",
@@ -3624,24 +3632,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Zielkategorie Lebewesen",
+        "value": "(FW 8, 2 AP): Die Liturgie umfasst auch die Zielkategorie Lebewesen."
+      },
+      {
+        "name": "Größere Reichweite",
+        "value": "(FW 12, 4 AP): Die Reichweite beträgt 8 Schritt."
+      },
+      {
+        "name": "Vier Ziele",
+        "value": "(FW 16, 6 AP): Der Geweihte kann bis zu 4 Ziele gleichzeitig heilen. Jedes Ziel nach dem ersten kostet zusätzlich mindestens 4 KaP (oder die Kosten der zurückgegebenen LeP, je nachdem, was teurer ist)"
+      }
+    ],
     "name": "Heilsegen",
     "properties": {
       "KaP-Kosten": "1 KaP pro LeP, mindestens jedoch 4 KaP (Kosten sind nicht modifizierbar)",
       "Liturgiedauer": "16 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Zielkategorie Lebewesen",
-          "value": "(FW 8, 2 AP): Die Liturgie umfasst auch die Zielkategorie Lebewesen."
-        },
-        {
-          "name": "Größere Reichweite",
-          "value": "(FW 12, 4 AP): Die Reichweite beträgt 8 Schritt."
-        },
-        {
-          "name": "Vier Ziele",
-          "value": "(FW 16, 6 AP): Der Geweihte kann bis zu 4 Ziele gleichzeitig heilen. Jedes Ziel nach dem ersten kostet zusätzlich mindestens 4 KaP (oder die Kosten der zurückgegebenen LeP, je nachdem, was teurer ist)"
-        }
-      ],
       "Probe": "KL/IN/CH",
       "Publikationen": "Regelwerk, Seite 326<br>Aventurisches Götterwirken, Seite 166",
       "Reichweite": "Berührung",
@@ -3654,23 +3662,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer 1",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt 1 Woche. Die Kosten erhöhen sich um 4 KaP."
+      },
+      {
+        "name": " Längere Wirkungsdauer 2",
+        "value": "(FW 12, 4 AP): Die Wirkungsdauer beträgt 1 Monat. Die Kosten erhöhen sich um 8 KaP. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1."
+      },
+      {
+        "name": " Seelenqual verursachen",
+        "value": "(FW 16, 6 AP): Die Geweihte kann eine der oben genannten Nachteile beim Ziel erzeugen. Der Nachteil bleibt 24 Stunden erhalten"
+      }
+    ],
     "name": "Heilung von Seelenkranken",
     "properties": {
       "KaP-Kosten": "16 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer 1",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt 1 Woche. Die Kosten erhöhen sich um 4 KaP."
-        },
-        {
-          "name": " Längere Wirkungsdauer 2",
-          "value": "(FW 12, 4 AP): Die Wirkungsdauer beträgt 1 Monat. Die Kosten erhöhen sich um 8 KaP. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1."
-        },
-        {
-          "name": " Seelenqual verursachen",
-          "value": "(FW 16, 6 AP): Die Geweihte kann eine der oben genannten Nachteile beim Ziel erzeugen. Der Nachteil bleibt 24 Stunden erhalten"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken II, Seite 99",
       "Reichweite": "Berührung",
@@ -3684,24 +3692,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt 10 KR."
+      },
+      {
+        "name": "Reichweite Berührung",
+        "value": "(FW 12, 4 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden."
+      },
+      {
+        "name": "Mehrere Ziele",
+        "value": "(FW 16, 6 AP): Der Geweihte kann beliebig viele Ziele gleichzeitig segnen. Jedes Ziel nach dem ersten kostet zusätzlich 8 KaP"
+      }
+    ],
     "name": "Heldenkraft",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten sind nicht modifizierbar)",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt 10 KR."
-        },
-        {
-          "name": "Reichweite Berührung",
-          "value": "(FW 12, 4 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden."
-        },
-        {
-          "name": "Mehrere Ziele",
-          "value": "(FW 16, 6 AP): Der Geweihte kann beliebig viele Ziele gleichzeitig segnen. Jedes Ziel nach dem ersten kostet zusätzlich 8 KaP"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 124",
       "Reichweite": "selbst",
@@ -3714,24 +3722,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Gemeinsam sind wir stark",
+        "value": "(FW 8, 2 AP): Die Erleichterung gilt auch bei Gruppenvergleichsproben."
+      },
+      {
+        "name": "Viele starke Hände 1",
+        "value": "(FW 12, 4 AP): Möglich sind bis zu QS Erleichterungen, die auf maximal 6 Personen verteilt werden (bis zu einem Maximum von 2 Erleichterungen pro Person)."
+      },
+      {
+        "name": "Viele starke Hände 2",
+        "value": "(FW 16, 6 AP): Möglich sind bis zu QS Erleichterungen, die auf maximal 6 Personen verteilt werden (bis zu einem Maximum von 3 Erleichterungen pro Person). Voraussetzung: Liturgieerweiterung Viele starke Hände 1"
+      }
+    ],
     "name": "Helfende Hand",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "16 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Gemeinsam sind wir stark",
-          "value": "(FW 8, 2 AP): Die Erleichterung gilt auch bei Gruppenvergleichsproben."
-        },
-        {
-          "name": "Viele starke Hände 1",
-          "value": "(FW 12, 4 AP): Möglich sind bis zu QS Erleichterungen, die auf maximal 6 Personen verteilt werden (bis zu einem Maximum von 2 Erleichterungen pro Person)."
-        },
-        {
-          "name": "Viele starke Hände 2",
-          "value": "(FW 16, 6 AP): Möglich sind bis zu QS Erleichterungen, die auf maximal 6 Personen verteilt werden (bis zu einem Maximum von 3 Erleichterungen pro Person). Voraussetzung: Liturgieerweiterung Viele starke Hände 1"
-        }
-      ],
       "Probe": "KL/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 124",
       "Reichweite": "Berührung",
@@ -3744,24 +3752,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Angriffslust",
+        "value": "(FW 8, 2 AP): Die Ratten erhalten +1 AT."
+      },
+      {
+        "name": "Rattenplage",
+        "value": "(FW 12, 4 AP): Pro volle 10 Ratten, die ein Opfer angreifen, erleidet dieses eine Erschwernis von 1 auf alle Körpertalente, AT, Verteidigungen und FK, wenn die Ratten sich in Angriffsdistanz befinden."
+      },
+      {
+        "name": "Rattenüberschwemmung",
+        "value": "(FW 16, 6 AP): Wenn sich mindestens 10 Ratten in Angriffsdistanz befinden und der Held eine Handlung ausführt, um sich zu bewegen, muss ihm eine Probe auf Körperbeherrschung (Kampfmanöver) gelingen, sonst erleidet er den Status Liegend. Erschwert ist die Probe um Anzahl der Ratten/20, also erst ab 10 Ratten um 1. Voraussetzung: Liturgieerweiterung Rattenplage"
+      }
+    ],
     "name": "Herbeirufung der Heerscharen des Rattenkindes",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "1 Aktion",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Angriffslust",
-          "value": "(FW 8, 2 AP): Die Ratten erhalten +1 AT."
-        },
-        {
-          "name": "Rattenplage",
-          "value": "(FW 12, 4 AP): Pro volle 10 Ratten, die ein Opfer angreifen, erleidet dieses eine Erschwernis von 1 auf alle Körpertalente, AT, Verteidigungen und FK, wenn die Ratten sich in Angriffsdistanz befinden."
-        },
-        {
-          "name": "Rattenüberschwemmung",
-          "value": "(FW 16, 6 AP): Wenn sich mindestens 10 Ratten in Angriffsdistanz befinden und der Held eine Handlung ausführt, um sich zu bewegen, muss ihm eine Probe auf Körperbeherrschung (Kampfmanöver) gelingen, sonst erleidet er den Status Liegend. Erschwert ist die Probe um Anzahl der Ratten/20, also erst ab 10 Ratten um 1. Voraussetzung: Liturgieerweiterung Rattenplage"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 125<br>Niobaras Vermächtnis, Seite 100<br>Offenbarung des Himmels, Seite 62",
       "Reichweite": "32 Schritt",
@@ -3774,24 +3782,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Angriffslust",
+        "value": "(FW 8, 3 AP): Die Schakale erhalten +1 AT."
+      },
+      {
+        "name": "Meute",
+        "value": "(FW 12, 6 AP): Schakale, die gemeinsam einen Gegner angreifen, erhalten pro Schakal in der Überzahl +1 AT (bis zu einem Maximum von +4 AT)."
+      },
+      {
+        "name": "Raserei",
+        "value": "(FW 16, 9 AP): Schakale werden durch Verletzungen in den Status Raserei versetzt. Sobald sie 5 LeP verloren haben, gelten für sie folgende Modifikatoren: +2 TP, immun gegen Schmerz. Dieser Status hält an, bis der Gegner getötet wurde, längstens jedoch eine halbe Stunde"
+      }
+    ],
     "name": "Herbeirufung der Heerscharen des Rattenkindes (Schakale)",
     "properties": {
       "KaP-Kosten": "16 KaP",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Angriffslust",
-          "value": "(FW 8, 3 AP): Die Schakale erhalten +1 AT."
-        },
-        {
-          "name": "Meute",
-          "value": "(FW 12, 6 AP): Schakale, die gemeinsam einen Gegner angreifen, erhalten pro Schakal in der Überzahl +1 AT (bis zu einem Maximum von +4 AT)."
-        },
-        {
-          "name": "Raserei",
-          "value": "(FW 16, 9 AP): Schakale werden durch Verletzungen in den Status Raserei versetzt. Sobald sie 5 LeP verloren haben, gelten für sie folgende Modifikatoren: +2 TP, immun gegen Schmerz. Dieser Status hält an, bis der Gegner getötet wurde, längstens jedoch eine halbe Stunde"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 126",
       "Reichweite": "32 Schritt",
@@ -3804,24 +3812,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Angriffslust",
+        "value": "(FW 8, 2 AP): Die Vampirfledermäuse erhalten +1 AT."
+      },
+      {
+        "name": "Fledermausschwarm",
+        "value": "(FW 12, 4 AP): Pro vollen 10 Vampirfledermäusen rings um den Geweihten des Namenlosen erhöht sich die Stufe der Sichtbehinderung um 1, bis zu einem Maximum von 4"
+      },
+      {
+        "name": "Loyal bis in den Tod",
+        "value": "(FW 16, 6 AP): Die Vampirfledermäuse werfen sich in die Geschosse eines Fernkampfangriffs, der auf den Namenlosen-Geweihten gerichtet ist. Ein gelungener Fernkampfangriff trifft zuerst die Vampirfledermäuse. Sollten die LeP einer Vampirfledermaus auf 0 sinken, stürzt sich sofort eine neue Fledermaus in die Flugbahn, sodass überzählige SP von ihren LeP abgezogen werden. Voraussetzung: Liturgieerweiterung Fledermausschwarm"
+      }
+    ],
     "name": "Herbeirufung der Heerscharen des Rattenkindes (Vampirfledermäuse)",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "1 Aktion",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Angriffslust",
-          "value": "(FW 8, 2 AP): Die Vampirfledermäuse erhalten +1 AT."
-        },
-        {
-          "name": "Fledermausschwarm",
-          "value": "(FW 12, 4 AP): Pro vollen 10 Vampirfledermäusen rings um den Geweihten des Namenlosen erhöht sich die Stufe der Sichtbehinderung um 1, bis zu einem Maximum von 4"
-        },
-        {
-          "name": "Loyal bis in den Tod",
-          "value": "(FW 16, 6 AP): Die Vampirfledermäuse werfen sich in die Geschosse eines Fernkampfangriffs, der auf den Namenlosen-Geweihten gerichtet ist. Ein gelungener Fernkampfangriff trifft zuerst die Vampirfledermäuse. Sollten die LeP einer Vampirfledermaus auf 0 sinken, stürzt sich sofort eine neue Fledermaus in die Flugbahn, sodass überzählige SP von ihren LeP abgezogen werden. Voraussetzung: Liturgieerweiterung Fledermausschwarm"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 126",
       "Reichweite": "32 Schritt",
@@ -3834,24 +3842,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Angriffslust",
+        "value": "(FW 8, 3 AP): Die Spinnen erhalten +1 AT."
+      },
+      {
+        "name": "Starkes Gift",
+        "value": "(FW 12, 6 AP): Die Giftstufe des Wolfsspinnengifts beträgt 6 statt 4."
+      },
+      {
+        "name": "Spinnenpanik",
+        "value": "(FW 16, 9 AP): Pro vollen 10 Spinnen, die sich in Sichtweite befinden, erhalten alle Kulturschaffenden, außer dem Geweihten, eine Stufe des Nachteils Angst vor Spinnen"
+      }
+    ],
     "name": "Herbeirufung der Heerscharen des Rattenkindes (Wolfsspinnen)",
     "properties": {
       "KaP-Kosten": "16 KaP",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Angriffslust",
-          "value": "(FW 8, 3 AP): Die Spinnen erhalten +1 AT."
-        },
-        {
-          "name": "Starkes Gift",
-          "value": "(FW 12, 6 AP): Die Giftstufe des Wolfsspinnengifts beträgt 6 statt 4."
-        },
-        {
-          "name": "Spinnenpanik",
-          "value": "(FW 16, 9 AP): Pro vollen 10 Spinnen, die sich in Sichtweite befinden, erhalten alle Kulturschaffenden, außer dem Geweihten, eine Stufe des Nachteils Angst vor Spinnen"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 127",
       "Reichweite": "32 Schritt",
@@ -3864,16 +3872,16 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Nebelkrähenschar",
+        "value": "(FW 12, 4 AP): Pro vollen fünf Nebelkrähen um den Geweihten des Tairach erhöht sich die Sichtbehinderung um 1 bis zu einem Maximum von 4. Die Liturgie kann mehrfach gewirkt werden"
+      }
+    ],
     "name": "Herbeirufung von Tairachs Dienern (Nebelkrähen)",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Nebelkrähenschar",
-          "value": "(FW 12, 4 AP): Pro vollen fünf Nebelkrähen um den Geweihten des Tairach erhöht sich die Sichtbehinderung um 1 bis zu einem Maximum von 4. Die Liturgie kann mehrfach gewirkt werden"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Donnerwacht 2 - Das Bündnis der Wacht, Seite 49f",
       "Reichweite": "32 Schritt",
@@ -3885,24 +3893,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Auch Gegenstände",
+        "value": "(FW 8, 2 AP): Am Leib getragene Kleidung und Gegenstände werden ebenfalls geschützt."
+      },
+      {
+        "name": "Weniger Feuerschaden",
+        "value": "(FW 12, 4 AP): TP durch Feuerschaden werden halbiert und dann aufgerundet. Danach wird der RS abgezogen."
+      },
+      {
+        "name": "Reichweite Berührung",
+        "value": "(FW 16, 6 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden"
+      }
+    ],
     "name": "Herr der Flammen",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "8 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Auch Gegenstände",
-          "value": "(FW 8, 2 AP): Am Leib getragene Kleidung und Gegenstände werden ebenfalls geschützt."
-        },
-        {
-          "name": "Weniger Feuerschaden",
-          "value": "(FW 12, 4 AP): TP durch Feuerschaden werden halbiert und dann aufgerundet. Danach wird der RS abgezogen."
-        },
-        {
-          "name": "Reichweite Berührung",
-          "value": "(FW 16, 6 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 128",
       "Reichweite": "selbst",
@@ -3915,23 +3923,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Größere Wasserfahrzeuge 1",
+        "value": "(FW 8, 2 AP): Das Wasserfahrzeug kann bis zu 30 Schritt lang sein und bis zu 60 Personen Platz bieten."
+      },
+      {
+        "name": "Größere Wasserfahrzeuge 2",
+        "value": "(FW 12, 4 AP): Das Wasserfahrzeug kann bis zu 40 Schritt lang sein und bis zu 120 Personen Platz bieten. Voraussetzung: Liturgieerweiterung Größere Wasserfahrzeuge 1."
+      },
+      {
+        "name": "Mehrere Ziele",
+        "value": "(FW 16, 6 AP): Die Zeremonie wirkt auf mehrere Wasserfahrzeuge, jedes Ziel nach dem ersten kostet zusätzlich 16 KaP"
+      }
+    ],
     "name": "Herr der Meere",
     "properties": {
       "KaP-Kosten": "16 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Größere Wasserfahrzeuge 1",
-          "value": "(FW 8, 2 AP): Das Wasserfahrzeug kann bis zu 30 Schritt lang sein und bis zu 60 Personen Platz bieten."
-        },
-        {
-          "name": "Größere Wasserfahrzeuge 2",
-          "value": "(FW 12, 4 AP): Das Wasserfahrzeug kann bis zu 40 Schritt lang sein und bis zu 120 Personen Platz bieten. Voraussetzung: Liturgieerweiterung Größere Wasserfahrzeuge 1."
-        },
-        {
-          "name": "Mehrere Ziele",
-          "value": "(FW 16, 6 AP): Die Zeremonie wirkt auf mehrere Wasserfahrzeuge, jedes Ziel nach dem ersten kostet zusätzlich 16 KaP"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 149ff.",
       "Reichweite": "Berührung",
@@ -3945,23 +3953,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Genaue Entfernung",
+        "value": "(FW 8, 1 AP): Die Geweihte kann auf eine Meile genau sagen, wie weit die notleidende Person entfernt ist."
+      },
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 12, 2 AP): Die Wirkungsdauer beträgt QS Stunden."
+      },
+      {
+        "name": "Genaue Erreichbarkeit",
+        "value": "(FW 16, 3 AP): Die Geweihte kann genauere Angaben zur Erreichbarkeit machen und z. B. spüren, ob ein Fluss oder ein Berg im Weg ist. Somit kann sie auch Umwege einkalkulieren"
+      }
+    ],
     "name": "Hilfe in der Not",
     "properties": {
       "KaP-Kosten": "4 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Genaue Entfernung",
-          "value": "(FW 8, 1 AP): Die Geweihte kann auf eine Meile genau sagen, wie weit die notleidende Person entfernt ist."
-        },
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 12, 2 AP): Die Wirkungsdauer beträgt QS Stunden."
-        },
-        {
-          "name": "Genaue Erreichbarkeit",
-          "value": "(FW 16, 3 AP): Die Geweihte kann genauere Angaben zur Erreichbarkeit machen und z. B. spüren, ob ein Fluss oder ein Berg im Weg ist. Somit kann sie auch Umwege einkalkulieren"
-        }
-      ],
       "Probe": "KL/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 150",
       "Reichweite": "selbst",
@@ -3975,24 +3983,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 8, 1 AP): Die Wirkungsdauer beträgt QS Tage."
+      },
+      {
+        "name": "Starke Prinzipientreue 1",
+        "value": "(FW 12, 2 AP): Das Ziel erhält Prinzipientreue II (Ifirnkirche)."
+      },
+      {
+        "name": "Starke Prinzipientreue 2",
+        "value": "(FW 16, 3 AP): Das Ziel erhält Prinzipientreue III (Ifirnkirche). Voraussetzung: Liturgieerweiterung Starke Prinzipientreue 1"
+      }
+    ],
     "name": "Hilfreiche Seele",
     "properties": {
       "KaP-Kosten": "4 KaP",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 8, 1 AP): Die Wirkungsdauer beträgt QS Tage."
-        },
-        {
-          "name": "Starke Prinzipientreue 1",
-          "value": "(FW 12, 2 AP): Das Ziel erhält Prinzipientreue II (Ifirnkirche)."
-        },
-        {
-          "name": "Starke Prinzipientreue 2",
-          "value": "(FW 16, 3 AP): Das Ziel erhält Prinzipientreue III (Ifirnkirche). Voraussetzung: Liturgieerweiterung Starke Prinzipientreue 1"
-        }
-      ],
       "Probe": "MU/IN/CH (modifiziert um SK)",
       "Publikationen": "Aventurisches Götterwirken, Seite 128",
       "Reichweite": "8 Schritt",
@@ -4005,23 +4013,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": " Größerer Gegenstand",
+        "value": "(FW 8, 4 AP): Der Gegenstand kann etwa die Größe einer Tür aufweisen."
+      },
+      {
+        "name": " Minimale Wirkungsdauer",
+        "value": "(FW 12, 8 AP): Phex garantiert, dass der Gegenstand mindestens 1 Monat lang am Himmel bleibt."
+      },
+      {
+        "name": " Rückrufbar",
+        "value": "(FW 16, 12 AP): Der Gegenstand kann jederzeit vom Geweihten zurückgerufen werden"
+      }
+    ],
     "name": "Himmlische Schatzkammer",
     "properties": {
       "KaP-Kosten": "16 KaP (Kosten nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Größerer Gegenstand",
-          "value": "(FW 8, 4 AP): Der Gegenstand kann etwa die Größe einer Tür aufweisen."
-        },
-        {
-          "name": " Minimale Wirkungsdauer",
-          "value": "(FW 12, 8 AP): Phex garantiert, dass der Gegenstand mindestens 1 Monat lang am Himmel bleibt."
-        },
-        {
-          "name": " Rückrufbar",
-          "value": "(FW 16, 12 AP): Der Gegenstand kann jederzeit vom Geweihten zurückgerufen werden"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken II, Seite 99 ff.",
       "Reichweite": "Berührung",
@@ -4035,23 +4043,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": " Aufrechterhaltend",
+        "value": "(FW 8, 1 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 4 KaP und 2 KaP pro 3 Stunden."
+      },
+      {
+        "name": " Sprachfähigkeit",
+        "value": "(FW 12, 2 AP): Der Geweihte kann in Tiergestalt sprechen."
+      },
+      {
+        "name": " Klerikales Tier",
+        "value": "(FW 16, 3 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung Sprachfähigkeit"
+      }
+    ],
     "name": "Hundegestalt",
     "properties": {
       "KaP-Kosten": "8 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Aufrechterhaltend",
-          "value": "(FW 8, 1 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 4 KaP und 2 KaP pro 3 Stunden."
-        },
-        {
-          "name": " Sprachfähigkeit",
-          "value": "(FW 12, 2 AP): Der Geweihte kann in Tiergestalt sprechen."
-        },
-        {
-          "name": " Klerikales Tier",
-          "value": "(FW 16, 3 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung Sprachfähigkeit"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Aventurisches Götterwirken II, Seite 100",
       "Reichweite": "selbst",
@@ -4065,23 +4073,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Andere Augen, anderes Haar",
+        "value": "(FW 8, 4 AP): Die Augen- und Haarfarbe ändern sich bei der Häutung nach dem Willen der Geweihten."
+      },
+      {
+        "name": "Größer und kleiner",
+        "value": "(FW 12, 8 AP): Die Größe der Geweihten kann pro Häutung um bis zu 1 Finger willentlich nach oben oder unten geändert werden."
+      },
+      {
+        "name": "Eigene Wahl",
+        "value": "(FW 16, 12 AP): Details des Aussehens können von der Geweihten willentlich bestimmt werden. Regeltechnische Vor- und Nachteile lassen sich jedoch auch mit der Erweiterung nicht beeinflussen"
+      }
+    ],
     "name": "Häutung",
     "properties": {
       "KaP-Kosten": "32 KaP, davon 2 permanent (Kosten sind nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Andere Augen, anderes Haar",
-          "value": "(FW 8, 4 AP): Die Augen- und Haarfarbe ändern sich bei der Häutung nach dem Willen der Geweihten."
-        },
-        {
-          "name": "Größer und kleiner",
-          "value": "(FW 12, 8 AP): Die Größe der Geweihten kann pro Häutung um bis zu 1 Finger willentlich nach oben oder unten geändert werden."
-        },
-        {
-          "name": "Eigene Wahl",
-          "value": "(FW 16, 12 AP): Details des Aussehens können von der Geweihten willentlich bestimmt werden. Regeltechnische Vor- und Nachteile lassen sich jedoch auch mit der Erweiterung nicht beeinflussen"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 149",
       "Reichweite": "selbst",
@@ -4095,24 +4103,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt 10 Minuten."
+      },
+      {
+        "name": "Reichweite Berührung",
+        "value": "(FW 12, 4 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden."
+      },
+      {
+        "name": "Mehrere Ziele",
+        "value": "(FW 16, 6 AP): Der Geweihte kann beliebig viele Ziele gleichzeitig stärken. Jedes Ziel nach dem ersten kostet zusätzlich 8 KaP"
+      }
+    ],
     "name": "Innere Ruhe",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt 10 Minuten."
-        },
-        {
-          "name": "Reichweite Berührung",
-          "value": "(FW 12, 4 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden."
-        },
-        {
-          "name": "Mehrere Ziele",
-          "value": "(FW 16, 6 AP): Der Geweihte kann beliebig viele Ziele gleichzeitig stärken. Jedes Ziel nach dem ersten kostet zusätzlich 8 KaP"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Aventurisches Götterwirken, Seite 128",
       "Reichweite": "selbst",
@@ -4125,23 +4133,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Reichweite Berührung",
+        "value": "(FW 8, 2 AP): Als Reichweite gilt Berührung. Die Zeremonie kann nur auf Kulturschaffende übertragen werden."
+      },
+      {
+        "name": "Längere Wirkungsdauer 1",
+        "value": "(FW 12, 4 AP): Die Wirkungsdauer beträgt 8 Stunden."
+      },
+      {
+        "name": "Längere Wirkungsdauer 2",
+        "value": "(FW 16, 6 AP): Die Wirkungsdauer beträgt 16 Stunden. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1"
+      }
+    ],
     "name": "Inspiration",
     "properties": {
       "KaP-Kosten": "8 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Reichweite Berührung",
-          "value": "(FW 8, 2 AP): Als Reichweite gilt Berührung. Die Zeremonie kann nur auf Kulturschaffende übertragen werden."
-        },
-        {
-          "name": "Längere Wirkungsdauer 1",
-          "value": "(FW 12, 4 AP): Die Wirkungsdauer beträgt 8 Stunden."
-        },
-        {
-          "name": "Längere Wirkungsdauer 2",
-          "value": "(FW 16, 6 AP): Die Wirkungsdauer beträgt 16 Stunden. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Aventurisches Götterwirken, Seite 150",
       "Reichweite": "selbst",
@@ -4155,23 +4163,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Mehr Proben 1",
+        "value": "(FW 8, 1 AP): Das Ziel bekommt eine Begabung für die nächsten zwei Proben auf Tierkunde bei der Jagd innerhalb der Wirkungsdauer."
+      },
+      {
+        "name": "Reichweite Berührung",
+        "value": "(FW 12, 2 AP): Als Reichweite gilt Berührung. Die Zeremonie kann nur auf Kulturschaffende übertragen werden."
+      },
+      {
+        "name": "Mehr Proben 2",
+        "value": "(FW 16, 3 AP): Das Ziel bekommt eine Begabung für die nächsten drei Proben auf Tierkunde bei der Jagd innerhalb der Wirkungsdauer. Voraussetzung: Liturgieerweiterung Mehr Proben 1"
+      }
+    ],
     "name": "Jagdglück",
     "properties": {
       "KaP-Kosten": "4 KaP (Kosten sind nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Mehr Proben 1",
-          "value": "(FW 8, 1 AP): Das Ziel bekommt eine Begabung für die nächsten zwei Proben auf Tierkunde bei der Jagd innerhalb der Wirkungsdauer."
-        },
-        {
-          "name": "Reichweite Berührung",
-          "value": "(FW 12, 2 AP): Als Reichweite gilt Berührung. Die Zeremonie kann nur auf Kulturschaffende übertragen werden."
-        },
-        {
-          "name": "Mehr Proben 2",
-          "value": "(FW 16, 3 AP): Das Ziel bekommt eine Begabung für die nächsten drei Proben auf Tierkunde bei der Jagd innerhalb der Wirkungsdauer. Voraussetzung: Liturgieerweiterung Mehr Proben 1"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 150ff.",
       "Reichweite": "selbst",
@@ -4185,23 +4193,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": " Aufrechterhaltend",
+        "value": "(FW 8, 3 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 4 KaP und 2 KaP pro 3 Stunden."
+      },
+      {
+        "name": " Sprachfähigkeit",
+        "value": "(FW 12, 6 AP): Die Schamanin kann in Tiergestalt sprechen."
+      },
+      {
+        "name": " Klerikales Tier",
+        "value": "(FW 16, 9 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung Sprachfähigkeit"
+      }
+    ],
     "name": "Jaguargestalt",
     "properties": {
       "KaP-Kosten": "8 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Aufrechterhaltend",
-          "value": "(FW 8, 3 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 4 KaP und 2 KaP pro 3 Stunden."
-        },
-        {
-          "name": " Sprachfähigkeit",
-          "value": "(FW 12, 6 AP): Die Schamanin kann in Tiergestalt sprechen."
-        },
-        {
-          "name": " Klerikales Tier",
-          "value": "(FW 16, 9 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung Sprachfähigkeit"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Aventurisches Götterwirken II, Siete 100 ff.",
       "Reichweite": "selbst",
@@ -4215,23 +4223,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Reichweite Berührung",
+        "value": "(FW 8, 4 AP): Als Reichweite gilt Berührung. Die Zeremonie kann nur auf Kulturschaffende übertragen werden."
+      },
+      {
+        "name": "Zielkategorie Lebewesen",
+        "value": "(FW 12, 8 AP): Die Zeremonie umfasst auch die Zielkategorie Lebewesen."
+      },
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 16, 12 AP): Die Wirkungsdauer beträgt QS Jahre. Die KaP-Kosten steigen auf 64"
+      }
+    ],
     "name": "Jugendlichkeit",
     "properties": {
       "KaP-Kosten": "32 KaP (Kosten sind nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Reichweite Berührung",
-          "value": "(FW 8, 4 AP): Als Reichweite gilt Berührung. Die Zeremonie kann nur auf Kulturschaffende übertragen werden."
-        },
-        {
-          "name": "Zielkategorie Lebewesen",
-          "value": "(FW 12, 8 AP): Die Zeremonie umfasst auch die Zielkategorie Lebewesen."
-        },
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 16, 12 AP): Die Wirkungsdauer beträgt QS Jahre. Die KaP-Kosten steigen auf 64"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 151",
       "Reichweite": "selbst",
@@ -4245,24 +4253,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 3 KR."
+      },
+      {
+        "name": " Mehr Manöver",
+        "value": "(FW 12, 4 AP): Die Wirkung gilt für die nächsten beiden Spezialmanöver innerhalb der Wirkungsdauer."
+      },
+      {
+        "name": " Reichweite Berührung",
+        "value": "(FW 16, 6 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden"
+      }
+    ],
     "name": "Kampfgeschick",
     "properties": {
       "KaP-Kosten": "4 KaP (Kosten nicht modifizierbar)",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 3 KR."
-        },
-        {
-          "name": " Mehr Manöver",
-          "value": "(FW 12, 4 AP): Die Wirkung gilt für die nächsten beiden Spezialmanöver innerhalb der Wirkungsdauer."
-        },
-        {
-          "name": " Reichweite Berührung",
-          "value": "(FW 16, 6 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden"
-        }
-      ],
       "Probe": "MU/IN/KO",
       "Publikationen": "Aventurisches Götterwirken II, Seite 82",
       "Reichweite": "selbst",
@@ -4275,24 +4283,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Besonders klarer Geist",
+        "value": "(FW 8, 2 AP): Die Liturgie hebt QS/2+1 Stufen Verwirrung auf. Dies kostet 4 KaP zusätzlich."
+      },
+      {
+        "name": "Größere Reichweite",
+        "value": "(FW 12, 4 AP): Die Reichweite beträgt 4 Schritt."
+      },
+      {
+        "name": "Zielkategorie Lebewesen",
+        "value": "(FW 16, 6 AP): Die Liturgie umfasst auch die Zielkategorie Lebewesen"
+      }
+    ],
     "name": "Klarer Geist",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Besonders klarer Geist",
-          "value": "(FW 8, 2 AP): Die Liturgie hebt QS/2+1 Stufen Verwirrung auf. Dies kostet 4 KaP zusätzlich."
-        },
-        {
-          "name": "Größere Reichweite",
-          "value": "(FW 12, 4 AP): Die Reichweite beträgt 4 Schritt."
-        },
-        {
-          "name": "Zielkategorie Lebewesen",
-          "value": "(FW 16, 6 AP): Die Liturgie umfasst auch die Zielkategorie Lebewesen"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Aventurisches Götterwirken, Seite 128",
       "Reichweite": "Berührung",
@@ -4305,24 +4313,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer 1",
+        "value": "(FW 8, 1 AP): Die Wirkungsdauer beträgt QS x 2 Stunden."
+      },
+      {
+        "name": " Längere Wirkungsdauer 2",
+        "value": "(FW 12, 2 AP): Die Wirkungsdauer beträgt QS x 5 Stunden. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1."
+      },
+      {
+        "name": " Längere Wirkungsdauer 3",
+        "value": "(FW 16, 3 AP): Die Wirkungsdauer beträgt QS x 10 Stunden. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 2"
+      }
+    ],
     "name": "Kleidungschamäleon",
     "properties": {
       "KaP-Kosten": "4 KaP",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer 1",
-          "value": "(FW 8, 1 AP): Die Wirkungsdauer beträgt QS x 2 Stunden."
-        },
-        {
-          "name": " Längere Wirkungsdauer 2",
-          "value": "(FW 12, 2 AP): Die Wirkungsdauer beträgt QS x 5 Stunden. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1."
-        },
-        {
-          "name": " Längere Wirkungsdauer 3",
-          "value": "(FW 16, 3 AP): Die Wirkungsdauer beträgt QS x 10 Stunden. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 2"
-        }
-      ],
       "Probe": "KL/IN/CH",
       "Publikationen": "Aventurisches Götterwirken II, Seite 82 ff.",
       "Reichweite": "Berührung",
@@ -4335,23 +4343,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 3 Tage."
+      },
+      {
+        "name": "Gute Moral",
+        "value": "(FW 12, 4 AP): Bis zu drei Willenskraft (Bedrohungen standhalten oder Einschüchtern widerstehen)- Proben können neu gewürfelt werden."
+      },
+      {
+        "name": "Gute Selbstbeherrschung",
+        "value": "(FW 16, 6 AP): Zusätzlich können auch Proben auf das Talent Selbstbeherrschung im Rahmen der Wirkung der Zeremonie neu gewürfelt werden"
+      }
+    ],
     "name": "Kleine Moralstärkung",
     "properties": {
       "KaP-Kosten": "16 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 3 Tage."
-        },
-        {
-          "name": "Gute Moral",
-          "value": "(FW 12, 4 AP): Bis zu drei Willenskraft (Bedrohungen standhalten oder Einschüchtern widerstehen)- Proben können neu gewürfelt werden."
-        },
-        {
-          "name": "Gute Selbstbeherrschung",
-          "value": "(FW 16, 6 AP): Zusätzlich können auch Proben auf das Talent Selbstbeherrschung im Rahmen der Wirkung der Zeremonie neu gewürfelt werden"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 151",
       "Reichweite": "32 Schritt",
@@ -4365,24 +4373,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Erschwertes Ausweichen",
+        "value": "(FW 8, 2 AP): Die Probe auf Ausweichen ist um 1 erschwert."
+      },
+      {
+        "name": " Höherer Schaden",
+        "value": "(FW 12, 4 AP): Die kleine Windhose richtet 1W6+QS TP an."
+      },
+      {
+        "name": " Größere Reichweite",
+        "value": "(FW 16, 6 AP): Die Reichweite beträgt 32 Schritt"
+      }
+    ],
     "name": "Kleine Windhose",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "1 Aktion",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Erschwertes Ausweichen",
-          "value": "(FW 8, 2 AP): Die Probe auf Ausweichen ist um 1 erschwert."
-        },
-        {
-          "name": " Höherer Schaden",
-          "value": "(FW 12, 4 AP): Die kleine Windhose richtet 1W6+QS TP an."
-        },
-        {
-          "name": " Größere Reichweite",
-          "value": "(FW 16, 6 AP): Die Reichweite beträgt 32 Schritt"
-        }
-      ],
       "Probe": "MU/CH/KO",
       "Publikationen": "Aventurisches Götterwirken, Seite 129<br>Havena - Versunkene Geheimnisse, Seite 85",
       "Reichweite": "16 Schritt",
@@ -4399,20 +4407,6 @@ export const DSAChants = [[
     "properties": {
       "KaP-Kosten": "4 KaP (Kosten sind nicht modifizierbar)",
       "Liturgiedauer": "1 Aktion",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Verteilter Schaden 1",
-          "value": "(FW 8, 2 AP): Der Geweihte wählt 2 Ziele in Reichweite aus. Der Schaden kann beliebig auf beide Ziele verteilt werden."
-        },
-        {
-          "name": " Verteilter Schaden 2",
-          "value": "(FW 12, 4 AP): Der Geweihte wählt 3 Ziele in Reichweite aus. Der Schaden kann beliebig auf alle Ziele verteilt werden. Voraussetzung: Liturgieerweiterung Verteilter Schaden 1."
-        },
-        {
-          "name": " Zwei Ziele",
-          "value": "(FW 16, 6 AP): Der Geweihte kann bis zu 2 Ziele gleichzeitig treffen. Die KaP-Kosten der Liturgie verdoppeln sich"
-        }
-      ],
       "Probe": "MU/MU/CH (modifiziert um ZK)",
       "Publikationen": "Regelwerk Seite 327<br>Aventurisches Götterwirken, Seite 166",
       "Reichweite": "8 Schritt",
@@ -4425,24 +4419,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Verteilter Schaden 1",
+        "value": "(FW 8, 2 AP): Der Geweihte wählt 2 Ziele in Reichweite aus. Der Schaden kann beliebig auf beide Ziele verteilt werden."
+      },
+      {
+        "name": " Verteilter Schaden 2",
+        "value": "(FW 12, 4 AP): Der Geweihte wählt 3 Ziele in Reichweite aus. Der Schaden kann beliebig auf alle Ziele verteilt werden. Voraussetzung: Liturgieerweiterung Verteilter Schaden 1."
+      },
+      {
+        "name": " Zwei Ziele",
+        "value": "(FW 16, 6 AP): Der Geweihte kann bis zu 2 Ziele gleichzeitig treffen. Die KaP Kosten der Liturgie verdoppeln sich"
+      }
+    ],
     "name": "Kleiner Bannstrahl",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten sind nicht modifizierbar)",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Verteilter Schaden 1",
-          "value": "(FW 8, 2 AP): Der Geweihte wählt 2 Ziele in Reichweite aus. Der Schaden kann beliebig auf beide Ziele verteilt werden."
-        },
-        {
-          "name": " Verteilter Schaden 2",
-          "value": "(FW 12, 4 AP): Der Geweihte wählt 3 Ziele in Reichweite aus. Der Schaden kann beliebig auf alle Ziele verteilt werden. Voraussetzung: Liturgieerweiterung Verteilter Schaden 1."
-        },
-        {
-          "name": " Zwei Ziele",
-          "value": "(FW 16, 6 AP): Der Geweihte kann bis zu 2 Ziele gleichzeitig treffen. Die KaP Kosten der Liturgie verdoppeln sich"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Regelwerk, Seite 327<br>Aventurisches Götterwirken, Seite 166",
       "Reichweite": "16 Schritt",
@@ -4455,24 +4449,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 10 KR."
+      },
+      {
+        "name": " Sehr stark",
+        "value": "(FW 12, 4 AP): Die Boni erhöhen sich auf +3."
+      },
+      {
+        "name": " Schmerzen ignorieren",
+        "value": "(FW 16, 6 AP): Schmerz kann bis zu Stufe 3 ignoriert werden"
+      }
+    ],
     "name": "Kraftvoller Körper",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 10 KR."
-        },
-        {
-          "name": " Sehr stark",
-          "value": "(FW 12, 4 AP): Die Boni erhöhen sich auf +3."
-        },
-        {
-          "name": " Schmerzen ignorieren",
-          "value": "(FW 16, 6 AP): Schmerz kann bis zu Stufe 3 ignoriert werden"
-        }
-      ],
       "Probe": "MU/IN/KO",
       "Publikationen": "Aventurisches Götterwirken II, Seite 83",
       "Reichweite": "selbst",
@@ -4485,24 +4479,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer 1",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 2 Stunden."
+      },
+      {
+        "name": " Reichweite Berührung",
+        "value": "(FW 12, 4 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden."
+      },
+      {
+        "name": " Längere Wirkungsdauer 2",
+        "value": "(FW 16, 6 AP): Die Wirkungsdauer beträgt QS x 5 Stunden. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1"
+      }
+    ],
     "name": "Krankheiten vorbeugen",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "8 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer 1",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 2 Stunden."
-        },
-        {
-          "name": " Reichweite Berührung",
-          "value": "(FW 12, 4 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden."
-        },
-        {
-          "name": " Längere Wirkungsdauer 2",
-          "value": "(FW 16, 6 AP): Die Wirkungsdauer beträgt QS x 5 Stunden. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1"
-        }
-      ],
       "Probe": "IN/IN/CH",
       "Publikationen": "Aventurisches Götterwirken II, Seite 83",
       "Reichweite": "selbst",
@@ -4515,24 +4509,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Größere Reichweite",
+        "value": "(FW 8, 2 AP): Die Reichweite beträgt 4 Schritt."
+      },
+      {
+        "name": " Tadelloser Krankheitsheiler",
+        "value": "(FW 12, 4 AP): Für jeweils 4 zusätzliche KaP kann die QS bei einer gelungenen Probe um 1 erhöht werden (bis zu einem Maximum von 6)."
+      },
+      {
+        "name": " Vier Ziele",
+        "value": "(FW 16, 6 AP): Der Geweihte kann bis zu 4 Ziele gleichzeitig heilen. Jedes Ziel nach dem ersten kostet zusätzlich Krankheitsstufe x 2 KaP"
+      }
+    ],
     "name": "Krankheitsbann",
     "properties": {
       "KaP-Kosten": "2 KaP pro Krankheitsstufe (Kosten nicht modifizierbar)",
       "Liturgiedauer": "16 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Größere Reichweite",
-          "value": "(FW 8, 2 AP): Die Reichweite beträgt 4 Schritt."
-        },
-        {
-          "name": " Tadelloser Krankheitsheiler",
-          "value": "(FW 12, 4 AP): Für jeweils 4 zusätzliche KaP kann die QS bei einer gelungenen Probe um 1 erhöht werden (bis zu einem Maximum von 6)."
-        },
-        {
-          "name": " Vier Ziele",
-          "value": "(FW 16, 6 AP): Der Geweihte kann bis zu 4 Ziele gleichzeitig heilen. Jedes Ziel nach dem ersten kostet zusätzlich Krankheitsstufe x 2 KaP"
-        }
-      ],
       "Probe": "KL/IN/CH",
       "Publikationen": "Regelwerk, Seite 327<br>Aventurisches Götterwirken, Seite 166",
       "Reichweite": "Berührung",
@@ -4545,24 +4539,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Stärke des Tiers 1",
+        "value": "(FW 8, 1 AP): Der Schamane erhält zusätzlich +1 TP."
+      },
+      {
+        "name": " Wirklich stark",
+        "value": "(FW 12, 2 AP): Der Schamane bekommt QS+2 FW in Kraftakt dazu."
+      },
+      {
+        "name": " Stärke des Tiers 2",
+        "value": "(FW 16, 3 AP): Der Schamane erhält zusätzlich +1 TP, mit Stärke des Tiers 1 also +2 TP. Voraussetzung: Liturgieerweiterung Stärke des Tiers 1"
+      }
+    ],
     "name": "Kriegsfarben",
     "properties": {
       "KaP-Kosten": "4 KaP",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Stärke des Tiers 1",
-          "value": "(FW 8, 1 AP): Der Schamane erhält zusätzlich +1 TP."
-        },
-        {
-          "name": " Wirklich stark",
-          "value": "(FW 12, 2 AP): Der Schamane bekommt QS+2 FW in Kraftakt dazu."
-        },
-        {
-          "name": " Stärke des Tiers 2",
-          "value": "(FW 16, 3 AP): Der Schamane erhält zusätzlich +1 TP, mit Stärke des Tiers 1 also +2 TP. Voraussetzung: Liturgieerweiterung Stärke des Tiers 1"
-        }
-      ],
       "Probe": "MU/IN/KO",
       "Publikationen": "Aventurisches Götterwirken II, Seite 83",
       "Reichweite": "selbst",
@@ -4575,23 +4569,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": " Bessere Boni",
+        "value": "(FW 8, 4 AP): Die maximalen Boni betragen +3."
+      },
+      {
+        "name": " Längere Wirkungsdauer 1",
+        "value": "(FW 12, 8 AP): Die Wirkungsdauer beträgt 6 Monate."
+      },
+      {
+        "name": " Längere Wirkungsdauer 2",
+        "value": "(FW 16, 12 AP): Die Wirkungsdauer beträgt 12 Monate. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1"
+      }
+    ],
     "name": "Kriegszustand",
     "properties": {
       "KaP-Kosten": "128 KaP (davon 16 permanent)",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Bessere Boni",
-          "value": "(FW 8, 4 AP): Die maximalen Boni betragen +3."
-        },
-        {
-          "name": " Längere Wirkungsdauer 1",
-          "value": "(FW 12, 8 AP): Die Wirkungsdauer beträgt 6 Monate."
-        },
-        {
-          "name": " Längere Wirkungsdauer 2",
-          "value": "(FW 16, 12 AP): Die Wirkungsdauer beträgt 12 Monate. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken II, Seite 101",
       "Reichweite": "dereumfassend",
@@ -4605,24 +4599,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Paralysierende Explosion",
+        "value": "(FW 8, 3 AP): Das Ziel erleidet 2 Stufen Paralyse statt nur 1. Es entstehen zusätzliche Kosten in Höhe von 4 KaP."
+      },
+      {
+        "name": " Unvorhersehbare Explosion",
+        "value": "(FW 12, 6 AP): Das Ziel kann schlechter ausweichen. Das Ausweichen ist zusätzlich um –2 erschwert. Es entstehen zusätzliche Kosten in Höhe von 2 KaP."
+      },
+      {
+        "name": " Zwei Ziele",
+        "value": "(FW 16, 9 AP): Der Geweihte kann bis zu 2 Ziele gleichzeitig treffen. Die KaP-Kosten der Liturgie verdoppeln sich"
+      }
+    ],
     "name": "Kälteexplosion",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten nicht modifizierbar)",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Paralysierende Explosion",
-          "value": "(FW 8, 3 AP): Das Ziel erleidet 2 Stufen Paralyse statt nur 1. Es entstehen zusätzliche Kosten in Höhe von 4 KaP."
-        },
-        {
-          "name": " Unvorhersehbare Explosion",
-          "value": "(FW 12, 6 AP): Das Ziel kann schlechter ausweichen. Das Ausweichen ist zusätzlich um –2 erschwert. Es entstehen zusätzliche Kosten in Höhe von 2 KaP."
-        },
-        {
-          "name": " Zwei Ziele",
-          "value": "(FW 16, 9 AP): Der Geweihte kann bis zu 2 Ziele gleichzeitig treffen. Die KaP-Kosten der Liturgie verdoppeln sich"
-        }
-      ],
       "Probe": "MU/IN/KO",
       "Publikationen": "Aventurisches Götterwirken II, Seite 82",
       "Reichweite": "16 Schritt",
@@ -4635,24 +4629,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Verstecken",
+        "value": "(FW 8, 2 AP): Auch das Anwendungsgebiet sich Verstecken ist enthalten."
+      },
+      {
+        "name": " Keine Aufrechterhaltung",
+        "value": "(FW 12, 4 AP): Die Liturgie gilt nicht als aufrechterhaltend. Die Wirkungsdauer und damit die KaP-Kosten müssen beim Wirken der Liturgie festgelegt werden."
+      },
+      {
+        "name": " Reichweite Berührung",
+        "value": "(FW 16, 6 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden"
+      }
+    ],
     "name": "Lautlos",
     "properties": {
       "KaP-Kosten": "4 KaP (Aktivierung der Liturgie) + 2 KaP pro Minute",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Verstecken",
-          "value": "(FW 8, 2 AP): Auch das Anwendungsgebiet sich Verstecken ist enthalten."
-        },
-        {
-          "name": " Keine Aufrechterhaltung",
-          "value": "(FW 12, 4 AP): Die Liturgie gilt nicht als aufrechterhaltend. Die Wirkungsdauer und damit die KaP-Kosten müssen beim Wirken der Liturgie festgelegt werden."
-        },
-        {
-          "name": " Reichweite Berührung",
-          "value": "(FW 16, 6 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden"
-        }
-      ],
       "Probe": "IN/IN/GE",
       "Publikationen": "Regelwerk, Seite 327<br>Aventurisches Götterwirken, Seite 166",
       "Reichweite": "selbst",
@@ -4665,24 +4659,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Zielkategorie Lebewesen",
+        "value": "(FW 8, 3 AP): Die Liturgie umfasst auch die Zielkategorie Lebewesen."
+      },
+      {
+        "name": "Größere Reichweite",
+        "value": "(FW 12, 6 AP): Die Reichweite beträgt 4 Schritt."
+      },
+      {
+        "name": "Erholsame Rettung",
+        "value": "(FW 16, 9 AP): Das Ziel erwacht mit 1W6+4 LeP, statt nur 1 LeP"
+      }
+    ],
     "name": "Lebensschutz",
     "properties": {
       "KaP-Kosten": "16 KaP",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Zielkategorie Lebewesen",
-          "value": "(FW 8, 3 AP): Die Liturgie umfasst auch die Zielkategorie Lebewesen."
-        },
-        {
-          "name": "Größere Reichweite",
-          "value": "(FW 12, 6 AP): Die Reichweite beträgt 4 Schritt."
-        },
-        {
-          "name": "Erholsame Rettung",
-          "value": "(FW 16, 9 AP): Das Ziel erwacht mit 1W6+4 LeP, statt nur 1 LeP"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Aventurisches Götterwirken, Seite 129",
       "Reichweite": "Berührung",
@@ -4695,23 +4689,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": " Anderes Opfer",
+        "value": "(FW 8, 3 AP): Es können auch Kulturschaffende geopfert werden."
+      },
+      {
+        "name": " Starker Tausch",
+        "value": "(FW 12, 6 AP): Es können maximal QS x 10 LeP übertragen werden."
+      },
+      {
+        "name": " Mehrere Lebewesen",
+        "value": "(FW 16, 9 AP): Es können mehrere Opfer gleichzeitig stattfinden. Deren LeP summieren sich zur Berechnung des Tauschs auf"
+      }
+    ],
     "name": "Lebenstausch",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten sind nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Anderes Opfer",
-          "value": "(FW 8, 3 AP): Es können auch Kulturschaffende geopfert werden."
-        },
-        {
-          "name": " Starker Tausch",
-          "value": "(FW 12, 6 AP): Es können maximal QS x 10 LeP übertragen werden."
-        },
-        {
-          "name": " Mehrere Lebewesen",
-          "value": "(FW 16, 9 AP): Es können mehrere Opfer gleichzeitig stattfinden. Deren LeP summieren sich zur Berechnung des Tauschs auf"
-        }
-      ],
       "Probe": "MU/IN/KO",
       "Publikationen": "Aventurisches Götterwirken II, Seite 102",
       "Reichweite": "Berührung",
@@ -4725,23 +4719,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": " Reichweite Berührung",
+        "value": "(FW 8, 2 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden."
+      },
+      {
+        "name": " Mehr Traglast",
+        "value": "(FW 12, 4 AP): Die Ersparnis beträgt QS x 15 %."
+      },
+      {
+        "name": " Vier Ziele",
+        "value": "(FW 16, 6 AP): Die Zeremonie kann auf bis zu vier Ziele gleichzeitig gesprochen werden. Für jedes weitere Ziel nach dem ersten fallen zusätzliche Kosten in Höhe von 8 KaP an. Voraussetzung: Liturgieerweiterung Reichweite Berührung"
+      }
+    ],
     "name": "Leichtfüßig",
     "properties": {
       "KaP-Kosten": "16 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Reichweite Berührung",
-          "value": "(FW 8, 2 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden."
-        },
-        {
-          "name": " Mehr Traglast",
-          "value": "(FW 12, 4 AP): Die Ersparnis beträgt QS x 15 %."
-        },
-        {
-          "name": " Vier Ziele",
-          "value": "(FW 16, 6 AP): Die Zeremonie kann auf bis zu vier Ziele gleichzeitig gesprochen werden. Für jedes weitere Ziel nach dem ersten fallen zusätzliche Kosten in Höhe von 8 KaP an. Voraussetzung: Liturgieerweiterung Reichweite Berührung"
-        }
-      ],
       "Probe": "IN/CH/GE",
       "Publikationen": "Aventurisches Götterwirken II, Seite 102",
       "Reichweite": "selbst",
@@ -4755,6 +4749,7 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [],
     "name": "Leitende Strömung",
     "properties": {
       "KaP-Kosten": "16 KaP",
@@ -4771,24 +4766,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Unglaublicher Liebhaber",
+        "value": "(FW 8, 1 AP): Die Erleichterung beträgt QS/2+1."
+      },
+      {
+        "name": " Längere Wirkungsdauer 1",
+        "value": "(FW 12, 2 AP): Die Wirkungsdauer beträgt QS x 5 Minuten"
+      },
+      {
+        "name": " Längere Wirkungsdauer 2",
+        "value": "(FW 16, 3 AP): Die Wirkungsdauer beträgt QS x 10 Minuten Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1"
+      }
+    ],
     "name": "Levthanischer Liebhaber",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Unglaublicher Liebhaber",
-          "value": "(FW 8, 1 AP): Die Erleichterung beträgt QS/2+1."
-        },
-        {
-          "name": " Längere Wirkungsdauer 1",
-          "value": "(FW 12, 2 AP): Die Wirkungsdauer beträgt QS x 5 Minuten"
-        },
-        {
-          "name": " Längere Wirkungsdauer 2",
-          "value": "(FW 16, 3 AP): Die Wirkungsdauer beträgt QS x 10 Minuten Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken II, Seite 84",
       "Reichweite": "selbst",
@@ -4801,23 +4796,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 8, 1 AP): Die Wirkungsdauer beträgt QS x 2 Jahre."
+      },
+      {
+        "name": "Andere Tätowieren",
+        "value": "(FW 12, 2 AP): Die Geweihte kann auch eine andere Person als eine Person mit der Tradition (Rahjakirche) tätowieren."
+      },
+      {
+        "name": "Machtvolle Tätowierung",
+        "value": "(FW 16, 3 AP): Einmal am Tag kann die Trägerin der Tätowierung eine CH-Teilprobe auf Betören neuwürfeln und das bessere Ergebnis zählt"
+      }
+    ],
     "name": "Liebestätowierung",
     "properties": {
       "KaP-Kosten": "16 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 8, 1 AP): Die Wirkungsdauer beträgt QS x 2 Jahre."
-        },
-        {
-          "name": "Andere Tätowieren",
-          "value": "(FW 12, 2 AP): Die Geweihte kann auch eine andere Person als eine Person mit der Tradition (Rahjakirche) tätowieren."
-        },
-        {
-          "name": "Machtvolle Tätowierung",
-          "value": "(FW 16, 3 AP): Einmal am Tag kann die Trägerin der Tätowierung eine CH-Teilprobe auf Betören neuwürfeln und das bessere Ergebnis zählt"
-        }
-      ],
       "Probe": "IN/CH/FF",
       "Publikationen": "Wege der Vereinigungen, Seite 194<br>Aventurisches Götterwirken II, Seite 102",
       "Reichweite": "Berührung",
@@ -4831,23 +4826,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Größere Reichweite",
+        "value": "(FW 8, 4 AP): Die Reichweite beträgt 32 Schritt."
+      },
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 12, 8 AP): Die Wirkungsdauer beträgt 13 Tage."
+      },
+      {
+        "name": "Permanente Wirkung aufheben",
+        "value": "(FW 16, 12 AP): Permanente Wirkungen können aufgehoben werden. Der Geweihte entscheidet sich vor Beginn der Zeremonie, ob er dies möchte. Die permanenten Kosten entsprechen denen, die für die Liturgie/Zeremonie ausgegeben wurden"
+      }
+    ],
     "name": "Liturgieabsorption",
     "properties": {
       "KaP-Kosten": "mindestens 16 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Größere Reichweite",
-          "value": "(FW 8, 4 AP): Die Reichweite beträgt 32 Schritt."
-        },
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 12, 8 AP): Die Wirkungsdauer beträgt 13 Tage."
-        },
-        {
-          "name": "Permanente Wirkung aufheben",
-          "value": "(FW 16, 12 AP): Permanente Wirkungen können aufgehoben werden. Der Geweihte entscheidet sich vor Beginn der Zeremonie, ob er dies möchte. Die permanenten Kosten entsprechen denen, die für die Liturgie/Zeremonie ausgegeben wurden"
-        }
-      ],
       "Probe": "MU/MU/IN",
       "Publikationen": "Aventurisches Götterwirken, Seite 152",
       "Reichweite": "16 Schritt",
@@ -4861,24 +4856,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Stärkerer Schild",
+        "value": "(FW 8, 4 AP): Die Schildstärke steigt um QS."
+      },
+      {
+        "name": "Großer Radius",
+        "value": "(FW 12, 8 AP): Der Radius der Kuppel beträgt 5 Schritt. Es entstehen zusätzliche Kosten in Höhe von 4 KaP."
+      },
+      {
+        "name": " Reichweite Berührung",
+        "value": "(FW 16, 12 AP): Als Reichweite gilt Berührung. Die Schildstärke beträgt jedoch nur KaP+(QS x 2). Die Liturgie kann nur auf Kulturschaffende übertragen werden"
+      }
+    ],
     "name": "Liturgieschild",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten sind nicht modifizierbar)",
       "Liturgiedauer": "1 Aktion",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Stärkerer Schild",
-          "value": "(FW 8, 4 AP): Die Schildstärke steigt um QS."
-        },
-        {
-          "name": "Großer Radius",
-          "value": "(FW 12, 8 AP): Der Radius der Kuppel beträgt 5 Schritt. Es entstehen zusätzliche Kosten in Höhe von 4 KaP."
-        },
-        {
-          "name": " Reichweite Berührung",
-          "value": "(FW 16, 12 AP): Als Reichweite gilt Berührung. Die Schildstärke beträgt jedoch nur KaP+(QS x 2). Die Liturgie kann nur auf Kulturschaffende übertragen werden"
-        }
-      ],
       "Probe": "MU/KL/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 129",
       "Reichweite": "selbst",
@@ -4891,23 +4886,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": " Aufrechterhaltend",
+        "value": "(FW 8, 2 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 4 KaP und 2 KaP pro 3 Stunden."
+      },
+      {
+        "name": " Sprachfähigkeit",
+        "value": "(FW 12, 4 AP): Der Geweihte kann in Tiergestalt sprechen."
+      },
+      {
+        "name": " Klerikales Tier",
+        "value": "(FW 16, 6 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung Sprachfähigkeit"
+      }
+    ],
     "name": "Luchsgestalt",
     "properties": {
       "KaP-Kosten": "8 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Aufrechterhaltend",
-          "value": "(FW 8, 2 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 4 KaP und 2 KaP pro 3 Stunden."
-        },
-        {
-          "name": " Sprachfähigkeit",
-          "value": "(FW 12, 4 AP): Der Geweihte kann in Tiergestalt sprechen."
-        },
-        {
-          "name": " Klerikales Tier",
-          "value": "(FW 16, 6 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung Sprachfähigkeit"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Aventurisches Götterwirken II, Seite 102 ff.",
       "Reichweite": "selbst",
@@ -4921,24 +4916,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Größere Reichweite",
+        "value": "(FW 8, 2 AP): Die Reichweite beträgt 8 Schritt."
+      },
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 12, 4 AP): Die Wirkungsdauer beträgt 15 Minuten."
+      },
+      {
+        "name": "Extreme Lust",
+        "value": "(FW 16, 6 AP): Die Liturgie verursacht QS/2+1 Stufen Erregung.<br>"
+      }
+    ],
     "name": "Lust erzeugen",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Größere Reichweite",
-          "value": "(FW 8, 2 AP): Die Reichweite beträgt 8 Schritt."
-        },
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 12, 4 AP): Die Wirkungsdauer beträgt 15 Minuten."
-        },
-        {
-          "name": "Extreme Lust",
-          "value": "(FW 16, 6 AP): Die Liturgie verursacht QS/2+1 Stufen Erregung.<br>"
-        }
-      ],
       "Probe": "MU/IN/CH (modifiziert um SK)",
       "Publikationen": "Aventurisches Götterwirken II, Seite 84",
       "Reichweite": "4 Schritt",
@@ -4951,23 +4946,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Größerer Radius",
+        "value": "(FW 8, 3 AP): Der Radius beträgt QS x 5 Schritt."
+      },
+      {
+        "name": "Edelmetallrausch",
+        "value": "(FW 12, 6 AP): Die Zeremonie wirkt auf alle Edelmetalle gleichzeitig."
+      },
+      {
+        "name": "Edelsteinrausch",
+        "value": "(FW 16, 9 AP): Die Zeremonie wirkt auf alle Edelsteine gleichzeitig"
+      }
+    ],
     "name": "Läuterung des Erzes",
     "properties": {
       "KaP-Kosten": "16 KaP (Kosten sind nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Größerer Radius",
-          "value": "(FW 8, 3 AP): Der Radius beträgt QS x 5 Schritt."
-        },
-        {
-          "name": "Edelmetallrausch",
-          "value": "(FW 12, 6 AP): Die Zeremonie wirkt auf alle Edelmetalle gleichzeitig."
-        },
-        {
-          "name": "Edelsteinrausch",
-          "value": "(FW 16, 9 AP): Die Zeremonie wirkt auf alle Edelsteine gleichzeitig"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Aventurisches Götterwirken, Seite 151ff.",
       "Reichweite": "selbst",
@@ -4981,23 +4976,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Aufrechterhaltend",
+        "value": "(FW 8, 2 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 8 KaP und 4 KaP pro 3 Stunden."
+      },
+      {
+        "name": "Sprachfähigkeit",
+        "value": "(FW 12, 4 AP): Der Geweihte kann in Tiergestalt sprechen."
+      },
+      {
+        "name": "Klerikales Tier",
+        "value": "(FW 16, 6 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung Sprachfähigkeit"
+      }
+    ],
     "name": "Löwengestalt",
     "properties": {
       "KaP-Kosten": "16 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Aufrechterhaltend",
-          "value": "(FW 8, 2 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 8 KaP und 4 KaP pro 3 Stunden."
-        },
-        {
-          "name": "Sprachfähigkeit",
-          "value": "(FW 12, 4 AP): Der Geweihte kann in Tiergestalt sprechen."
-        },
-        {
-          "name": "Klerikales Tier",
-          "value": "(FW 16, 6 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung Sprachfähigkeit"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Regelwerk, Seite 332<br>Aventurisches Götterwirken, Seite 169",
       "Reichweite": "selbst",
@@ -5011,24 +5006,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer 1",
+        "value": "(FW 8, 3 AP): Die Wirkungsdauer beträgt QS x 5 KR."
+      },
+      {
+        "name": " Levthansmacht",
+        "value": "(FW 12, 6 AP): Die Boni auf TP, KK und GS steigen um einen weiteren Punkt."
+      },
+      {
+        "name": " Längere Wirkungsdauer 2",
+        "value": "(FW 16, 9 AP): Die Wirkungsdauer beträgt QS Minuten. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1"
+      }
+    ],
     "name": "Macht des Levthan",
     "properties": {
       "KaP-Kosten": "16 KaP",
       "Liturgiedauer": "8 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer 1",
-          "value": "(FW 8, 3 AP): Die Wirkungsdauer beträgt QS x 5 KR."
-        },
-        {
-          "name": " Levthansmacht",
-          "value": "(FW 12, 6 AP): Die Boni auf TP, KK und GS steigen um einen weiteren Punkt."
-        },
-        {
-          "name": " Längere Wirkungsdauer 2",
-          "value": "(FW 16, 9 AP): Die Wirkungsdauer beträgt QS Minuten. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1"
-        }
-      ],
       "Probe": "MU/CH/KO",
       "Publikationen": "Aventurisches Götterwirken II, Seite 84",
       "Reichweite": "selbst",
@@ -5041,23 +5036,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": " Spezialisierter Exorzismus",
+        "value": "(FW 8, 3 AP): Eine Untergruppe von Wesen der Gegengottheit, die beim Aktivieren dieser Liturgieerweiterung ausgewählt werden muss, weist eine um 1 schlechtere SK gegen den Exorzismus auf. Das können beispielsweise Gotongis bei Praiosgeweihten sein."
+      },
+      {
+        "name": " Geister-Exorzismus",
+        "value": "(FW 12, 6 AP): Geister weisen eine um 1 schlechtere SK gegen den Exorzismus auf. Voraussetzung: Liturgieerweiterung Spezialisierter Exorzismus."
+      },
+      {
+        "name": " Dämonen-Exorzismus",
+        "value": "(FW 16, 9 AP): Alle Dämonen mit bis zu 5 Hörnern weisen eine um 1 schlechtere SK gegen den Exorzismus auf. Voraussetzung: Liturgieerweiterung Spezialisierter Exorzismus"
+      }
+    ],
     "name": "Machtvoller Exorzismus",
     "properties": {
       "KaP-Kosten": "32 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Spezialisierter Exorzismus",
-          "value": "(FW 8, 3 AP): Eine Untergruppe von Wesen der Gegengottheit, die beim Aktivieren dieser Liturgieerweiterung ausgewählt werden muss, weist eine um 1 schlechtere SK gegen den Exorzismus auf. Das können beispielsweise Gotongis bei Praiosgeweihten sein."
-        },
-        {
-          "name": " Geister-Exorzismus",
-          "value": "(FW 12, 6 AP): Geister weisen eine um 1 schlechtere SK gegen den Exorzismus auf. Voraussetzung: Liturgieerweiterung Spezialisierter Exorzismus."
-        },
-        {
-          "name": " Dämonen-Exorzismus",
-          "value": "(FW 16, 9 AP): Alle Dämonen mit bis zu 5 Hörnern weisen eine um 1 schlechtere SK gegen den Exorzismus auf. Voraussetzung: Liturgieerweiterung Spezialisierter Exorzismus"
-        }
-      ],
       "Probe": "MU/IN/CH (modifiziert um SK des Wesens)",
       "Publikationen": "Aventurisches Götterwirken II, Seite 103",
       "Reichweite": "4 Schritt",
@@ -5071,24 +5066,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Zwei Gegenstände",
+        "value": "(FW 8, 3 AP): Der Geweihte kann bis zu 2 Gegenstände gleichzeitig analysieren."
+      },
+      {
+        "name": "Drei Gegenstände",
+        "value": "(FW 12, 6 AP): Der Geweihte kann bis zu 3 Gegenstände gleichzeitig analysieren. Voraussetzung: Liturgieerweiterung Zwei Gegenstände."
+      },
+      {
+        "name": "Vier Gegenstände",
+        "value": "(FW 16, 9 AP): Der Geweihte kann bis zu 4 Gegenstände gleichzeitig analysieren. Voraussetzung Liturgieerweiterung Drei Gegenstände"
+      }
+    ],
     "name": "Magieanalyse",
     "properties": {
       "KaP-Kosten": "16 KaP",
       "Liturgiedauer": "32 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Zwei Gegenstände",
-          "value": "(FW 8, 3 AP): Der Geweihte kann bis zu 2 Gegenstände gleichzeitig analysieren."
-        },
-        {
-          "name": "Drei Gegenstände",
-          "value": "(FW 12, 6 AP): Der Geweihte kann bis zu 3 Gegenstände gleichzeitig analysieren. Voraussetzung: Liturgieerweiterung Zwei Gegenstände."
-        },
-        {
-          "name": "Vier Gegenstände",
-          "value": "(FW 16, 9 AP): Der Geweihte kann bis zu 4 Gegenstände gleichzeitig analysieren. Voraussetzung Liturgieerweiterung Drei Gegenstände"
-        }
-      ],
       "Probe": "KL/KL/IN",
       "Publikationen": "Aventurisches Götterwirken II, Seite 84 ff.",
       "Reichweite": "Berührung",
@@ -5101,24 +5096,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Höhere Reichweite",
+        "value": "(FW 8, 4 AP): Die Reichweite beträgt 4 Schritt."
+      },
+      {
+        "name": "Liturgiedauer modifizierbar",
+        "value": "(FW 12, 8 AP): Die Liturgiedauer ist doch modifizierbar."
+      },
+      {
+        "name": "Andere Effekte",
+        "value": "(FW 16, 12 AP): Auch andere magische Effekte sind betroffen, etwa magische Handlungen"
+      }
+    ],
     "name": "Magiebann",
     "properties": {
       "KaP-Kosten": "8 KaP + KaP in Höhe der AsP des gewirkten Zaubers",
       "Liturgiedauer": "4 Aktionen (Liturgiedauer ist nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Höhere Reichweite",
-          "value": "(FW 8, 4 AP): Die Reichweite beträgt 4 Schritt."
-        },
-        {
-          "name": "Liturgiedauer modifizierbar",
-          "value": "(FW 12, 8 AP): Die Liturgiedauer ist doch modifizierbar."
-        },
-        {
-          "name": "Andere Effekte",
-          "value": "(FW 16, 12 AP): Auch andere magische Effekte sind betroffen, etwa magische Handlungen"
-        }
-      ],
       "Probe": "KL/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 129ff.",
       "Reichweite": "Berührung",
@@ -5131,24 +5126,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Keine Aufrechterhaltung",
+        "value": "(FW 8, 3 AP): Die Liturgie gilt nicht als aufrechterhaltend. Die Wirkungsdauer und damit die KaP-Kosten müssen beim Wirken der Liturgie festgelegt werden."
+      },
+      {
+        "name": " Reichweite Berührung",
+        "value": "(FW 12, 6 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden. Der Bonus beträgt hierbei QS/2 auf SK und ZK."
+      },
+      {
+        "name": " Schutz der Gefährten",
+        "value": "(FW 16, 9 AP): Der Geweihte kann beliebig viele Ziele gleichzeitig schützen. Die KaP-Kosten müssen für jedes Ziel extra getragen werden. Der Bonus beträgt hierbei QS/2 auf SK und ZK"
+      }
+    ],
     "name": "Magieschutz",
     "properties": {
       "KaP-Kosten": "8 KaP (Aktivierung der Liturgie) + 4 KaP pro 10 Minuten",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Keine Aufrechterhaltung",
-          "value": "(FW 8, 3 AP): Die Liturgie gilt nicht als aufrechterhaltend. Die Wirkungsdauer und damit die KaP-Kosten müssen beim Wirken der Liturgie festgelegt werden."
-        },
-        {
-          "name": " Reichweite Berührung",
-          "value": "(FW 12, 6 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden. Der Bonus beträgt hierbei QS/2 auf SK und ZK."
-        },
-        {
-          "name": " Schutz der Gefährten",
-          "value": "(FW 16, 9 AP): Der Geweihte kann beliebig viele Ziele gleichzeitig schützen. Die KaP-Kosten müssen für jedes Ziel extra getragen werden. Der Bonus beträgt hierbei QS/2 auf SK und ZK"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Regelwerk, Seite 328<br>Aventurisches Götterwirken, Seite 166",
       "Reichweite": "selbst",
@@ -5161,24 +5156,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Zwei Gegenstände",
+        "value": "(FW 8, 1 AP): Der Geweihte kann die Liturgie auf bis zu zwei Gegenstände gleichzeitig wirken."
+      },
+      {
+        "name": " Kegelsicht",
+        "value": "(FW 12, 2 AP): Die Liturgie wirkt für 1 KR lang innerhalb des Sichtfelds des Geweihten bis maximal 8 Schritt Entfernung auf alle in diesem Feldbefindlichen Objekte und Wesen. Das Sichtfeld des Geweihten ist nicht veränderlich, erlaubt ist also nur der Blick in eine Richtung. Da der Geweihte sich dabei nicht auf eine spezielle Sache konzentrieren kann, werden die erreichten QS vor dem Konsultieren der Tabelle halbiert. Diese Art der karmalen Wahrnehmung zählt als ungerichtete karmale Wahrnehmung."
+      },
+      {
+        "name": " Rundumsicht",
+        "value": "(FW 16, 3 AP): Für 1 KR erhält der Geweihte eine Rundumsicht, die 8 Schritt weit reicht. Er kann sich auf der Stelle drehen, aber sich nicht anderweitig bewegen. Bei Gelingen der Liturgie erhält er automatisch nur 1 QS, kann aber damit alle Gegenstände in Blickreichweite erfassen. Diese Art der karmalen Wahrnehmung zählt als ungerichtete karmale Wahrnehmung"
+      }
+    ],
     "name": "Magiesicht",
     "properties": {
       "KaP-Kosten": "4 KaP",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Zwei Gegenstände",
-          "value": "(FW 8, 1 AP): Der Geweihte kann die Liturgie auf bis zu zwei Gegenstände gleichzeitig wirken."
-        },
-        {
-          "name": " Kegelsicht",
-          "value": "(FW 12, 2 AP): Die Liturgie wirkt für 1 KR lang innerhalb des Sichtfelds des Geweihten bis maximal 8 Schritt Entfernung auf alle in diesem Feldbefindlichen Objekte und Wesen. Das Sichtfeld des Geweihten ist nicht veränderlich, erlaubt ist also nur der Blick in eine Richtung. Da der Geweihte sich dabei nicht auf eine spezielle Sache konzentrieren kann, werden die erreichten QS vor dem Konsultieren der Tabelle halbiert. Diese Art der karmalen Wahrnehmung zählt als ungerichtete karmale Wahrnehmung."
-        },
-        {
-          "name": " Rundumsicht",
-          "value": "(FW 16, 3 AP): Für 1 KR erhält der Geweihte eine Rundumsicht, die 8 Schritt weit reicht. Er kann sich auf der Stelle drehen, aber sich nicht anderweitig bewegen. Bei Gelingen der Liturgie erhält er automatisch nur 1 QS, kann aber damit alle Gegenstände in Blickreichweite erfassen. Diese Art der karmalen Wahrnehmung zählt als ungerichtete karmale Wahrnehmung"
-        }
-      ],
       "Probe": "KL/IN/IN",
       "Publikationen": "Regelwerk, Seite 328<br>Aventurisches Götterwirken, Seite 166",
       "Reichweite": "8 Schritt",
@@ -5191,24 +5186,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Keine Aufrechterhaltung",
+        "value": "(FW 8, 4 AP): Die Liturgie gilt nicht als aufrechterhaltend. Die Wirkungsdauer und damit die KaP-Kosten müssen beim Wirken der Liturgie festgelegt werden."
+      },
+      {
+        "name": "Zielkategorie Wesen",
+        "value": "(FW 12, 8 AP): Die Liturgie umfasst auch die Zielkategorie Wesen."
+      },
+      {
+        "name": "Kosten modifizierbar",
+        "value": "(FW 16, 12 AP): Die Liturgiekosten sind doch modifizierbar"
+      }
+    ],
     "name": "Magiespiegel",
     "properties": {
       "KaP-Kosten": "8 KaP (Aktivierung der Liturgie) + 4 KaP pro 5 KR (Kosten sind nicht modifizierbar)",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Keine Aufrechterhaltung",
-          "value": "(FW 8, 4 AP): Die Liturgie gilt nicht als aufrechterhaltend. Die Wirkungsdauer und damit die KaP-Kosten müssen beim Wirken der Liturgie festgelegt werden."
-        },
-        {
-          "name": "Zielkategorie Wesen",
-          "value": "(FW 12, 8 AP): Die Liturgie umfasst auch die Zielkategorie Wesen."
-        },
-        {
-          "name": "Kosten modifizierbar",
-          "value": "(FW 16, 12 AP): Die Liturgiekosten sind doch modifizierbar"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Aventurisches Götterwirken, Seite 130",
       "Reichweite": "selbst",
@@ -5221,23 +5216,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Kosten modifizierbar",
+        "value": "(FW 8, 2 AP): Die Kosten sind doch modifizierbar."
+      },
+      {
+        "name": "Längere Wirkungsdauer 1",
+        "value": "(FW 12, 4 AP): Die Wirkungsdauer beträgt QS x 5 Stunden."
+      },
+      {
+        "name": "Längere Wirkungsdauer 2",
+        "value": "(FW 16, 6 AP): Die Wirkungsdauer beträgt QS Tage"
+      }
+    ],
     "name": "Makelloser Leib",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten sind nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Kosten modifizierbar",
-          "value": "(FW 8, 2 AP): Die Kosten sind doch modifizierbar."
-        },
-        {
-          "name": "Längere Wirkungsdauer 1",
-          "value": "(FW 12, 4 AP): Die Wirkungsdauer beträgt QS x 5 Stunden."
-        },
-        {
-          "name": "Längere Wirkungsdauer 2",
-          "value": "(FW 16, 6 AP): Die Wirkungsdauer beträgt QS Tage"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 152",
       "Reichweite": "Berührung",
@@ -5251,24 +5246,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer",
+        "value": "(FW 8, 3 AP): Die Wirkungsdauer beträgt 30 Minuten."
+      },
+      {
+        "name": " Mehr Befehle",
+        "value": "(FW 12, 6 AP): Der Schamane kann während der Wirkungsdauer bis zu 3 Befehle aussprechen, welche die Wesen befolgen."
+      },
+      {
+        "name": " Mehr Wesen",
+        "value": "(FW 16, 9 AP): Es erscheint ein zusätzliches Wesen"
+      }
+    ],
     "name": "Mammutruf",
     "properties": {
       "KaP-Kosten": "32 KaP (Kosten nicht modifizierbar)",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer",
-          "value": "(FW 8, 3 AP): Die Wirkungsdauer beträgt 30 Minuten."
-        },
-        {
-          "name": " Mehr Befehle",
-          "value": "(FW 12, 6 AP): Der Schamane kann während der Wirkungsdauer bis zu 3 Befehle aussprechen, welche die Wesen befolgen."
-        },
-        {
-          "name": " Mehr Wesen",
-          "value": "(FW 16, 9 AP): Es erscheint ein zusätzliches Wesen"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken II, Seite 85",
       "Reichweite": "selbst",
@@ -5281,23 +5276,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer",
+        "value": "(FW 8, 2 AP): Die Boni gelten 2 Stunden lang."
+      },
+      {
+        "name": " Stärkerer Bluttrunk",
+        "value": "(FW 12, 4 AP): Der Bonus auf MU und KK steigt auf +2."
+      },
+      {
+        "name": " Große Regeneration",
+        "value": "(FW 16, 6 AP): Die Geweihte kann bis zu QS x 5 LeP regenerieren"
+      }
+    ],
     "name": "Marbidenmacht",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer",
-          "value": "(FW 8, 2 AP): Die Boni gelten 2 Stunden lang."
-        },
-        {
-          "name": " Stärkerer Bluttrunk",
-          "value": "(FW 12, 4 AP): Der Bonus auf MU und KK steigt auf +2."
-        },
-        {
-          "name": " Große Regeneration",
-          "value": "(FW 16, 6 AP): Die Geweihte kann bis zu QS x 5 LeP regenerieren"
-        }
-      ],
       "Probe": "MU/KL/CH",
       "Publikationen": "Aveturisches Götterwirken II, Seite 103 ff.",
       "Reichweite": "selbst",
@@ -5311,24 +5306,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt 2 Stunden."
+      },
+      {
+        "name": " Reichweite Berührung",
+        "value": "(FW 12, 4 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden."
+      },
+      {
+        "name": " Aufrechterhaltend",
+        "value": "(FW 16, 6 AP): Die Liturgie ist aufrechterhaltend, was 4 KaP für die Aktivierung sowie 2 KaP pro angefangener Stunde kostet"
+      }
+    ],
     "name": "Maske",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt 2 Stunden."
-        },
-        {
-          "name": " Reichweite Berührung",
-          "value": "(FW 12, 4 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden."
-        },
-        {
-          "name": " Aufrechterhaltend",
-          "value": "(FW 16, 6 AP): Die Liturgie ist aufrechterhaltend, was 4 KaP für die Aktivierung sowie 2 KaP pro angefangener Stunde kostet"
-        }
-      ],
       "Probe": "KL/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 130ff.",
       "Reichweite": "selbst",
@@ -5341,24 +5336,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Mehr Schaden",
+        "value": "(FW 8, 3 AP): Der Schaden erhöht sich auf 75 x QS Punkte Strukturschaden."
+      },
+      {
+        "name": " Kosten modifizierbar",
+        "value": "(FW 12, 6 AP): Die Kosten sind doch modifizierbar."
+      },
+      {
+        "name": " Größere Mauer",
+        "value": "(FW 16, 9 AP): Die Mauer kann auch bis zu 5 Schritt lang und bis zu 3 Schritt hoch sein"
+      }
+    ],
     "name": "Mauereinsturz",
     "properties": {
       "KaP-Kosten": "16 KaP (Kosten nicht modifizierbar)",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Mehr Schaden",
-          "value": "(FW 8, 3 AP): Der Schaden erhöht sich auf 75 x QS Punkte Strukturschaden."
-        },
-        {
-          "name": " Kosten modifizierbar",
-          "value": "(FW 12, 6 AP): Die Kosten sind doch modifizierbar."
-        },
-        {
-          "name": " Größere Mauer",
-          "value": "(FW 16, 9 AP): Die Mauer kann auch bis zu 5 Schritt lang und bis zu 3 Schritt hoch sein"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken II, Seite 85",
       "Reichweite": "4 Schritt",
@@ -5371,24 +5366,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Größere Reichweite",
+        "value": "(FW 8, 3 AP): Die Reichweite beträgt 32 Schritt."
+      },
+      {
+        "name": " Willen brechen",
+        "value": "(FW 12, 6 AP): Die Erschwernis durch die SK ist halbiert."
+      },
+      {
+        "name": " Kürzere Liturgiedauer",
+        "value": "(FW 16, 9 AP): Die Liturgiedauer beträgt nur 8 Aktionen"
+      }
+    ],
     "name": "Meeresungeheuer vertreiben",
     "properties": {
       "KaP-Kosten": "32 KaP",
       "Liturgiedauer": "16 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Größere Reichweite",
-          "value": "(FW 8, 3 AP): Die Reichweite beträgt 32 Schritt."
-        },
-        {
-          "name": " Willen brechen",
-          "value": "(FW 12, 6 AP): Die Erschwernis durch die SK ist halbiert."
-        },
-        {
-          "name": " Kürzere Liturgiedauer",
-          "value": "(FW 16, 9 AP): Die Liturgiedauer beträgt nur 8 Aktionen"
-        }
-      ],
       "Probe": "MU/IN/CH (erschwert um SK)",
       "Publikationen": "Aventurisches Götterwirken II, Seite 85",
       "Reichweite": "16 Schritt",
@@ -5401,23 +5396,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Größere Menge 1",
+        "value": "(FW 8, 2 AP): Maximal lassen sich bis zu 5 Stein erhitzen."
+      },
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 12, 4 AP): Die Wirkungsdauer beträgt QS x 3 Stunden."
+      },
+      {
+        "name": "Größere Menge 2",
+        "value": "(FW 16, 6 AP): Maximal lassen sich bis zu 25 Stein erhitzen. Voraussetzung: Liturgieerweiterung Größere Menge 1"
+      }
+    ],
     "name": "Metallerhitzung",
     "properties": {
       "KaP-Kosten": "4 KaP (Kosten sind nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Größere Menge 1",
-          "value": "(FW 8, 2 AP): Maximal lassen sich bis zu 5 Stein erhitzen."
-        },
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 12, 4 AP): Die Wirkungsdauer beträgt QS x 3 Stunden."
-        },
-        {
-          "name": "Größere Menge 2",
-          "value": "(FW 16, 6 AP): Maximal lassen sich bis zu 25 Stein erhitzen. Voraussetzung: Liturgieerweiterung Größere Menge 1"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Aventurisches Götterwirken, Seite 152ff.",
       "Reichweite": "Berührung",
@@ -5431,24 +5426,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Größere Reichweite",
+        "value": "(FW 8, 2 AP): Die Reichweite beträgt 4 Schritt."
+      },
+      {
+        "name": " Dumm und verwirrt",
+        "value": "(FW 12, 4 AP): Das Ziel erleidet zusätzlich 1 Stufe Verwirrung."
+      },
+      {
+        "name": " Längere Wirkungsdauer",
+        "value": "(FW 16, 6 AP): Die Wirkungsdauer beträgt 8 Stunden"
+      }
+    ],
     "name": "Mit Dummheit schlagen",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Größere Reichweite",
-          "value": "(FW 8, 2 AP): Die Reichweite beträgt 4 Schritt."
-        },
-        {
-          "name": " Dumm und verwirrt",
-          "value": "(FW 12, 4 AP): Das Ziel erleidet zusätzlich 1 Stufe Verwirrung."
-        },
-        {
-          "name": " Längere Wirkungsdauer",
-          "value": "(FW 16, 6 AP): Die Wirkungsdauer beträgt 8 Stunden"
-        }
-      ],
       "Probe": "KL/IN/CH (modifiziert um SK)",
       "Publikationen": "Aventurisches Götterwirken, Seite 131",
       "Reichweite": "Berührung",
@@ -5461,24 +5456,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Längeres Intervall",
+        "value": "(FW 8, 1 AP): Pro 1 KaP kann die Liturgie 1 Stunde aufrechterhalten werden."
+      },
+      {
+        "name": " Keine Aufrechterhaltung",
+        "value": "(FW 12, 2 AP): Die Liturgie gilt nicht als aufrechterhaltend. Die Wirkungsdauer und damit die KaP-Kosten müssen beim Wirken der Liturgie festgelegt werden."
+      },
+      {
+        "name": " Reichweite Berührung",
+        "value": "(FW 16, 3 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden"
+      }
+    ],
     "name": "Mondsicht",
     "properties": {
       "KaP-Kosten": "2 KaP (Aktivierung) + 1 KaP pro 10 Minuten",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längeres Intervall",
-          "value": "(FW 8, 1 AP): Pro 1 KaP kann die Liturgie 1 Stunde aufrechterhalten werden."
-        },
-        {
-          "name": " Keine Aufrechterhaltung",
-          "value": "(FW 12, 2 AP): Die Liturgie gilt nicht als aufrechterhaltend. Die Wirkungsdauer und damit die KaP-Kosten müssen beim Wirken der Liturgie festgelegt werden."
-        },
-        {
-          "name": " Reichweite Berührung",
-          "value": "(FW 16, 3 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden"
-        }
-      ],
       "Probe": "KL/KL/IN",
       "Publikationen": "Regelwerk, Seite 328<br>Aventurisches Götterwirken, Seite 167",
       "Reichweite": "selbst",
@@ -5491,24 +5486,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer 1",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 5 Minuten."
+      },
+      {
+        "name": " Längere Wirkungsdauer 2",
+        "value": "(FW 12, 4 AP): Die Wirkungsdauer beträgt QS x 10 Minuten. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1."
+      },
+      {
+        "name": " Reichweite Berührung",
+        "value": "(FW 16, 6 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden"
+      }
+    ],
     "name": "Mondsilberzunge",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "1 Aktion",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer 1",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 5 Minuten."
-        },
-        {
-          "name": " Längere Wirkungsdauer 2",
-          "value": "(FW 12, 4 AP): Die Wirkungsdauer beträgt QS x 10 Minuten. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1."
-        },
-        {
-          "name": " Reichweite Berührung",
-          "value": "(FW 16, 6 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden"
-        }
-      ],
       "Probe": "KL/IN/CH",
       "Publikationen": "Regelwerk, Seite 328<br>Aventurisches Götterwirken, Seite 167",
       "Reichweite": "selbst",
@@ -5521,23 +5516,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 5 Tage."
+      },
+      {
+        "name": "Eins mit dem Schiff",
+        "value": "(FW 12, 4 AP): Bei Proben auf Boote &amp; Schiffe bekommen alle Ziele +1 FP."
+      },
+      {
+        "name": "Gute Selbstbeherrschung",
+        "value": "(FW 16, 6 AP): Auch das Talent Selbstbeherrschung bekommt eine entsprechende Begabung"
+      }
+    ],
     "name": "Moralstärkung",
     "properties": {
       "KaP-Kosten": "16 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 5 Tage."
-        },
-        {
-          "name": "Eins mit dem Schiff",
-          "value": "(FW 12, 4 AP): Bei Proben auf Boote &amp; Schiffe bekommen alle Ziele +1 FP."
-        },
-        {
-          "name": "Gute Selbstbeherrschung",
-          "value": "(FW 16, 6 AP): Auch das Talent Selbstbeherrschung bekommt eine entsprechende Begabung"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 153",
       "Reichweite": "32 Schritt",
@@ -5551,24 +5546,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Größere Reichweite",
+        "value": "(FW 8, 1 AP): Die Reichweite beträgt 4 Schritt."
+      },
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 12, 2 AP): Die Wirkungsdauer beträgt 8 Stunden."
+      },
+      {
+        "name": "Mehrere Ziele",
+        "value": "(FW 16, 3 AP): Die Geweihte kann beliebig viele Ziele gleichzeitig motivieren. Jedes Ziel nach dem ersten kostet zusätzlich 2 KaP"
+      }
+    ],
     "name": "Motivation",
     "properties": {
       "KaP-Kosten": "4 KaP (Kosten sind nicht modifizierbar)",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Größere Reichweite",
-          "value": "(FW 8, 1 AP): Die Reichweite beträgt 4 Schritt."
-        },
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 12, 2 AP): Die Wirkungsdauer beträgt 8 Stunden."
-        },
-        {
-          "name": "Mehrere Ziele",
-          "value": "(FW 16, 3 AP): Die Geweihte kann beliebig viele Ziele gleichzeitig motivieren. Jedes Ziel nach dem ersten kostet zusätzlich 2 KaP"
-        }
-      ],
       "Probe": "MU/IN/CH (modifiziert um SK)",
       "Publikationen": "Aventurisches Götterwirken, Seite 131",
       "Reichweite": "Berührung",
@@ -5581,23 +5576,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": " Aufrechterhaltend",
+        "value": "(FW 8, 2 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 4 KaP und 2 KaP pro 3 Stunden."
+      },
+      {
+        "name": " Sprachfähigkeit",
+        "value": "(FW 12, 4 AP): Der Geweihte kann in Tiergestalt sprechen."
+      },
+      {
+        "name": " Klerikales Tier",
+        "value": "(FW 16, 6 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung Sprachfähigkeit"
+      }
+    ],
     "name": "Mungogestalt",
     "properties": {
       "KaP-Kosten": "8 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Aufrechterhaltend",
-          "value": "(FW 8, 2 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 4 KaP und 2 KaP pro 3 Stunden."
-        },
-        {
-          "name": " Sprachfähigkeit",
-          "value": "(FW 12, 4 AP): Der Geweihte kann in Tiergestalt sprechen."
-        },
-        {
-          "name": " Klerikales Tier",
-          "value": "(FW 16, 6 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung Sprachfähigkeit"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Aventurisches Götterwirken II, Seite 104",
       "Reichweite": "selbst",
@@ -5611,24 +5606,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Drei Attacken",
+        "value": "(FW 8, 3 AP): Bis zu drei Attacken können gestapelt werden. Die KaP-Kosten steigen auf 12."
+      },
+      {
+        "name": " Sechs Attacken",
+        "value": "(FW 12, 6 AP): Bis zu sechs Attacken können gestapelt werden. Die KaP-Kosten steigen auf 16. Voraussetzung: Liturgieerweiterung Drei Attacken."
+      },
+      {
+        "name": " Neun Attacken",
+        "value": "(FW 16, 9 AP): Bis zu neun Attacken können gestapelt werden. Die KaP-Kosten steigen auf 20. Voraussetzung: Liturgieerweiterung Sechs Attacken"
+      }
+    ],
     "name": "Mächtiger Angriff",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten sind nicht modifizierbar)",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Drei Attacken",
-          "value": "(FW 8, 3 AP): Bis zu drei Attacken können gestapelt werden. Die KaP-Kosten steigen auf 12."
-        },
-        {
-          "name": " Sechs Attacken",
-          "value": "(FW 12, 6 AP): Bis zu sechs Attacken können gestapelt werden. Die KaP-Kosten steigen auf 16. Voraussetzung: Liturgieerweiterung Drei Attacken."
-        },
-        {
-          "name": " Neun Attacken",
-          "value": "(FW 16, 9 AP): Bis zu neun Attacken können gestapelt werden. Die KaP-Kosten steigen auf 20. Voraussetzung: Liturgieerweiterung Sechs Attacken"
-        }
-      ],
       "Probe": "MU/IN/KO",
       "Publikationen": "Aventurisches Götterwirken, Seite 132",
       "Reichweite": "selbst",
@@ -5641,23 +5636,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Größere Menge 1",
+        "value": "(FW 8, 1 AP): Die gereinigte Menge reicht für 12 Personen."
+      },
+      {
+        "name": "Größere Menge 2",
+        "value": "(FW 12, 2 AP): Die gereinigte Menge reicht für 50 Personen. Voraussetzung: Liturgieerweiterung Größere Menge 1."
+      },
+      {
+        "name": "Größere Menge 3",
+        "value": "(FW 16, 3 AP): Die gereinigte Menge reicht für 100 Personen. Voraussetzung: Liturgieerweiterung Größere Menge 2"
+      }
+    ],
     "name": "Nahrungsreinigung",
     "properties": {
       "KaP-Kosten": "4 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Größere Menge 1",
-          "value": "(FW 8, 1 AP): Die gereinigte Menge reicht für 12 Personen."
-        },
-        {
-          "name": "Größere Menge 2",
-          "value": "(FW 12, 2 AP): Die gereinigte Menge reicht für 50 Personen. Voraussetzung: Liturgieerweiterung Größere Menge 1."
-        },
-        {
-          "name": "Größere Menge 3",
-          "value": "(FW 16, 3 AP): Die gereinigte Menge reicht für 100 Personen. Voraussetzung: Liturgieerweiterung Größere Menge 2"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Aventurisches Götterwirken, Seite 153",
       "Reichweite": "8 Schritt",
@@ -5671,24 +5666,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer",
+        "value": "(FW 8, 3 AP): Die Wirkungsdauer beträgt 2 Stunden."
+      },
+      {
+        "name": " Nicht verfroren",
+        "value": "(FW 12, 6 AP): Der Geweihte ist selbst immun gegen die heraufbeschworene Kälte."
+      },
+      {
+        "name": " Stationäre Kälte",
+        "value": "(FW 16, 9 AP): Der Geweihte kann in einer Entfernung von bis zu 16 Schritt eine stationäre Zone der Kälte errichten, die dort bis zum Ende der Wirkungsdauer bestehen bleibt"
+      }
+    ],
     "name": "Namenlose Kälte",
     "properties": {
       "KaP-Kosten": "16 KaP (Kosten sind nicht modifizierbar)",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer",
-          "value": "(FW 8, 3 AP): Die Wirkungsdauer beträgt 2 Stunden."
-        },
-        {
-          "name": " Nicht verfroren",
-          "value": "(FW 12, 6 AP): Der Geweihte ist selbst immun gegen die heraufbeschworene Kälte."
-        },
-        {
-          "name": " Stationäre Kälte",
-          "value": "(FW 16, 9 AP): Der Geweihte kann in einer Entfernung von bis zu 16 Schritt eine stationäre Zone der Kälte errichten, die dort bis zum Ende der Wirkungsdauer bestehen bleibt"
-        }
-      ],
       "Probe": "KL/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 131<br>Klingen der Nacht, Seite 110",
       "Reichweite": "selbst",
@@ -5701,24 +5696,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Wüterich 1",
+        "value": "(FW 8, 2 AP): Die Boni auf AT und TP steigen zusätzlich um 1."
+      },
+      {
+        "name": " Vier Ziele",
+        "value": "(FW 12, 4 AP): Die Liturgie kann gegen bis zu 4 Ziele gleichzeitig eingesetzt werden. Jedes Ziel nach dem ersten kostet zusätzlich 8 KaP."
+      },
+      {
+        "name": " Wüterich 2",
+        "value": "(FW 16, 6 AP): Die Boni auf AT und TP steigen zusätzlich um 1 (zusammen mit Wüterich 1 also um 2). Voraussetzung: Liturgieerweiterung Wüterich 1"
+      }
+    ],
     "name": "Namenlose Raserei",
     "properties": {
       "KaP-Kosten": "16 KaP",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Wüterich 1",
-          "value": "(FW 8, 2 AP): Die Boni auf AT und TP steigen zusätzlich um 1."
-        },
-        {
-          "name": " Vier Ziele",
-          "value": "(FW 12, 4 AP): Die Liturgie kann gegen bis zu 4 Ziele gleichzeitig eingesetzt werden. Jedes Ziel nach dem ersten kostet zusätzlich 8 KaP."
-        },
-        {
-          "name": " Wüterich 2",
-          "value": "(FW 16, 6 AP): Die Boni auf AT und TP steigen zusätzlich um 1 (zusammen mit Wüterich 1 also um 2). Voraussetzung: Liturgieerweiterung Wüterich 1"
-        }
-      ],
       "Probe": "MU/IN/CH (modifiziert um SK)",
       "Publikationen": "Aventurisches Götterwirken, Seite 131ff.<br>Klingen der Nacht, Seite 110",
       "Reichweite": "8 Schritt",
@@ -5731,24 +5726,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Leicht zu beeinflussen",
+        "value": "(FW 8, 2 AP): Der FW der Willenskraft des Opfers sinkt um QS gegen Einflüsterungen des Namenlosen."
+      },
+      {
+        "name": " Vier Ziele",
+        "value": "(FW 12, 4 AP): Die Liturgie kann gegen bis zu 4 Ziele gleichzeitig gewirkt werden. Jedes Ziel nach dem ersten kostet zusätzlich 8 KaP."
+      },
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 16, 6 AP): Die Wirkungsdauer beträgt QS Woche"
+      }
+    ],
     "name": "Namenlose Zweifel",
     "properties": {
       "KaP-Kosten": "16 KaP",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Leicht zu beeinflussen",
-          "value": "(FW 8, 2 AP): Der FW der Willenskraft des Opfers sinkt um QS gegen Einflüsterungen des Namenlosen."
-        },
-        {
-          "name": " Vier Ziele",
-          "value": "(FW 12, 4 AP): Die Liturgie kann gegen bis zu 4 Ziele gleichzeitig gewirkt werden. Jedes Ziel nach dem ersten kostet zusätzlich 8 KaP."
-        },
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 16, 6 AP): Die Wirkungsdauer beträgt QS Woche"
-        }
-      ],
       "Probe": "MU/IN/CH (modifiziert um SK)",
       "Publikationen": "Aventurisches Götterwirken, Seite 132<br>Niobaras Vermächtnis, Seite 100<br>Der grüne Zug, Seite 61<br>Die silberne Wehr, Seite 29<br>Klingen der Nacht, Seite 110f.<br>Das Erbe der Theaterritter, Seite 21<br>Offenbarung des Himmels, Seite 62",
       "Reichweite": "16 Schritt",
@@ -5761,24 +5756,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Leichtgläubig",
+        "value": "(FW 8, 2 AP): Dem Opfer kommt nach Ablauf der Wirkungsdauer nichts seltsam vor. Es hat nicht das Gefühl, beherrscht worden zu sein."
+      },
+      {
+        "name": "Größere Reichweite",
+        "value": "(FW 12, 4 AP): Die Reichweite beträgt 8 Schritt."
+      },
+      {
+        "name": "Vier Ziele",
+        "value": "(FW 16, 6 AP): Der Geweihte kann bis zu 4 Ziele gleichzeitig beeinflussen. Jedes Ziel nach dem ersten kostet zusätzlich 8 KaP"
+      }
+    ],
     "name": "Namenloses Vergessen",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Leichtgläubig",
-          "value": "(FW 8, 2 AP): Dem Opfer kommt nach Ablauf der Wirkungsdauer nichts seltsam vor. Es hat nicht das Gefühl, beherrscht worden zu sein."
-        },
-        {
-          "name": "Größere Reichweite",
-          "value": "(FW 12, 4 AP): Die Reichweite beträgt 8 Schritt."
-        },
-        {
-          "name": "Vier Ziele",
-          "value": "(FW 16, 6 AP): Der Geweihte kann bis zu 4 Ziele gleichzeitig beeinflussen. Jedes Ziel nach dem ersten kostet zusätzlich 8 KaP"
-        }
-      ],
       "Probe": "KL/IN/CH (modifiziert um SK)",
       "Publikationen": "Aventurisches Götterwirken, Seite 132<br>Niobaras Vermächtnis, Seite 100<br>Offenbarung des Himmels, Seite 62<br>Klingen der Nacht, Seite 111<br>Die silberne Wehr, Seite 44",
       "Reichweite": "Berührung",
@@ -5791,23 +5786,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 30 Minuten."
+      },
+      {
+        "name": "Mitverwandelte Kleidung",
+        "value": "(FW 12, 4 AP): Auch die Kleidung des Geweihten wird mitverwandelt."
+      },
+      {
+        "name": "Starker Nebel",
+        "value": "(FW 16, 6 AP): Nur bei starkem Gegenwind muss eine Willenskraft-Probe abgelegt werden. Die GS des Geweihten als Nebel beträgt 8"
+      }
+    ],
     "name": "Nebelleib",
     "properties": {
       "KaP-Kosten": "16 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 30 Minuten."
-        },
-        {
-          "name": "Mitverwandelte Kleidung",
-          "value": "(FW 12, 4 AP): Auch die Kleidung des Geweihten wird mitverwandelt."
-        },
-        {
-          "name": "Starker Nebel",
-          "value": "(FW 16, 6 AP): Nur bei starkem Gegenwind muss eine Willenskraft-Probe abgelegt werden. Die GS des Geweihten als Nebel beträgt 8"
-        }
-      ],
       "Probe": "KL/IN/CH",
       "Publikationen": "Regelwerk, Seite 332<br>Aventurisches Götterwirken, Seite 169",
       "Reichweite": "selbst",
@@ -5821,23 +5816,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 3 Stunden."
+      },
+      {
+        "name": "Größere Reichweite",
+        "value": "(FW 12, 4 AP): Die Reichweite beträgt 64 Schritt, der Nebel verharrt an der Stelle."
+      },
+      {
+        "name": "Formbarer Nebel",
+        "value": "(FW 16, 6 AP): Der Nebel ist formbar und kann beliebige Gestalt annehmen"
+      }
+    ],
     "name": "Nebelschwaden",
     "properties": {
       "KaP-Kosten": "32 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 3 Stunden."
-        },
-        {
-          "name": "Größere Reichweite",
-          "value": "(FW 12, 4 AP): Die Reichweite beträgt 64 Schritt, der Nebel verharrt an der Stelle."
-        },
-        {
-          "name": "Formbarer Nebel",
-          "value": "(FW 16, 6 AP): Der Nebel ist formbar und kann beliebige Gestalt annehmen"
-        }
-      ],
       "Probe": "IN/CH/KO",
       "Publikationen": "Aventurisches Götterwirken, Seite 153<br>Havena - Versunkene Geheimnisse, Seite 85",
       "Reichweite": "selbst",
@@ -5851,6 +5846,7 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [],
     "name": "Numinorus Fesseln",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten nicht modifizierbar)",
@@ -5882,24 +5878,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer 1",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 5 Stunden."
+      },
+      {
+        "name": " Starker Objektsegen",
+        "value": "(FW 12, 4 AP): Durch den Geweihten gesegnete Materialien weisen eine besonders starke Wirkung gegen Dämonen auf. Sie erzeugen bei der Berührung durch Dämonen am Ende einer KR 1 SP zusätzlich (siehe Regelwerk Seite 316). Dies gilt nur für die Berührung."
+      },
+      {
+        "name": " Längere Wirkungsdauer 2",
+        "value": "(FW 16, 6 AP): Die Wirkungsdauer beträgt QS x 10 Stunden. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1"
+      }
+    ],
     "name": "Objektsegen",
     "properties": {
       "KaP-Kosten": "4 KaP",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer 1",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 5 Stunden."
-        },
-        {
-          "name": " Starker Objektsegen",
-          "value": "(FW 12, 4 AP): Durch den Geweihten gesegnete Materialien weisen eine besonders starke Wirkung gegen Dämonen auf. Sie erzeugen bei der Berührung durch Dämonen am Ende einer KR 1 SP zusätzlich (siehe Regelwerk Seite 316). Dies gilt nur für die Berührung."
-        },
-        {
-          "name": " Längere Wirkungsdauer 2",
-          "value": "(FW 16, 6 AP): Die Wirkungsdauer beträgt QS x 10 Stunden. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Regelwerk, Seite 328<br>Aventurisches Götterwirken, Seite 167",
       "Reichweite": "Berührung",
@@ -5912,23 +5908,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Schwächere Weihe",
+        "value": "(FW 8, 3 AP): Das Objekt ist nicht permanent geweiht, sondern nur QS Tage. Es fallen keine permanenten KaP-Kosten an. Die Zeremoniedauer beträgt nur 30 Minuten."
+      },
+      {
+        "name": "Mehr Gewicht",
+        "value": "(FW 12, 6 AP): Das Objekt kann bis (4+QS) x 3 Stein wiegen."
+      },
+      {
+        "name": "Mehrere Ziele",
+        "value": "(FW 16, 9 AP): Der Geweihte kann beliebig viele Ziele gleichzeitig weihen. Jedes Ziel nach dem ersten kostet zusätzlich 8 KaP und 2 permanente KaP"
+      }
+    ],
     "name": "Objektweihe",
     "properties": {
       "KaP-Kosten": "16 KaP, davon 2 permanent (nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Schwächere Weihe",
-          "value": "(FW 8, 3 AP): Das Objekt ist nicht permanent geweiht, sondern nur QS Tage. Es fallen keine permanenten KaP-Kosten an. Die Zeremoniedauer beträgt nur 30 Minuten."
-        },
-        {
-          "name": "Mehr Gewicht",
-          "value": "(FW 12, 6 AP): Das Objekt kann bis (4+QS) x 3 Stein wiegen."
-        },
-        {
-          "name": "Mehrere Ziele",
-          "value": "(FW 16, 9 AP): Der Geweihte kann beliebig viele Ziele gleichzeitig weihen. Jedes Ziel nach dem ersten kostet zusätzlich 8 KaP und 2 permanente KaP"
-        }
-      ],
       "Probe": "KL/IN/CH",
       "Publikationen": "Regelwerk, Seite 333<br>Aventurisches Götterwirken, Seite 169<br>Errata 15.09.2017",
       "Reichweite": "4 Schritt",
@@ -5942,24 +5938,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Größere Reichweite",
+        "value": "(FW 8, 2 AP): Die Reichweite beträgt 4 Schritt."
+      },
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 12, 4 AP): Die Wirkungsdauer beträgt 2 Stunden."
+      },
+      {
+        "name": "Vier Ziele",
+        "value": "(FW 16, 6 AP): Der Geweihte kann bis zu 4 Ziele gleichzeitig mit der Obsession belegen. Jedes Ziel nach dem ersten kostet zusätzlich 4 KaP"
+      }
+    ],
     "name": "Obsession",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Größere Reichweite",
-          "value": "(FW 8, 2 AP): Die Reichweite beträgt 4 Schritt."
-        },
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 12, 4 AP): Die Wirkungsdauer beträgt 2 Stunden."
-        },
-        {
-          "name": "Vier Ziele",
-          "value": "(FW 16, 6 AP): Der Geweihte kann bis zu 4 Ziele gleichzeitig mit der Obsession belegen. Jedes Ziel nach dem ersten kostet zusätzlich 4 KaP"
-        }
-      ],
       "Probe": "KL/IN/CH (modifiziert um SK)",
       "Publikationen": "Wege der Vereinigungen, Seite 191",
       "Reichweite": "Berührung",
@@ -5972,24 +5968,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Keine Aufrechterhaltung",
+        "value": "(FW 8, 3 AP): Die Liturgie gilt nicht als aufrechterhaltend. Die Wirkungsdauer und damit die KaP-Kosten müssen beim Wirken der Liturgie festgelegt werden."
+      },
+      {
+        "name": " Heimlicher Gedankenforscher",
+        "value": "(FW 12, 6 AP): Die Sinnesschärfe-Probe ist um QS x 2 erschwert."
+      },
+      {
+        "name": " Größere Reichweite",
+        "value": "(FW 16, 9 AP): Die Reichweite beträgt 4 Schritt"
+      }
+    ],
     "name": "Offenlegung des Geistes",
     "properties": {
       "KaP-Kosten": "8 KaP (Aktivierung der Liturgie) + 4 KaP pro 30 Sekunden",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Keine Aufrechterhaltung",
-          "value": "(FW 8, 3 AP): Die Liturgie gilt nicht als aufrechterhaltend. Die Wirkungsdauer und damit die KaP-Kosten müssen beim Wirken der Liturgie festgelegt werden."
-        },
-        {
-          "name": " Heimlicher Gedankenforscher",
-          "value": "(FW 12, 6 AP): Die Sinnesschärfe-Probe ist um QS x 2 erschwert."
-        },
-        {
-          "name": " Größere Reichweite",
-          "value": "(FW 16, 9 AP): Die Reichweite beträgt 4 Schritt"
-        }
-      ],
       "Probe": "KL/IN/CH (modifiziert um SK)",
       "Publikationen": "Aventurisches Götterwirken, Seite 133",
       "Reichweite": "Berührung",
@@ -6002,6 +5998,7 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [],
     "name": "Ogerruf",
     "properties": {
       "KaP-Kosten": "16 KaP",
@@ -6017,24 +6014,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Verteidigungswall",
+        "value": "(FW 8, 4 AP): Das Ziel der Liturgie bekommt +1 auf Verteidigung."
+      },
+      {
+        "name": " Zäh",
+        "value": "(FW 12, 8 AP): Das Ziel kann bis zu einer negativen Lebensenergie von KO x 2 kämpfen, bevor es endgültig stirbt."
+      },
+      {
+        "name": " Guter Kampf",
+        "value": "(FW 16, 12 AP): Dem Ziel unterlaufen im Kampf keine Patzer mehr. Patzer werden wie einfach misslungene Proben behandelt"
+      }
+    ],
     "name": "Opfergang",
     "properties": {
       "KaP-Kosten": "16 KaP (Kosten sind nicht modifizierbar)",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Verteidigungswall",
-          "value": "(FW 8, 4 AP): Das Ziel der Liturgie bekommt +1 auf Verteidigung."
-        },
-        {
-          "name": " Zäh",
-          "value": "(FW 12, 8 AP): Das Ziel kann bis zu einer negativen Lebensenergie von KO x 2 kämpfen, bevor es endgültig stirbt."
-        },
-        {
-          "name": " Guter Kampf",
-          "value": "(FW 16, 12 AP): Dem Ziel unterlaufen im Kampf keine Patzer mehr. Patzer werden wie einfach misslungene Proben behandelt"
-        }
-      ],
       "Probe": "MU/KO/KK",
       "Publikationen": "Aventurisches Götterwirken, Seite 133ff.",
       "Reichweite": "selbst",
@@ -6047,24 +6044,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer",
+        "value": "(FW 8, 1 AP): Die Wirkungsdauer beträgt QS x 5 Stunden."
+      },
+      {
+        "name": " Stärkere Stille 1",
+        "value": "(FW 12, 2 AP): Auch laute Geräusche werden gedämpft (nicht aber Zauber, Liturgien und Schreie), allerdings ist die Probe auf Sinnesschärfe dafür nur um QS/2 erschwert. Der Geweihte kann sich selbst weiterhin gut hören."
+      },
+      {
+        "name": " Stärkere Stille 2",
+        "value": "(FW 16, 3 AP): Auch laute Geräusche werden gedämpft (nicht aber Zauber und Liturgien). Der Geweihte kann sich selbst weiterhin gut hören. Voraussetzung: Liturgieerweiterung Stärkere Stille 1"
+      }
+    ],
     "name": "Ort der Ruhe",
     "properties": {
       "KaP-Kosten": "4 KaP",
       "Liturgiedauer": "8 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer",
-          "value": "(FW 8, 1 AP): Die Wirkungsdauer beträgt QS x 5 Stunden."
-        },
-        {
-          "name": " Stärkere Stille 1",
-          "value": "(FW 12, 2 AP): Auch laute Geräusche werden gedämpft (nicht aber Zauber, Liturgien und Schreie), allerdings ist die Probe auf Sinnesschärfe dafür nur um QS/2 erschwert. Der Geweihte kann sich selbst weiterhin gut hören."
-        },
-        {
-          "name": " Stärkere Stille 2",
-          "value": "(FW 16, 3 AP): Auch laute Geräusche werden gedämpft (nicht aber Zauber und Liturgien). Der Geweihte kann sich selbst weiterhin gut hören. Voraussetzung: Liturgieerweiterung Stärkere Stille 1"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Regelwerk, Seite 329<br>Aventurisches Götterwirken, Seite 167",
       "Reichweite": "4 Schritt",
@@ -6077,23 +6074,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Große Gebäude/Orte 1",
+        "value": "(FW 8, 4 AP): Ein großes Terrain kann geweiht werden. Darunter fallen viele Stadttempel. Die KaP-Kosten belaufen sich auf 128 KaP, davon 32 permanent."
+      },
+      {
+        "name": "Große Gebäude/Orte 2",
+        "value": "(FW 12, 8 AP): Ein riesiges Terrain kann geweiht werden. Darunter fällt beispielsweise das Gebrochene Rad, der Haupttempel der Puniner Boronkirche. Die KaP-Kosten belaufen sich auf 256 KaP, davon 64 permanent. Voraussetzung: Liturgieerweiterung Große Gebäude/Orte 1."
+      },
+      {
+        "name": "Große Gebäude/Orte 3",
+        "value": "(FW 16, 12 AP): Ein gigantisches Terrain oder Tempelanlagen können geweiht werden. Darunter fällt z. B. die Stadt des Lichts in Gareth. Die KaP-Kosten belaufen sich auf 512 KaP, davon 128 permanent. Voraussetzung: Liturgieerweiterung Große Gebäude/Orte 2"
+      }
+    ],
     "name": "Ortsweihe (Sanctum)",
     "properties": {
       "KaP-Kosten": "64 KaP, davon 16 permanent (Kosten sind nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Große Gebäude/Orte 1",
-          "value": "(FW 8, 4 AP): Ein großes Terrain kann geweiht werden. Darunter fallen viele Stadttempel. Die KaP-Kosten belaufen sich auf 128 KaP, davon 32 permanent."
-        },
-        {
-          "name": "Große Gebäude/Orte 2",
-          "value": "(FW 12, 8 AP): Ein riesiges Terrain kann geweiht werden. Darunter fällt beispielsweise das Gebrochene Rad, der Haupttempel der Puniner Boronkirche. Die KaP-Kosten belaufen sich auf 256 KaP, davon 64 permanent. Voraussetzung: Liturgieerweiterung Große Gebäude/Orte 1."
-        },
-        {
-          "name": "Große Gebäude/Orte 3",
-          "value": "(FW 16, 12 AP): Ein gigantisches Terrain oder Tempelanlagen können geweiht werden. Darunter fällt z. B. die Stadt des Lichts in Gareth. Die KaP-Kosten belaufen sich auf 512 KaP, davon 128 permanent. Voraussetzung: Liturgieerweiterung Große Gebäude/Orte 2"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 153ff.",
       "Reichweite": "8 Schritt",
@@ -6107,23 +6104,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Aufrechterhaltend",
+        "value": "(FW 8, 3 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 8 KaP und 4 KaP pro 3 Stunden."
+      },
+      {
+        "name": "Sprachfähigkeit",
+        "value": "(FW 12, 6 AP): Die Geweihte kann in Tiergestalt sprechen."
+      },
+      {
+        "name": "Klerikales Tier",
+        "value": "(FW 16, 9 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung Sprachfähigkeit"
+      }
+    ],
     "name": "Panthergestalt",
     "properties": {
       "KaP-Kosten": "16 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Aufrechterhaltend",
-          "value": "(FW 8, 3 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 8 KaP und 4 KaP pro 3 Stunden."
-        },
-        {
-          "name": "Sprachfähigkeit",
-          "value": "(FW 12, 6 AP): Die Geweihte kann in Tiergestalt sprechen."
-        },
-        {
-          "name": "Klerikales Tier",
-          "value": "(FW 16, 9 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung Sprachfähigkeit"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Aventurisches Götterwirken, Seite 154",
       "Reichweite": "selbst",
@@ -6138,23 +6135,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Aufrechterhaltend",
+        "value": "(FW 8, 2 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 8 KaP und 4 KaP pro 3 Stunden."
+      },
+      {
+        "name": "Sprachfähigkeit",
+        "value": "(FW 12, 4 AP): Der Geweihte kann in Tiergestalt sprechen."
+      },
+      {
+        "name": "Klerikales Tier",
+        "value": "(FW 16, 6 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung Sprachfähigkeit"
+      }
+    ],
     "name": "Paradiesvogelgestalt",
     "properties": {
       "KaP-Kosten": "8 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Aufrechterhaltend",
-          "value": "(FW 8, 2 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 8 KaP und 4 KaP pro 3 Stunden."
-        },
-        {
-          "name": "Sprachfähigkeit",
-          "value": "(FW 12, 4 AP): Der Geweihte kann in Tiergestalt sprechen."
-        },
-        {
-          "name": "Klerikales Tier",
-          "value": "(FW 16, 6 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung Sprachfähigkeit"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Aventurisches Götterwirken, Seite 154ff.",
       "Reichweite": "selbst",
@@ -6169,24 +6166,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Intensiver Strahl",
+        "value": "(FW 8, 3 AP): Es muss nicht gewürfelt werden, ob das Ziel Furcht erleidet. Dies geschieht bei einem Treffer stattdessen automatisch. Es entstehen zusätzliche Kosten in Höhe von 2 KaP."
+      },
+      {
+        "name": " Windender Strahl",
+        "value": "(FW 12, 6 AP): Das Ziel kann kaum noch ausweichen. Das Ausweichen ist um weitere 2 erschwert. Es entstehen zusätzliche Kosten in Höhe von 2 KaP."
+      },
+      {
+        "name": " Zwei Ziele",
+        "value": "(FW 16, 9 AP): Der Geweihte kann bis zu 2 Ziele gleichzeitig treffen. Die KaP-Kosten der Liturgie verdoppeln sich"
+      }
+    ],
     "name": "Pech und Schwefel",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten sind nicht modifizierbar)",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Intensiver Strahl",
-          "value": "(FW 8, 3 AP): Es muss nicht gewürfelt werden, ob das Ziel Furcht erleidet. Dies geschieht bei einem Treffer stattdessen automatisch. Es entstehen zusätzliche Kosten in Höhe von 2 KaP."
-        },
-        {
-          "name": " Windender Strahl",
-          "value": "(FW 12, 6 AP): Das Ziel kann kaum noch ausweichen. Das Ausweichen ist um weitere 2 erschwert. Es entstehen zusätzliche Kosten in Höhe von 2 KaP."
-        },
-        {
-          "name": " Zwei Ziele",
-          "value": "(FW 16, 9 AP): Der Geweihte kann bis zu 2 Ziele gleichzeitig treffen. Die KaP-Kosten der Liturgie verdoppeln sich"
-        }
-      ],
       "Probe": "MU/KL/CH (modifiziert um ZK)",
       "Publikationen": "Aventurisches Götterwirken, Seite 134<br>Das Erbe der Theaterritter, Seite 21<br>Der grüne Zug, Seite 61<br>Die silberne Wehr, Seite 29<br>Klingen der Nacht, Seite 111<br>Niobaras Vermächtnis, Seite 99",
       "Reichweite": "16 Schritt",
@@ -6199,23 +6196,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Aufrechterhaltend",
+        "value": "(FW 8, 2 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 8 KaP und 4 KaP pro 3 Stunden."
+      },
+      {
+        "name": "Sprachfähigkeit",
+        "value": "(FW 12, 4 AP): Die Geweihte kann in Tiergestalt sprechen."
+      },
+      {
+        "name": "Klerikales Tier",
+        "value": "(FW 16, 6 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung Sprachfähigkeit"
+      }
+    ],
     "name": "Pferdegestalt",
     "properties": {
       "KaP-Kosten": "16 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Aufrechterhaltend",
-          "value": "(FW 8, 2 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 8 KaP und 4 KaP pro 3 Stunden."
-        },
-        {
-          "name": "Sprachfähigkeit",
-          "value": "(FW 12, 4 AP): Die Geweihte kann in Tiergestalt sprechen."
-        },
-        {
-          "name": "Klerikales Tier",
-          "value": "(FW 16, 6 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung Sprachfähigkeit"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Aventurisches Götterwirken, Seite 155",
       "Reichweite": "selbst",
@@ -6230,24 +6227,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Schnellerer Wuchs",
+        "value": "(FW 8, 1 AP): Die Pflanze wächst um 50 % pro QS schneller."
+      },
+      {
+        "name": " Beet",
+        "value": "(FW 12, 2 AP): Für 16 KaP kann ein kleines Beet angelegt werden, welches für 12 Pflanzen ausreicht."
+      },
+      {
+        "name": " Feld",
+        "value": "(FW 16, 3 AP): Für 32 KaP kann ein kleines Feld angelegt werden, welches für 12 x 12 Pflanzen ausreicht. Voraussetzung: Liturgieerweiterung Beet.<br>Errata 14.09.2017: pro QS bei # Schneller Wuchs ergänz"
+      }
+    ],
     "name": "Pflanzenwuchs",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "16 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Schnellerer Wuchs",
-          "value": "(FW 8, 1 AP): Die Pflanze wächst um 50 % pro QS schneller."
-        },
-        {
-          "name": " Beet",
-          "value": "(FW 12, 2 AP): Für 16 KaP kann ein kleines Beet angelegt werden, welches für 12 Pflanzen ausreicht."
-        },
-        {
-          "name": " Feld",
-          "value": "(FW 16, 3 AP): Für 32 KaP kann ein kleines Feld angelegt werden, welches für 12 x 12 Pflanzen ausreicht. Voraussetzung: Liturgieerweiterung Beet.<br>Errata 14.09.2017: pro QS bei # Schneller Wuchs ergänz"
-        }
-      ],
       "Probe": "KL/IN/CH",
       "Publikationen": "Regelwerk, Seite 329<br>Aventurisches Götterwirken, Seite 167",
       "Reichweite": "Berührung",
@@ -6260,24 +6257,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer",
+        "value": "(FW 8, 3 AP): Die Wirkungsdauer beträgt 30 Minuten."
+      },
+      {
+        "name": " Mehr Befehle",
+        "value": "(FW 12, 6 AP): Der Schamane kann während der Wirkungsdauer bis zu 3 Befehle aussprechen, welche die Wesen befolgen."
+      },
+      {
+        "name": " Mehr Wesen",
+        "value": "(FW 16, 9 AP): Es erscheint ein zusätzliches Wesen"
+      }
+    ],
     "name": "Polarbärenruf",
     "properties": {
       "KaP-Kosten": "16 KaP (Kosten nicht modifizierbar)",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer",
-          "value": "(FW 8, 3 AP): Die Wirkungsdauer beträgt 30 Minuten."
-        },
-        {
-          "name": " Mehr Befehle",
-          "value": "(FW 12, 6 AP): Der Schamane kann während der Wirkungsdauer bis zu 3 Befehle aussprechen, welche die Wesen befolgen."
-        },
-        {
-          "name": " Mehr Wesen",
-          "value": "(FW 16, 9 AP): Es erscheint ein zusätzliches Wesen"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken II, Seite 85 ff.",
       "Reichweite": "selbst",
@@ -6290,23 +6287,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Größere Reichweite",
+        "value": "(FW 8, 4 AP): Die Reichweite beträgt 4 Schritt."
+      },
+      {
+        "name": "Zwei Ziele",
+        "value": "(FW 12, 8 AP): Der Geweihte kann bis zu 2 Ziele gleichzeitig ordinieren. Das zweite Ziel kostet 16 KaP und es müssen insgesamt 24 permanente KaP ausgegeben werden."
+      },
+      {
+        "name": "Kosten modifizierbar",
+        "value": "(FW 16, 12 AP): Die Kosten sind doch modifizierbar, die permanenten Kosten bleiben gleich"
+      }
+    ],
     "name": "Priesterweihe (Ordination)",
     "properties": {
       "KaP-Kosten": "32 KaP, davon 12 permanent (Kosten sind nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Größere Reichweite",
-          "value": "(FW 8, 4 AP): Die Reichweite beträgt 4 Schritt."
-        },
-        {
-          "name": "Zwei Ziele",
-          "value": "(FW 12, 8 AP): Der Geweihte kann bis zu 2 Ziele gleichzeitig ordinieren. Das zweite Ziel kostet 16 KaP und es müssen insgesamt 24 permanente KaP ausgegeben werden."
-        },
-        {
-          "name": "Kosten modifizierbar",
-          "value": "(FW 16, 12 AP): Die Kosten sind doch modifizierbar, die permanenten Kosten bleiben gleich"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 155",
       "Reichweite": "Berührung",
@@ -6320,24 +6317,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
-    "name": "aguarruf",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt 30 Minuten."
+      },
+      {
+        "name": " Mehr Befehle",
+        "value": "(FW 12, 4 AP): Der Schamane kann während der Wirkungsdauer bis zu 3 Befehle aussprechen, welche die Wesen befolgen."
+      },
+      {
+        "name": " Mehr Wesen",
+        "value": "(FW 16, 6 AP): Es erscheint ein zusätzliches Wesen"
+      }
+    ],
+    "name": "Jaguarruf",
     "properties": {
       "KaP-Kosten": "16 KaP (Kosten nicht modifizierbar)",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt 30 Minuten."
-        },
-        {
-          "name": " Mehr Befehle",
-          "value": "(FW 12, 4 AP): Der Schamane kann während der Wirkungsdauer bis zu 3 Befehle aussprechen, welche die Wesen befolgen."
-        },
-        {
-          "name": " Mehr Wesen",
-          "value": "(FW 16, 6 AP): Es erscheint ein zusätzliches Wesen"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken II, Seite 81 ff.",
       "Reichweite": "selbst",
@@ -6350,7 +6347,8 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
-    "name": "ebelkrähenschwarm",
+    "chantextensions": [],
+    "name": "Nebelkrähenschwarm",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten sind nicht modifizierbar)",
       "Liturgiedauer": "2 Aktionen",
@@ -6366,6 +6364,7 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [],
     "name": "Quallenhaut",
     "properties": {
       "KaP-Kosten": "16 KaP",
@@ -6382,6 +6381,7 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [],
     "name": "Quallenruf",
     "properties": {
       "KaP-Kosten": "16 KaP",
@@ -6398,23 +6398,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Aufrechterhaltend",
+        "value": "(FW 8, 2 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 8 KaP und 4 KaP pro 3 Stunden."
+      },
+      {
+        "name": "Sprachfähigkeit",
+        "value": "(FW 12, 4 AP): Der Geweihte kann in Tiergestalt sprechen."
+      },
+      {
+        "name": "Klerikales Tier",
+        "value": "(FW 16, 6 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung Sprachfähigkeit"
+      }
+    ],
     "name": "Rabengestalt",
     "properties": {
       "KaP-Kosten": "8 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Aufrechterhaltend",
-          "value": "(FW 8, 2 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 8 KaP und 4 KaP pro 3 Stunden."
-        },
-        {
-          "name": "Sprachfähigkeit",
-          "value": "(FW 12, 4 AP): Der Geweihte kann in Tiergestalt sprechen."
-        },
-        {
-          "name": "Klerikales Tier",
-          "value": "(FW 16, 6 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung Sprachfähigkeit"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Aventurisches Götterwirken, Seite 155ff.",
       "Reichweite": "selbst",
@@ -6429,24 +6429,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Mehr Raben",
+        "value": "(FW 8, 1 AP): Es können bis zu QS kleine Gegenstände transportiert werden."
+      },
+      {
+        "name": " Größerer Radius",
+        "value": "(FW 12, 2 AP): Der Radius beträgt QS x 5 Meilen."
+      },
+      {
+        "name": " Größere Transportreichweite",
+        "value": "(FW 16, 3 AP): Die Transportreichweite beträgt QS x 5 Meilen"
+      }
+    ],
     "name": "Rabenruf",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "16 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Mehr Raben",
-          "value": "(FW 8, 1 AP): Es können bis zu QS kleine Gegenstände transportiert werden."
-        },
-        {
-          "name": " Größerer Radius",
-          "value": "(FW 12, 2 AP): Der Radius beträgt QS x 5 Meilen."
-        },
-        {
-          "name": " Größere Transportreichweite",
-          "value": "(FW 16, 3 AP): Die Transportreichweite beträgt QS x 5 Meilen"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Regelwerk, Seite 329<br>Aventurisches Götterwirken, Seite 167",
       "Reichweite": "QS x 3 in Meilen (nicht modifizierbar)",
@@ -6459,23 +6459,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": " Mehrere Ahnen",
+        "value": "(FW 8, 3 AP): Es können mehrere Geister auf einmal gerufen werden. Die KaP-Kosten müssen für jedes Wesen separat bezahlt werden."
+      },
+      {
+        "name": " Höherer Ahn",
+        "value": "(FW 12, 6 AP): Es kann auch ein mittlerer Geist gerufen werden. Die Zeremoniedauer beträgt 2 Stunden, die Kosten steigen auf 16 KaP."
+      },
+      {
+        "name": " Mächtiger Ahn",
+        "value": "(FW 16, 9 AP): Es kann auch ein hoher Geist gerufen werden. Die Zeremoniedauer beträgt 8 Stunden, die Kosten steigen auf 32 KaP"
+      }
+    ],
     "name": "Rat der Ahnen",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Mehrere Ahnen",
-          "value": "(FW 8, 3 AP): Es können mehrere Geister auf einmal gerufen werden. Die KaP-Kosten müssen für jedes Wesen separat bezahlt werden."
-        },
-        {
-          "name": " Höherer Ahn",
-          "value": "(FW 12, 6 AP): Es kann auch ein mittlerer Geist gerufen werden. Die Zeremoniedauer beträgt 2 Stunden, die Kosten steigen auf 16 KaP."
-        },
-        {
-          "name": " Mächtiger Ahn",
-          "value": "(FW 16, 9 AP): Es kann auch ein hoher Geist gerufen werden. Die Zeremoniedauer beträgt 8 Stunden, die Kosten steigen auf 32 KaP"
-        }
-      ],
       "Probe": "MU/IN/CH (erschwert um Anrufungsschwierigkeit)",
       "Publikationen": "Aventurisches Götterwirken II, Seite 104",
       "Reichweite": "selbst",
@@ -6489,24 +6489,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Kosten modifizierbar",
+        "value": "(FW 8, 3 AP): Die Liturgiekosten sind doch modifizierbar."
+      },
+      {
+        "name": " Mehr Ratten",
+        "value": "(FW 12, 6 AP): Die Anzahl der Ratten erhöht sich um 10."
+      },
+      {
+        "name": " Nur eine letzte Ratte",
+        "value": "(FW 16, 9 AP): Solange mindestens eine Ratte überlebt, kann der Geweihte aus dieser seinen Körper wiederherstellen"
+      }
+    ],
     "name": "Rattenschwarm",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten sind nicht modifizierbar)",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Kosten modifizierbar",
-          "value": "(FW 8, 3 AP): Die Liturgiekosten sind doch modifizierbar."
-        },
-        {
-          "name": " Mehr Ratten",
-          "value": "(FW 12, 6 AP): Die Anzahl der Ratten erhöht sich um 10."
-        },
-        {
-          "name": " Nur eine letzte Ratte",
-          "value": "(FW 16, 9 AP): Solange mindestens eine Ratte überlebt, kann der Geweihte aus dieser seinen Körper wiederherstellen"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Aventurisches Götterwirken, Seite 134",
       "Reichweite": "selbst",
@@ -6519,24 +6519,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Mehr Strukturpunkte",
+        "value": "(FW 8, 3 AP): Die Strukturpunkte betragen 100 statt 50."
+      },
+      {
+        "name": " Höheres Gewicht",
+        "value": "(FW 12, 6 AP): Die Brücke trägt ein Gewicht von bis zu 1.000 Stein."
+      },
+      {
+        "name": " Längere Brücke",
+        "value": "(FW 16, 9 AP): Die Brücke verfügt über eine Länge von QS x 10 Schritt"
+      }
+    ],
     "name": "Regenbogenbrücke",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Mehr Strukturpunkte",
-          "value": "(FW 8, 3 AP): Die Strukturpunkte betragen 100 statt 50."
-        },
-        {
-          "name": " Höheres Gewicht",
-          "value": "(FW 12, 6 AP): Die Brücke trägt ein Gewicht von bis zu 1.000 Stein."
-        },
-        {
-          "name": " Längere Brücke",
-          "value": "(FW 16, 9 AP): Die Brücke verfügt über eine Länge von QS x 10 Schritt"
-        }
-      ],
       "Probe": "MU/IN/KO",
       "Publikationen": "Aventurisches Götterwirken II, Seite 86",
       "Reichweite": "selbst",
@@ -6549,23 +6549,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer 1",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS Stunden."
+      },
+      {
+        "name": " Größere Reichweite",
+        "value": "(FW 12, 4 AP): Die Reichweite beträgt 64 Schritt."
+      },
+      {
+        "name": " Längere Wirkungsdauer 2",
+        "value": "(FW 16, 6 AP): Die Wirkungsdauer beträgt QS x 2 Stunden. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1"
+      }
+    ],
     "name": "Regenkontrolle",
     "properties": {
       "KaP-Kosten": "16 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer 1",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS Stunden."
-        },
-        {
-          "name": " Größere Reichweite",
-          "value": "(FW 12, 4 AP): Die Reichweite beträgt 64 Schritt."
-        },
-        {
-          "name": " Längere Wirkungsdauer 2",
-          "value": "(FW 16, 6 AP): Die Wirkungsdauer beträgt QS x 2 Stunden. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken II, Seite 104 ff.",
       "Reichweite": "32 Schritt",
@@ -6579,24 +6579,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Größere Reichweite",
+        "value": "(FW 8, 3 AP): Die Reichweite beträgt 16 Schritt."
+      },
+      {
+        "name": " Größere Fläche",
+        "value": "(FW 12, 6 AP): Maximal können QS x 30 Rechtschritt gereinigt werden."
+      },
+      {
+        "name": " Noch größere Fläche",
+        "value": "(FW 16, 9 AP): Maximal können QS x 50 Rechtschritt gereinigt werden. Voraussetzung: Liturgieerweiterung Größere Fläche"
+      }
+    ],
     "name": "Reinigung des Bösen",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten nicht modifizierbar)",
       "Liturgiedauer": "8 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Größere Reichweite",
-          "value": "(FW 8, 3 AP): Die Reichweite beträgt 16 Schritt."
-        },
-        {
-          "name": " Größere Fläche",
-          "value": "(FW 12, 6 AP): Maximal können QS x 30 Rechtschritt gereinigt werden."
-        },
-        {
-          "name": " Noch größere Fläche",
-          "value": "(FW 16, 9 AP): Maximal können QS x 50 Rechtschritt gereinigt werden. Voraussetzung: Liturgieerweiterung Größere Fläche"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken II, Seite 86",
       "Reichweite": "4 Schritt",
@@ -6609,23 +6609,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Mehr Proben 1",
+        "value": "(FW 8, 3 AP): Das Ziel bekommt eine Begabung für die nächsten zwei Proben auf ein Naturtalent innerhalb der Wirkungsdauer."
+      },
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 12, 6 AP): Die Wirkungsdauer beträgt QS Tage."
+      },
+      {
+        "name": "Mehr Proben 2",
+        "value": "(FW 16, 9 AP): Das Ziel bekommt eine Begabung für die nächsten drei Proben auf ein Naturtalent innerhalb der Wirkungsdauer. Voraussetzung: Liturgieerweiterung Mehr Proben 1"
+      }
+    ],
     "name": "Reisesegen",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten sind nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Mehr Proben 1",
-          "value": "(FW 8, 3 AP): Das Ziel bekommt eine Begabung für die nächsten zwei Proben auf ein Naturtalent innerhalb der Wirkungsdauer."
-        },
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 12, 6 AP): Die Wirkungsdauer beträgt QS Tage."
-        },
-        {
-          "name": "Mehr Proben 2",
-          "value": "(FW 16, 9 AP): Das Ziel bekommt eine Begabung für die nächsten drei Proben auf ein Naturtalent innerhalb der Wirkungsdauer. Voraussetzung: Liturgieerweiterung Mehr Proben 1"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 156",
       "Reichweite": "Berührung",
@@ -6639,24 +6639,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt 30 Minuten."
+      },
+      {
+        "name": " Mehr Befehle",
+        "value": "(FW 12, 4 AP): Der Schamane kann während der Wirkungsdauer bis zu 3 Befehle aussprechen, welche die Wesen befolgen."
+      },
+      {
+        "name": " Mehr Wesen",
+        "value": "(FW 16, 6 AP): Es erscheint ein zusätzliches Wesen"
+      }
+    ],
     "name": "Rinderruf",
     "properties": {
       "KaP-Kosten": "16 KaP (Kosten nicht modifizierbar)",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt 30 Minuten."
-        },
-        {
-          "name": " Mehr Befehle",
-          "value": "(FW 12, 4 AP): Der Schamane kann während der Wirkungsdauer bis zu 3 Befehle aussprechen, welche die Wesen befolgen."
-        },
-        {
-          "name": " Mehr Wesen",
-          "value": "(FW 16, 6 AP): Es erscheint ein zusätzliches Wesen"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken II, Seite 86",
       "Reichweite": "selbst",
@@ -6669,24 +6669,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Entfernung bestimmen",
+        "value": "(FW 8, 1 AP): Der Geweihte kann die genaue Entfernung zu seinem Heimattempel bestimmen."
+      },
+      {
+        "name": " Tempel der eigenen Kirche",
+        "value": "(FW 12, 2 AP): Der Geweihte kann einen beliebigen ihm bekannten Tempel seiner Tradition erspüren. Er muss den Tempel nicht schon einmal aufgesucht haben, allerdings darf dieser nicht verborgen oder geheim sein."
+      },
+      {
+        "name": " Erreichbarkeit feststellen",
+        "value": "(FW 16, 3 AP): Der Geweihte kann die genaue Erreichbarkeit seines Heimattempels erspüren. Er weiß beispielsweise, dass er Umwege gehen muss, falls ihm der direkte Weg versperrt ist (also wird er sich in Richtung einer Brücke aufmachen, wenn ein Fluss ihn vom direkten Weg abschneidet)"
+      }
+    ],
     "name": "Ruf der Heimat",
     "properties": {
       "KaP-Kosten": "4 KaP",
       "Liturgiedauer": "8 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Entfernung bestimmen",
-          "value": "(FW 8, 1 AP): Der Geweihte kann die genaue Entfernung zu seinem Heimattempel bestimmen."
-        },
-        {
-          "name": " Tempel der eigenen Kirche",
-          "value": "(FW 12, 2 AP): Der Geweihte kann einen beliebigen ihm bekannten Tempel seiner Tradition erspüren. Er muss den Tempel nicht schon einmal aufgesucht haben, allerdings darf dieser nicht verborgen oder geheim sein."
-        },
-        {
-          "name": " Erreichbarkeit feststellen",
-          "value": "(FW 16, 3 AP): Der Geweihte kann die genaue Erreichbarkeit seines Heimattempels erspüren. Er weiß beispielsweise, dass er Umwege gehen muss, falls ihm der direkte Weg versperrt ist (also wird er sich in Richtung einer Brücke aufmachen, wenn ein Fluss ihn vom direkten Weg abschneidet)"
-        }
-      ],
       "Probe": "KL/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 135",
       "Reichweite": "selbst",
@@ -6699,6 +6699,7 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [],
     "name": "Schaffenskraft",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten sind nicht modifizierbar)",
@@ -6715,24 +6716,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS KR."
+      },
+      {
+        "name": " Größerer Schaden",
+        "value": "(FW 12, 4 AP): Der Schaden beträgt 1W3+1 SP."
+      },
+      {
+        "name": " Furchteinflößende Schattenfessel",
+        "value": "(FW 16, 6 AP): Die Fessel verursacht zusätzlich 1 Stufe Furcht für 1 Stunde"
+      }
+    ],
     "name": "Schattenfessel",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten nicht modifizierbar)",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS KR."
-        },
-        {
-          "name": " Größerer Schaden",
-          "value": "(FW 12, 4 AP): Der Schaden beträgt 1W3+1 SP."
-        },
-        {
-          "name": " Furchteinflößende Schattenfessel",
-          "value": "(FW 16, 6 AP): Die Fessel verursacht zusätzlich 1 Stufe Furcht für 1 Stunde"
-        }
-      ],
       "Probe": "MU/IN/KO",
       "Publikationen": "Aventurisches Götterwirken II, Seite 86 ff.",
       "Reichweite": "16 Schritt",
@@ -6745,6 +6746,7 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [],
     "name": "Schattenrochengestalt",
     "properties": {
       "KaP-Kosten": "16 KaP",
@@ -6761,6 +6763,7 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [],
     "name": "Schiffsgespür",
     "properties": {
       "KaP-Kosten": "4 KaP (nicht modifizierbar)",
@@ -6777,24 +6780,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Liturgiedauer modifizierbar",
+        "value": "(FW 8, 2 AP): Die Liturgiedauer ist doch modifizierbar."
+      },
+      {
+        "name": " Längere Wirkungsdauer",
+        "value": "(FW 12, 4 AP): Die Wirkungsdauer beträgt QS x 5 Minuten."
+      },
+      {
+        "name": " Verteilte Wirkung",
+        "value": "(FW 16, 6 AP): Die Zustandsstufen können auf mehrere Ziele verteilt werden, die vor dem Wirken der Liturgie benannt werden müssen. Kann der Geweihte z. B. 3 Stufen Betäubung verursachen, darf er auf drei Ziele 1 Stufe verteilen oder einem Ziel 2 Stufen und einem anderen 1 Stufe aufbürden"
+      }
+    ],
     "name": "Schlaf",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Liturgiedauer modifizierbar",
-          "value": "(FW 8, 2 AP): Die Liturgiedauer ist doch modifizierbar."
-        },
-        {
-          "name": " Längere Wirkungsdauer",
-          "value": "(FW 12, 4 AP): Die Wirkungsdauer beträgt QS x 5 Minuten."
-        },
-        {
-          "name": " Verteilte Wirkung",
-          "value": "(FW 16, 6 AP): Die Zustandsstufen können auf mehrere Ziele verteilt werden, die vor dem Wirken der Liturgie benannt werden müssen. Kann der Geweihte z. B. 3 Stufen Betäubung verursachen, darf er auf drei Ziele 1 Stufe verteilen oder einem Ziel 2 Stufen und einem anderen 1 Stufe aufbürden"
-        }
-      ],
       "Probe": "KL/IN/CH (modifiziert um SK)",
       "Publikationen": "Regelwerk (2.Edition), Seite 329<br>Aventurisches Götterwirken, Seite 167",
       "Reichweite": "8 Schritt",
@@ -6807,23 +6810,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer 1",
+        "value": "(FW 8, 3 AP): Die Wirkungsdauer beträgt QS Tage."
+      },
+      {
+        "name": " Längere Wirkungsdauer 2",
+        "value": "(FW 12, 6 AP): Die Wirkungsdauer beträgt QS Wochen. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1."
+      },
+      {
+        "name": " Längere Wirkungsdauer 3",
+        "value": "(FW 16, 9 AP): Die Wirkungsdauer beträgt QS Monate. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 2"
+      }
+    ],
     "name": "Schlangenfluch",
     "properties": {
       "KaP-Kosten": "16 KaP (Kosten nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer 1",
-          "value": "(FW 8, 3 AP): Die Wirkungsdauer beträgt QS Tage."
-        },
-        {
-          "name": " Längere Wirkungsdauer 2",
-          "value": "(FW 12, 6 AP): Die Wirkungsdauer beträgt QS Wochen. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1."
-        },
-        {
-          "name": " Längere Wirkungsdauer 3",
-          "value": "(FW 16, 9 AP): Die Wirkungsdauer beträgt QS Monate. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 2"
-        }
-      ],
       "Probe": "MU/KL/CH (modifiziert um SK)",
       "Publikationen": "Aventurisches Götterwirken II, Seite 105",
       "Reichweite": "Berührung",
@@ -6837,23 +6840,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Aufrechterhaltend",
+        "value": "(FW 8, 1 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 8 KaP und 4 KaP pro 3 Stunden."
+      },
+      {
+        "name": "Sprachfähigkeit",
+        "value": "(FW 12, 2 AP): Der Geweihte kann in Tiergestalt sprechen."
+      },
+      {
+        "name": "Klerikales Tier",
+        "value": "(FW 16, 3 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung Sprachfähigkeit"
+      }
+    ],
     "name": "Schlangengestalt",
     "properties": {
       "KaP-Kosten": "8 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Aufrechterhaltend",
-          "value": "(FW 8, 1 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 8 KaP und 4 KaP pro 3 Stunden."
-        },
-        {
-          "name": "Sprachfähigkeit",
-          "value": "(FW 12, 2 AP): Der Geweihte kann in Tiergestalt sprechen."
-        },
-        {
-          "name": "Klerikales Tier",
-          "value": "(FW 16, 3 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung Sprachfähigkeit"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Aventurisches Götterwirken, Seite 157",
       "Reichweite": "selbst",
@@ -6867,24 +6870,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt 30 Minuten."
+      },
+      {
+        "name": " Mehr Befehle",
+        "value": "(FW 12, 4 AP): Der Schamane kann während der Wirkungsdauer bis zu 3 Befehle aussprechen, welche die Wesen befolgen."
+      },
+      {
+        "name": " Mehr Wesen",
+        "value": "(FW 16, 6 AP): Es erscheint ein zusätzliches Wesen"
+      }
+    ],
     "name": "Schlangenruf",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten nicht modifizierbar)",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt 30 Minuten."
-        },
-        {
-          "name": " Mehr Befehle",
-          "value": "(FW 12, 4 AP): Der Schamane kann während der Wirkungsdauer bis zu 3 Befehle aussprechen, welche die Wesen befolgen."
-        },
-        {
-          "name": " Mehr Wesen",
-          "value": "(FW 16, 6 AP): Es erscheint ein zusätzliches Wesen"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken II, Seite 87",
       "Reichweite": "selbst",
@@ -6897,6 +6900,7 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [],
     "name": "Schlangenstab",
     "properties": {
       "KaP-Kosten": "8 KaP",
@@ -6913,24 +6917,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer",
+        "value": "(FW 8, 1 AP): Die Wirkungsdauer beträgt QS x 10 Minuten."
+      },
+      {
+        "name": " Mehr Schlangen",
+        "value": "(FW 12, 2 AP): Die Liturgie wirkt auf alle Schlangen innerhalb Hör- und Sichtweite des Geweihten."
+      },
+      {
+        "name": " Reichweite Berührung",
+        "value": "(FW 16, 3 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden"
+      }
+    ],
     "name": "Schlangenzunge",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "8 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer",
-          "value": "(FW 8, 1 AP): Die Wirkungsdauer beträgt QS x 10 Minuten."
-        },
-        {
-          "name": " Mehr Schlangen",
-          "value": "(FW 12, 2 AP): Die Liturgie wirkt auf alle Schlangen innerhalb Hör- und Sichtweite des Geweihten."
-        },
-        {
-          "name": " Reichweite Berührung",
-          "value": "(FW 16, 3 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Regelwerk, Seite 330<br>Aventurisches Götterwirken, Seite 168",
       "Reichweite": "4 Schritt",
@@ -6943,24 +6947,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Größere Reichweite",
+        "value": "(FW 8, 3 AP): Die Reichweite beträgt 8 Schritt."
+      },
+      {
+        "name": " Längere Wirkungsdauer",
+        "value": "(FW 12, 6 AP): Die Wirkungsdauer beträgt QS x 2 Tage."
+      },
+      {
+        "name": " Mehrere Ziele",
+        "value": "(FW 16, 9 AP): Der Geweihte kann beliebig viele Ziele gleichzeitig verfluchen. Jedes Ziel nach dem ersten kostet zusätzlich 16 KaP"
+      }
+    ],
     "name": "Schleichende Fäulnis",
     "properties": {
       "KaP-Kosten": "16 KaP",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Größere Reichweite",
-          "value": "(FW 8, 3 AP): Die Reichweite beträgt 8 Schritt."
-        },
-        {
-          "name": " Längere Wirkungsdauer",
-          "value": "(FW 12, 6 AP): Die Wirkungsdauer beträgt QS x 2 Tage."
-        },
-        {
-          "name": " Mehrere Ziele",
-          "value": "(FW 16, 9 AP): Der Geweihte kann beliebig viele Ziele gleichzeitig verfluchen. Jedes Ziel nach dem ersten kostet zusätzlich 16 KaP"
-        }
-      ],
       "Probe": "MU/IN/KO (modifiziert um ZK)",
       "Publikationen": "Aventurisches Götterwirken, Seite 135",
       "Reichweite": "Berührung",
@@ -6973,6 +6977,7 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [],
     "name": "Schleichende Fäulnis (Pflanzen)",
     "properties": {
       "KaP-Kosten": "2 KaP",
@@ -6989,24 +6994,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Reichweite Berührung",
+        "value": "(FW 8, 3 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden."
+      },
+      {
+        "name": " Längere Wirkungsdauer",
+        "value": "(FW 12, 6 AP): Die Wirkungsdauer beträgt QS x 5 KR."
+      },
+      {
+        "name": " Schmerzimmunität",
+        "value": "(FW 18, 9 AP): Auch Schmerz der Stufe IV kann ignoriert werden"
+      }
+    ],
     "name": "Schmerzresistenz",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "1 Aktion",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Reichweite Berührung",
-          "value": "(FW 8, 3 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden."
-        },
-        {
-          "name": " Längere Wirkungsdauer",
-          "value": "(FW 12, 6 AP): Die Wirkungsdauer beträgt QS x 5 KR."
-        },
-        {
-          "name": " Schmerzimmunität",
-          "value": "(FW 18, 9 AP): Auch Schmerz der Stufe IV kann ignoriert werden"
-        }
-      ],
       "Probe": "MU/IN/KO",
       "Publikationen": "Regelwerk, Seite 330<br>Aventurisches Götterwirken, Seite 168",
       "Reichweite": "selbst",
@@ -7019,23 +7024,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": " Aufrechterhaltend",
+        "value": "(FW 8, 2 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 4 KaP und 2 KaP pro 3 Stunden."
+      },
+      {
+        "name": " Sprachfähigkeit",
+        "value": "(FW 12, 4 AP): Die Geweihte kann in Tiergestalt sprechen."
+      },
+      {
+        "name": " Klerikales Tier",
+        "value": "(FW 16, 6 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung Sprachfähigkeit"
+      }
+    ],
     "name": "Schmetterlingsgestalt",
     "properties": {
       "KaP-Kosten": "8 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Aufrechterhaltend",
-          "value": "(FW 8, 2 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 4 KaP und 2 KaP pro 3 Stunden."
-        },
-        {
-          "name": " Sprachfähigkeit",
-          "value": "(FW 12, 4 AP): Die Geweihte kann in Tiergestalt sprechen."
-        },
-        {
-          "name": " Klerikales Tier",
-          "value": "(FW 16, 6 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung Sprachfähigkeit"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Aventurisches Götterwirken II, Seite 105 ff.",
       "Reichweite": "selbst",
@@ -7049,24 +7054,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer",
+        "value": "(FW 8, 3 AP): Die Wirkungsdauer beträgt QS x 5 KR."
+      },
+      {
+        "name": " Aufrechterhaltend",
+        "value": "(FW 12, 6 AP): Die Liturgie kann aufrechterhalten werden mit Aktivierungskosten von 16 KaP und 8 KaP pro 5 Minuten."
+      },
+      {
+        "name": " Zielkategorie Wesen",
+        "value": "(FW 16, 9 AP): Die Zielkategorie ist Wesen"
+      }
+    ],
     "name": "Schonfrist",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten nicht modifizierbar)",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer",
-          "value": "(FW 8, 3 AP): Die Wirkungsdauer beträgt QS x 5 KR."
-        },
-        {
-          "name": " Aufrechterhaltend",
-          "value": "(FW 12, 6 AP): Die Liturgie kann aufrechterhalten werden mit Aktivierungskosten von 16 KaP und 8 KaP pro 5 Minuten."
-        },
-        {
-          "name": " Zielkategorie Wesen",
-          "value": "(FW 16, 9 AP): Die Zielkategorie ist Wesen"
-        }
-      ],
       "Probe": "KL/IN/CH",
       "Publikationen": "Aventurisches Götterwirken II, Seite 87",
       "Reichweite": "Berührung",
@@ -7079,24 +7084,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Vier Ziele",
+        "value": "(FW 8, 2 AP): Die Liturgie kann gegen bis zu 4 Ziele gleichzeitig gewirkt werden. Jedes Ziel nach dem ersten kostet zusätzlich 4 KaP."
+      },
+      {
+        "name": " Zielkategorie Lebewesen",
+        "value": "(FW 12, 4 AP): Die Liturgie umfasst auch die Zielkategorie Lebewesen."
+      },
+      {
+        "name": " Zielkategorie Wesen",
+        "value": "(FW 16, 6 AP): Die Liturgie umfasst auch die Zielkategorie Wesen. Voraussetzung: Liturgieerweiterung Zielkategorie Lebewesen"
+      }
+    ],
     "name": "Schutz der Wehrlosen",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "1 Aktion",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Vier Ziele",
-          "value": "(FW 8, 2 AP): Die Liturgie kann gegen bis zu 4 Ziele gleichzeitig gewirkt werden. Jedes Ziel nach dem ersten kostet zusätzlich 4 KaP."
-        },
-        {
-          "name": " Zielkategorie Lebewesen",
-          "value": "(FW 12, 4 AP): Die Liturgie umfasst auch die Zielkategorie Lebewesen."
-        },
-        {
-          "name": " Zielkategorie Wesen",
-          "value": "(FW 16, 6 AP): Die Liturgie umfasst auch die Zielkategorie Wesen. Voraussetzung: Liturgieerweiterung Zielkategorie Lebewesen"
-        }
-      ],
       "Probe": "MU/IN/CH (modifiziert um SK)",
       "Publikationen": "Regelwerk, Seite 330<br>Aventurisches Götterwirken, Seite 168",
       "Reichweite": "16 Schritt",
@@ -7109,24 +7114,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Wider Daimonide",
+        "value": "(FW 8, 2 AP): Auch Daimonide jeglicher Art können gewählt werden."
+      },
+      {
+        "name": " Liturgiedauer modifizierbar",
+        "value": "(FW 12, 4 AP): Die Liturgiedauer ist doch modifizierbar."
+      },
+      {
+        "name": " Änderung des Intervalls",
+        "value": "(FW 16, 6 AP): Das Intervall<br>beträgt 10 KR"
+      }
+    ],
     "name": "Schutzsegen",
     "properties": {
       "KaP-Kosten": "4 KaP (Aktivierung der Liturgie) + 2 KaP pro 5 KR",
       "Liturgiedauer": "4 Aktionen (Liturgiedauer nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Wider Daimonide",
-          "value": "(FW 8, 2 AP): Auch Daimonide jeglicher Art können gewählt werden."
-        },
-        {
-          "name": " Liturgiedauer modifizierbar",
-          "value": "(FW 12, 4 AP): Die Liturgiedauer ist doch modifizierbar."
-        },
-        {
-          "name": " Änderung des Intervalls",
-          "value": "(FW 16, 6 AP): Das Intervall<br>beträgt 10 KR"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 135ff.",
       "Reichweite": "4 Schritt",
@@ -7139,23 +7144,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Aufrechterhaltend",
+        "value": "(FW 8, 2 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 8 KaP und 4 KaP pro 3 Stunden."
+      },
+      {
+        "name": "Sprachfähigkeit",
+        "value": "(FW 12, 4 AP): Die Geweihte kann in Tiergestalt sprechen."
+      },
+      {
+        "name": "Klerikales Tier",
+        "value": "(FW 16, 6 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung Sprachfähigkeit"
+      }
+    ],
     "name": "Schwanengestalt",
     "properties": {
       "KaP-Kosten": "8 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Aufrechterhaltend",
-          "value": "(FW 8, 2 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 8 KaP und 4 KaP pro 3 Stunden."
-        },
-        {
-          "name": "Sprachfähigkeit",
-          "value": "(FW 12, 4 AP): Die Geweihte kann in Tiergestalt sprechen."
-        },
-        {
-          "name": "Klerikales Tier",
-          "value": "(FW 16, 6 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung Sprachfähigkeit"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Aventurisches Götterwirken, Seite 157ff.",
       "Reichweite": "selbst",
@@ -7169,24 +7174,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Starker Zauberschwund 1",
+        "value": "(FW 8, 3 AP): Zauber sind innerhalb der Zone um 2 erschwert, zudem verlieren Zauberer pro KR 2 AsP."
+      },
+      {
+        "name": " Starker Zauberschwund 2",
+        "value": "(FW 12, 6 AP): Zauber sind innerhalb der Zone um 3 erschwert, zudem verlieren Zauberer pro KR 3 AsP. Voraussetzung: Liturgieerweiterung Starker Zauberschwund 1."
+      },
+      {
+        "name": " Größerer Radius",
+        "value": "(FW 16, 9 AP): Der Radius beträgt 16 Schritt"
+      }
+    ],
     "name": "Schwindende Zauberkraft",
     "properties": {
       "KaP-Kosten": "16 KaP",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Starker Zauberschwund 1",
-          "value": "(FW 8, 3 AP): Zauber sind innerhalb der Zone um 2 erschwert, zudem verlieren Zauberer pro KR 2 AsP."
-        },
-        {
-          "name": " Starker Zauberschwund 2",
-          "value": "(FW 12, 6 AP): Zauber sind innerhalb der Zone um 3 erschwert, zudem verlieren Zauberer pro KR 3 AsP. Voraussetzung: Liturgieerweiterung Starker Zauberschwund 1."
-        },
-        {
-          "name": " Größerer Radius",
-          "value": "(FW 16, 9 AP): Der Radius beträgt 16 Schritt"
-        }
-      ],
       "Probe": "IN/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 136",
       "Reichweite": "selbst",
@@ -7199,23 +7204,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Kosten modifizierbar",
+        "value": "(FW 8, 4 AP): Die Kosten sind doch modifizierbar."
+      },
+      {
+        "name": "Kürzere Zeremoniedauer",
+        "value": "(FW 12, 8 AP): Die Zeremoniedauer beträgt 8 Stunden."
+      },
+      {
+        "name": "Massenopferung",
+        "value": "(FW 16, 12 AP): Die Geweihte kann bis zu 13 Ziele gleichzeitig opfern. Jedes Ziel nach dem ersten reduziert die KaP-Kosten um 2"
+      }
+    ],
     "name": "Seelenbannung",
     "properties": {
       "KaP-Kosten": "32 KaP (Kosten sind nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Kosten modifizierbar",
-          "value": "(FW 8, 4 AP): Die Kosten sind doch modifizierbar."
-        },
-        {
-          "name": "Kürzere Zeremoniedauer",
-          "value": "(FW 12, 8 AP): Die Zeremoniedauer beträgt 8 Stunden."
-        },
-        {
-          "name": "Massenopferung",
-          "value": "(FW 16, 12 AP): Die Geweihte kann bis zu 13 Ziele gleichzeitig opfern. Jedes Ziel nach dem ersten reduziert die KaP-Kosten um 2"
-        }
-      ],
       "Probe": "MU/IN/CH (modifiziert um SK)",
       "Publikationen": "Aventurisches Götterwirken, Seite 158",
       "Reichweite": "4 Schritt",
@@ -7229,23 +7234,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Schwurbrecher-Aura",
+        "value": "(FW 8, 3 AP): Der Geweihte kann erkennen, ob der Makel des Schwurbrechers auf seinem Gegenüber liegt."
+      },
+      {
+        "name": "Frevler-Aura",
+        "value": "(FW 12, 6 AP): Der Geweihte kann erkennen, ob der Makel des Frevlers auf seinem Gegenüber liegt. Voraussetzung: Liturgieerweiterung Schwurbrecher-Aura."
+      },
+      {
+        "name": "Verdammten-Aura",
+        "value": "(FW 16, 9 AP): Der Geweihte kann erkennen, ob der Makel des Verdammten auf seinem Gegenüber liegt. Voraussetzung: Liturgieerweiterung Frevler-Aura"
+      }
+    ],
     "name": "Seelenprüfung",
     "properties": {
       "KaP-Kosten": "8 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Schwurbrecher-Aura",
-          "value": "(FW 8, 3 AP): Der Geweihte kann erkennen, ob der Makel des Schwurbrechers auf seinem Gegenüber liegt."
-        },
-        {
-          "name": "Frevler-Aura",
-          "value": "(FW 12, 6 AP): Der Geweihte kann erkennen, ob der Makel des Frevlers auf seinem Gegenüber liegt. Voraussetzung: Liturgieerweiterung Schwurbrecher-Aura."
-        },
-        {
-          "name": "Verdammten-Aura",
-          "value": "(FW 16, 9 AP): Der Geweihte kann erkennen, ob der Makel des Verdammten auf seinem Gegenüber liegt. Voraussetzung: Liturgieerweiterung Frevler-Aura"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Aventurisches Götterwirken, Seite 158",
       "Reichweite": "4 Schritt",
@@ -7259,24 +7264,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Keine Aufrechterhaltung",
+        "value": "(FW 8, 2 AP): Die Liturgie wirkt 13 Stunden und kostet 16 KaP."
+      },
+      {
+        "name": " Reichweite Berührung",
+        "value": "(FW 12, 4 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden."
+      },
+      {
+        "name": " Schwer zu durchschauen",
+        "value": "(FW 16, 6 AP): Die Proben, um den Namenlosen-Geweihten zu durchschauen, sind um QS x 2 erschwert"
+      }
+    ],
     "name": "Seelenschatten",
     "properties": {
       "KaP-Kosten": "8 KaP (Aktivierung der Liturgie) + 4 KaP für 5 Stunden",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Keine Aufrechterhaltung",
-          "value": "(FW 8, 2 AP): Die Liturgie wirkt 13 Stunden und kostet 16 KaP."
-        },
-        {
-          "name": " Reichweite Berührung",
-          "value": "(FW 12, 4 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden."
-        },
-        {
-          "name": " Schwer zu durchschauen",
-          "value": "(FW 16, 6 AP): Die Proben, um den Namenlosen-Geweihten zu durchschauen, sind um QS x 2 erschwert"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken Seite 136",
       "Reichweite": "selbst",
@@ -7289,6 +7294,7 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [],
     "name": "Seemonsterruf",
     "properties": {
       "KaP-Kosten": "32 KaP (Kosten nicht modifizierbar)",
@@ -7305,24 +7311,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer",
+        "value": "(FW 8, 1 AP): Die Wirkungsdauer beträgt QS x 10 Minuten."
+      },
+      {
+        "name": " Mehr Vögel",
+        "value": "(FW 12, 2 AP): Alle Seevögel innerhalb Hörund Sehreichweite des Geweihten sind betroffen."
+      },
+      {
+        "name": " Reichweite Berührung",
+        "value": "(FW 16, 3 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden"
+      }
+    ],
     "name": "Seevogelsprache",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer",
-          "value": "(FW 8, 1 AP): Die Wirkungsdauer beträgt QS x 10 Minuten."
-        },
-        {
-          "name": " Mehr Vögel",
-          "value": "(FW 12, 2 AP): Alle Seevögel innerhalb Hörund Sehreichweite des Geweihten sind betroffen."
-        },
-        {
-          "name": " Reichweite Berührung",
-          "value": "(FW 16, 3 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden"
-        }
-      ],
       "Probe": "KL/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 136<br>Havena - Versunkene Geheimnisse, Seite 85",
       "Reichweite": "selbst",
@@ -7335,23 +7341,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Längere Wirkungsdauer 1",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 3 Tage."
+      },
+      {
+        "name": "Längere Wirkungsdauer 2",
+        "value": "(FW 12, 4 AP): Die Wirkungsdauer beträgt QS Wochen. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1."
+      },
+      {
+        "name": "Längere Wirkungsdauer 3",
+        "value": "(FW 16, 6 AP): Die Wirkungsdauer beträgt QS Monate. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 2"
+      }
+    ],
     "name": "Segnung des Heims",
     "properties": {
       "KaP-Kosten": "16 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Längere Wirkungsdauer 1",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 3 Tage."
-        },
-        {
-          "name": "Längere Wirkungsdauer 2",
-          "value": "(FW 12, 4 AP): Die Wirkungsdauer beträgt QS Wochen. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1."
-        },
-        {
-          "name": "Längere Wirkungsdauer 3",
-          "value": "(FW 16, 6 AP): Die Wirkungsdauer beträgt QS Monate. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 2"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 158",
       "Reichweite": "Berührung",
@@ -7365,23 +7371,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": " Rettung 1",
+        "value": "(FW 8, 2 AP): Die Schamanen kann 2 Personen gleichzeitig retten."
+      },
+      {
+        "name": " Rettung 2",
+        "value": "(FW 12, 4 AP): Die Schamanin kann 3 Personen gleichzeitig retten. Voraussetzung: Liturgieerweiterung Rettung 1."
+      },
+      {
+        "name": " Rettung 3",
+        "value": "(FW 16, 6 AP): Die Schamanin kann 4 Personen gleichzeitig retten. Voraussetzung: Liturgieerweiterung Rettung 2"
+      }
+    ],
     "name": "Selbstopferung",
     "properties": {
       "KaP-Kosten": "32 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Rettung 1",
-          "value": "(FW 8, 2 AP): Die Schamanen kann 2 Personen gleichzeitig retten."
-        },
-        {
-          "name": " Rettung 2",
-          "value": "(FW 12, 4 AP): Die Schamanin kann 3 Personen gleichzeitig retten. Voraussetzung: Liturgieerweiterung Rettung 1."
-        },
-        {
-          "name": " Rettung 3",
-          "value": "(FW 16, 6 AP): Die Schamanin kann 4 Personen gleichzeitig retten. Voraussetzung: Liturgieerweiterung Rettung 2"
-        }
-      ],
       "Probe": "MU/MU/KO",
       "Publikationen": "Aventurisches Götterwirken II, Seite 106",
       "Reichweite": "Berührung",
@@ -7395,23 +7401,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Größere Erleichterung",
+        "value": "(FW 8, 2 AP): Es können (QS/2)+1 Erschwernisse ignoriert werden."
+      },
+      {
+        "name": "Keine Aufrechterhaltung",
+        "value": "(FW 12, 4 AP): Die Zeremonie gilt nicht als aufrechterhaltend. Die Wirkungsdauer und damit die KaP-Kosten müssen beim Wirken der Zeremonie festgelegt werden."
+      },
+      {
+        "name": "Reichweite Berührung",
+        "value": "(FW 16, 6 AP): Als Reichweite gilt Berührung. Die Zeremonie kann nur auf Kulturschaffende übertragen werden"
+      }
+    ],
     "name": "Sicherer Tritt",
     "properties": {
       "KaP-Kosten": "8 KaP (Aktivierung der Zeremonie) + 4 KaP pro 4 Stunden",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Größere Erleichterung",
-          "value": "(FW 8, 2 AP): Es können (QS/2)+1 Erschwernisse ignoriert werden."
-        },
-        {
-          "name": "Keine Aufrechterhaltung",
-          "value": "(FW 12, 4 AP): Die Zeremonie gilt nicht als aufrechterhaltend. Die Wirkungsdauer und damit die KaP-Kosten müssen beim Wirken der Zeremonie festgelegt werden."
-        },
-        {
-          "name": "Reichweite Berührung",
-          "value": "(FW 16, 6 AP): Als Reichweite gilt Berührung. Die Zeremonie kann nur auf Kulturschaffende übertragen werden"
-        }
-      ],
       "Probe": "IN/CH/GE",
       "Publikationen": "Aventurisches Götterwirken, Seite 158ff.",
       "Reichweite": "selbst",
@@ -7425,24 +7431,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Stärkere Sicherheit",
+        "value": "(FW 8, 2 AP): Die Proben sind um QS/2+1 erleichtert."
+      },
+      {
+        "name": " Längeres Intervall 1",
+        "value": "(FW 12, 4 AP): Das Intervall beträgt1 Stunde."
+      },
+      {
+        "name": " Längeres Intervall 2",
+        "value": "(FW 16, 6 AP): Das Intervall beträgt 2 Stunden. Voraussetzung: Liturgieerweiterung Längeres Intervall 1"
+      }
+    ],
     "name": "Sicherer Weg",
     "properties": {
       "KaP-Kosten": "4 KaP (Aktivierung der Liturgie) + 2 KaP pro 30 Minuten (Kosten sind nicht modifizierbar)",
       "Liturgiedauer": "8 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Stärkere Sicherheit",
-          "value": "(FW 8, 2 AP): Die Proben sind um QS/2+1 erleichtert."
-        },
-        {
-          "name": " Längeres Intervall 1",
-          "value": "(FW 12, 4 AP): Das Intervall beträgt1 Stunde."
-        },
-        {
-          "name": " Längeres Intervall 2",
-          "value": "(FW 16, 6 AP): Das Intervall beträgt 2 Stunden. Voraussetzung: Liturgieerweiterung Längeres Intervall 1"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Aventurisches Götterwirken, Seite 136ff.",
       "Reichweite": "selbst",
@@ -7455,24 +7461,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Längeres Intervall",
+        "value": "(FW 8, 1 AP): Pro 1 KaP kann die Liturgie 1 Stunde aufrechterhalten werden."
+      },
+      {
+        "name": " Reichweite Berührung",
+        "value": "(FW 12, 2 AP): Als Reichweite gilt Berührung."
+      },
+      {
+        "name": " Mehrere Lebewesen",
+        "value": "(FW 16, 3 AP): Die Liturgie kann auf bis zu QS Lebewesen gleichzeitig gewirkt werden. Pro Lebewesen nach dem ersten entstehen zusätzliche Kosten von 1 KaP"
+      }
+    ],
     "name": "Sicht in der Dunkelheit",
     "properties": {
       "KaP-Kosten": "2 KaP (Aktivierung) + 1 KaP pro 10 Minuten",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längeres Intervall",
-          "value": "(FW 8, 1 AP): Pro 1 KaP kann die Liturgie 1 Stunde aufrechterhalten werden."
-        },
-        {
-          "name": " Reichweite Berührung",
-          "value": "(FW 12, 2 AP): Als Reichweite gilt Berührung."
-        },
-        {
-          "name": " Mehrere Lebewesen",
-          "value": "(FW 16, 3 AP): Die Liturgie kann auf bis zu QS Lebewesen gleichzeitig gewirkt werden. Pro Lebewesen nach dem ersten entstehen zusätzliche Kosten von 1 KaP"
-        }
-      ],
       "Probe": "KL/IN/KO",
       "Publikationen": "Aventurisches Götterwirken II, Seite 87 ff.",
       "Reichweite": "selbst",
@@ -7485,23 +7491,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": " Schamanenbann 1",
+        "value": "(FW 8, 4 AP): Auch Schamanen sind von der Zeremonie betroffen. Sie können nach dem Sippenbann kein Karma mehr regenerieren."
+      },
+      {
+        "name": " Für immer verbannt",
+        "value": "(FW 12, 8 AP): Der Sippenbann kann nicht durch eine Buße wieder aufgehoben werden (siehe Aventurisches Götterwirken Seite 72). Er ist permanent und kostet den Schamanen zusätzlich 2 permanente KaP (also insgesamt 4 pKaP). Voraussetzung: Liturgieerweiterung Schamanenbann 1."
+      },
+      {
+        "name": " Schamanenbann 2",
+        "value": "(FW 16, 12 AP): Schamanen sind von der Zeremonie betroffen und verlieren ihren Vorteil Geweihter, die Sonderfertigkeit der Tradition, karmale Sonderfertigkeiten, karmale Vor- und Nachteile sowie ihre Liturgien. Sie erhalten aber alle dafür ausgegebenen AP zurück. Verbannung ist permanent und kostet den Schamanen zusätzlich 4 permanente KaP (also insgesamt 6 pKaP). Voraussetzung: Liturgieerweiterung Für immer verbannt."
+      }
+    ],
     "name": "Sippenbann",
     "properties": {
       "KaP-Kosten": "16 KaP, davon 2 KaP permanent (Kosten sind nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Schamanenbann 1",
-          "value": "(FW 8, 4 AP): Auch Schamanen sind von der Zeremonie betroffen. Sie können nach dem Sippenbann kein Karma mehr regenerieren."
-        },
-        {
-          "name": " Für immer verbannt",
-          "value": "(FW 12, 8 AP): Der Sippenbann kann nicht durch eine Buße wieder aufgehoben werden (siehe Aventurisches Götterwirken Seite 72). Er ist permanent und kostet den Schamanen zusätzlich 2 permanente KaP (also insgesamt 4 pKaP). Voraussetzung: Liturgieerweiterung Schamanenbann 1."
-        },
-        {
-          "name": " Schamanenbann 2",
-          "value": "(FW 16, 12 AP): Schamanen sind von der Zeremonie betroffen und verlieren ihren Vorteil Geweihter, die Sonderfertigkeit der Tradition, karmale Sonderfertigkeiten, karmale Vor- und Nachteile sowie ihre Liturgien. Sie erhalten aber alle dafür ausgegebenen AP zurück. Verbannung ist permanent und kostet den Schamanen zusätzlich 4 permanente KaP (also insgesamt 6 pKaP). Voraussetzung: Liturgieerweiterung Für immer verbannt."
-        }
-      ],
       "Probe": "MU/IN/CH (modifiziert um SK)",
       "Publikationen": "Aventurisches Götterwirken II, Seite 106",
       "Reichweite": "Berührung",
@@ -7515,23 +7521,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Mehr Personen",
+        "value": "(FW 8, 2 AP): Die Zeremonie erstreckt sich auf QS+3 Personen."
+      },
+      {
+        "name": "Kosten modifizierbar",
+        "value": "(FW 12, 4 AP): Die Kosten sind doch modifizierbar."
+      },
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 16, 6 AP): Die Wirkungsdauer beträgt 2 Tage"
+      }
+    ],
     "name": "Speisung",
     "properties": {
       "KaP-Kosten": "16 KaP (Kosten sind nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Mehr Personen",
-          "value": "(FW 8, 2 AP): Die Zeremonie erstreckt sich auf QS+3 Personen."
-        },
-        {
-          "name": "Kosten modifizierbar",
-          "value": "(FW 12, 4 AP): Die Kosten sind doch modifizierbar."
-        },
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 16, 6 AP): Die Wirkungsdauer beträgt 2 Tage"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 159",
       "Reichweite": "8 Schritt",
@@ -7545,23 +7551,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Größere Reichweite",
+        "value": "(FW 8, 3 AP): Die Reichweite beträgt 16 Schritt."
+      },
+      {
+        "name": "Zielkategorie magische Objekte",
+        "value": "(FW 12, 6 AP): Die Zielkategorie umfasst auch magische Objekte. Sind permanente AsP darin gebunden, muss der Geweihte ebenso viele permanente KaP opfern."
+      },
+      {
+        "name": "Zielkategorie karmale Objekte",
+        "value": "(FW 16, 9 AP): Die Zielkategorie umfasst auch karmale Objekte. Sind permanente KaP darin gebunden, muss der Geweihte ebenso viele permanente KaP opfern"
+      }
+    ],
     "name": "Staub und Schimmel",
     "properties": {
       "KaP-Kosten": "2/4/8/16 KaP für ein Objekt von der Größe eines/einer Tasse/ Truhe/Tür/Burgtors",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Größere Reichweite",
-          "value": "(FW 8, 3 AP): Die Reichweite beträgt 16 Schritt."
-        },
-        {
-          "name": "Zielkategorie magische Objekte",
-          "value": "(FW 12, 6 AP): Die Zielkategorie umfasst auch magische Objekte. Sind permanente AsP darin gebunden, muss der Geweihte ebenso viele permanente KaP opfern."
-        },
-        {
-          "name": "Zielkategorie karmale Objekte",
-          "value": "(FW 16, 9 AP): Die Zielkategorie umfasst auch karmale Objekte. Sind permanente KaP darin gebunden, muss der Geweihte ebenso viele permanente KaP opfern"
-        }
-      ],
       "Probe": "IN/CH/KO",
       "Publikationen": "Aventurisches Götterwirken, Seite 159",
       "Reichweite": "Berührung",
@@ -7575,24 +7581,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer 1",
+        "value": "(FW 8, 3 AP): Die Wirkungsdauer beträgt QS x 3 KR."
+      },
+      {
+        "name": " Reichweite Berührung",
+        "value": "(FW 12, 6 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden."
+      },
+      {
+        "name": " Längere Wirkungsdauer 2",
+        "value": "(FW 16, 9 AP): Die Wirkungsdauer beträgt QS x 5 KR. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1"
+      }
+    ],
     "name": "Steinhaut",
     "properties": {
       "KaP-Kosten": "16 KaP (Kosten sind nicht modifizierbar)",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer 1",
-          "value": "(FW 8, 3 AP): Die Wirkungsdauer beträgt QS x 3 KR."
-        },
-        {
-          "name": " Reichweite Berührung",
-          "value": "(FW 12, 6 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden."
-        },
-        {
-          "name": " Längere Wirkungsdauer 2",
-          "value": "(FW 16, 9 AP): Die Wirkungsdauer beträgt QS x 5 KR. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1"
-        }
-      ],
       "Probe": "IN/CH/KO",
       "Publikationen": "Aventurisches Götterwirken II, Seite 88",
       "Reichweite": "selbst",
@@ -7605,24 +7611,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer 1",
+        "value": "(FW 8, 1 AP): Die Wirkungsdauer beträgt QS Stunden."
+      },
+      {
+        "name": " Längere Wirkungsdauer 2",
+        "value": "(FW 12, 2 AP): Die Wirkungsdauer beträgt QS Tage."
+      },
+      {
+        "name": " Bessere Preise",
+        "value": "(FW 16, 3 AP): Das Objekt erzielt einen um QS x 20 % höheren Preis"
+      }
+    ],
     "name": "Sternenglanz",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer 1",
-          "value": "(FW 8, 1 AP): Die Wirkungsdauer beträgt QS Stunden."
-        },
-        {
-          "name": " Längere Wirkungsdauer 2",
-          "value": "(FW 12, 2 AP): Die Wirkungsdauer beträgt QS Tage."
-        },
-        {
-          "name": " Bessere Preise",
-          "value": "(FW 16, 3 AP): Das Objekt erzielt einen um QS x 20 % höheren Preis"
-        }
-      ],
       "Probe": "KL/IN/CH",
       "Publikationen": "Regelwerk, Seite 330<br>Aventurisches Götterwirken, Seite 168",
       "Reichweite": "8 Schritt",
@@ -7635,23 +7641,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Aufrechterhaltend",
+        "value": "(FW 8, 2 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 8 KaP und 4 KaP pro 3 Stunden."
+      },
+      {
+        "name": "Sprachfähigkeit",
+        "value": "(FW 12, 4 AP): Der Geweihte kann in Tiergestalt sprechen."
+      },
+      {
+        "name": "Klerikales Tier",
+        "value": "(FW 16, 6 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung Sprachfähigkeit"
+      }
+    ],
     "name": "Storchengestalt",
     "properties": {
       "KaP-Kosten": "8 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Aufrechterhaltend",
-          "value": "(FW 8, 2 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 8 KaP und 4 KaP pro 3 Stunden."
-        },
-        {
-          "name": "Sprachfähigkeit",
-          "value": "(FW 12, 4 AP): Der Geweihte kann in Tiergestalt sprechen."
-        },
-        {
-          "name": "Klerikales Tier",
-          "value": "(FW 16, 6 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung Sprachfähigkeit"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Aventurisches Götterwirken, Seite 159",
       "Reichweite": "selbst",
@@ -7666,24 +7672,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Keine Aufrechterhaltung",
+        "value": "(FW 8, 2 AP): Die Liturgie gilt nicht als aufrechterhaltend. Die Wirkungsdauer und damit die KaP-Kosten müssen beim Wirken der Liturgie festgelegt werden."
+      },
+      {
+        "name": " Größerer Radius",
+        "value": "(FW 12, 4 AP): Der Radius beträgt QS x 10 Schritt."
+      },
+      {
+        "name": " Größere Reichweite",
+        "value": "(FW 16, 6 AP): Die Reichweite beträgt 64 Schritt"
+      }
+    ],
     "name": "Sturmruf",
     "properties": {
       "KaP-Kosten": "8 KaP (Aktivierung der Liturgie) + 4 KaP pro 5 KR (Kosten sind nicht modifizierbar)",
       "Liturgiedauer": "8 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Keine Aufrechterhaltung",
-          "value": "(FW 8, 2 AP): Die Liturgie gilt nicht als aufrechterhaltend. Die Wirkungsdauer und damit die KaP-Kosten müssen beim Wirken der Liturgie festgelegt werden."
-        },
-        {
-          "name": " Größerer Radius",
-          "value": "(FW 12, 4 AP): Der Radius beträgt QS x 10 Schritt."
-        },
-        {
-          "name": " Größere Reichweite",
-          "value": "(FW 16, 6 AP): Die Reichweite beträgt 64 Schritt"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 137",
       "Reichweite": "selbst",
@@ -7696,23 +7702,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer 1",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 2 Minuten."
+      },
+      {
+        "name": " Mächtige Stärkung",
+        "value": "(FW 12, 4 AP): Der Bonus beträgt +2 FW. Die KaP-Kosten verdoppeln sich."
+      },
+      {
+        "name": " Längere Wirkungsdauer 2",
+        "value": "(FW 16, 6 AP): Die Wirkungsdauer beträgt QS x 5 Minuten. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1"
+      }
+    ],
     "name": "Stärkung der Wildnis",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer 1",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 2 Minuten."
-        },
-        {
-          "name": " Mächtige Stärkung",
-          "value": "(FW 12, 4 AP): Der Bonus beträgt +2 FW. Die KaP-Kosten verdoppeln sich."
-        },
-        {
-          "name": " Längere Wirkungsdauer 2",
-          "value": "(FW 16, 6 AP): Die Wirkungsdauer beträgt QS x 5 Minuten. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1"
-        }
-      ],
       "Probe": "MU/IN/KO",
       "Publikationen": "Aventurisches Götterwirken, Seite 106 ff.",
       "Reichweite": "selbst",
@@ -7726,23 +7732,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt 24 Stunden."
+      },
+      {
+        "name": "Mehr Mäuler werden satt",
+        "value": "(FW 12, 4 AP): Pro 0,5 Stein werden QS+1 Personen satt."
+      },
+      {
+        "name": "Riesige Mengen",
+        "value": "(FW 16, 6 AP): Bis zu 10 Stein an Nahrung können von der Zeremonie betroffen sein"
+      }
+    ],
     "name": "Sättigung",
     "properties": {
       "KaP-Kosten": "8 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt 24 Stunden."
-        },
-        {
-          "name": "Mehr Mäuler werden satt",
-          "value": "(FW 12, 4 AP): Pro 0,5 Stein werden QS+1 Personen satt."
-        },
-        {
-          "name": "Riesige Mengen",
-          "value": "(FW 16, 6 AP): Bis zu 10 Stein an Nahrung können von der Zeremonie betroffen sein"
-        }
-      ],
       "Probe": "MU/KL/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 156ff.",
       "Reichweite": "4 Schritt",
@@ -7756,23 +7762,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer 1",
+        "value": "(FW 8, 3 AP): Die Wirkungsdauer beträgt 1 Jahr. Es fallen zusätzliche Kosten von 2 KaP an, die permanent verlorengehen."
+      },
+      {
+        "name": " Großes Gebiet",
+        "value": "(FW 12, 6 AP): Die Tabuzone kann bis zu 200 Rechtschritt groß sein."
+      },
+      {
+        "name": " Längere Wirkungsdauer 2",
+        "value": "(FW 12, 6 AP): Die Wirkungsdauer beträgt 10 Jahre. Es fallen zusätzliche Kosten von 4 KaP an, die permanent verlorengehen. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1"
+      }
+    ],
     "name": "Tabuzone",
     "properties": {
       "KaP-Kosten": "16 KaP (Kosten nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer 1",
-          "value": "(FW 8, 3 AP): Die Wirkungsdauer beträgt 1 Jahr. Es fallen zusätzliche Kosten von 2 KaP an, die permanent verlorengehen."
-        },
-        {
-          "name": " Großes Gebiet",
-          "value": "(FW 12, 6 AP): Die Tabuzone kann bis zu 200 Rechtschritt groß sein."
-        },
-        {
-          "name": " Längere Wirkungsdauer 2",
-          "value": "(FW 12, 6 AP): Die Wirkungsdauer beträgt 10 Jahre. Es fallen zusätzliche Kosten von 4 KaP an, die permanent verlorengehen. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1"
-        }
-      ],
       "Probe": "KL/IN/CH (erschwert um Anrufungsschwierigkeit)",
       "Publikationen": "Aventurisches Götterwirken II, Seite 107",
       "Reichweite": "8 Schritt",
@@ -7786,6 +7792,7 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [],
     "name": "Tairachs machtvolle Erhebung von Untoten",
     "properties": {
       "KaP-Kosten": "32 KaP, davon 4 permanent",
@@ -7802,24 +7809,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer 1",
+        "value": "(FW 8, 4 AP): Die Wirkungsdauer beträgt QS x 2 Stunden."
+      },
+      {
+        "name": " Längere Wirkungsdauer 2",
+        "value": "(FW 12, 8 AP): Die Wirkungsdauer beträgt QS x 5 Stunden. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1."
+      },
+      {
+        "name": " Längere Wirkungsdauer 3",
+        "value": "(FW 16, 12 AP): Die Wirkungsdauer beträgt QS Tage. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 2"
+      }
+    ],
     "name": "Talismanruf",
     "properties": {
       "KaP-Kosten": "32 KaP",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer 1",
-          "value": "(FW 8, 4 AP): Die Wirkungsdauer beträgt QS x 2 Stunden."
-        },
-        {
-          "name": " Längere Wirkungsdauer 2",
-          "value": "(FW 12, 8 AP): Die Wirkungsdauer beträgt QS x 5 Stunden. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1."
-        },
-        {
-          "name": " Längere Wirkungsdauer 3",
-          "value": "(FW 16, 12 AP): Die Wirkungsdauer beträgt QS Tage. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 2"
-        }
-      ],
       "Probe": "KL/IN/CH",
       "Publikationen": "Aventurisches Götterwirken II, Seite 88",
       "Reichweite": "selbst",
@@ -7832,23 +7839,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": " Geweihter Ort",
+        "value": "(FW 8, 3 AP): Zur Verankerung genügt es, dass der Ort als der Gottheit geweiht gilt."
+      },
+      {
+        "name": " Profaner Ort",
+        "value": "(FW 12, 6 AP): Zur Verankerung eignen sich auch nicht geweihte Orte, solange sie nicht unheilig oder dämonisch verseucht sind. Voraussetzung: Liturgieerweiterung Geweihter Ort."
+      },
+      {
+        "name": " Geweihter Träger",
+        "value": "(FW 16, 9 AP): Statt den Talisman an einem Ort zu verankern, kann festgelegt werden, dass er stets zu einer bestimmten Person zurückkehrt. Dabei muss es sich um jemanden handeln, der über den Vorteil Geweihter und die Tradition der Gottheit des Talismans verfügt. Stirbt die Person, so erlischt die Verankerung. Voraussetzung: Liturgieerweiterung Profaner Ort"
+      }
+    ],
     "name": "Talismanverankerung",
     "properties": {
       "KaP-Kosten": "16 KaP, davon 4 permanent (Kosten nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Geweihter Ort",
-          "value": "(FW 8, 3 AP): Zur Verankerung genügt es, dass der Ort als der Gottheit geweiht gilt."
-        },
-        {
-          "name": " Profaner Ort",
-          "value": "(FW 12, 6 AP): Zur Verankerung eignen sich auch nicht geweihte Orte, solange sie nicht unheilig oder dämonisch verseucht sind. Voraussetzung: Liturgieerweiterung Geweihter Ort."
-        },
-        {
-          "name": " Geweihter Träger",
-          "value": "(FW 16, 9 AP): Statt den Talisman an einem Ort zu verankern, kann festgelegt werden, dass er stets zu einer bestimmten Person zurückkehrt. Dabei muss es sich um jemanden handeln, der über den Vorteil Geweihter und die Tradition der Gottheit des Talismans verfügt. Stirbt die Person, so erlischt die Verankerung. Voraussetzung: Liturgieerweiterung Profaner Ort"
-        }
-      ],
       "Probe": "KL/IN/CH",
       "Publikationen": "Aventurisches Götterwirken II, Seite 107",
       "Reichweite": "Berührung",
@@ -7862,23 +7869,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": " Aufrechterhaltend",
+        "value": "(FW 8, 2 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 4 KaP und 2 KaP pro 3 Stunden."
+      },
+      {
+        "name": " Sprachfähigkeit",
+        "value": "(FW 12, 4 AP): Die Geweihte kann in Tiergestalt sprechen."
+      },
+      {
+        "name": " Klerikales Tier",
+        "value": "(FW 16, 6 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung Sprachfähigkeit"
+      }
+    ],
     "name": "Taubengestalt",
     "properties": {
       "KaP-Kosten": "8 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Aufrechterhaltend",
-          "value": "(FW 8, 2 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 4 KaP und 2 KaP pro 3 Stunden."
-        },
-        {
-          "name": " Sprachfähigkeit",
-          "value": "(FW 12, 4 AP): Die Geweihte kann in Tiergestalt sprechen."
-        },
-        {
-          "name": " Klerikales Tier",
-          "value": "(FW 16, 6 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung Sprachfähigkeit"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Aventurisches Götterwirken II, Seite 107 ff.",
       "Reichweite": "selbst",
@@ -7892,23 +7899,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Große Gebäude 1",
+        "value": "(FW 8, 3 AP): Große Tempel können geweiht werden. Darunter fallen viele Stadttempel. Die KaP-Kosten belaufen sich auf 64 KaP, davon 16 permanent."
+      },
+      {
+        "name": "Große Gebäude 2",
+        "value": "(FW 12, 6 AP): Riesige Tempel können geweiht werden. Darunter fällt beispielsweise das Gebrochene Rad, der Haupttempel der Puniner Boronkirche. Die KaP-Kosten belaufen sich auf 128 KaP, davon 32 permanent. Voraussetzung: Liturgieerweiterung Große Gebäude 1."
+      },
+      {
+        "name": "Große Gebäude 3",
+        "value": "(FW 16, 9 AP): Gigantische Tempel oder Tempelanlagen können geweiht werden. Darunter fällt z. B. die Stadt des Lichts in Gareth. Die KaP-Kosten belaufen sich auf 256 KaP, davon 64 permanent. Voraussetzung: Liturgieerweiterung Große Gebäude 2"
+      }
+    ],
     "name": "Tempelweihe (Konsekration)",
     "properties": {
       "KaP-Kosten": "32 KaP, davon 8 permanent (Kosten sind nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Große Gebäude 1",
-          "value": "(FW 8, 3 AP): Große Tempel können geweiht werden. Darunter fallen viele Stadttempel. Die KaP-Kosten belaufen sich auf 64 KaP, davon 16 permanent."
-        },
-        {
-          "name": "Große Gebäude 2",
-          "value": "(FW 12, 6 AP): Riesige Tempel können geweiht werden. Darunter fällt beispielsweise das Gebrochene Rad, der Haupttempel der Puniner Boronkirche. Die KaP-Kosten belaufen sich auf 128 KaP, davon 32 permanent. Voraussetzung: Liturgieerweiterung Große Gebäude 1."
-        },
-        {
-          "name": "Große Gebäude 3",
-          "value": "(FW 16, 9 AP): Gigantische Tempel oder Tempelanlagen können geweiht werden. Darunter fällt z. B. die Stadt des Lichts in Gareth. Die KaP-Kosten belaufen sich auf 256 KaP, davon 64 permanent. Voraussetzung: Liturgieerweiterung Große Gebäude 2"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 160",
       "Reichweite": "8 Schritt",
@@ -7922,24 +7929,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer 1",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 5 Minuten."
+      },
+      {
+        "name": " Größere Reichweite",
+        "value": "(FW 12, 4 AP): Die Reichweite beträgt 16 Schritt."
+      },
+      {
+        "name": " Längere Wirkungsdauer 2",
+        "value": "(FW 16, 6 AP): Die Wirkungsdauer beträgt QS x 10 Minuten. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1"
+      }
+    ],
     "name": "Tierbeherschung",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer 1",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 5 Minuten."
-        },
-        {
-          "name": " Größere Reichweite",
-          "value": "(FW 12, 4 AP): Die Reichweite beträgt 16 Schritt."
-        },
-        {
-          "name": " Längere Wirkungsdauer 2",
-          "value": "(FW 16, 6 AP): Die Wirkungsdauer beträgt QS x 10 Minuten. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1"
-        }
-      ],
       "Probe": "MU/IN/CH (modifiziert um SK)",
       "Publikationen": "Aventurisches Götterwirken II, Seite 88",
       "Reichweite": "8 Schritt",
@@ -7952,24 +7959,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer 1",
+        "value": "(FW 8, 1 AP): Die Wirkungsdauer beträgt QS x 5 Minuten."
+      },
+      {
+        "name": " Erhöhte Reichweite",
+        "value": "(FW 12, 2 AP): Die Reichweite beträgt 16 Schritt."
+      },
+      {
+        "name": " Längere Wirkungsdauer 2",
+        "value": "(FW 16, 3 AP): Die Wirkungsdauer beträgt QS x 10 Minuten. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1"
+      }
+    ],
     "name": "Tiere beruhigen",
     "properties": {
       "KaP-Kosten": "4 KaP",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer 1",
-          "value": "(FW 8, 1 AP): Die Wirkungsdauer beträgt QS x 5 Minuten."
-        },
-        {
-          "name": " Erhöhte Reichweite",
-          "value": "(FW 12, 2 AP): Die Reichweite beträgt 16 Schritt."
-        },
-        {
-          "name": " Längere Wirkungsdauer 2",
-          "value": "(FW 16, 3 AP): Die Wirkungsdauer beträgt QS x 10 Minuten. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1"
-        }
-      ],
       "Probe": "MU/IN/CH (modifiziert um SK)",
       "Publikationen": "Aventurisches Götterwirken, Seite 137f",
       "Reichweite": "8 Schritt",
@@ -7982,24 +7989,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Kosten modifizierbar",
+        "value": "(FW 8, 1 AP): Die Kosten sind doch modifizierbar."
+      },
+      {
+        "name": " Mehrere Ziele",
+        "value": "(FW 12, 2 AP): Der Geweihte kann beliebig viele Tiere gleichzeitig heilen. Jedes Ziel nach dem ersten kostet zusätzlich 4 KaP."
+      },
+      {
+        "name": " Starke Linderung",
+        "value": "(FW 16, 3 AP): Statt QS/2 können QS Stufen geheilt werden"
+      }
+    ],
     "name": "Tierleid lindern",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten sind nicht modifizierbar)",
       "Liturgiedauer": "8 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Kosten modifizierbar",
-          "value": "(FW 8, 1 AP): Die Kosten sind doch modifizierbar."
-        },
-        {
-          "name": " Mehrere Ziele",
-          "value": "(FW 12, 2 AP): Der Geweihte kann beliebig viele Tiere gleichzeitig heilen. Jedes Ziel nach dem ersten kostet zusätzlich 4 KaP."
-        },
-        {
-          "name": " Starke Linderung",
-          "value": "(FW 16, 3 AP): Statt QS/2 können QS Stufen geheilt werden"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 137ff.",
       "Reichweite": "Berührung",
@@ -8012,24 +8019,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 3 Minuten."
+      },
+      {
+        "name": " Mehr Wildtiere",
+        "value": "(FW 12, 4 AP): Alle Wildtiere innerhalb Hör- und Sichtweite des Geweihten sind betroffen."
+      },
+      {
+        "name": " Reichweite Berührung",
+        "value": "(FW 16, 6 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden"
+      }
+    ],
     "name": "Tiersprache",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 3 Minuten."
-        },
-        {
-          "name": " Mehr Wildtiere",
-          "value": "(FW 12, 4 AP): Alle Wildtiere innerhalb Hör- und Sichtweite des Geweihten sind betroffen."
-        },
-        {
-          "name": " Reichweite Berührung",
-          "value": "(FW 16, 6 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 138",
       "Reichweite": "selbst",
@@ -8042,6 +8049,7 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [],
     "name": "Trankfluch",
     "properties": {
       "KaP-Kosten": "8 KaP",
@@ -8058,23 +8066,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Tiefer Einblick",
+        "value": "(FW 8, 2 AP): Der Geweihte erhält Einblick in die Persönlichkeit des Ziels und kann alle Persönlichkeitsschwächen und Schlechten Eigenschaften identifizieren."
+      },
+      {
+        "name": "Noch tieferer Einblick",
+        "value": "(FW 12, 4 AP): Der Geweihte erkennt Ziele und Motivationen des Träumers. Bei Menschenkenntnis, Überzeugen, Überreden und Heilkunde Seele bekommt der Geweihte gegenüber dem Träumer eine Erleichterung von 1 für 1 Tag. Voraussetzung: Liturgieerweiterung Tiefer Einblick."
+      },
+      {
+        "name": "Sprechender Traumgänger",
+        "value": "(FW 16, 6 AP): Der Geweihte kann im Traum zum Ziel sprechen. Voraussetzung: Liturgieerweiterung Noch tieferer Einblick"
+      }
+    ],
     "name": "Traumbild",
     "properties": {
       "KaP-Kosten": "8 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Tiefer Einblick",
-          "value": "(FW 8, 2 AP): Der Geweihte erhält Einblick in die Persönlichkeit des Ziels und kann alle Persönlichkeitsschwächen und Schlechten Eigenschaften identifizieren."
-        },
-        {
-          "name": "Noch tieferer Einblick",
-          "value": "(FW 12, 4 AP): Der Geweihte erkennt Ziele und Motivationen des Träumers. Bei Menschenkenntnis, Überzeugen, Überreden und Heilkunde Seele bekommt der Geweihte gegenüber dem Träumer eine Erleichterung von 1 für 1 Tag. Voraussetzung: Liturgieerweiterung Tiefer Einblick."
-        },
-        {
-          "name": "Sprechender Traumgänger",
-          "value": "(FW 16, 6 AP): Der Geweihte kann im Traum zum Ziel sprechen. Voraussetzung: Liturgieerweiterung Noch tieferer Einblick"
-        }
-      ],
       "Probe": "KL/IN/CH (modifiziert um SK)",
       "Publikationen": "Aventurisches Götterwirken, Seite 160ff.",
       "Reichweite": "Berührung",
@@ -8088,23 +8096,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer",
+        "value": "(FW 8, 3 AP): Die Wirkungsdauer beträgt QS x 30 Minuten."
+      },
+      {
+        "name": " Mitnahme",
+        "value": "(FW 12, 6 AP): Ein anderer Kulturschaffender kann zusammen mit der Geweihten in den Traum eines Schlafenden reisen. Die Geweihte muss dabei den anderen Kulturschaffenden während der Wirkungsdauer berühren."
+      },
+      {
+        "name": " Traummeister",
+        "value": "(FW 16, 9 AP): Im Traum hat die Geweihte einen zusätzlichen RS von 2"
+      }
+    ],
     "name": "Traumgesicht",
     "properties": {
       "KaP-Kosten": "8 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer",
-          "value": "(FW 8, 3 AP): Die Wirkungsdauer beträgt QS x 30 Minuten."
-        },
-        {
-          "name": " Mitnahme",
-          "value": "(FW 12, 6 AP): Ein anderer Kulturschaffender kann zusammen mit der Geweihten in den Traum eines Schlafenden reisen. Die Geweihte muss dabei den anderen Kulturschaffenden während der Wirkungsdauer berühren."
-        },
-        {
-          "name": " Traummeister",
-          "value": "(FW 16, 9 AP): Im Traum hat die Geweihte einen zusätzlichen RS von 2"
-        }
-      ],
       "Probe": "MU/IN/CH (modifiziert um SK)",
       "Publikationen": "Aventurisches Götterwirken II, Seite 108",
       "Reichweite": "4 Schritt",
@@ -8118,24 +8126,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Reichweite Berührung",
+        "value": "(FW 8, 1 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden."
+      },
+      {
+        "name": " Größere Tiere",
+        "value": "(FW 12, 2 AP): Der Geweihte kann auch Tiere der Größenkategorie klein zu seinem Begleiter machen."
+      },
+      {
+        "name": " Längere Wirkungsdauer",
+        "value": "(FW 16, 3 AP): Die Wirkungsdauer beträgt QS Tage"
+      }
+    ],
     "name": "Treuer Begleiter",
     "properties": {
       "KaP-Kosten": "4 KaP",
       "Liturgiedauer": "8 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Reichweite Berührung",
-          "value": "(FW 8, 1 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden."
-        },
-        {
-          "name": " Größere Tiere",
-          "value": "(FW 12, 2 AP): Der Geweihte kann auch Tiere der Größenkategorie klein zu seinem Begleiter machen."
-        },
-        {
-          "name": " Längere Wirkungsdauer",
-          "value": "(FW 16, 3 AP): Die Wirkungsdauer beträgt QS Tage"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Aventurisches Götterwirken, Seite 138ff.",
       "Reichweite": "selbst",
@@ -8148,23 +8156,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Kosten modifizierbar",
+        "value": "(FW 8, 1 AP): Die Kosten sind doch modifizierbar."
+      },
+      {
+        "name": "Mehr Gewicht",
+        "value": "(FW 12, 2 AP): Das Ziel kann QS x 2 Stein zusätzlich tragen (statt nur QS Stein)."
+      },
+      {
+        "name": "Reichweite Berührung",
+        "value": "(FW 16, 3 AP): Als Reichweite gilt Berührung. Die Zeremonie kann nur auf Kulturschaffende übertragen werden"
+      }
+    ],
     "name": "Unbeschwerte Wanderung",
     "properties": {
       "KaP-Kosten": "4 KaP (Kosten sind nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Kosten modifizierbar",
-          "value": "(FW 8, 1 AP): Die Kosten sind doch modifizierbar."
-        },
-        {
-          "name": "Mehr Gewicht",
-          "value": "(FW 12, 2 AP): Das Ziel kann QS x 2 Stein zusätzlich tragen (statt nur QS Stein)."
-        },
-        {
-          "name": "Reichweite Berührung",
-          "value": "(FW 16, 3 AP): Als Reichweite gilt Berührung. Die Zeremonie kann nur auf Kulturschaffende übertragen werden"
-        }
-      ],
       "Probe": "MU/IN/KO",
       "Publikationen": "Aventurisches Götterwirken, Seite 161",
       "Reichweite": "selbst",
@@ -8178,6 +8186,7 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [],
     "name": "Unsichtbare Flut",
     "properties": {
       "KaP-Kosten": "16 KaP",
@@ -8194,24 +8203,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Keine Aufrechterhaltung",
+        "value": "(FW 8, 2 AP): Die Liturgie gilt nicht als aufrechterhaltend. Die Wirkungsdauer und damit die KaP-Kosten müssen beim Wirken der Liturgie festgelegt werden."
+      },
+      {
+        "name": " Reichweite Berührung",
+        "value": "(FW 12, 4 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Lebewesen übertragen werden."
+      },
+      {
+        "name": " Vier Ziele",
+        "value": "(FW 16, 6 AP): Der Geweihte kann bis zu 4 Ziele gleichzeitig von der Wirkung profitieren lassen. Die KaP-Kosten sind für jedes Ziel einzeln zu bezahlen"
+      }
+    ],
     "name": "Unterwasseratmung",
     "properties": {
       "KaP-Kosten": "4 KaP (Aktivierung der Liturgie) +2 KaP pro 15 Minuten",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Keine Aufrechterhaltung",
-          "value": "(FW 8, 2 AP): Die Liturgie gilt nicht als aufrechterhaltend. Die Wirkungsdauer und damit die KaP-Kosten müssen beim Wirken der Liturgie festgelegt werden."
-        },
-        {
-          "name": " Reichweite Berührung",
-          "value": "(FW 12, 4 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Lebewesen übertragen werden."
-        },
-        {
-          "name": " Vier Ziele",
-          "value": "(FW 16, 6 AP): Der Geweihte kann bis zu 4 Ziele gleichzeitig von der Wirkung profitieren lassen. Die KaP-Kosten sind für jedes Ziel einzeln zu bezahlen"
-        }
-      ],
       "Probe": "MU/IN/KO",
       "Publikationen": "Aventurisches Götterwirken, Seite 139<br>Havena - Versunkene Geheimnisse, Seite 85",
       "Reichweite": "selbst",
@@ -8224,23 +8233,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": " Zeremoniedauer modifizierbar",
+        "value": "(FW 8, 4 AP): Die Zeremoniedauer ist doch modifizierbar."
+      },
+      {
+        "name": " Geweihter Körper",
+        "value": "(FW 12, 8 AP): Der Körper der erhobenen Untoten gilt als der Marbo geweiht (siehe Aventurisches Götterwirken Seite 70). Waffenlose Angriffe des Wesens werden dadurch so behandelt, als würden sie mit einer geweihten Waffe ausgeführt."
+      },
+      {
+        "name": " Permanente Wirkung",
+        "value": "(FW 16, 12 AP): Die Wirkung der Zeremonie wird permanent. Die Kosten an permanenten KaP verdoppeln sich"
+      }
+    ],
     "name": "Untote erschaffen",
     "properties": {
       "KaP-Kosten": "4/8/16/32/64 KaP für die Größenkategorie winzig/klein/mittel/groß/riesig, davon 0/1/2/4/8 KaP permanent (Kosten sind nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Zeremoniedauer modifizierbar",
-          "value": "(FW 8, 4 AP): Die Zeremoniedauer ist doch modifizierbar."
-        },
-        {
-          "name": " Geweihter Körper",
-          "value": "(FW 12, 8 AP): Der Körper der erhobenen Untoten gilt als der Marbo geweiht (siehe Aventurisches Götterwirken Seite 70). Waffenlose Angriffe des Wesens werden dadurch so behandelt, als würden sie mit einer geweihten Waffe ausgeführt."
-        },
-        {
-          "name": " Permanente Wirkung",
-          "value": "(FW 16, 12 AP): Die Wirkung der Zeremonie wird permanent. Die Kosten an permanenten KaP verdoppeln sich"
-        }
-      ],
       "Probe": "MU/IN/CH (erschwert um Erschaffungsschwierigkeit)",
       "Publikationen": "Aventurisches Götterwirken II, Seite 108",
       "Reichweite": "Berührung",
@@ -8254,24 +8263,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Mehr Dienste",
+        "value": "(FW 8, 2 AP): Der Schamane kann QS+2 Dienste von dem Wesen verlangen."
+      },
+      {
+        "name": " Längerer Dienst",
+        "value": "(FW 12, 4 AP): Das Wesen verbleibt QS x 3 KR."
+      },
+      {
+        "name": " Mächtiges Wesen",
+        "value": "(FW 16, 6 AP): Dem Wesen können zweimal die gleichen Verbesserungen beim Beschwören gegeben werden"
+      }
+    ],
     "name": "Untotenerhebung",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Mehr Dienste",
-          "value": "(FW 8, 2 AP): Der Schamane kann QS+2 Dienste von dem Wesen verlangen."
-        },
-        {
-          "name": " Längerer Dienst",
-          "value": "(FW 12, 4 AP): Das Wesen verbleibt QS x 3 KR."
-        },
-        {
-          "name": " Mächtiges Wesen",
-          "value": "(FW 16, 6 AP): Dem Wesen können zweimal die gleichen Verbesserungen beim Beschwören gegeben werden"
-        }
-      ],
       "Probe": "MU/KL/CH (erschwert um Erschaffungsschwierigkeit)",
       "Publikationen": "Aventurisches Götterwirken II, Seite 89",
       "Reichweite": "8 Schritt",
@@ -8284,24 +8293,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer 1",
+        "value": "(FW 8, 4 AP): Die Wirkungsdauer beträgt 10 KR."
+      },
+      {
+        "name": " Große Vampirmacht",
+        "value": "(FW 12, 8 AP): Der Bonus pro Eigenschaft darf bis zu 4 Punkte betragen."
+      },
+      {
+        "name": " Längere Wirkungsdauer 2",
+        "value": "(FW 16, 12 AP): Die Wirkungsdauer beträgt 15 KR. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1"
+      }
+    ],
     "name": "Vampirische Kräfte",
     "properties": {
       "KaP-Kosten": "16 KaP (Kosten nicht modifizierbar)",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer 1",
-          "value": "(FW 8, 4 AP): Die Wirkungsdauer beträgt 10 KR."
-        },
-        {
-          "name": " Große Vampirmacht",
-          "value": "(FW 12, 8 AP): Der Bonus pro Eigenschaft darf bis zu 4 Punkte betragen."
-        },
-        {
-          "name": " Längere Wirkungsdauer 2",
-          "value": "(FW 16, 12 AP): Die Wirkungsdauer beträgt 15 KR. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1"
-        }
-      ],
       "Probe": "MU/IN/KO",
       "Publikationen": "Aventurisches Götterwirken II, Seite 89",
       "Reichweite": "selbst",
@@ -8314,23 +8323,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 8, 1 AP): Die Wirkungsdauer beträgt QS Jahre."
+      },
+      {
+        "name": "Kosten modifizierbar",
+        "value": "(FW 12, 2 AP): Die Kosten sind doch modifizierbar."
+      },
+      {
+        "name": "Seelenheilung",
+        "value": "(FW 16, 3 AP): Die Heilkunde Seele-Probe ist zusätzlich um 2 erleichtert"
+      }
+    ],
     "name": "Verblassende Erinnerung",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten sind nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 8, 1 AP): Die Wirkungsdauer beträgt QS Jahre."
-        },
-        {
-          "name": "Kosten modifizierbar",
-          "value": "(FW 12, 2 AP): Die Kosten sind doch modifizierbar."
-        },
-        {
-          "name": "Seelenheilung",
-          "value": "(FW 16, 3 AP): Die Heilkunde Seele-Probe ist zusätzlich um 2 erleichtert"
-        }
-      ],
       "Probe": "MU/IN/CH (modifiziert um SK)",
       "Publikationen": "Aventurisches Götterwirken, Seite 161",
       "Reichweite": "Berührung",
@@ -8344,23 +8353,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Längere Wirkungsdauer 1",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS Wochen. Die Kosten steigen auf 16 KaP."
+      },
+      {
+        "name": "Längere Wirkungsdauer 2",
+        "value": "(FW 12, 4 AP): Die Wirkungsdauer beträgt QS Monate. Die Kosten steigen auf 32 KaP. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1."
+      },
+      {
+        "name": "Längere Wirkungsdauer 3",
+        "value": "(FW 16, 6 AP): Die Wirkungsdauer beträgt QS Jahre. Die Kosten steigen auf 64 KaP. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 2"
+      }
+    ],
     "name": "Vergessen",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten sind nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Längere Wirkungsdauer 1",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS Wochen. Die Kosten steigen auf 16 KaP."
-        },
-        {
-          "name": "Längere Wirkungsdauer 2",
-          "value": "(FW 12, 4 AP): Die Wirkungsdauer beträgt QS Monate. Die Kosten steigen auf 32 KaP. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1."
-        },
-        {
-          "name": "Längere Wirkungsdauer 3",
-          "value": "(FW 16, 6 AP): Die Wirkungsdauer beträgt QS Jahre. Die Kosten steigen auf 64 KaP. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 2"
-        }
-      ],
       "Probe": "MU/IN/CH (modifiziert um SK)",
       "Publikationen": "Aventurisches Götterwirken, Seite 161",
       "Reichweite": "Berührung",
@@ -8374,24 +8383,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Größere Reichweite",
+        "value": "(FW 8, 2 AP): Die Reichweite beträgt 8 Schritt."
+      },
+      {
+        "name": " Längere Wirkungsdauer",
+        "value": "(FW 12, 4 AP): Die Wirkungsdauer beträgt QS x 5 KR."
+      },
+      {
+        "name": " Schnelle Versteinerung",
+        "value": "(FW 16, 6 AP): Pro KR erhält das Ziel 2 Stufen Paralyse"
+      }
+    ],
     "name": "Versteinerung",
     "properties": {
       "KaP-Kosten": "16 KaP",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Größere Reichweite",
-          "value": "(FW 8, 2 AP): Die Reichweite beträgt 8 Schritt."
-        },
-        {
-          "name": " Längere Wirkungsdauer",
-          "value": "(FW 12, 4 AP): Die Wirkungsdauer beträgt QS x 5 KR."
-        },
-        {
-          "name": " Schnelle Versteinerung",
-          "value": "(FW 16, 6 AP): Pro KR erhält das Ziel 2 Stufen Paralyse"
-        }
-      ],
       "Probe": "MU/KL/IN (modifiziert um ZK)",
       "Publikationen": "Aventurisches Götterwirken, Seite 139",
       "Reichweite": "4 Schritt",
@@ -8404,23 +8413,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Verwirrter Geweihter",
+        "value": "(FW 8, 3 AP): Erleidet ein Geweihter SP durch die verfluchte Waffe, bekommt er zusätzlich 1 Stufe Verwirrung."
+      },
+      {
+        "name": "Verängstigter Geweihter",
+        "value": "(FW 12, 6 AP): Erleidet ein Geweihter SP durch die verfluchte Waffe, bekommt er zusätzlich 1 Stufe Furcht."
+      },
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 16, 9 AP): Die Wirkungsdauer beträgt QS Tage"
+      }
+    ],
     "name": "Waffenfluch",
     "properties": {
       "KaP-Kosten": "8/16/32 KaP für Geschosse, Dolche und Raufen-Waffen/alle übrigen Waffen/Zweihandwaffen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Verwirrter Geweihter",
-          "value": "(FW 8, 3 AP): Erleidet ein Geweihter SP durch die verfluchte Waffe, bekommt er zusätzlich 1 Stufe Verwirrung."
-        },
-        {
-          "name": "Verängstigter Geweihter",
-          "value": "(FW 12, 6 AP): Erleidet ein Geweihter SP durch die verfluchte Waffe, bekommt er zusätzlich 1 Stufe Furcht."
-        },
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 16, 9 AP): Die Wirkungsdauer beträgt QS Tage"
-        }
-      ],
       "Probe": "MU/IN/KO",
       "Publikationen": "Aventurisches Götterwirken, Seite 162",
       "Reichweite": "Berührung",
@@ -8434,24 +8443,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer",
+        "value": "(FW 8, 3 AP): Die Wirkungsdauer beträgt QS x 5 Minuten."
+      },
+      {
+        "name": " Größere Reichweite",
+        "value": "(FW 12, 6 AP): Die Reichweite beträgt 4 Schritt."
+      },
+      {
+        "name": " Andere Fragesteller",
+        "value": "(FW 16, 9 AP): Der Geweihte kann beliebige Kulturschaffende benennen, denen das Ziel der Liturgie ebenso wahrheitsgemäß antworten muss"
+      }
+    ],
     "name": "Wahrheit",
     "properties": {
       "KaP-Kosten": "16 KaP",
       "Liturgiedauer": "8 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer",
-          "value": "(FW 8, 3 AP): Die Wirkungsdauer beträgt QS x 5 Minuten."
-        },
-        {
-          "name": " Größere Reichweite",
-          "value": "(FW 12, 6 AP): Die Reichweite beträgt 4 Schritt."
-        },
-        {
-          "name": " Andere Fragesteller",
-          "value": "(FW 16, 9 AP): Der Geweihte kann beliebige Kulturschaffende benennen, denen das Ziel der Liturgie ebenso wahrheitsgemäß antworten muss"
-        }
-      ],
       "Probe": "MU/KL/IN (modifiziert um SK)",
       "Publikationen": "Regelwerk, Seite 331<br>Aventurisches Götterwirken, Seite 168",
       "Reichweite": "Berührung",
@@ -8464,24 +8473,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Schutzhaut",
+        "value": "(FW 8, 2 AP): Die Schildstärke beträgt KaP + (QS x 4), aber nur der Geweihte selbst ist von der Schutzwirkung betroffen."
+      },
+      {
+        "name": " Großer Radius",
+        "value": "(FW 12, 4 AP): Der Radius beträgt 5 Schritt. Es entstehen zusätzliche Kosten in Höhe von 4 KaP, die jedoch nicht die Schildstärke erhöhen."
+      },
+      {
+        "name": " Reichweite Berührung",
+        "value": "(FW 16, 6 AP): Als Reichweite gilt Berührung. Die Schildstärke beträgt nur QS x 2. Die Liturgie kann nur auf Kulturschaffende übertragen werden"
+      }
+    ],
     "name": "Wand wider Dämonen",
     "properties": {
       "KaP-Kosten": "mindestens 4 KaP (Kosten sind nicht modifizierbar)",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Schutzhaut",
-          "value": "(FW 8, 2 AP): Die Schildstärke beträgt KaP + (QS x 4), aber nur der Geweihte selbst ist von der Schutzwirkung betroffen."
-        },
-        {
-          "name": " Großer Radius",
-          "value": "(FW 12, 4 AP): Der Radius beträgt 5 Schritt. Es entstehen zusätzliche Kosten in Höhe von 4 KaP, die jedoch nicht die Schildstärke erhöhen."
-        },
-        {
-          "name": " Reichweite Berührung",
-          "value": "(FW 16, 6 AP): Als Reichweite gilt Berührung. Die Schildstärke beträgt nur QS x 2. Die Liturgie kann nur auf Kulturschaffende übertragen werden"
-        }
-      ],
       "Probe": "MU/KL/CH",
       "Publikationen": "Aventurisches Götterwirken II, Seite 89 ff.",
       "Reichweite": "selbst",
@@ -8494,24 +8503,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 10 Minuten."
+      },
+      {
+        "name": " Mitnahme",
+        "value": "(FW 12, 4 AP): Die Geweihte kann jemanden mitnehmen, allerdings muss eine ständige Berührung während der Wirkung der Liturgie aufrechterhalten werden."
+      },
+      {
+        "name": " Reichweite Berührung",
+        "value": "(FW 16, 6 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Lebewesen übertragen werden"
+      }
+    ],
     "name": "Wasserlauf",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "8 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 10 Minuten."
-        },
-        {
-          "name": " Mitnahme",
-          "value": "(FW 12, 4 AP): Die Geweihte kann jemanden mitnehmen, allerdings muss eine ständige Berührung während der Wirkung der Liturgie aufrechterhalten werden."
-        },
-        {
-          "name": " Reichweite Berührung",
-          "value": "(FW 16, 6 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Lebewesen übertragen werden"
-        }
-      ],
       "Probe": "MU/IN/GE",
       "Publikationen": "Aventurisches Götterwirken, Seite 139<br>Havena - Versunkene Geheimnisse, Seite 85",
       "Reichweite": "selbst",
@@ -8524,23 +8533,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Größerer Radius",
+        "value": "(FW 8, 1 AP): Der Radius beträgt QS x 30 Meilen."
+      },
+      {
+        "name": "Genaue Entfernung",
+        "value": "(FW 12, 2 AP): Der Geweihte kann auf eine Meile genau sagen, wie weit die Unterkunft entfernt ist."
+      },
+      {
+        "name": "Genaue Erreichbarkeit",
+        "value": "(FW 16, 3 AP): Der Geweihte kann genauere Angaben zur Erreichbarkeit machen und z. B. spüren, ob ein Fluss oder ein Berg im Weg ist. Somit kann er auch Umwege einkalkulieren"
+      }
+    ],
     "name": "Wegweiser",
     "properties": {
       "KaP-Kosten": "8 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Größerer Radius",
-          "value": "(FW 8, 1 AP): Der Radius beträgt QS x 30 Meilen."
-        },
-        {
-          "name": "Genaue Entfernung",
-          "value": "(FW 12, 2 AP): Der Geweihte kann auf eine Meile genau sagen, wie weit die Unterkunft entfernt ist."
-        },
-        {
-          "name": "Genaue Erreichbarkeit",
-          "value": "(FW 16, 3 AP): Der Geweihte kann genauere Angaben zur Erreichbarkeit machen und z. B. spüren, ob ein Fluss oder ein Berg im Weg ist. Somit kann er auch Umwege einkalkulieren"
-        }
-      ],
       "Probe": "KL/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 162",
       "Reichweite": "selbst",
@@ -8554,24 +8563,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer 1",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 3 Minuten."
+      },
+      {
+        "name": " Größerer Radius",
+        "value": "(FW 12, 4 AP): Der Radius beträgt 8 Schritt."
+      },
+      {
+        "name": " Längere Wirkungsdauer 2",
+        "value": "(FW 16, 6 AP): Die Wirkungsdauer beträgt QS x 5 Minuten. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1"
+      }
+    ],
     "name": "Weihe des Bodens",
     "properties": {
       "KaP-Kosten": "4 KaP (Kosten sind nicht modifizierbar)",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer 1",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 3 Minuten."
-        },
-        {
-          "name": " Größerer Radius",
-          "value": "(FW 12, 4 AP): Der Radius beträgt 8 Schritt."
-        },
-        {
-          "name": " Längere Wirkungsdauer 2",
-          "value": "(FW 16, 6 AP): Die Wirkungsdauer beträgt QS x 5 Minuten. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken II, Seite 90",
       "Reichweite": "8 Schritt",
@@ -8584,23 +8593,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Größere Gebäude 1",
+        "value": "(FW 8, 1 AP): Größere Gebäude können geweiht werden. Darunter fallen viele Stadtvillen oder mehrstöckige Gebäude. Die KaP-Kosten belaufen sich auf 16 KaP."
+      },
+      {
+        "name": "Größere Gebäude 2",
+        "value": "(FW 12, 2 AP): Riesige Gebäude können geweiht werden. Darunter fallen beispielsweise kleinere Burgen. Die KaP-Kosten belaufen sich auf 32 KaP. Voraussetzung: Liturgieerweiterung Größere Gebäude 1."
+      },
+      {
+        "name": "Größere Gebäude 3",
+        "value": "(FW 16, 3 AP): Gigantische Gebäude können geweiht werden. Darunter fallen beispielsweise Schlösser und Festungen. Die KaP Kosten belaufen sich auf 64 KaP. Voraussetzung: Liturgieerweiterung Größere Gebäude 2"
+      }
+    ],
     "name": "Weihe des Heims",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten sind nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Größere Gebäude 1",
-          "value": "(FW 8, 1 AP): Größere Gebäude können geweiht werden. Darunter fallen viele Stadtvillen oder mehrstöckige Gebäude. Die KaP-Kosten belaufen sich auf 16 KaP."
-        },
-        {
-          "name": "Größere Gebäude 2",
-          "value": "(FW 12, 2 AP): Riesige Gebäude können geweiht werden. Darunter fallen beispielsweise kleinere Burgen. Die KaP-Kosten belaufen sich auf 32 KaP. Voraussetzung: Liturgieerweiterung Größere Gebäude 1."
-        },
-        {
-          "name": "Größere Gebäude 3",
-          "value": "(FW 16, 3 AP): Gigantische Gebäude können geweiht werden. Darunter fallen beispielsweise Schlösser und Festungen. Die KaP Kosten belaufen sich auf 64 KaP. Voraussetzung: Liturgieerweiterung Größere Gebäude 2"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Aventurisches Götterwirken, Seite 162",
       "Reichweite": "Berührung",
@@ -8614,23 +8623,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Aufrechterhaltend",
+        "value": "(FW 8, 1 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 8 KaP und 4 KaP pro 3 Stunden."
+      },
+      {
+        "name": "Sprachfähigkeit",
+        "value": "(FW 12, 2 AP): Der Geweihte kann in Tiergestalt sprechen."
+      },
+      {
+        "name": "Klerikales Tier",
+        "value": "(FW 16, 3 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung Sprachfähigkeit"
+      }
+    ],
     "name": "Widdergestalt",
     "properties": {
       "KaP-Kosten": "8 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Aufrechterhaltend",
-          "value": "(FW 8, 1 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 8 KaP und 4 KaP pro 3 Stunden."
-        },
-        {
-          "name": "Sprachfähigkeit",
-          "value": "(FW 12, 2 AP): Der Geweihte kann in Tiergestalt sprechen."
-        },
-        {
-          "name": "Klerikales Tier",
-          "value": "(FW 16, 3 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung Sprachfähigkeit"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Wege der Vereinigungen, Seite 195<br>Aventurisches Götterwirken II, Seite 108 ff.",
       "Reichweite": "selbst",
@@ -8644,23 +8653,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Bessere Reparatur",
+        "value": "(FW 8, 2 AP): Die Zeremonie gibt QS x 30 Strukturpunkte wieder zurück."
+      },
+      {
+        "name": "Waffen- und Rüstungsreparatur",
+        "value": "(FW 12, 4 AP): Auch Waffen und Rüstungen können wiederhergestellt werden. Um Rüstungen wiederherzustellen, benötigt der Geweihte so viele QS, wie die Rüstung Rüstungsschutz besitzt. Bei Waffen der Kampftechniken Dolche und Raufen muss 1 QS erzielt werden, bei anderen Waffen mindestens 2 QS. Zweihandwaffen können nur mit mindestens 3 QS wiederhergestellt werden."
+      },
+      {
+        "name": "Perfekte Reparatur",
+        "value": "(FW 16, 6 AP): Die Zeremonie gibt QS x 50 Strukturpunkte wieder zurück. Außerdem wird bei Waffen und Rüstungen eine QS weniger benötigt. Voraussetzung: Liturgieerweiterung Bessere Reparatur und Waffen- und Rüstungsreparatur"
+      }
+    ],
     "name": "Wiederherstellung",
     "properties": {
       "KaP-Kosten": "8 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Bessere Reparatur",
-          "value": "(FW 8, 2 AP): Die Zeremonie gibt QS x 30 Strukturpunkte wieder zurück."
-        },
-        {
-          "name": "Waffen- und Rüstungsreparatur",
-          "value": "(FW 12, 4 AP): Auch Waffen und Rüstungen können wiederhergestellt werden. Um Rüstungen wiederherzustellen, benötigt der Geweihte so viele QS, wie die Rüstung Rüstungsschutz besitzt. Bei Waffen der Kampftechniken Dolche und Raufen muss 1 QS erzielt werden, bei anderen Waffen mindestens 2 QS. Zweihandwaffen können nur mit mindestens 3 QS wiederhergestellt werden."
-        },
-        {
-          "name": "Perfekte Reparatur",
-          "value": "(FW 16, 6 AP): Die Zeremonie gibt QS x 50 Strukturpunkte wieder zurück. Außerdem wird bei Waffen und Rüstungen eine QS weniger benötigt. Voraussetzung: Liturgieerweiterung Bessere Reparatur und Waffen- und Rüstungsreparatur"
-        }
-      ],
       "Probe": "MU/FF/KO",
       "Publikationen": "Aventurisches Götterwirken, Seite 162ff.",
       "Reichweite": "Berührung",
@@ -8674,24 +8683,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Schnellsteigerung",
+        "value": "(FW 8, 2 AP): Die Liturgiedauer beträgt nur 1 Aktion, die Wirkungsdauer wird dafür auf QS x 3 KR reduziert."
+      },
+      {
+        "name": " Längere Wirkungsdauer",
+        "value": "(FW 12, 4 AP): Die Wirkungsdauer beträgt QS x 5 Minuten."
+      },
+      {
+        "name": " Reichweite Berührung",
+        "value": "(FW 16, 6 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden"
+      }
+    ],
     "name": "Wieselflink",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Schnellsteigerung",
-          "value": "(FW 8, 2 AP): Die Liturgiedauer beträgt nur 1 Aktion, die Wirkungsdauer wird dafür auf QS x 3 KR reduziert."
-        },
-        {
-          "name": " Längere Wirkungsdauer",
-          "value": "(FW 12, 4 AP): Die Wirkungsdauer beträgt QS x 5 Minuten."
-        },
-        {
-          "name": " Reichweite Berührung",
-          "value": "(FW 16, 6 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden"
-        }
-      ],
       "Probe": "IN/IN/GE",
       "Publikationen": "Regelwerk, Seite 331<br>Aventurisches Götterwirken, Seite 168",
       "Reichweite": "selbst",
@@ -8704,24 +8713,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Erschwertes Ausweichen",
+        "value": "(FW 8, 3 AP): Die Probe auf Ausweichen ist zusätzlich um 1 erschwert."
+      },
+      {
+        "name": " Höherer Schaden",
+        "value": "(FW 12, 6 AP): Die Windhose richtet 2W6+(QS x 2) TP an."
+      },
+      {
+        "name": " Größere Reichweite",
+        "value": "(FW 16, 9 AP): Die Reichweite beträgt 32 Schritt"
+      }
+    ],
     "name": "Windhose",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Erschwertes Ausweichen",
-          "value": "(FW 8, 3 AP): Die Probe auf Ausweichen ist zusätzlich um 1 erschwert."
-        },
-        {
-          "name": " Höherer Schaden",
-          "value": "(FW 12, 6 AP): Die Windhose richtet 2W6+(QS x 2) TP an."
-        },
-        {
-          "name": " Größere Reichweite",
-          "value": "(FW 16, 9 AP): Die Reichweite beträgt 32 Schritt"
-        }
-      ],
       "Probe": "MU/CH/KO",
       "Publikationen": "Aventurisches Götterwirken, Seite 139ff.",
       "Reichweite": "16 Schritt",
@@ -8734,24 +8743,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": "Längere Wirkungsdauer 1",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt 1 Stunde."
+      },
+      {
+        "name": "Längere Wirkungsdauer 2",
+        "value": "(FW 12, 4 AP): Die Wirkungsdauer beträgt 2 Stunden. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1."
+      },
+      {
+        "name": "Größere Reichweite",
+        "value": "(FW 16, 6 AP): Die Winde entstehen in bis zu 64 Schritt Entfernung vom Geweihten."
+      }
+    ],
     "name": "Windruf",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "8 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Längere Wirkungsdauer 1",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt 1 Stunde."
-        },
-        {
-          "name": "Längere Wirkungsdauer 2",
-          "value": "(FW 12, 4 AP): Die Wirkungsdauer beträgt 2 Stunden. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1."
-        },
-        {
-          "name": "Größere Reichweite",
-          "value": "(FW 16, 6 AP): Die Winde entstehen in bis zu 64 Schritt Entfernung vom Geweihten."
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 140",
       "Reichweite": "selbst",
@@ -8764,23 +8773,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Zielkategorie Lebewesen",
+        "value": "(FW 8, 2 AP): Die Zeremonie umfasst auch die Zielkategorie Lebewesen."
+      },
+      {
+        "name": "Längere Wirkungsdauer 1",
+        "value": "(FW 12, 4 AP): Die Wirkungsdauer beträgt QS Wochen, die Zeremonie kostet dafür 16 KaP (Kosten sind nicht modifizierbar)."
+      },
+      {
+        "name": "Längere Wirkungsdauer 2",
+        "value": "(FW 16, 6 AP): Die Wirkungsdauer beträgt QS Monate, die Zeremonie kostet dafür 32 KaP (Kosten sind nicht modifizierbar). Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1"
+      }
+    ],
     "name": "Winterschlaf",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten sind nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Zielkategorie Lebewesen",
-          "value": "(FW 8, 2 AP): Die Zeremonie umfasst auch die Zielkategorie Lebewesen."
-        },
-        {
-          "name": "Längere Wirkungsdauer 1",
-          "value": "(FW 12, 4 AP): Die Wirkungsdauer beträgt QS Wochen, die Zeremonie kostet dafür 16 KaP (Kosten sind nicht modifizierbar)."
-        },
-        {
-          "name": "Längere Wirkungsdauer 2",
-          "value": "(FW 16, 6 AP): Die Wirkungsdauer beträgt QS Monate, die Zeremonie kostet dafür 32 KaP (Kosten sind nicht modifizierbar). Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken, Seite 163",
       "Reichweite": "Berührung",
@@ -8794,23 +8803,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer 1",
+        "value": "(FW 8, 3 AP): Die Wirkungsdauer beträgt QS Tage."
+      },
+      {
+        "name": " Längere Wirkungsdauer 2",
+        "value": "(FW 12, 6 AP): Die Wirkungsdauer beträgt QS Wochen. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1."
+      },
+      {
+        "name": " Längere Wirkungsdauer 3",
+        "value": "(FW 16, 9 AP): Die Wirkungsdauer beträgt QS Monate. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer2"
+      }
+    ],
     "name": "Wolfsfluch",
     "properties": {
       "KaP-Kosten": "16 KaP (Kosten nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer 1",
-          "value": "(FW 8, 3 AP): Die Wirkungsdauer beträgt QS Tage."
-        },
-        {
-          "name": " Längere Wirkungsdauer 2",
-          "value": "(FW 12, 6 AP): Die Wirkungsdauer beträgt QS Wochen. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer 1."
-        },
-        {
-          "name": " Längere Wirkungsdauer 3",
-          "value": "(FW 16, 9 AP): Die Wirkungsdauer beträgt QS Monate. Voraussetzung: Liturgieerweiterung Längere Wirkungsdauer2"
-        }
-      ],
       "Probe": "MU/KL/CH (modifiziert um SK)",
       "Publikationen": "Aventurisches Götterwirken II, Seite 109",
       "Reichweite": "Berührung",
@@ -8824,23 +8833,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": " Aufrechterhaltend",
+        "value": "(FW 8, 2 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 4 KaP und 2 KaP pro 3 Stunden."
+      },
+      {
+        "name": " Sprachfähigkeit",
+        "value": "(FW 12, 4 AP): Die Schamanin kann in Tiergestalt sprechen."
+      },
+      {
+        "name": " Klerikales Tier",
+        "value": "(FW 16, 6 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung Sprachfähigkeit"
+      }
+    ],
     "name": "Wolfsgestalt",
     "properties": {
       "KaP-Kosten": "8 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Aufrechterhaltend",
-          "value": "(FW 8, 2 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 4 KaP und 2 KaP pro 3 Stunden."
-        },
-        {
-          "name": " Sprachfähigkeit",
-          "value": "(FW 12, 4 AP): Die Schamanin kann in Tiergestalt sprechen."
-        },
-        {
-          "name": " Klerikales Tier",
-          "value": "(FW 16, 6 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung Sprachfähigkeit"
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Aventurisches Götterwirken II, Seite 109",
       "Reichweite": "selbst",
@@ -8854,24 +8863,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt 30 Minuten."
+      },
+      {
+        "name": " Mehr Befehle",
+        "value": "(FW 12, 4 AP): Der Schamane kann während der Wirkungsdauer bis zu 3 Befehle aussprechen, welche die Wesen befolgen."
+      },
+      {
+        "name": " Mehr Wesen",
+        "value": "(FW 16, 6 AP): Es erscheinen zwei zusätzliche Wesen"
+      }
+    ],
     "name": "Wolfsruf",
     "properties": {
       "KaP-Kosten": "16 KaP (Kosten nicht modifizierbar)",
       "Liturgiedauer": "4 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt 30 Minuten."
-        },
-        {
-          "name": " Mehr Befehle",
-          "value": "(FW 12, 4 AP): Der Schamane kann während der Wirkungsdauer bis zu 3 Befehle aussprechen, welche die Wesen befolgen."
-        },
-        {
-          "name": " Mehr Wesen",
-          "value": "(FW 16, 6 AP): Es erscheinen zwei zusätzliche Wesen"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken II, Seite 90 ff.",
       "Reichweite": "selbst",
@@ -8884,24 +8893,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Zeichensprache",
+        "value": "(FW 8, 2 AP): Die Liturgie wirkt auch bei Zeichensprachen."
+      },
+      {
+        "name": " Tadelloser Übersetzer",
+        "value": "(FW 12, 4 AP): Für jeweils 4 zusätzliche KaP kann die QS bei einer gelungenen Probe um 1 erhöht werden (bis zu einem Maximum von 6)."
+      },
+      {
+        "name": " Reichweite Berührung",
+        "value": "(FW 16, 6 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden"
+      }
+    ],
     "name": "Wundersame Verständigung",
     "properties": {
       "KaP-Kosten": "8 KaP",
       "Liturgiedauer": "2 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Zeichensprache",
-          "value": "(FW 8, 2 AP): Die Liturgie wirkt auch bei Zeichensprachen."
-        },
-        {
-          "name": " Tadelloser Übersetzer",
-          "value": "(FW 12, 4 AP): Für jeweils 4 zusätzliche KaP kann die QS bei einer gelungenen Probe um 1 erhöht werden (bis zu einem Maximum von 6)."
-        },
-        {
-          "name": " Reichweite Berührung",
-          "value": "(FW 16, 6 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werden"
-        }
-      ],
       "Probe": "KL/KL/IN",
       "Publikationen": "Regelwerk, Seite 330<br>Aventurisches Götterwirken, Seite 168",
       "Reichweite": "selbst",
@@ -8914,23 +8923,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Begleiter erlaubt",
+        "value": "(FW 8, 2 AP): Auch tierische Begleiter wie Esel, Pferde und Vertrautentiere werden durch die Zuflucht geschützt. Die Kosten betragen bei ihnen 2/4/8/16 KaP für die Größenkategorie winzig/klein/mittel/groß."
+      },
+      {
+        "name": "Kosten modifizierbar",
+        "value": "(FW 12, 4 AP): Die Kosten sind doch modifizierbar."
+      },
+      {
+        "name": "Längere Wirkungsdauer",
+        "value": "(FW 16, 6 AP): Die Wirkungsdauer beträgt 24 Stunden"
+      }
+    ],
     "name": "Zuflucht",
     "properties": {
       "KaP-Kosten": "8 KaP pro Person (Kosten sind nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Begleiter erlaubt",
-          "value": "(FW 8, 2 AP): Auch tierische Begleiter wie Esel, Pferde und Vertrautentiere werden durch die Zuflucht geschützt. Die Kosten betragen bei ihnen 2/4/8/16 KaP für die Größenkategorie winzig/klein/mittel/groß."
-        },
-        {
-          "name": "Kosten modifizierbar",
-          "value": "(FW 12, 4 AP): Die Kosten sind doch modifizierbar."
-        },
-        {
-          "name": "Längere Wirkungsdauer",
-          "value": "(FW 16, 6 AP): Die Wirkungsdauer beträgt 24 Stunden"
-        }
-      ],
       "Probe": "IN/CH/KO",
       "Publikationen": "Aventurisches Götterwirken, Seite 163",
       "Reichweite": "Berührung",
@@ -8944,23 +8953,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
-    "name": "Zwegische Verbrüderung",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt 1 Stunde."
+      },
+      {
+        "name": " Größerer Bonus",
+        "value": "(FW 12, 4 AP): Alle Gesegneten erhalten zusätzlich +1 auf AT und FK."
+      },
+      {
+        "name": " Nichtzwerge",
+        "value": "(FW 16, 6 AP): Auch andere Kulturschaffende können von der Liturgie profitieren"
+      }
+    ],
+    "name": "Zwergische Verbrüderung",
     "properties": {
       "KaP-Kosten": "16 KaP (Kosten nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt 1 Stunde."
-        },
-        {
-          "name": " Größerer Bonus",
-          "value": "(FW 12, 4 AP): Alle Gesegneten erhalten zusätzlich +1 auf AT und FK."
-        },
-        {
-          "name": " Nichtzwerge",
-          "value": "(FW 16, 6 AP): Auch andere Kulturschaffende können von der Liturgie profitieren"
-        }
-      ],
       "Probe": "MU/IN/CH",
       "Publikationen": "Aventurisches Götterwirken II, Seite 109",
       "Reichweite": "Berührung",
@@ -8974,24 +8983,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt 1 Stunde."
+      },
+      {
+        "name": " Größerer Bonus",
+        "value": "(FW 12, 4 AP): Ein Bonus darf maximal +3 betragen."
+      },
+      {
+        "name": " Nichtzwerge",
+        "value": "(FW 16, 6 AP): Auch andere Kulturschaffende können von der Liturgie profitieren"
+      }
+    ],
     "name": "Zwergenmacht",
     "properties": {
       "KaP-Kosten": "8 KaP (Kosten nicht modifizierbar)",
       "Liturgiedauer": "8 Aktionen",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt 1 Stunde."
-        },
-        {
-          "name": " Größerer Bonus",
-          "value": "(FW 12, 4 AP): Ein Bonus darf maximal +3 betragen."
-        },
-        {
-          "name": " Nichtzwerge",
-          "value": "(FW 16, 6 AP): Auch andere Kulturschaffende können von der Liturgie profitieren"
-        }
-      ],
       "Probe": "MU/IN/KO",
       "Publikationen": "Aventurisches Götterwirken II, Seite 91",
       "Reichweite": "Berührung",
@@ -9004,23 +9013,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Aufrechterhaltend",
+        "value": "(FW 8, 3 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 8 KaP und 4 KaP pro 3 Stunden."
+      },
+      {
+        "name": "Sprachfähigkeit",
+        "value": "(FW 12, 6 AP): Die Geweihte kann in Tiergestalt sprechen."
+      },
+      {
+        "name": "Klerikales Tier",
+        "value": "(FW 16, 9 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung Sprachfähigkeit."
+      }
+    ],
     "name": "Zwergwalgestalt",
     "properties": {
       "KaP-Kosten": "16 KaP",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Aufrechterhaltend",
-          "value": "(FW 8, 3 AP): Die Zeremonie ist aufrechterhaltend mit Aktivierungskosten von 8 KaP und 4 KaP pro 3 Stunden."
-        },
-        {
-          "name": "Sprachfähigkeit",
-          "value": "(FW 12, 6 AP): Die Geweihte kann in Tiergestalt sprechen."
-        },
-        {
-          "name": "Klerikales Tier",
-          "value": "(FW 16, 9 AP): Liturgien können gewirkt werden, notwendige Gesten entfallen dabei. Für KaP gilt dann: wie Geweihter. Voraussetzung: Liturgieerweiterung Sprachfähigkeit."
-        }
-      ],
       "Probe": "MU/KL/IN",
       "Publikationen": "Aventurisches Götterwirken, Seite 163f",
       "Reichweite": "selbst",
@@ -9034,24 +9043,24 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Liturgien",
+    "chantextensions": [
+      {
+        "name": " Längere Wirkungsdauer",
+        "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 5 KR."
+      },
+      {
+        "name": " Harte Schale",
+        "value": "(FW 12, 4 AP): Der Geweihte kann auch einen natürlichen RS von 2 erhalten. Die Kosten dafür betragen 8 KaP (nicht modifizierbar)."
+      },
+      {
+        "name": " Reichweite Berührung",
+        "value": "(FW 16, 6 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werde"
+      }
+    ],
     "name": "Zähe Haut",
     "properties": {
       "KaP-Kosten": "4 KaP (Kosten sind nicht modifizierbar)",
       "Liturgiedauer": "1 Aktion",
-      "Liturgieerweiterungen": [
-        {
-          "name": " Längere Wirkungsdauer",
-          "value": "(FW 8, 2 AP): Die Wirkungsdauer beträgt QS x 5 KR."
-        },
-        {
-          "name": " Harte Schale",
-          "value": "(FW 12, 4 AP): Der Geweihte kann auch einen natürlichen RS von 2 erhalten. Die Kosten dafür betragen 8 KaP (nicht modifizierbar)."
-        },
-        {
-          "name": " Reichweite Berührung",
-          "value": "(FW 16, 6 AP): Als Reichweite gilt Berührung. Die Liturgie kann nur auf Kulturschaffende übertragen werde"
-        }
-      ],
       "Probe": "MU/IN/KO",
       "Publikationen": "Aventurisches Götterwirken, Seite 140",
       "Reichweite": "selbst",
@@ -9064,23 +9073,23 @@ export const DSAChants = [[
   },
   {
     "chantclass": "Zeremonien",
+    "chantextensions": [
+      {
+        "name": "Geweihten-Exkommunikation 1",
+        "value": "(FW 8, 4 AP): Auch Geweihte sind von der Zeremonie betroffen. Sie können nach der Exkommunikation kein Karma mehr regenerieren."
+      },
+      {
+        "name": "Für immer exkommuniziert",
+        "value": "(FW 12, 8 AP): Die Exkommunikation kann nicht durch eine Buße wieder aufgehoben werden. Sie ist permanent und kostet den Geweihten zusätzlich 2 permanente KaP (also insgesamt 4 pKaP). Voraussetzung: Liturgieerweiterung Geweihten-Exkommunikation 1."
+      },
+      {
+        "name": "Geweihten-Exkommunikation 2",
+        "value": "(FW 16, 12 AP): Geweihte sind von der Zeremonie betroffen und verlieren ihren Vorteil Geweihter, die Sonderfertigkeit der Tradition, karmale Sonderfertigkeiten, karmale Vor- und Nachteile sowie ihre Liturgien. Sie erhalten aber alle dafür ausgegebenen AP zurück. Die Exkommunikation ist permanent und kostet den Geweihten zusätzlich 4 permanente KaP (also insgesamt 6 pKaP). Voraussetzung: Liturgieerweiterung Für immer exkommuniziert"
+      }
+    ],
     "name": "Ächtung (Exkommunikation)",
     "properties": {
       "KaP-Kosten": "16 KaP, davon 2 KaP permanent (Kosten sind nicht modifizierbar)",
-      "Liturgieerweiterungen": [
-        {
-          "name": "Geweihten-Exkommunikation 1",
-          "value": "(FW 8, 4 AP): Auch Geweihte sind von der Zeremonie betroffen. Sie können nach der Exkommunikation kein Karma mehr regenerieren."
-        },
-        {
-          "name": "Für immer exkommuniziert",
-          "value": "(FW 12, 8 AP): Die Exkommunikation kann nicht durch eine Buße wieder aufgehoben werden. Sie ist permanent und kostet den Geweihten zusätzlich 2 permanente KaP (also insgesamt 4 pKaP). Voraussetzung: Liturgieerweiterung Geweihten-Exkommunikation 1."
-        },
-        {
-          "name": "Geweihten-Exkommunikation 2",
-          "value": "(FW 16, 12 AP): Geweihte sind von der Zeremonie betroffen und verlieren ihren Vorteil Geweihter, die Sonderfertigkeit der Tradition, karmale Sonderfertigkeiten, karmale Vor- und Nachteile sowie ihre Liturgien. Sie erhalten aber alle dafür ausgegebenen AP zurück. Die Exkommunikation ist permanent und kostet den Geweihten zusätzlich 4 permanente KaP (also insgesamt 6 pKaP). Voraussetzung: Liturgieerweiterung Für immer exkommuniziert"
-        }
-      ],
       "Probe": "MU/IN/CH (modifiziert um SK)",
       "Publikationen": "Aventurisches Götterwirken, Seite 140",
       "Reichweite": "Berührung",
@@ -9091,5 +9100,185 @@ export const DSAChants = [[
       "Zeremoniedauer": "30 Minuten",
       "Zielkategorie": "Kulturschaffende (Initiat des Pantheons des Geweihten)"
     }
+  },
+  {
+    "chantclass": "Segnungen",
+    "chantextensions": [],
+    "name": "Eidsegen",
+    "properties": {
+      "KaP-Kosten": "1 KaP",
+      "Publikationen": "Regelwerk, Seite 322",
+      "Reichweite": "4 Schritt",
+      "Verbreitung": "allgemein",
+      "Wirkung": "Der Geweihte lässt jemanden einen Eid ablegen. Der Gesegnete empfindet den Eid als bindend und kann sich diesem nur durch eine Probe entziehen. Der Eidsprechende muss den Eid freiwillig leisten. Der Eid kann nur durch eine Probe auf Willenskraft erschwert um 1 gebrochen werden.",
+      "Wirkungsdauer": "1 Jahr",
+      "Liturgiedauer": "1 Aktion",
+      "Zielkategorie": "Kulturschaffende"
   }
-]
+  },
+  {
+    "chantclass": "Segnungen",
+    "chantextensions": [],
+    "name": "Feuersegen",
+    "properties": {
+      "KaP-Kosten": "1 KaP",
+      "Publikationen": "Regelwerk, Seite 322",
+      "Reichweite": "selbst",
+      "Verbreitung": "allgemein",
+      "Wirkung": "Auf der Handfläche oder dem Zeigefinger des Geweihten entsteht eine kleine Flamme, die einen Raum erhellt oder ausreicht, um eine Kerze zu entzünden. Der Geweihte kann durch die Flamme nicht verletzt werden (wohl aber durch Flammen, die durch den Feuersegen entzündet werden). Die Helligkeit der Flamme entspricht einer gewöhnlichen Kerze normaler Machart.",
+      "Wirkungsdauer": "5 Minuten",
+      "Liturgiedauer": "1 Aktion",
+      "Zielkategorie": "Kulturschaffende"
+    }
+  },
+  {
+    "chantclass": "Segnungen",
+    "chantextensions": [],
+    "name": "Geburtssegen",
+    "properties": {
+      "KaP-Kosten": "1 KaP",
+      "Publikationen": "Regelwerk, Seite 322",
+      "Reichweite": "Berührung",
+      "Verbreitung": "allgemein",
+      "Wirkung": "Ein Neugeborenes wird gesegnet und in die Gemeinschaft der Gläubigen aufgenommen. Es ist bis zum Ende der Wirkungsdauer vor dem Raub durch Kobolde, Feen und niedere Dämonen geschützt. Diese Segnung kann nur bis maximal 12 Tage nach der Geburt eingesetzt werden, danach wirkt sie nicht mehr auf das Neugeborene.",
+      "Wirkungsdauer": "in Zwölfgötterkirchen bis zum 12. Lebensjahr",
+      "Liturgiedauer": "1 Aktion",
+      "Zielkategorie": "Kulturschaffende"
+    }
+  },
+  {
+    "chantclass": "Segnungen",
+    "chantextensions": [],
+    "name": "Glückssegen",
+    "properties": {
+      "KaP-Kosten": "1 KaP",
+      "Publikationen": "Regelwerk, Seite 323",
+      "Reichweite": "Berührung",
+      "Verbreitung": "allgemein",
+      "Wirkung": "Der Gesegnete hat einmal während der Wirkungsdauer der Segnung ein Fünkchen Glück. Er kann nach dem Ablegen einer Fertigkeitsprobe 1 FP hinzuaddieren, um z. B. eine höhere Qualitätsstufe zu erreichen.",
+      "Liturgiedauer": "1 Aktion",
+      "Wirkungsdauer": "5 Minuten",
+      "Zielkategorie": "Kulturschaffende"
+    }
+  },
+  {
+    "chantclass": "Segnungen",
+    "chantextensions": [],
+    "name": "Grabsegen",
+    "properties": {
+      "KaP-Kosten": "1 KaP",
+      "Publikationen": "Regelwerk, Seite 323",
+      "Reichweite": "Berührung",
+      "Verbreitung": "allgemein",
+      "Wirkung": "Das Grab eines Verstorbenen wird gesegnet. Um die Leiche auszugraben und das Grab zu entweihen, muss dem Grabräuber eine Probe auf Willenskraft (Bedrohungen standhalten) erschwert um 1 gelingen. Bei Misslingen verspürt er ein Unwohlsein, das ihn von der Grabschändung zurückhält. Nekromantische Zauber auf die Leiche sind um 1 erschwert, so lange der Körper sich im gesegneten Grab befindet.",
+      "Liturgiedauer": "1 Aktion",
+      "Wirkungsdauer": "12 Monate",
+      "Zielkategorie": "Zone"
+    }
+  },
+  {
+    "chantclass": "Segnungen",
+    "chantextensions": [],
+    "name": "Harmoniesegen",
+    "properties": {
+      "KaP-Kosten": "1 KaP",
+      "Publikationen": "Regelwerk, Seite 323",
+      "Reichweite": "Berührung",
+      "Verbreitung": "allgemein",
+      "Wirkung": "Wer durch einen Harmoniesegen gesegnet wurde, der erfreut sich einen ganzen Tag lang positiver Gefühle. Alle Effekte, die Furcht auslösen, erhalten eine Erschwernis von 1.",
+      "Liturgiedauer": "1 Aktion",
+      "Wirkungsdauer": "12 Stunden",
+      "Zielkategorie": "Kulturschaffende"
+    }
+  },
+  {
+    "chantclass": "Segnungen",
+    "chantextensions": [],
+    "name": "Kleiner Heilsegen",
+    "properties": {
+      "KaP-Kosten": "1 KaP",
+      "Publikationen": "Regelwerk, Seite 323",
+      "Reichweite": "Berührung",
+      "Verbreitung": "allgemein",
+      "Wirkung": "Der Gesegnete erhält 1 Lebenspunkt zurück. Die Person kann nur einmal pro Tag von dieser Segnung profitieren.",
+      "Liturgiedauer": "1 Aktion",
+      "Wirkungsdauer": "sofort",
+      "Zielkategorie": "Kulturschaffende"
+    }
+  },
+  {
+    "chantclass": "Segnungen",
+    "chantextensions": [],
+    "name": "Kleiner Schutzsegen",
+    "properties": {
+      "KaP-Kosten": "1 KaP",
+      "Publikationen": "Regelwerk, Seite 323",
+      "Reichweite": "4 Schritt",
+      "Verbreitung": "allgemein",
+      "Wirkung": "Der Schutzsegen kann einige als unheilig geltende Wesen fernhalten.<br/>Folgende Typen von Wesen können aufgehalten werden Untote (Hirnlose) und Dämonen (niedere Dämonen). Bei Errichtung des kleinen Schutzsegens muss entschieden werden, welcher von beiden Typen aufgehalten wird. Das Wesen kann während der Wirkungsdauer das gesegnete Gebiet nicht betreten. Ist das Wesen gezwungen, das Gebiet zu betreten, dann versucht es sofort, sich wieder aus der Zone zurückzuziehen. Der Kleine Schutzsegen darf nicht größer sein als 4 Schritt Radius, sehr wohl aber kleiner. Die Zone ist stationär und bewegt sich nicht mit dem Geweihten. Wenn sich Personen innerhalb der Zone an den Rand der Zone bewegen, um dort lauernde Wesen im Nahkampf anzugreifen, können die Wesen ebenfalls angreifen.",
+      "Liturgiedauer": "1 Aktion",
+      "Wirkungsdauer": "4 Kampfrunden",
+      "Zielkategorie": "Zone"
+    }
+  },
+  {
+    "chantclass": "Segnungen",
+    "chantextensions": [],
+    "name": "Speisesegen",
+    "properties": {
+      "KaP-Kosten": "1 KaP",
+      "Publikationen": "Regelwerk, Seite 323",
+      "Reichweite": "Berührung",
+      "Verbreitung": "allgemein",
+      "Wirkung": "Das gesegnete Essen ist wohlschmeckend und nahrhaft. Gifte bis Stufe 2 und Verunreinigungen werden in der Speise neutralisiert. Die Segnung reicht für eine Portion.",
+      "Liturgiedauer": "1 Aktion",
+      "Wirkungsdauer": "sofort",
+      "Zielkategorie": "Objekt"
+    }
+  },
+  {
+    "chantclass": "Segnungen",
+    "chantextensions": [],
+    "name": "Stärkungssegen",
+    "properties": {
+      "KaP-Kosten": "1 KaP",
+      "Publikationen": "Regelwerk, Seite 323",
+      "Reichweite": "selbst",
+      "Verbreitung": "allgemein",
+      "Wirkung": "Der Gesegnete verspürt keine Mattigkeit und Erschöpfung mehr. Er kann bei einer Probe auf Selbstbeherrschung einen Würfel neu würfeln (wie unter dem Einsatz des Vorteils Begabung). Pro Tag kann nur ein Stärkungssegen auf eine Person angewandt werden. Nachdem die Segnung genutzt wurde, ist sie verbraucht.",
+      "Liturgiedauer": "1 Aktion",
+      "Wirkungsdauer": "12 Kampfrunden",
+      "Zielkategorie": "Kulturschaffende"
+    }
+  },
+  {
+    "chantclass": "Segnungen",
+    "chantextensions": [],
+    "name": "Tranksegen",
+    "properties": {
+      "KaP-Kosten": "1 KaP",
+      "Publikationen": "Regelwerk, Seite 323",
+      "Reichweite": "Berührung",
+      "Verbreitung": "allgemein",
+      "Wirkung": "Wer von dem gesegneten Getränk trinkt, fühlt sich erfrischt. Gifte bis Stufe 2 und Verunreinigungen werden im Getränk neutralisiert. Die Segnung reicht für einen Liter.",
+      "Liturgiedauer": "1 Aktion",
+      "Wirkungsdauer": "sofort",
+      "Zielkategorie": "Objekt"
+    }
+  },
+  {
+    "chantclass": "Segnungen",
+    "chantextensions": [],
+    "name": "Weisheitssegen",
+    "properties": {
+      "KaP-Kosten": "1 KaP",
+      "Publikationen": "Regelwerk, Seite 323",
+      "Reichweite": "selbst",
+      "Verbreitung": "allgemein",
+      "Wirkung": "Der Gesegnete wird von Weisheit erfüllt. Er kann die Lösung eines Problems besser erfassen und bei einer Probe auf ein Wissenstalent einen Würfel neu würfeln (wie unter dem Einsatz des Vorteils Begabung). Pro Tag kann nur ein Weisheitssegen auf eine Person angewandt werden. Nachdem die Segnung genutzt wurde, ist sie verbraucht.",
+      "Liturgiedauer": "1 Aktion",
+      "Wirkungsdauer": "12 Stunden",
+      "Zielkategorie": "Kulturschaffende"
+    }
+  }
+];

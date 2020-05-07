@@ -1,4 +1,4 @@
-export const DSASpellClasses = {
+export const DSAChantClasses = {
   "ChantClasses": {
     "Liturgien": {
       "extension": 1,

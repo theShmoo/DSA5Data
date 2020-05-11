@@ -1,14 +1,14 @@
-export const Alcohol = [
+export const Alcoholica = [
   {
     "effect": [
       "2 Stufen Berauscht",
       "1 Stufe Berauscht"
     ],
     "name": "Beerenwein",
-    "price-per-litre": "1 Silbertaler",
-    "price-per-unit": "2 Heller",
+    "pricePerLitre": "1 Silbertaler",
+    "pricePerUnit": "2 Heller",
     "quality": "1-6",
-    "region": "überall",
+    "region": ["überall"],
     "standard": true,
     "type": "Wein",
     "unit": "Becher"
@@ -19,10 +19,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Bitterwein",
-    "price-per-litre": "1 Heller, 5 Kreuzer",
-    "price-per-unit": "3 Kreuzer",
+    "pricePerLitre": "1 Heller, 5 Kreuzer",
+    "pricePerUnit": "3 Kreuzer",
     "quality": "1-3",
-    "region": "Mittelreich, Zyklopeninseln",
+    "region": ["Mittelreich", "Zyklopeninseln"],
     "standard": true,
     "type": "Wein",
     "unit": "Becher"
@@ -33,10 +33,10 @@ export const Alcohol = [
       "-"
     ],
     "name": "Dünnbier",
-    "price-per-litre": "8 Kreuzer",
-    "price-per-unit": "4 Kreuzer",
+    "pricePerLitre": "8 Kreuzer",
+    "pricePerUnit": "4 Kreuzer",
     "quality": "1-4",
-    "region": "überall",
+    "region": ["überall"],
     "standard": true,
     "type": "Bier",
     "unit": "Humpen"
@@ -47,10 +47,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Kornbrand",
-    "price-per-litre": "1 Dukate",
-    "price-per-unit": "5 Heller",
+    "pricePerLitre": "1 Dukate",
+    "pricePerUnit": "5 Heller",
     "quality": "1-6",
-    "region": "überall",
+    "region": ["überall"],
     "standard": true,
     "type": "Spirituose",
     "unit": "Becherchen"
@@ -61,10 +61,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Landwein",
-    "price-per-litre": "15 Heller",
-    "price-per-unit": "5 Heller",
+    "pricePerLitre": "15 Heller",
+    "pricePerUnit": "5 Heller",
     "quality": "1-6",
-    "region": "überall",
+    "region": ["überall"],
     "standard": true,
     "type": "Wein",
     "unit": "Becher"
@@ -75,10 +75,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Met",
-    "price-per-litre": "8 Heller",
-    "price-per-unit": "1 heller 6 Kreuzer",
+    "pricePerLitre": "8 Heller",
+    "pricePerUnit": "1 heller 6 Kreuzer",
     "quality": "2-6",
-    "region": "überall",
+    "region": ["überall"],
     "standard": true,
     "type": "Wein",
     "unit": "Becher"
@@ -89,10 +89,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Schnaps",
-    "price-per-litre": "5 Silbertaler",
-    "price-per-unit": "2 Helller 6 Kreuzer",
+    "pricePerLitre": "5 Silbertaler",
+    "pricePerUnit": "2 Helller 6 Kreuzer",
     "quality": "1-6",
-    "region": "überall",
+    "region": ["überall"],
     "standard": true,
     "type": "Spirituose",
     "unit": "Becherchen"
@@ -103,10 +103,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Starkbier",
-    "price-per-litre": "1 Helller 4 Kreuzer",
-    "price-per-unit": "7 Kreuzer",
+    "pricePerLitre": "1 Helller 4 Kreuzer",
+    "pricePerUnit": "7 Kreuzer",
     "quality": "1-6",
-    "region": "überall",
+    "region": ["überall"],
     "standard": true,
     "type": "Bier",
     "unit": "Humpen"
@@ -117,10 +117,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Weinbrand",
-    "price-per-litre": "1 Dukate",
-    "price-per-unit": "6 Heller",
+    "pricePerLitre": "1 Dukate",
+    "pricePerUnit": "6 Heller",
     "quality": "2-6",
-    "region": "überall",
+    "region": ["überall"],
     "standard": true,
     "type": "Spirituose",
     "unit": "Becherchen"
@@ -131,10 +131,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Alt Angbarer Starkbier",
-    "price-per-litre": "3 Heller",
-    "price-per-unit": "1 Heller 5 Kreuzer",
+    "pricePerLitre": "3 Heller",
+    "pricePerUnit": "1 Heller 5 Kreuzer",
     "quality": "4-5",
-    "region": "Kosh, Angbar (Zwerge)",
+    "region": ["Kosh", "Zwerge"],
     "standard": false,
     "type": "Bier",
     "unit": "Humpen"
@@ -145,10 +145,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Amazonenbier",
-    "price-per-litre": "3 Heller 2 Kreuzer",
-    "price-per-unit": "1 Heller 6 Kreuzer",
+    "pricePerLitre": "3 Heller 2 Kreuzer",
+    "pricePerUnit": "1 Heller 6 Kreuzer",
     "quality": "4-6",
-    "region": "Beilunk",
+    "region": ["Beilunk"],
     "standard": false,
     "type": "Bier",
     "unit": "Humpen"
@@ -159,10 +159,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Angbarer Zwergenbock",
-    "price-per-litre": "2 Heller 8 Kreuzer",
-    "price-per-unit": "1 Heller 4 Kreuzer",
+    "pricePerLitre": "2 Heller 8 Kreuzer",
+    "pricePerUnit": "1 Heller 4 Kreuzer",
     "quality": "3-5",
-    "region": "Zwerge",
+    "region": ["Zwerge"],
     "standard": false,
     "type": "Bier",
     "unit": "Humpen"
@@ -173,10 +173,10 @@ export const Alcohol = [
       "-"
     ],
     "name": "Beraner Goldweizen",
-    "price-per-litre": "1 Heller 8 Kreuzer",
-    "price-per-unit": "9 Kreuzer",
+    "pricePerLitre": "1 Heller 8 Kreuzer",
+    "pricePerUnit": "9 Kreuzer",
     "quality": "2-4",
-    "region": "Horasreich, Kuslik",
+    "region": ["Horasreich", "Kuslik"],
     "standard": false,
     "type": "Bier",
     "unit": "Humpen"
@@ -187,10 +187,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Bethaner, Droler und Neethaner Weizengold",
-    "price-per-litre": "1 Heller 8 Kreuzer",
-    "price-per-unit": "9 Kreuzer",
+    "pricePerLitre": "1 Heller 8 Kreuzer",
+    "pricePerUnit": "9 Kreuzer",
     "quality": "2-4",
-    "region": "Horasreich",
+    "region": ["Horasreich"],
     "standard": false,
     "type": "Bier",
     "unit": "Humpen"
@@ -201,10 +201,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Bilsener",
-    "price-per-litre": "1 Heller 8 Kreuzer",
-    "price-per-unit": "9 Kreuzer",
+    "pricePerLitre": "1 Heller 8 Kreuzer",
+    "pricePerUnit": "9 Kreuzer",
     "quality": "2-4",
-    "region": "Transysilien",
+    "region": ["Transysilien"],
     "standard": false,
     "type": "Bier",
     "unit": "Humpen"
@@ -215,10 +215,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Brabakbräu",
-    "price-per-litre": "1 Heller 6 Kreuzer",
-    "price-per-unit": "8 Kreuzer",
+    "pricePerLitre": "1 Heller 6 Kreuzer",
+    "pricePerUnit": "8 Kreuzer",
     "quality": "2-4",
-    "region": "Brabak",
+    "region": ["Brabak"],
     "standard": false,
     "type": "Bier",
     "unit": "Humpen"
@@ -229,10 +229,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Bräubier",
-    "price-per-litre": "1 Heller 6 Kreuzer",
-    "price-per-unit": "8 Kreuzer",
+    "pricePerLitre": "1 Heller 6 Kreuzer",
+    "pricePerUnit": "8 Kreuzer",
     "quality": "2-4",
-    "region": "Weiden, Balioh",
+    "region": ["Weiden","Balioh"],
     "standard": false,
     "type": "Bier",
     "unit": "Humpen"
@@ -243,10 +243,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "De Motter Klosterbräu",
-    "price-per-litre": "2 Heller 8 Kreuzer ",
-    "price-per-unit": "1 Heller 4 Kreuzer",
+    "pricePerLitre": "2 Heller 8 Kreuzer ",
+    "pricePerUnit": "1 Heller 4 Kreuzer",
     "quality": "4-6",
-    "region": "Greifenfurt",
+    "region": ["Greifenfurt"],
     "standard": false,
     "type": "Bier",
     "unit": "Humpen"
@@ -256,9 +256,10 @@ export const Alcohol = [
       "2 Stufen Berauscht",
       "1 Stufe Berauscht"
     ],
-    "name": "Eichenbier Andergast",
-    "price-per-litre": "1 Heller 6 Kreuzer",
-    "price-per-unit": "9 Kreuzer",
+    "name": "Eichenbier",
+    "region": ["Andergast"],
+    "pricePerLitre": "1 Heller 6 Kreuzer",
+    "pricePerUnit": "9 Kreuzer",
     "quality": "2-4",
     "standard": false,
     "unit": "Humpen"
@@ -269,10 +270,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Eichstätter Weizenbier",
-    "price-per-litre": "2 Heller",
-    "price-per-unit": "1 Heller",
+    "pricePerLitre": "2 Heller",
+    "pricePerUnit": "1 Heller",
     "quality": "2-4",
-    "region": "Gareth",
+    "region": ["Gareth"],
     "standard": false,
     "type": "Bier",
     "unit": "Humpen"
@@ -283,10 +284,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Eslamsbräu",
-    "price-per-litre": "2 Heller 2 Kreuzer",
-    "price-per-unit": "1 Heller 1 Kreuzer",
+    "pricePerLitre": "2 Heller 2 Kreuzer",
+    "pricePerUnit": "1 Heller 1 Kreuzer",
     "quality": "3-5",
-    "region": "Mittelreich",
+    "region": ["Mittelreich"],
     "standard": false,
     "type": "Bier",
     "unit": "Humpen"
@@ -297,10 +298,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Gagelbier",
-    "price-per-litre": "1 Heller 2 Kreuzer",
-    "price-per-unit": "6 Kreuzer",
+    "pricePerLitre": "1 Heller 2 Kreuzer",
+    "pricePerUnit": "6 Kreuzer",
     "quality": "1-3",
-    "region": "Mittelreich, Bornland",
+    "region": ["Mittelreich", "Bornland"],
     "standard": false,
     "type": "Bier",
     "unit": "Humpen"
@@ -311,10 +312,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Garether Bier",
-    "price-per-litre": "1 Heller 6 Kreuzer",
-    "price-per-unit": "8 Kreuzer",
+    "pricePerLitre": "1 Heller 6 Kreuzer",
+    "pricePerUnit": "8 Kreuzer",
     "quality": "1-4",
-    "region": "Gareth",
+    "region": ["Gareth"],
     "standard": false,
     "type": "Bier",
     "unit": "Humpen"
@@ -325,10 +326,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Havenabier",
-    "price-per-litre": "1 Heller 8 Kreuzer",
-    "price-per-unit": "9 Kreuzer",
+    "pricePerLitre": "1 Heller 8 Kreuzer",
+    "pricePerUnit": "9 Kreuzer",
     "quality": "2-4",
-    "region": "Havena",
+    "region": ["Havena"],
     "standard": false,
     "type": "Bier",
     "unit": "Humpen"
@@ -339,10 +340,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Helles Ferdoker Gerstenbräu",
-    "price-per-litre": "1 Heller 8 Kreuzer",
-    "price-per-unit": "9 Kreuzer",
+    "pricePerLitre": "1 Heller 8 Kreuzer",
+    "pricePerUnit": "9 Kreuzer",
     "quality": "2-6",
-    "region": "Kosch, Ferdok",
+    "region": ["Kosch", "Ferdok"],
     "standard": false,
     "type": "Bier",
     "unit": "Humpen"
@@ -353,10 +354,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Jerganer Bier",
-    "price-per-litre": "8 Kreuzer",
-    "price-per-unit": "4 Kreuzer",
+    "pricePerLitre": "8 Kreuzer",
+    "pricePerUnit": "4 Kreuzer",
     "quality": "1-3",
-    "region": "Maraskan",
+    "region": ["Maraskan"],
     "standard": false,
     "type": "Bier",
     "unit": "Humpen"
@@ -367,10 +368,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Knat",
-    "price-per-litre": "1 Heller 2 Kreuzer",
-    "price-per-unit": "6 Kreuzer",
+    "pricePerLitre": "1 Heller 2 Kreuzer",
+    "pricePerUnit": "6 Kreuzer",
     "quality": "1-3",
-    "region": "Nostria",
+    "region": ["Nostria"],
     "standard": false,
     "type": "Bier",
     "unit": "Humpen"
@@ -381,10 +382,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Kwassetz",
-    "price-per-litre": "1 Heller 4 Kreuzer",
-    "price-per-unit": "7 Kreuzer",
+    "pricePerLitre": "1 Heller 4 Kreuzer",
+    "pricePerUnit": "7 Kreuzer",
     "quality": "1-3",
-    "region": "Bornland",
+    "region": ["Bornland"],
     "standard": false,
     "type": "Bier",
     "unit": "Humpen"
@@ -395,10 +396,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Nordasker Weizengold",
-    "price-per-litre": "1 Heller 6 Kreuzer",
-    "price-per-unit": "8 Kreuzer",
+    "pricePerLitre": "1 Heller 6 Kreuzer",
+    "pricePerUnit": "8 Kreuzer",
     "quality": "2-5",
-    "region": "Mengbilla",
+    "region": ["Mengbilla"],
     "standard": false,
     "type": "Bier",
     "unit": "Humpen"
@@ -409,10 +410,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Urschlund Dunkel",
-    "price-per-litre": "3 Heller 2 Kreuzer",
-    "price-per-unit": "1 Heller 6 Kreuzer",
+    "pricePerLitre": "3 Heller 2 Kreuzer",
+    "pricePerUnit": "1 Heller 6 Kreuzer",
     "quality": "5-6",
-    "region": "Zwerge",
+    "region": ["Zwerge"],
     "standard": false,
     "type": "Bier",
     "unit": "Humpen"
@@ -423,10 +424,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Uslenrieder Rot",
-    "price-per-litre": "1 Heller 6 Kreuzer",
-    "price-per-unit": "8 Kreuzer",
+    "pricePerLitre": "1 Heller 6 Kreuzer",
+    "pricePerUnit": "8 Kreuzer",
     "quality": "2-5",
-    "region": "Garetien",
+    "region": ["Garetien"],
     "standard": false,
     "type": "Bier",
     "unit": "Humpen"
@@ -437,10 +438,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Waldwachter Urbier",
-    "price-per-litre": "1 Heller 8 Kreuzer",
-    "price-per-unit": "9 Kreuzer",
+    "pricePerLitre": "1 Heller 8 Kreuzer",
+    "pricePerUnit": "9 Kreuzer",
     "quality": "3-5",
-    "region": "Zwerge",
+    "region": ["Zwerge"],
     "standard": false,
     "type": "Bier",
     "unit": "Humpen"
@@ -451,10 +452,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Waskirer",
-    "price-per-litre": "1 Heller 4 Kreuzer",
-    "price-per-unit": "7 Kreuzer",
+    "pricePerLitre": "1 Heller 4 Kreuzer",
+    "pricePerUnit": "7 Kreuzer",
     "quality": "2-4",
-    "region": "Thorwal",
+    "region": ["Thorwal"],
     "standard": false,
     "type": "Bier",
     "unit": "Humpen"
@@ -465,10 +466,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Aranischer Schlauchwein",
-    "price-per-litre": "9 Heller 1 Heller",
-    "price-per-unit": "8 Kreuzer",
+    "pricePerLitre": "9 Heller 1 Heller",
+    "pricePerUnit": "8 Kreuzer",
     "quality": "2-4",
-    "region": "Aranien",
+    "region": ["Aranien"],
     "standard": false,
     "type": "Wein",
     "unit": "Becher"
@@ -479,10 +480,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Arivorer Blut",
-    "price-per-litre": "1 Silbertaler 2 Heller",
-    "price-per-unit": "2 Heller 4 Kreuzer",
+    "pricePerLitre": "1 Silbertaler 2 Heller",
+    "pricePerUnit": "2 Heller 4 Kreuzer",
     "quality": "3-5",
-    "region": "Horasreich, Arivor",
+    "region": ["Horasreich", "Arivor"],
     "standard": false,
     "type": "Wein",
     "unit": "Becher"
@@ -493,10 +494,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Bosparanjer",
-    "price-per-litre": "6 Silbertaler",
-    "price-per-unit": "1 Silbertaler 2 Heller",
+    "pricePerLitre": "6 Silbertaler",
+    "pricePerUnit": "1 Silbertaler 2 Heller",
     "quality": "5-6",
-    "region": "Aranien, Horasreich",
+    "region": ["Aranien", "Horasreich"],
     "standard": false,
     "type": "Wein",
     "unit": "Becher"
@@ -507,10 +508,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Engasalwein",
-    "price-per-litre": "1 Silbertaler 5 Heller",
-    "price-per-unit": "3 Heller",
+    "pricePerLitre": "1 Silbertaler 5 Heller",
+    "pricePerUnit": "3 Heller",
     "quality": "1-3",
-    "region": "Engasal",
+    "region": ["Engasal"],
     "standard": false,
     "type": "Wein",
     "unit": "Becher"
@@ -521,10 +522,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Fasarer Gewürzwein",
-    "price-per-litre": "2 Silbertaler",
-    "price-per-unit": "4 Heller",
+    "pricePerLitre": "2 Silbertaler",
+    "pricePerUnit": "4 Heller",
     "quality": "1-4",
-    "region": "Fasar",
+    "region": ["Fasar"],
     "standard": false,
     "type": "Wein",
     "unit": "Becher"
@@ -535,10 +536,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Goldfelser Morgenrot",
-    "price-per-litre": "1 Silbertaler 5 Heller",
-    "price-per-unit": "3 Heller",
+    "pricePerLitre": "1 Silbertaler 5 Heller",
+    "pricePerUnit": "3 Heller",
     "quality": "3-5",
-    "region": "Horasreich",
+    "region": ["Horasreich"],
     "standard": false,
     "type": "Wein",
     "unit": "Becher"
@@ -549,10 +550,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Hippokras",
-    "price-per-litre": "2 Silbertaler",
-    "price-per-unit": "4 Heller",
+    "pricePerLitre": "2 Silbertaler",
+    "pricePerUnit": "4 Heller",
     "quality": "2-5",
-    "region": "Garetien",
+    "region": ["Garetien"],
     "standard": false,
     "type": "Wein",
     "unit": "Becher"
@@ -563,10 +564,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Hylailischer Seemost",
-    "price-per-litre": "4 Heller",
-    "price-per-unit": "8 Kreutzer",
+    "pricePerLitre": "4 Heller",
+    "pricePerUnit": "8 Kreutzer",
     "quality": "1-3",
-    "region": "Zyklopeninseln",
+    "region": ["Zyklopeninseln"],
     "standard": false,
     "type": "Wein",
     "unit": "Becher"
@@ -577,10 +578,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Liebliche Cella",
-    "price-per-litre": "6 Heller",
-    "price-per-unit": "1 Heller 2 Kreuzer",
+    "pricePerLitre": "6 Heller",
+    "pricePerUnit": "1 Heller 2 Kreuzer",
     "quality": "1-3",
-    "region": "Almada",
+    "region": ["Almada"],
     "standard": false,
     "type": "Wein",
     "unit": "Becher"
@@ -591,10 +592,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Maraskaner",
-    "price-per-litre": "1 Silbertaler",
-    "price-per-unit": "2 Heller",
+    "pricePerLitre": "1 Silbertaler",
+    "pricePerUnit": "2 Heller",
     "quality": "2-4",
-    "region": "Maraskan",
+    "region": ["Maraskan"],
     "standard": false,
     "type": "Wein",
     "unit": "Becher"
@@ -605,10 +606,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Mhanadischer Dattelwein",
-    "price-per-litre": "1 Silbertaler",
-    "price-per-unit": "2 Heller",
+    "pricePerLitre": "1 Silbertaler",
+    "pricePerUnit": "2 Heller",
     "quality": "2-4",
-    "region": "Aranien, Tulamidenlande",
+    "region": ["Aranien", "Tulamidenlande"],
     "standard": false,
     "type": "Wein",
     "unit": "Becher"
@@ -619,10 +620,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Rahjas Göttergabe",
-    "price-per-litre": "3 Silbertaler",
-    "price-per-unit": "6 Heller",
+    "pricePerLitre": "3 Silbertaler",
+    "pricePerUnit": "6 Heller",
     "quality": "5-6",
-    "region": "",
+    "region": [""],
     "standard": false,
     "type": "Wein",
     "unit": "Becher"
@@ -633,10 +634,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Ragatzo",
-    "price-per-litre": "7 Silbertaler",
-    "price-per-unit": "1 Silbertaler 4 Heller",
+    "pricePerLitre": "7 Silbertaler",
+    "pricePerUnit": "1 Silbertaler 4 Heller",
     "quality": "3-6",
-    "region": "Almada",
+    "region": ["Almada"],
     "standard": false,
     "type": "Wein",
     "unit": "Becher"
@@ -647,10 +648,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Raschtulswaller",
-    "price-per-litre": "3 Silbertaler",
-    "price-per-unit": "6 Heller",
+    "pricePerLitre": "3 Silbertaler",
+    "pricePerUnit": "6 Heller",
     "quality": "3-6",
-    "region": "Almada, Aranien",
+    "region": ["Almada", "Aranien"],
     "standard": false,
     "type": "Wein",
     "unit": "Becher"
@@ -661,10 +662,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Sewerischer Met",
-    "price-per-litre": "1 Silbertaler",
-    "price-per-unit": "2 Heller",
+    "pricePerLitre": "1 Silbertaler",
+    "pricePerUnit": "2 Heller",
     "quality": "3-5",
-    "region": "Bornland",
+    "region": ["Bornland"],
     "standard": false,
     "type": "Wein",
     "unit": "Becher"
@@ -675,10 +676,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Sikramer Weißwein",
-    "price-per-litre": "8 Heller 1 Heller",
-    "price-per-unit": "6 Kreuzer",
+    "pricePerLitre": "8 Heller 1 Heller",
+    "pricePerUnit": "6 Kreuzer",
     "quality": "2-4",
-    "region": "Horasreich",
+    "region": ["Horasreich"],
     "standard": false,
     "type": "Wein",
     "unit": "Becher"
@@ -689,10 +690,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Thalusischer Reiswein",
-    "price-per-litre": "9 Heller",
-    "price-per-unit": "1 Heller 8 Kreuzer",
+    "pricePerLitre": "9 Heller",
+    "pricePerUnit": "1 Heller 8 Kreuzer",
     "quality": "2-5",
-    "region": "Maraskan, Tulamidenlande",
+    "region": ["Maraskan", "Tulamidenlande"],
     "unit": "Becher"
   },
   {
@@ -701,10 +702,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Tuzaker Drachenblut",
-    "price-per-litre": "2 Silbertaler",
-    "price-per-unit": "4 Heller",
+    "pricePerLitre": "2 Silbertaler",
+    "pricePerUnit": "4 Heller",
     "quality": "3-5",
-    "region": "Maraskan",
+    "region": ["Maraskan"],
     "standard": false,
     "type": "Wein",
     "unit": "Becher"
@@ -715,10 +716,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Yaquirblume",
-    "price-per-litre": "9 Heller",
-    "price-per-unit": "1 Heller 8 Kreuzer",
+    "pricePerLitre": "9 Heller",
+    "pricePerUnit": "1 Heller 8 Kreuzer",
     "quality": "2-4",
-    "region": "Almada",
+    "region": ["Almada"],
     "standard": false,
     "type": "Wein",
     "unit": "Becher"
@@ -729,10 +730,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Yaquirtaler Madawein",
-    "price-per-litre": "6 Silbertaler",
-    "price-per-unit": "1 Silbertaler 2 Heller",
+    "pricePerLitre": "6 Silbertaler",
+    "pricePerUnit": "1 Silbertaler 2 Heller",
     "quality": "3-6",
-    "region": "Almada",
+    "region": ["Almada"],
     "standard": false,
     "type": "Wein",
     "unit": "Becher"
@@ -743,10 +744,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Abszinto",
-    "price-per-litre": "1 Dukate",
-    "price-per-unit": "5 Heller",
+    "pricePerLitre": "1 Dukate",
+    "pricePerUnit": "5 Heller",
     "quality": "2-4",
-    "region": "Tulamidenlande, Szintotal",
+    "region": ["Tulamidenlande", "Szintotal"],
     "standard": false,
     "type": "Spirituose",
     "unit": "Becherchen"
@@ -757,10 +758,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Araukener",
-    "price-per-litre": "1 Dukate 2 Silbertaler",
-    "price-per-unit": "6 Heller",
+    "pricePerLitre": "1 Dukate 2 Silbertaler",
+    "pricePerUnit": "6 Heller",
     "quality": "3-5",
-    "region": "Tulamidenlande",
+    "region": ["Tulamidenlande"],
     "standard": false,
     "type": "Spirituose",
     "unit": "Becherchen"
@@ -771,10 +772,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Arrak",
-    "price-per-litre": "5 Silbertaler",
-    "price-per-unit": "2 Heller 5 Kreuzer",
+    "pricePerLitre": "5 Silbertaler",
+    "pricePerUnit": "2 Heller 5 Kreuzer",
     "quality": "2-4",
-    "region": "Bornland",
+    "region": ["Bornland"],
     "standard": false,
     "type": "Spirituose",
     "unit": "Becherchen"
@@ -785,10 +786,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Aufgesetzter",
-    "price-per-litre": "1 Dukate",
-    "price-per-unit": "5 Heller",
+    "pricePerLitre": "1 Dukate",
+    "pricePerUnit": "5 Heller",
     "quality": "2-4",
-    "region": "überall",
+    "region": ["überall"],
     "standard": false,
     "type": "Spirituose",
     "unit": "Becherchen"
@@ -799,10 +800,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Axtschlag",
-    "price-per-litre": "1 Dukate 1 Silbertaler",
-    "price-per-unit": "5 Heller 5 Kreuzer",
+    "pricePerLitre": "1 Dukate 1 Silbertaler",
+    "pricePerUnit": "5 Heller 5 Kreuzer",
     "quality": "2-4",
-    "region": "Nordmarken",
+    "region": ["Nordmarken"],
     "standard": false,
     "type": "Spirituose",
     "unit": "Becherchen"
@@ -813,10 +814,10 @@ export const Alcohol = [
       "2 Stufen Berauscht"
     ],
     "name": "Balihoer Bärentod",
-    "price-per-litre": "1 Dukate 2 Silbertaler",
-    "price-per-unit": "6 Heller",
+    "pricePerLitre": "1 Dukate 2 Silbertaler",
+    "pricePerUnit": "6 Heller",
     "quality": "2-5",
-    "region": "Weiden",
+    "region": ["Weiden"],
     "standard": false,
     "type": "Spirituose",
     "unit": "Becherchen"
@@ -827,10 +828,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Bergtau",
-    "price-per-litre": "9 Silbertaler",
-    "price-per-unit": "4 Heller 5 Kreuzer",
+    "pricePerLitre": "9 Silbertaler",
+    "pricePerUnit": "4 Heller 5 Kreuzer",
     "quality": "2-4",
-    "region": "Greifenfurt",
+    "region": ["Greifenfurt"],
     "standard": false,
     "type": "Spirituose",
     "unit": "Becherchen"
@@ -841,10 +842,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Bjaldorner Waldschrat",
-    "price-per-litre": "1 Dukate 6 Silbertaler",
-    "price-per-unit": "8 Heller",
+    "pricePerLitre": "1 Dukate 6 Silbertaler",
+    "pricePerUnit": "8 Heller",
     "quality": "2-5",
-    "region": "Bjaldorn",
+    "region": ["Bjaldorn"],
     "standard": false,
     "type": "Spirituose",
     "unit": "Becherchen"
@@ -855,10 +856,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Bodirer Eichengalle",
-    "price-per-litre": "4 Silbertaler",
-    "price-per-unit": "2 Heller",
+    "pricePerLitre": "4 Silbertaler",
+    "pricePerUnit": "2 Heller",
     "quality": "1-4",
-    "region": "Orks, Thorwal",
+    "region": ["Orks", "Thorwal"],
     "standard": false,
     "type": "Spirituose",
     "unit": "Becherchen"
@@ -869,10 +870,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Chababischer Weinbrand",
-    "price-per-litre": "3 Dukaten 5 Silbertaler",
-    "price-per-unit": "1 Silbertaler 7 Heller 5 Kreuzer",
+    "pricePerLitre": "3 Dukaten 5 Silbertaler",
+    "pricePerUnit": "1 Silbertaler 7 Heller 5 Kreuzer",
     "quality": "3-6",
-    "region": "Horasreich, Neetha",
+    "region": ["Horasreich", "Neetha"],
     "standard": false,
     "type": "Spirituose",
     "unit": "Becherchen"
@@ -883,10 +884,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Dergelsteiner Zwetschg",
-    "price-per-litre": "1 Dukate 5 Silbertaler",
-    "price-per-unit": "7 Silbertaler 5 Heller",
+    "pricePerLitre": "1 Dukate 5 Silbertaler",
+    "pricePerUnit": "7 Silbertaler 5 Heller",
     "quality": "2-5",
-    "region": "Greifenfurt",
+    "region": ["Greifenfurt"],
     "standard": false,
     "type": "Spirituose",
     "unit": "Becherchen"
@@ -897,10 +898,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Feengeist",
-    "price-per-litre": "1 Dukate 2 Silbertaler",
-    "price-per-unit": "6 Heller",
+    "pricePerLitre": "1 Dukate 2 Silbertaler",
+    "pricePerUnit": "6 Heller",
     "quality": "2-4",
-    "region": "Albernia",
+    "region": ["Albernia"],
     "standard": false,
     "type": "Spirituose",
     "unit": "Becherchen"
@@ -911,10 +912,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Fiebertraum",
-    "price-per-litre": "3 Silbertaler",
-    "price-per-unit": "1 Heller 5 Kreuzer",
+    "pricePerLitre": "3 Silbertaler",
+    "pricePerUnit": "1 Heller 5 Kreuzer",
     "quality": "1-3",
-    "region": "Orks, Enqui, Svelttal",
+    "region": ["Orks", "Enqui", "Svelttal"],
     "standard": false,
     "type": "Spirituose",
     "unit": "Becherchen"
@@ -925,10 +926,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Firunströpfchen",
-    "price-per-litre": "1 Dukate",
-    "price-per-unit": "5 Heller",
+    "pricePerLitre": "1 Dukate",
+    "pricePerUnit": "5 Heller",
     "quality": "2-4",
-    "region": "Tobrien",
+    "region": ["Tobrien"],
     "standard": false,
     "type": "Spirituose",
     "unit": "Becherchen"
@@ -939,10 +940,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Flotter Reiter",
-    "price-per-litre": "1 Dukate 5 Silbertaler",
-    "price-per-unit": "7 Heller 5 Heller",
+    "pricePerLitre": "1 Dukate 5 Silbertaler",
+    "pricePerUnit": "7 Heller 5 Heller",
     "quality": "3-5",
-    "region": "Beilunk",
+    "region": ["Beilunk"],
     "standard": false,
     "type": "Spirituose",
     "unit": "Becherchen"
@@ -953,10 +954,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Hochgeweihter Mendona",
-    "price-per-litre": "1 Dukate 2 Silbertaler",
-    "price-per-unit": "6 Heller",
+    "pricePerLitre": "1 Dukate 2 Silbertaler",
+    "pricePerUnit": "6 Heller",
     "quality": "2-4",
-    "region": "Almada",
+    "region": ["Almada"],
     "standard": false,
     "type": "Spirituose",
     "unit": "Becherchen"
@@ -967,10 +968,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Ingerimms Hammerschlag",
-    "price-per-litre": "3 Dukaten 4 Silbertaler",
-    "price-per-unit": "1 Silbertaler 7 Heller",
+    "pricePerLitre": "3 Dukaten 4 Silbertaler",
+    "pricePerUnit": "1 Silbertaler 7 Heller",
     "quality": "3-6",
-    "region": "Zwerge",
+    "region": ["Zwerge"],
     "standard": false,
     "type": "Spirituose",
     "unit": "Becherchen"
@@ -981,10 +982,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Käämi",
-    "price-per-litre": "4 Silbertaler",
-    "price-per-unit": "2 Heller",
+    "pricePerLitre": "4 Silbertaler",
+    "pricePerUnit": "2 Heller",
     "quality": "1-3",
-    "region": "Nivesen",
+    "region": ["Nivesen"],
     "standard": false,
     "type": "Spirituose",
     "unit": "Becherchen"
@@ -995,10 +996,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Kaiserkorn",
-    "price-per-litre": "1 Dukate",
-    "price-per-unit": "5 Heller",
+    "pricePerLitre": "1 Dukate",
+    "pricePerUnit": "5 Heller",
     "quality": "2-4",
-    "region": "Gareth",
+    "region": ["Gareth"],
     "standard": false,
     "type": "Spirituose",
     "unit": "Becherchen"
@@ -1009,10 +1010,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Koschwasser",
-    "price-per-litre": "1 Dukate 1 Silbertaler",
-    "price-per-unit": "5 Heller 5 Kreuzer",
+    "pricePerLitre": "1 Dukate 1 Silbertaler",
+    "pricePerUnit": "5 Heller 5 Kreuzer",
     "quality": "2-4",
-    "region": "Kosch",
+    "region": ["Kosch"],
     "standard": false,
     "type": "Spirituose",
     "unit": "Becherchen"
@@ -1023,10 +1024,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Meskinnes",
-    "price-per-litre": "8 Silbertaler",
-    "price-per-unit": "4 Heller",
+    "pricePerLitre": "8 Silbertaler",
+    "pricePerUnit": "4 Heller",
     "quality": "1-4",
-    "region": "Bornland",
+    "region": ["Bornland"],
     "standard": false,
     "type": "Spirituose",
     "unit": "Becherchen"
@@ -1037,10 +1038,10 @@ export const Alcohol = [
       "2 Stufen Berauscht"
     ],
     "name": "Offenbarung der Zwillinge",
-    "price-per-litre": "4 Dukaten",
-    "price-per-unit": "2 Silbertaler",
+    "pricePerLitre": "4 Dukaten",
+    "pricePerUnit": "2 Silbertaler",
     "quality": "3-6",
-    "region": "Maraskan",
+    "region": ["Maraskan"],
     "standard": false,
     "type": "Spirituose",
     "unit": "Becherchen"
@@ -1051,10 +1052,10 @@ export const Alcohol = [
       "2 Stufen Berauscht"
     ],
     "name": "Premer Feuer",
-    "price-per-litre": "2 Dukaten",
-    "price-per-unit": "1 Silbertaler",
+    "pricePerLitre": "2 Dukaten",
+    "pricePerUnit": "1 Silbertaler",
     "quality": "2-5",
-    "region": "Thorwal",
+    "region": ["Thorwal"],
     "standard": false,
     "type": "Spirituose",
     "unit": "Becherchen"
@@ -1065,10 +1066,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Rallerspforter Quellwasser",
-    "price-per-litre": "1 Dukate",
-    "price-per-unit": "5 Heller",
+    "pricePerLitre": "1 Dukate",
+    "pricePerUnit": "5 Heller",
     "quality": "2-4",
-    "region": "Geretien",
+    "region": ["Geretien"],
     "standard": false,
     "type": "Spirituose",
     "unit": "Becherchen"
@@ -1079,10 +1080,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Salzatran",
-    "price-per-litre": "1 Dukate 5 Silbertaler",
-    "price-per-unit": "7 Heller 5 Kreuzer",
+    "pricePerLitre": "1 Dukate 5 Silbertaler",
+    "pricePerUnit": "7 Heller 5 Kreuzer",
     "quality": "2-4",
-    "region": "Thorwal",
+    "region": ["Thorwal"],
     "standard": false,
     "type": "Spirituose",
     "unit": "Becherchen"
@@ -1093,10 +1094,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Shatakschnaps",
-    "price-per-litre": "1 Dukate 2 Silbertaler",
-    "price-per-unit": "6 Heller",
+    "pricePerLitre": "1 Dukate 2 Silbertaler",
+    "pricePerUnit": "6 Heller",
     "quality": "2-4",
-    "region": "Maraskan",
+    "region": ["Maraskan"],
     "standard": false,
     "type": "Spirituose",
     "unit": "Becherchen"
@@ -1107,10 +1108,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Steinfresser",
-    "price-per-litre": "1 Dukate 8 Silbertaler",
-    "price-per-unit": "9 Heller",
+    "pricePerLitre": "1 Dukate 8 Silbertaler",
+    "pricePerUnit": "9 Heller",
     "quality": "2-4",
-    "region": "Windhag",
+    "region": ["Windhag"],
     "standard": false,
     "type": "Spirituose",
     "unit": "Becherchen"
@@ -1121,10 +1122,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Traviagünstchen",
-    "price-per-litre": "8 Silbertaler",
-    "price-per-unit": "4 Heller",
+    "pricePerLitre": "8 Silbertaler",
+    "pricePerUnit": "4 Heller",
     "quality": "2-4",
-    "region": "Rommilys",
+    "region": ["Rommilys"],
     "standard": false,
     "type": "Spirituose",
     "unit": "Becherchen"
@@ -1135,10 +1136,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Trollzacker",
-    "price-per-litre": "1 Dukate 2 Silbertaler",
-    "price-per-unit": "6 Heller",
+    "pricePerLitre": "1 Dukate 2 Silbertaler",
+    "pricePerUnit": "6 Heller",
     "quality": "2-4",
-    "region": "Rommilys, Perricum",
+    "region": ["Rommilys", "Perricum"],
     "standard": false,
     "type": "Spirituose",
     "unit": "Becherchen"
@@ -1149,10 +1150,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Valposella",
-    "price-per-litre": "4 Dukaten 5 Silbertaler",
-    "price-per-unit": "2 Silbertaler 2 Heller 5 Kreuzer",
+    "pricePerLitre": "4 Dukaten 5 Silbertaler",
+    "pricePerUnit": "2 Silbertaler 2 Heller 5 Kreuzer",
     "quality": "4-6",
-    "region": "Zentrales Mittelreich",
+    "region": ["Zentrales Mittelreich"],
     "standard": false,
     "type": "Spirituose",
     "unit": "Becherchen"
@@ -1163,10 +1164,10 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Warunker Rambelbost",
-    "price-per-litre": "3 Dukaten 5 Silbertaler",
-    "price-per-unit": "1 Silbertaler 7 Heller 5 Kreuzer",
+    "pricePerLitre": "3 Dukaten 5 Silbertaler",
+    "pricePerUnit": "1 Silbertaler 7 Heller 5 Kreuzer",
     "quality": "3-6",
-    "region": "Warunk",
+    "region": ["Warunk"],
     "standard": false,
     "type": "Spirituose",
     "unit": "Becherchen"
@@ -1177,12 +1178,26 @@ export const Alcohol = [
       "1 Stufe Berauscht"
     ],
     "name": "Waskirer",
-    "price-per-litre": "1 Dukate",
-    "price-per-unit": "5 Heller",
+    "pricePerLitre": "1 Dukate",
+    "pricePerUnit": "5 Heller",
     "quality": "2-4",
-    "region": "Thorwal",
+    "region": ["Thorwal"],
     "standard": false,
     "type": "Spirituose",
     "unit": "Becherchen"
   }
 ];
+
+export const Regions = Alcoholica.map(a => a.region)
+      // this is an array of arrays -> flat mas a single array
+      .flat()
+      // only use unique values
+      .filter((val, id, array) => val && array.indexOf(val) === id)
+      // sort it
+      .sort();
+
+export const Types = Alcoholica.map(a => a.type)
+      // only use unique values
+      .filter((val, id, array) => val && array.indexOf(val) === id)
+      // sort it
+      .sort();
